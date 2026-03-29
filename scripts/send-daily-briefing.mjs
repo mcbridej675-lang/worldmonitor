@@ -9,18 +9,18 @@
  *   node scripts/send-daily-briefing.mjs
  */
 
-const RECIPIENT = process.argv[2] || 'mcbridej675@gmail.com';
+const RECIPIENTS = [
+  'mcbridej675@gmail.com',
+  'john.mcbride.mil@usmc.mil',
+  'paul.foersch@usmc.mil',
+];
 const RESEND_KEY = process.env.RESEND_API_KEY;
 
 if (!RESEND_KEY) {
   console.error('Error: RESEND_API_KEY environment variable is required.');
-  console.error('Usage: RESEND_API_KEY=re_xxxx node scripts/send-daily-briefing.mjs [email]');
+  console.error('Usage: RESEND_API_KEY=re_xxxx node scripts/send-daily-briefing.mjs');
   process.exit(1);
 }
-
-const today = new Date().toLocaleDateString('en-US', {
-  weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
-});
 
 const html = `
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 720px; margin: 0 auto; background: #0a0a0a; color: #e0e0e0; padding: 0;">
@@ -34,188 +34,159 @@ const html = `
         </td>
         <td style="padding-left: 10px;">
           <div style="font-size: 15px; font-weight: 800; color: #fff; letter-spacing: -0.5px;">WORLD MONITOR</div>
-          <div style="font-size: 9px; color: #666; text-transform: uppercase; letter-spacing: 2px;">Daily Global Intelligence Briefing</div>
+          <div style="font-size: 9px; color: #666; text-transform: uppercase; letter-spacing: 2px;">Okinawa Regional Intelligence Briefing</div>
         </td>
       </tr>
     </table>
 
     <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #4ade80; padding: 16px 20px; margin-bottom: 24px;">
       <p style="font-size: 11px; color: #666; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 4px;">March 29, 2026</p>
-      <p style="font-size: 20px; font-weight: 700; color: #fff; margin: 0;">Top 5 Global Events &amp; Market Impact</p>
+      <p style="font-size: 20px; font-weight: 700; color: #fff; margin: 0;">Okinawa Situation Report</p>
+      <p style="font-size: 12px; color: #888; margin: 8px 0 0;">Military &bull; Intelligence &bull; Government &bull; Financial</p>
     </div>
 
-    <!-- Event 1 -->
+    <!-- Section 1: MILITARY / FORCE POSTURE -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Critical</span>
-          <span style="color: #666; font-size: 11px;">Middle East</span>
+          <span style="color: #666; font-size: 11px;">Military / Force Posture</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">1. US-Israel War on Iran: Day 29 &mdash; Houthis Enter Conflict, Strait of Hormuz Choked</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">1. 31st MEU Deploys to Middle East &mdash; Indo-Pacific Gap Widens</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The US-Israel military campaign against Iran (since Feb 28) has widened dramatically. Houthis launched missiles at Israel in support of Iran. Iran struck Saudi Arabia, UAE, and Bahrain &mdash; Turkey/NATO intercepted an Iranian ballistic missile violating Turkish airspace. 12 US personnel wounded at a Saudi airbase. Pakistan is mediating, hosting foreign ministers from Turkey, Egypt, and Saudi Arabia. A US envoy expects peace talks &ldquo;this week&rdquo; on a 15-point plan.
+          2,200+ Okinawa-based Marines from the 31st Marine Expeditionary Unit deployed aboard USS Tripoli (LHA-7) and USS New Orleans (LPD-18) to the Middle East as the US-Israel war on Iran enters its fourth week. The 31st MEU is the <strong>only permanently forward-deployed MEU in the Pacific</strong>, and its departure leaves a significant gap in US amphibious capability across the Indo-Pacific theater.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Iran effectively closed the Strait of Hormuz on March 4, choking 20% of global oil supply. The OECD cut global growth to 2.9%. S&amp;P Global warns Japan, Germany, and the UK could enter recession.
+          Defense analysts warn this redeployment &ldquo;gives Chinese military planners exactly what they want&rdquo; by reducing rapid-response capability near Taiwan. Retired Marine Col. Grant Newsham noted the Navy lacks enough amphibious ships to keep all MEUs operational simultaneously.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #4ade80; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Market Impact</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0 0 6px;">
-            <strong>Oil:</strong> Brent surged from ~$72 pre-war to $108&ndash;114/bbl. Analysts warn $200 if war extends to June.
-          </p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0 0 6px;">
-            <strong>Equities:</strong> Nasdaq and Dow in correction territory. Nikkei 225 &minus;5%. VIX doubled from ~13 to 27+.
-          </p>
+          <p style="color: #4ade80; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong style="color: #4ade80;">Winners:</strong> LMT (+40% YTD, ATH $676), RTX (+68% 12mo), NOC, LHX, XOM, CVX &nbsp;|&nbsp;
-            <strong style="color: #f87171;">Losers:</strong> DAL, UAL, AAL, LHA.DE (&minus;11% YTD)
+            Reduced USMC presence on Okinawa increases burden on JSDF and allied forces for southwestern island defense. III MEF retains command presence at Camp Courtney but operational striking power is diminished. Watch for PLA activity in the Taiwan Strait and East China Sea during this window.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- Event 2 -->
+    <!-- Section 2: DEFENSE MODERNIZATION -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">High</span>
-          <span style="color: #666; font-size: 11px;">UAE / Bahrain</span>
+          <span style="color: #666; font-size: 11px;">Defense / Modernization</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">2. Iranian Strikes Hit Gulf Aluminum Smelters &mdash; Global Industrial Metals Crisis</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">2. JSDF Okinawa Buildup: 15th Brigade to Division, Air Defense Shelters, Missile Upgrades</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Iranian missile/drone strikes hit Emirates Global Aluminium&rsquo;s Al Taweelah smelter in Abu Dhabi (one of the world&rsquo;s largest) causing &ldquo;significant damage.&rdquo; Aluminium Bahrain (Alba) also damaged. Gulf states produce ~8% of global primary aluminum, nearly all exported through the now-restricted Strait of Hormuz. This marks a direct escalation into attacking civilian industrial infrastructure.
+          <strong>15th Brigade &rarr; 15th Division:</strong> The JGSDF is upgrading the Naha-based 15th Brigade to a full division in FY2026, adding an infantry regiment and a reconnaissance combat unit with Type 16 Mobile Combat Vehicles. This places the JSDF Okinawa commander at lieutenant general rank, matching the III MEF commander for closer coordination.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          <strong>Naha Air Base Hardening:</strong> A $96M fighter aircraft shelter is being built at Naha Air Base to protect F-15J/DJ fighters from Chinese satellite reconnaissance. The shelter will make aircraft detection, identification, and counting impossible from orbit.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          <strong>Missile Deployments:</strong> Japan deploying upgraded Type-12 missiles (1,000km+ range) starting 2026 and hypersonic glide vehicles (HVGP Block 1). Yonaguni Island &mdash; within sight of Taiwan &mdash; slated for Type-03 SAM deployment by 2031. China issued a sharp protest calling these deployments &ldquo;extremely dangerous.&rdquo;
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #4ade80; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Market Impact</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0 0 6px;">
-            <strong>Aluminum:</strong> LME prices surged past $3,500/tonne (was ~$2,500 pre-war). Analysts warn $4,000 before summer.
-          </p>
+          <p style="color: #4ade80; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong style="color: #4ade80;">Winners:</strong> RIO (record $350/t premium), CENX, KALU (US-based, supply crunch beneficiaries) &nbsp;|&nbsp;
-            <strong style="color: #f87171;">Losers:</strong> AA (&minus;11% Mar 20, volatile), NHY/NHYDY (&minus;3.5%), BA, F, GM, BALL (rising input costs)
+            Japan&rsquo;s record &yen;9T ($58B) defense budget for FY2026 (+9.4%) is driving rapid capability expansion across the Nansei Island chain. The Iwo Jima contingency basing concept signals planners are actively preparing for scenarios where Okinawa airfields are degraded by Chinese missile strikes.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- Event 3 -->
+    <!-- Section 3: EXERCISES & OPERATIONS -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">High</span>
-          <span style="color: #666; font-size: 11px;">Global</span>
+          <span style="background: #2563eb; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Operations</span>
+          <span style="color: #666; font-size: 11px;">Joint Exercises</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">3. Historic IEA Strategic Reserve Release Fails to Tame Oil Markets</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">3. Iron Fist 26 Concludes &mdash; III MEF Sea-Denial Transformation Accelerates</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          All 32 IEA member countries released 400 million barrels of oil &mdash; the largest coordinated release in IEA&rsquo;s 50-year history (more than double the 2022 Ukraine release). The US contributed 172M barrels (43%), depleting 41% of its remaining Strategic Petroleum Reserve. The US Treasury also issued a 30-day waiver allowing ~100M barrels of sanctioned Russian oil already at sea.
+          <strong>Iron Fist 26</strong> (Feb 11 &ndash; Mar 9) was the largest iteration yet: ~5,000 personnel (2,000 JSDF + 3,000 USMC) training across 19 locations in the Nansei Islands. Exercises focused on amphibious landings, island seizure/defense, and town-clearing operations at Camp Hansen.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Despite this, Brent crude <strong>rose 9.2%</strong> the day of the announcement and kept climbing. JPMorgan stated &ldquo;policy measures may have limited impact unless safe passage through the Strait of Hormuz is assured.&rdquo;
+          <strong>III MEF Transformation:</strong> Lt. Gen. Roger Turner confirmed the Okinawa-based force is shifting to a sea-denial posture with drones, anti-ship missiles, and deep integration with JSDF. New capabilities are being &ldquo;embedded into daily operations&rdquo; for power projection across air, sea, space, and cyberspace.
         </p>
-        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #4ade80; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Market Impact</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0 0 6px;">
-            <strong>Oil:</strong> Brent $108&ndash;114 despite the release. &ldquo;Risk off&rdquo; environment: investors fleeing to gold. Bond yields rising, dollar weakening.
-          </p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong style="color: #4ade80;">Winners:</strong> XOM (ATH), CVX (+23% YTD), OXY (+30% YTD), SHEL, COP, EPD, ET, MPLX, GOLD, NEM &nbsp;|&nbsp;
-            <strong style="color: #f87171;">Losers:</strong> DAL, UAL, AAL, FDX, UPS (fuel costs crushing margins)
-          </p>
-        </div>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          <strong>GSDF Osprey Cancellation:</strong> GSDF cancelled its V-22 Osprey deployment to Okinawa for Iron Fist, citing local resident concerns. Okinawa Prefectural Government had formally urged the Defense Bureau not to use Ospreys in the prefecture.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          <strong>Leadership Change:</strong> Brig. Gen. Ryan Hoyle assumed command of 3rd Marine Expeditionary Brigade at Camp Courtney, also serving as III MEF deputy commander.
+        </p>
       </div>
     </div>
 
-    <!-- Event 4 -->
+    <!-- Section 4: GOVERNMENT / POLITICAL -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #2563eb; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Trade</span>
-          <span style="color: #666; font-size: 11px;">India / EU</span>
+          <span style="background: #7c3aed; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Political</span>
+          <span style="color: #666; font-size: 11px;">Government / Base Politics</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">4. EU-India Free Trade Agreement &mdash; World&rsquo;s Largest Free Trade Zone Takes Shape</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">4. Futenma Runway Dispute, Gubernatorial Election, &amp; Henoko Tragedy</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          After 20 years of negotiations, India and the EU finalized a landmark FTA on Jan 27, 2026. It creates the world&rsquo;s largest free trade zone: 2 billion people, ~25% of global GDP. Removes/reduces tariffs on 90%+ of traded goods, saving &euro;4B annually. Expected to take effect ~2027. Gains renewed significance as both blocs diversify supply chains amid the Middle East crisis.
+          <strong>Futenma Runway Standoff:</strong> The Pentagon informed the GAO that MCAS Futenma will not be returned until Japan builds a runway meeting full operational requirements at Camp Schwab. The current V-shaped runway plan may be too short (vs. Futenma&rsquo;s 1.7-mile runway). Defense Minister Koizumi downplayed the issue, but analysts say the runway length dispute adds a new technical hurdle to the decades-long relocation saga.
         </p>
-        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #4ade80; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Market Impact</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0 0 6px;">
-            <strong>Indices:</strong> Indian Sensex rose 2.5% on the announcement. Long-term boost to India&rsquo;s export sectors.
-          </p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong style="color: #4ade80;">Winners:</strong> Sun Pharma, Dr. Reddy&rsquo;s, Cipla (pharma); KPR Mill, Welspun (textiles); VOW3.DE, BMW.DE, LVMH &nbsp;|&nbsp;
-            <strong style="color: #f87171;">Losers:</strong> Maruti Suzuki (&minus;1.5%), Tata Motors (&minus;1.3%), M&amp;M (&minus;4.2%), Hyundai India (&minus;3.6%)
-          </p>
-        </div>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          <strong>Gubernatorial Election (Sep 13):</strong> The upcoming Okinawa gubernatorial election will shape Henoko policy and defense spending cadence. If Gov. Tamaki wins reelection, continued resistance to Henoko relocation is expected. Nago Mayor Toguchi won a third term, viewed as favorable to the relocation.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          <strong>Henoko Boat Tragedy (Mar 16):</strong> Two boats carrying 18 Kyoto high school students on a peace education trip capsized off Henoko, killing a 17-year-old student and a 71-year-old boat captain. A high-wave advisory was in effect. A Coast Guard patrol boat also capsized during the investigation. The Japan Coast Guard is investigating potential negligence charges.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          <strong>Cost-Sharing Negotiations:</strong> The Special Measures Agreement (Japan&rsquo;s ~$1.9B annual contribution to US basing costs) expires at the end of FY2026, requiring renegotiation. Talks focus on redistribution rather than withdrawal, with some units moving to Guam/Australia while Kadena and Yokosuka are enhanced.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          <strong>Legal:</strong> Japan&rsquo;s Supreme Court rejected the appeal of Kadena-based US airman Brennon Washington, finalizing a 5-year sentence for an assault in Okinawa.
+        </p>
       </div>
     </div>
 
-    <!-- Event 5 -->
+    <!-- Section 5: ECONOMIC / FINANCIAL -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #7c3aed; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Humanitarian</span>
-          <span style="color: #666; font-size: 11px;">Cuba / Caribbean</span>
+          <span style="background: #059669; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Financial</span>
+          <span style="color: #666; font-size: 11px;">Economy / Tourism</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">5. Cuba&rsquo;s Cascading Energy Collapse &mdash; Third Nationwide Blackout in March</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">5. Okinawa Economy: Record Tourism, New Tax, Global Recognition</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Cuba suffered its third nationwide power grid collapse in March (Mar 4, 16, 21&ndash;22). Daily blackouts of 15+ hours in Havana, worse in rural areas. Root cause: zero fuel imports for 3 months after US intervention in Venezuela cut off Cuba&rsquo;s oil supply. Cuba produces only 40% of its fuel needs. Hospitals suspended operations, schools closed, water pumps stopped. Air France suspended all Cuba flights through at least June 15. Diplomatic talks underway: Cuba agreed to release 51 political prisoners for sanctions relief.
+          <strong>Record Visitors:</strong> Okinawa is on track to exceed 10 million tourists for the first time in FY2025, with further growth in 2026. Expedia named Okinawa a &ldquo;Destination of the Year 2026&rdquo; after a 71% surge in search interest. The New York Times listed Okinawa in its &ldquo;52 Places to Go in 2026.&rdquo;
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          <strong>Accommodation Tax:</strong> Okinawa introduced Japan&rsquo;s first prefectural-level 2% accommodation tax in FY2026, capped at &yen;2,000/night, expected to generate &yen;7.8B annually for tourism infrastructure and environmental protection.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          <strong>Economic Upgrade:</strong> Japan&rsquo;s Finance Ministry upgraded its economic assessment for Okinawa, citing improved personal consumption and tourism performance. The Junglia Okinawa theme park (opened Jul 2025) is driving additional visitor spending.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #4ade80; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Market Impact</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0 0 6px;">
-            <strong>Direct impact limited</strong> (Cuba is isolated from global capital markets), but serves as a bellwether for how the energy crisis hits vulnerable nations.
-          </p>
+          <p style="color: #4ade80; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Risk Watch</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong style="color: #4ade80;">If sanctions ease:</strong> RCL, CCL, NCLH (cruise lines); MAR, HLT (hotels); ENPH, FSLR (solar) &nbsp;|&nbsp;
-            <strong style="color: #f87171;">Losers:</strong> AF.PA (Air France &mdash; route suspensions)
+            S&amp;P Global warns Japan could enter recession due to Middle East energy crisis (Brent $108&ndash;114/bbl). Nikkei 225 down 5%. Oil price shock threatens Okinawa&rsquo;s tourism-dependent economy through higher transport costs and reduced consumer spending.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- Market Snapshot -->
-    <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
-      <p style="color: #4ade80; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Weekly Market Snapshot (Mar 28)</p>
-      <table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-size: 12px;">
-        <tr style="border-bottom: 1px solid #222;">
-          <td style="padding: 6px 8px; color: #999; font-weight: 600;">Dow Jones</td>
-          <td style="padding: 6px 8px; color: #f87171; text-align: right;">-1.73% (45,167)</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #222;">
-          <td style="padding: 6px 8px; color: #999; font-weight: 600;">S&amp;P 500</td>
-          <td style="padding: 6px 8px; color: #f87171; text-align: right;">-2.1% weekly</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #222;">
-          <td style="padding: 6px 8px; color: #999; font-weight: 600;">Nasdaq</td>
-          <td style="padding: 6px 8px; color: #f87171; text-align: right;">-3.2% weekly</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #222;">
-          <td style="padding: 6px 8px; color: #999; font-weight: 600;">STOXX Europe 600</td>
-          <td style="padding: 6px 8px; color: #4ade80; text-align: right;">+0.35%</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #222;">
-          <td style="padding: 6px 8px; color: #999; font-weight: 600;">CSI 300 (China)</td>
-          <td style="padding: 6px 8px; color: #f87171; text-align: right;">-1.41%</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #222;">
-          <td style="padding: 6px 8px; color: #999; font-weight: 600;">Brent Crude</td>
-          <td style="padding: 6px 8px; color: #f87171; text-align: right;">$108&ndash;114/bbl</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #222;">
-          <td style="padding: 6px 8px; color: #999; font-weight: 600;">LME Aluminum</td>
-          <td style="padding: 6px 8px; color: #f87171; text-align: right;">&gt;$3,500/t</td>
-        </tr>
-        <tr>
-          <td style="padding: 6px 8px; color: #999; font-weight: 600;">VIX</td>
-          <td style="padding: 6px 8px; color: #f87171; text-align: right;">27+ (doubled)</td>
-        </tr>
-      </table>
+    <!-- Section 6: SEISMIC ACTIVITY -->
+    <div style="margin-bottom: 24px;">
+      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #666; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Monitor</span>
+          <span style="color: #666; font-size: 11px;">Natural Hazards</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">6. Seismic Activity Near Okinawa</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          <strong>Mar 28:</strong> M4.2 earthquake at 50km depth near Yonaguni Island. <strong>Mar 29:</strong> M5.1 earthquake at 10km depth near Amagi, Kagoshima (southern Kyushu). No tsunami warnings issued. No damage or casualties reported. Routine seismic activity for the region.
+        </p>
+      </div>
     </div>
 
     <div style="border-top: 1px solid #1a1a1a; padding-top: 20px; text-align: center;">
       <p style="font-size: 10px; color: #444; margin: 0 0 8px; line-height: 1.6;">
-        This briefing is for informational purposes only. Not investment advice.<br/>
-        Always consult a qualified financial advisor before making investment decisions.
+        UNCLASSIFIED // FOR OFFICIAL USE ONLY<br/>
+        This briefing is compiled from open-source intelligence (OSINT) and is for informational purposes only.
       </p>
       <p style="font-size: 10px; color: #555; margin: 0;">
         Powered by <a href="https://worldmonitor.app" style="color: #4ade80; text-decoration: none;">World Monitor</a> &mdash; Real-time intelligence for a connected world.
@@ -234,8 +205,8 @@ async function send() {
     },
     body: JSON.stringify({
       from: 'World Monitor <noreply@worldmonitor.app>',
-      to: [RECIPIENT],
-      subject: `[WM Briefing] Top 5 Global Events — March 29, 2026`,
+      to: RECIPIENTS,
+      subject: '[WM Briefing] Okinawa Situation Report — March 29, 2026',
       html,
     }),
   });
@@ -247,7 +218,7 @@ async function send() {
   }
 
   const data = await res.json();
-  console.log(`Email sent successfully to ${RECIPIENT}`);
+  console.log(`Email sent successfully to ${RECIPIENTS.join(', ')}`);
   console.log('Resend ID:', data.id);
 }
 
