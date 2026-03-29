@@ -230,24 +230,24 @@ async function send() {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      Authorization: \`Bearer \${RESEND_KEY}\`,
+      Authorization: `Bearer ${RESEND_KEY}`,
     },
     body: JSON.stringify({
       from: 'World Monitor <noreply@worldmonitor.app>',
       to: [RECIPIENT],
-      subject: \`[WM Briefing] Top 5 Global Events \u2014 March 29, 2026\`,
+      subject: `[WM Briefing] Top 5 Global Events — March 29, 2026`,
       html,
     }),
   });
 
   if (!res.ok) {
     const body = await res.text();
-    console.error(\`Resend API error \${res.status}: \${body}\`);
+    console.error(`Resend API error ${res.status}: ${body}`);
     process.exit(1);
   }
 
   const data = await res.json();
-  console.log(\`Email sent successfully to \${RECIPIENT}\`);
+  console.log(`Email sent successfully to ${RECIPIENT}`);
   console.log('Resend ID:', data.id);
 }
 
