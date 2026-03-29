@@ -9,7 +9,7 @@
  *   node scripts/send-daily-briefing.mjs
  */
 
-const RECIPIENT = process.argv[2] || 'mcbridej675@gmail.com';
+const RECIPIENT = process.argv[2] || 'johnmcbride2928@gmail.com';
 const RESEND_KEY = process.env.RESEND_API_KEY;
 
 if (!RESEND_KEY) {
