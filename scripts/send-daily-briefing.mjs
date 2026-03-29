@@ -232,28 +232,49 @@ const html = `
   </div>
 </div>`;
 
+import { execFileSync } from 'node:child_process';
+
 async function sendToRecipient(email) {
-  const res = await fetch('https://api.resend.com/emails', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      Authorization: `Bearer ${RESEND_KEY}`,
-    },
-    body: JSON.stringify({
-      from: 'World Monitor <noreply@worldmonitor.app>',
-      to: [email],
-      subject: `[WM Briefing] Top 5 Global Events — ${today}`,
-      html,
-    }),
+  const payload = JSON.stringify({
+    from: 'World Monitor <noreply@worldmonitor.app>',
+    to: [email],
+    subject: `[WM Briefing] Top 5 Global Events — ${today}`,
+    html,
   });
 
-  if (!res.ok) {
-    const body = await res.text();
-    throw new Error(`Resend API error ${res.status} for ${email}: ${body}`);
-  }
+  // Try native fetch first, fall back to curl if it fails (e.g. sandbox DNS issues)
+  try {
+    const res = await fetch('https://api.resend.com/emails', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${RESEND_KEY}`,
+      },
+      body: payload,
+    });
 
-  const data = await res.json();
-  console.log(`Sent to ${email} — Resend ID: ${data.id}`);
+    if (!res.ok) {
+      const body = await res.text();
+      throw new Error(`Resend API error ${res.status} for ${email}: ${body}`);
+    }
+
+    const data = await res.json();
+    console.log(`Sent to ${email} — Resend ID: ${data.id}`);
+  } catch (fetchErr) {
+    // Fallback: use curl
+    console.log(`fetch failed for ${email}, retrying with curl...`);
+    const result = execFileSync('curl', [
+      '-s', '-X', 'POST', 'https://api.resend.com/emails',
+      '-H', 'Content-Type: application/json',
+      '-H', `Authorization: Bearer ${RESEND_KEY}`,
+      '-d', payload,
+    ], { encoding: 'utf-8' });
+    const data = JSON.parse(result);
+    if (data.statusCode && data.statusCode >= 400) {
+      throw new Error(`Resend API error for ${email}: ${data.message}`);
+    }
+    console.log(`Sent to ${email} — Resend ID: ${data.id}`);
+  }
 }
 
 async function sendAll() {
