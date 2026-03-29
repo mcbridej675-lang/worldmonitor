@@ -9,12 +9,19 @@
  *   node scripts/send-daily-briefing.mjs
  */
 
-const RECIPIENT = process.argv[2] || 'mcbridej675@gmail.com';
+const DEFAULT_RECIPIENTS = [
+  'mcbridej675@gmail.com',
+  'john.mcbride.mil@usmc.mil',
+  'paul.foersch@usmc.mil',
+];
+const RECIPIENTS = process.argv.length > 2
+  ? process.argv.slice(2)
+  : DEFAULT_RECIPIENTS;
 const RESEND_KEY = process.env.RESEND_API_KEY;
 
 if (!RESEND_KEY) {
   console.error('Error: RESEND_API_KEY environment variable is required.');
-  console.error('Usage: RESEND_API_KEY=re_xxxx node scripts/send-daily-briefing.mjs [email]');
+  console.error('Usage: RESEND_API_KEY=re_xxxx node scripts/send-daily-briefing.mjs [email1 email2 ...]');
   process.exit(1);
 }
 
@@ -225,7 +232,7 @@ const html = `
   </div>
 </div>`;
 
-async function send() {
+async function sendToRecipient(email) {
   const res = await fetch('https://api.resend.com/emails', {
     method: 'POST',
     headers: {
@@ -234,24 +241,39 @@ async function send() {
     },
     body: JSON.stringify({
       from: 'World Monitor <noreply@worldmonitor.app>',
-      to: [RECIPIENT],
-      subject: `[WM Briefing] Top 5 Global Events — March 29, 2026`,
+      to: [email],
+      subject: `[WM Briefing] Top 5 Global Events — ${today}`,
       html,
     }),
   });
 
   if (!res.ok) {
     const body = await res.text();
-    console.error(`Resend API error ${res.status}: ${body}`);
-    process.exit(1);
+    throw new Error(`Resend API error ${res.status} for ${email}: ${body}`);
   }
 
   const data = await res.json();
-  console.log(`Email sent successfully to ${RECIPIENT}`);
-  console.log('Resend ID:', data.id);
+  console.log(`Sent to ${email} — Resend ID: ${data.id}`);
 }
 
-send().catch((err) => {
-  console.error('Failed to send email:', err);
+async function sendAll() {
+  console.log(`Sending briefing to ${RECIPIENTS.length} recipient(s)...`);
+  const results = await Promise.allSettled(RECIPIENTS.map(sendToRecipient));
+  let failed = 0;
+  for (const r of results) {
+    if (r.status === 'rejected') {
+      console.error(r.reason.message);
+      failed++;
+    }
+  }
+  if (failed) {
+    console.error(`${failed}/${RECIPIENTS.length} sends failed.`);
+    process.exit(1);
+  }
+  console.log(`All ${RECIPIENTS.length} emails sent successfully.`);
+}
+
+sendAll().catch((err) => {
+  console.error('Failed to send emails:', err);
   process.exit(1);
 });
