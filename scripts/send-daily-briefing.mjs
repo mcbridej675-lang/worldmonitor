@@ -1,12 +1,9 @@
 #!/usr/bin/env node
 /**
- * Daily Global Intelligence Briefing — Email Sender
+ * Okinawa Intelligence Briefing — Email Sender
  *
  * Usage:
  *   RESEND_API_KEY=re_xxxx node scripts/send-daily-briefing.mjs
- *
- * Or set RESEND_API_KEY in your .env file and run:
- *   node scripts/send-daily-briefing.mjs
  */
 
 const RECIPIENTS = [
@@ -18,9 +15,12 @@ const RESEND_KEY = process.env.RESEND_API_KEY;
 
 if (!RESEND_KEY) {
   console.error('Error: RESEND_API_KEY environment variable is required.');
-  console.error('Usage: RESEND_API_KEY=re_xxxx node scripts/send-daily-briefing.mjs');
   process.exit(1);
 }
+
+const today = new Date().toLocaleDateString('en-US', {
+  weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
+});
 
 const html = `
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 720px; margin: 0 auto; background: #0a0a0a; color: #e0e0e0; padding: 0;">
@@ -34,171 +34,208 @@ const html = `
         </td>
         <td style="padding-left: 10px;">
           <div style="font-size: 15px; font-weight: 800; color: #fff; letter-spacing: -0.5px;">WORLD MONITOR</div>
-          <div style="font-size: 9px; color: #666; text-transform: uppercase; letter-spacing: 2px;">Okinawa Regional Intelligence Briefing</div>
+          <div style="font-size: 9px; color: #666; text-transform: uppercase; letter-spacing: 2px;">Okinawa Intelligence Briefing</div>
         </td>
       </tr>
     </table>
 
     <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #4ade80; padding: 16px 20px; margin-bottom: 24px;">
-      <p style="font-size: 11px; color: #666; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 4px;">March 29, 2026</p>
-      <p style="font-size: 20px; font-weight: 700; color: #fff; margin: 0;">Okinawa, Japan &mdash; Intelligence, Military &amp; Financial Update</p>
+      <p style="font-size: 11px; color: #666; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 4px;">${today}</p>
+      <p style="font-size: 20px; font-weight: 700; color: #fff; margin: 0;">Okinawa, Japan &mdash; 24-Hour Intelligence Summary</p>
     </div>
 
-    <!-- Item 1 -->
+    <!-- SECTION: MILITARY & DEFENSE -->
+    <div style="margin-bottom: 8px;">
+      <p style="color: #4ade80; font-size: 11px; text-transform: uppercase; letter-spacing: 2px; font-weight: 700; margin: 0 0 16px; border-bottom: 1px solid #222; padding-bottom: 8px;">Military &amp; Defense</p>
+    </div>
+
+    <!-- Event 1 -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Critical</span>
-          <span style="color: #666; font-size: 11px;">Force Posture / Indo-Pacific</span>
+          <span style="color: #666; font-size: 11px;">Force Posture</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">1. 31st MEU Deploys to Middle East &mdash; Indo-Pacific Gap Emerges</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">1. 31st MEU (2,200+ Marines) Deployed from Okinawa to Middle East &mdash; Indo-Pacific Gap Emerges</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          2,200+ Marines from the Okinawa-based 31st Marine Expeditionary Unit and USS Tripoli (Sasebo) deployed to the Middle East as the US-Israel war on Iran enters its fourth week. The Tripoli carries F-35Bs, V-22 Ospreys, and helicopters as the command ship of a Marine Amphibious Ready Group. Iran continues to threaten the Strait of Hormuz, choking 20% of global oil supply.
+          The 2,200-strong 31st Marine Expeditionary Unit, the only permanently forward-deployed MEU in the Pacific, has been ordered from Okinawa to the Middle East as the US-Israel war against Iran enters its second month. The 31st MEU and USS Tripoli (LHA-7) amphibious assault ship, homeported in Sasebo, were conducting exercises near the Philippines before receiving orders. USS New Orleans (LPD-18) is also deploying.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          <strong style="color: #f87171;">Key concern:</strong> The 31st MEU is the only permanently forward-deployed MEU in the Pacific. Defense analysts warn this leaves a significant gap in US power projection across the Indo-Pacific, increasing the burden on Japan&rsquo;s Self-Defense Forces and allied nations. Analysts assess Japan and Taiwan could hold for &ldquo;at least a few weeks&rdquo; in a contingency, but the gap is strategically consequential.
+          <strong style="color: #f87171;">Key Concern:</strong> Defense analysts warn this creates a significant gap in US power projection across the Indo-Pacific. The 31st MEU is one of only seven MEUs and the sole permanently deployed Pacific unit. A retired Marine colonel noted the Navy &ldquo;doesn&rsquo;t have enough amphibious ships in working order to keep enough MEUs fully operational.&rdquo; Amphibious warship readiness is below 50%.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #4ade80; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Operational Impact</p>
+          <p style="color: #22d3ee; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 6px; font-weight: 700;">Implications for Okinawa</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Reduced amphibious capability in INDOPACOM AOR. III MEF headquarters remains at Camp Courtney. Remaining Okinawa-based units continue training rotations, but rapid-response maritime capability is diminished until 31st MEU returns.
+            Reduced rapid-response capability in the First Island Chain. Increased defense burden shifts to JSDF and remaining III MEF assets. China and North Korea may perceive a window of reduced deterrence.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- Item 2 -->
+    <!-- Event 2 -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">High</span>
-          <span style="color: #666; font-size: 11px;">Force Modernization</span>
+          <span style="color: #666; font-size: 11px;">Okinawa / Local Protest</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">2. III MEF Evolves for Sea-Denial &mdash; Drones, Missiles &amp; Cyber Integration</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">2. Okinawa Assembly Protests Marine Helicopter Emergency Landing on Baseball Field</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The III Marine Expeditionary Force in Okinawa is undergoing a significant transformation, shifting from traditional amphibious assault to a sea-denial and multi-domain force. Units are reorganizing with high-tech weapons, deeper integration with the Japan Self-Defense Forces, and capabilities spanning air, space, and cyberspace. The goal: project power not just from sea to land, but across all domains to counter emerging Indo-Pacific threats.
+          The Okinawa Prefectural Assembly has drafted a formal protest letter to the US military and Japanese government over a Marine Corps helicopter&rsquo;s precautionary landing that forced a youth baseball team to flee a practice field. The Assembly is demanding the US military disclose the cause of the incident and implement measures to ensure &ldquo;the safety of local residents.&rdquo; This follows ongoing friction over parachute training at Kadena (9 events in 2025) that Governor Tamaki has called unjustified.
         </p>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Iron Fist 2026 (Feb 11 &ndash; Mar 9) saw ~800 Marines, 2,100 Navy sailors, and ~2,000 JGSDF/JMSDF personnel conduct amphibious landings and island defense drills. Notably, two Japanese V-22 Ospreys operated from US facilities on Okinawa for the first time.
-        </p>
-        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #4ade80; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Key Takeaway</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            US-Japan interoperability deepening. 3rd MEB change of command (Brig. Gen. Ryan Hoyle assumed command) positions the brigade ahead of continued Iron Fist integration. Japan&rsquo;s first Tomahawk missile deliveries expected by end of FY2025 (March 2026).
-          </p>
-        </div>
       </div>
     </div>
 
-    <!-- Item 3 -->
+    <!-- Event 3 -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">High</span>
-          <span style="color: #666; font-size: 11px;">Base Operations / Environment</span>
+          <span style="color: #666; font-size: 11px;">Japan-Wide / Defense</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">3. Kadena Air Base Diesel Spill &amp; Henoko Boat Tragedy Investigation</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">3. Japan Deploys Type-12 Missiles Tomorrow (Mar 31) &mdash; Tomahawk-Armed Destroyer Operational</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          <strong>Kadena (Mar 25):</strong> 575 gallons of diesel fuel spilled at Kadena Air Base due to equipment failure, affecting the stormwater system. The 18th Wing contained and cleaned up the spill. Stormwater from Kadena flows into the East China Sea and the Hija River. This adds to existing PFAS contamination concerns &mdash; USFJ previously denied Okinawa Prefecture&rsquo;s request to test water sources on US bases.
+          Japan&rsquo;s upgraded Type-12 surface-to-ship missile deploys March 31 to Camp Kengun on Kyushu. Range increased from ~62 miles to ~620 miles &mdash; capable of reaching China&rsquo;s coastline and North Korea from Kyushu. Separately, the Aegis destroyer <em>Chokai</em> has completed Tomahawk modifications and crew training in the US, becoming the first JMSDF vessel with Tomahawk launch capability. Japan received its first Tomahawk missiles in March 2026 under a $2.35B FMS deal.
         </p>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          <strong>Henoko (Mar 16&ndash;20):</strong> Two boats capsized off the Henoko coast near the Camp Schwab relocation construction site, killing a 17-year-old Kyoto high school student and a boat captain. 21 people were aboard (18 students on a peace education trip). Japan Coast Guard searched the anti-base civic group&rsquo;s offices in Nago on Mar 20 as part of the investigation. The incident has intensified scrutiny of safety around the Henoko construction zone.
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          F-35A Lightning II aircraft have also arrived at Misawa Air Base for permanent stationing, marking the 13th Fighter Squadron&rsquo;s transition to fifth-generation airpower. FY2026 defense budget is up 9.4% &mdash; the fourth year of Japan&rsquo;s plan to reach 2% GDP spending by FY2027.
         </p>
-        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #4ade80; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Local Impact</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Both incidents fuel local opposition sentiment. The Henoko tragedy may affect public opinion ahead of the September 13 Okinawa gubernatorial election. Environmental advocacy groups are pressing for expanded PFAS and fuel contamination testing.
-          </p>
-        </div>
       </div>
     </div>
 
-    <!-- Item 4 -->
+    <!-- Event 4 -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #2563eb; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Policy</span>
-          <span style="color: #666; font-size: 11px;">Basing / Budget</span>
+          <span style="background: #2563eb; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Modernization</span>
+          <span style="color: #666; font-size: 11px;">III MEF / Force Design</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">4. US-Japan Base Negotiations &amp; Record &yen;9T Defense Budget</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">4. III MEF Evolving for Sea-Denial &mdash; F-15EX Kadena Transition Delayed</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Japan&rsquo;s FY2026 defense budget hit a record &yen;9.04 trillion (~$58B), up 9.4% YoY &mdash; the 4th year of a 5-year plan to reach 2% of GDP. Key allocations include $3.67B for US Forces Japan projects (Futenma-to-Henoko relocation, Mageshima airfield), $6.2B for standoff missile capability including Type-12 surface-to-ship missiles (~1,000km range), and $1B for a next-gen fighter jet with UK/Italy.
+          III MEF chief Lt. Gen. Roger Turner confirmed Okinawa-based Marines are reorganizing for a sea-denial role with drones, missiles, and deeper JSDF integration. The 12th Marine Littoral Regiment continues standup under Force Design 2030. Meanwhile, permanent stationing of 36 F-15EX &ldquo;Eagle II&rdquo; fighters at Kadena Air Base (replacing 48 aging F-15C/Ds) is delayed due to a Boeing St. Louis plant strike (Aug&ndash;Nov 2025). Japan is also studying expansion of military facilities on Iwo Jima as a hedge against Okinawa&rsquo;s vulnerability to Chinese missiles.
         </p>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The US-Japan cost-sharing agreement (Host Nation Support) expires in FY2026, requiring renegotiation. Current talks focus on redistribution rather than withdrawal: ~9,000 Marines relocating from Okinawa to Guam/Hawaii/Australia while ~10,000 remain. Kadena Air Base and Yokosuka Naval Base are being enhanced. The Pentagon stated it will not return MCAS Futenma until a comparable runway is provided; the Henoko replacement facility won&rsquo;t be complete until at least 2033.
-        </p>
-        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #4ade80; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Strategic Context</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Atlantic Council warns moving Marines from Okinawa would undermine ability to counter China. PM Takaichi&rsquo;s stance that a Taiwan invasion threatens Japan has prompted Chinese state media to publish articles disputing Japan&rsquo;s claims to Okinawa and the Ryukyu Islands.
-          </p>
-        </div>
       </div>
     </div>
 
-    <!-- Item 5 -->
+    <!-- SECTION: ENVIRONMENTAL & PUBLIC HEALTH -->
+    <div style="margin-bottom: 8px; margin-top: 32px;">
+      <p style="color: #4ade80; font-size: 11px; text-transform: uppercase; letter-spacing: 2px; font-weight: 700; margin: 0 0 16px; border-bottom: 1px solid #222; padding-bottom: 8px;">Environmental &amp; Public Health</p>
+    </div>
+
+    <!-- Event 5 -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #7c3aed; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Financial</span>
-          <span style="color: #666; font-size: 11px;">Okinawa Economy</span>
+          <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">High</span>
+          <span style="color: #666; font-size: 11px;">Kadena / Futenma</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">5. Okinawa Economic Outlook &amp; Regional Financial Developments</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">5. PFAS Contamination Hits Record Levels Near Kadena &amp; Futenma &mdash; 56x National Standard</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Japan&rsquo;s Finance Ministry upgraded its economic assessment for Okinawa in January 2026, citing robust tourism and improved personal consumption. Despite Chinese government advisories discouraging travel to Japan, hotel operators report no significant impact. US military presence contributes an estimated $700M+ annually to Okinawa&rsquo;s economy (Kadena alone: ~20,000 Americans, 3,000+ Japanese employees).
+          Okinawa Prefecture&rsquo;s annual groundwater survey (released Mar 27) found PFAS levels exceeding Japan&rsquo;s 50 ppt standard at <strong>31 of 44 sampling sites</strong> around US bases. The highest reading &mdash; <strong>2,800 ppt (56x the national standard)</strong> &mdash; was recorded at Yara Hijaga in Kadena town, downstream from Kadena Air Base. Elevated levels found at 12 spots around Kadena and 13 near MCAS Futenma. Unidentified white foam has also been appearing from maintenance holes near US facilities, raising further PFAS concerns. US Forces Japan denied a prefectural request to test on-base water sources.
         </p>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          <strong>Seismic activity:</strong> A 4.2-magnitude earthquake struck near Yonaguni, Okinawa on Mar 28 (50km depth). A 5.1-magnitude quake hit near Amagi, Kagoshima on Mar 29. No tsunami warnings issued; no damage reported.
-        </p>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          <strong>Upcoming:</strong> Japan&rsquo;s electricity and gas subsidies expire in April 2026, raising utility costs for Okinawa residents and base-adjacent businesses. The national budget totals &yen;122.3T (~$785B), a second consecutive all-time high, with debt-servicing costs calculated at a 3% interest rate.
-        </p>
-        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #4ade80; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Market Snapshot</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0 0 6px;">
-            <strong>Nikkei 225:</strong> &minus;5% amid Middle East crisis. S&amp;P Global warns Japan could enter recession.
-          </p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0 0 6px;">
-            <strong>Brent Crude:</strong> $108&ndash;114/bbl (was $72 pre-war). Direct impact on Okinawa fuel and logistics costs.
-          </p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Defense stocks:</strong> LMT +40% YTD (ATH $676), RTX +68% 12mo, MHI.T (Mitsubishi Heavy) elevated on Japan defense spending surge.
-          </p>
-        </div>
       </div>
     </div>
 
-    <!-- Upcoming Watch Items -->
+    <!-- Event 6 -->
+    <div style="margin-bottom: 24px;">
+      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #2563eb; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Environment</span>
+          <span style="color: #666; font-size: 11px;">Kadena Air Base</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">6. Kadena Air Base Diesel Fuel Spill &mdash; 575 Gallons Recovered</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          The 18th Wing recovered 575 gallons of diesel fuel that spilled at Kadena Air Base on March 25 due to equipment failure. The spill &ldquo;affected&rdquo; the base&rsquo;s stormwater system, which flows into the East China Sea and Hija River. Kadena town was notified through the Okinawa Defense Bureau the following evening; Okinawa city (which borders the base) had received no notification as of Thursday morning. Cleanup has been completed.
+        </p>
+      </div>
+    </div>
+
+    <!-- SECTION: GOVERNMENT & POLITICAL -->
+    <div style="margin-bottom: 8px; margin-top: 32px;">
+      <p style="color: #4ade80; font-size: 11px; text-transform: uppercase; letter-spacing: 2px; font-weight: 700; margin: 0 0 16px; border-bottom: 1px solid #222; padding-bottom: 8px;">Government &amp; Political</p>
+    </div>
+
+    <!-- Event 7 -->
+    <div style="margin-bottom: 24px;">
+      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #7c3aed; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Political</span>
+          <span style="color: #666; font-size: 11px;">Okinawa Prefecture</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">7. Governor Tamaki Announces Third-Term Bid &mdash; Anti-Base Platform</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          Governor Denny Tamaki, 66, officially announced his candidacy for a third term at a press conference in Naha on March 28. His platform centers on seeking the early return of MCAS Futenma in Ginowan and continued opposition to the Henoko relocation plan. Tamaki retains support from the &ldquo;All Okinawa&rdquo; coalition. The gubernatorial election is scheduled for September 13, 2026.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          Meanwhile, the Futenma relocation remains contentious: the US DoD has stated it will <strong>not return the Futenma site</strong> unless a long runway (~2,700m equivalent) is secured at Henoko, where the planned V-shaped runways are only ~1,800m each. Defense Minister Koizumi pledged to reduce the US military footprint during his January visit to Okinawa.
+        </p>
+      </div>
+    </div>
+
+    <!-- Event 8 -->
+    <div style="margin-bottom: 24px;">
+      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #2563eb; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Legal</span>
+          <span style="color: #666; font-size: 11px;">SOFA / Criminal Cases</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">8. Two US Service Member Criminal Cases Finalized in Okinawa Courts</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          A seven-year prison term was finalized for USMC Lance Cpl. Jamel Clayton in an Okinawa sexual assault case after both sides waived the right to appeal. Separately, Japan&rsquo;s Supreme Court rejected the appeal of Kadena-based USAF airman Brennon Washington, 26, finalizing a five-year sentence in an assault case. These cases continue to fuel local opposition to the US military presence and raise questions about SOFA accountability.
+        </p>
+      </div>
+    </div>
+
+    <!-- SECTION: FINANCIAL & ECONOMIC -->
+    <div style="margin-bottom: 8px; margin-top: 32px;">
+      <p style="color: #4ade80; font-size: 11px; text-transform: uppercase; letter-spacing: 2px; font-weight: 700; margin: 0 0 16px; border-bottom: 1px solid #222; padding-bottom: 8px;">Financial &amp; Economic</p>
+    </div>
+
+    <!-- Event 9 -->
+    <div style="margin-bottom: 24px;">
+      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #2563eb; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Economy</span>
+          <span style="color: #666; font-size: 11px;">Okinawa / Japan</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">9. Japan MOF Upgrades Okinawa Economic Outlook &mdash; Tourism &amp; Consumption Rising</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          Japan&rsquo;s Ministry of Finance upgraded its economic assessment for Okinawa, citing improved tourism and personal consumption. Despite Chinese government advisories discouraging group travel to Japan, hotel industry officials report no significant impact on Okinawa&rsquo;s tourism sector. Japan expects ~45 million foreign visitors in 2026 with inbound consumption reaching &yen;8 trillion.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          Broader Japan outlook: GDP growth forecast at +0.8% (Goldman Sachs / Daiwa). Spring wage negotiations (shunto) targeting 5.0% hikes. BOJ expected to continue rate tightening. The US-Japan base cost-sharing agreement expires in FY2026, requiring renegotiation &mdash; outcomes will directly affect Okinawa base economics and local employment.
+        </p>
+      </div>
+    </div>
+
+    <!-- SECTION: SEISMIC ACTIVITY -->
+    <div style="margin-bottom: 8px; margin-top: 32px;">
+      <p style="color: #4ade80; font-size: 11px; text-transform: uppercase; letter-spacing: 2px; font-weight: 700; margin: 0 0 16px; border-bottom: 1px solid #222; padding-bottom: 8px;">Seismic Activity</p>
+    </div>
+
+    <div style="margin-bottom: 24px;">
+      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">10. M5.1 Earthquake Near Okinawa &mdash; No Tsunami Warning</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          A magnitude 5.1 earthquake struck near Taira, Okinawa at 01:12 UTC on March 30 at a depth of 10.0 km. A separate M5.1 quake hit near Amagi, Kagoshima on March 29 (depth 10.0 km), and an M4.2 quake occurred near Yonakuni, Okinawa on March 28 (depth 50.0 km). No tsunami warnings were issued. No reports of damage to US military installations.
+        </p>
+      </div>
+    </div>
+
+    <!-- Sources -->
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
-      <p style="color: #4ade80; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Watch Items</p>
-      <table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-size: 12px;">
-        <tr style="border-bottom: 1px solid #222;">
-          <td style="padding: 6px 8px; color: #999; font-weight: 600;">31st MEU Return</td>
-          <td style="padding: 6px 8px; color: #ccc; text-align: right;">TBD &mdash; dependent on Hormuz situation</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #222;">
-          <td style="padding: 6px 8px; color: #999; font-weight: 600;">HNS Renegotiation</td>
-          <td style="padding: 6px 8px; color: #ccc; text-align: right;">Current agreement expires FY2026</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #222;">
-          <td style="padding: 6px 8px; color: #999; font-weight: 600;">Okinawa Gov. Election</td>
-          <td style="padding: 6px 8px; color: #ccc; text-align: right;">September 13, 2026</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #222;">
-          <td style="padding: 6px 8px; color: #999; font-weight: 600;">China/Ryukyu Claims</td>
-          <td style="padding: 6px 8px; color: #ccc; text-align: right;">Ongoing info ops targeting Okinawa sovereignty</td>
-        </tr>
-        <tr>
-          <td style="padding: 6px 8px; color: #999; font-weight: 600;">Utility Subsidy Expiry</td>
-          <td style="padding: 6px 8px; color: #ccc; text-align: right;">April 1, 2026 &mdash; higher energy costs</td>
-        </tr>
-      </table>
+      <p style="color: #4ade80; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Sources</p>
+      <p style="color: #888; font-size: 11px; line-height: 1.8; margin: 0;">
+        Stars and Stripes &bull; The Japan Times &bull; Naval News &bull; Military.com &bull; Defense News &bull;
+        South China Morning Post &bull; Air &amp; Space Forces Magazine &bull; Nippon.com &bull;
+        USNI Proceedings &bull; Congressional Research Service &bull; DVIDSHUB &bull; Earthquake Track
+      </p>
     </div>
 
     <div style="border-top: 1px solid #1a1a1a; padding-top: 20px; text-align: center;">
       <p style="font-size: 10px; color: #444; margin: 0 0 8px; line-height: 1.6;">
-        This briefing is compiled from open-source intelligence and is for informational purposes only.<br/>
-        Sources include Japan Times, Stars &amp; Stripes, Military.com, Nikkei, USNI News, and official DOD/GOJ releases.
+        This briefing is for informational purposes only. Not investment advice.<br/>
+        Sources verified as of ${today}. Always verify critical intelligence through official channels.
       </p>
       <p style="font-size: 10px; color: #555; margin: 0;">
         Powered by <a href="https://worldmonitor.app" style="color: #4ade80; text-decoration: none;">World Monitor</a> &mdash; Real-time intelligence for a connected world.
@@ -209,28 +246,33 @@ const html = `
 </div>`;
 
 async function send() {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 30000);
   const res = await fetch('https://api.resend.com/emails', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      Authorization: `Bearer ${RESEND_KEY}`,
+      Authorization: 'Bearer ' + RESEND_KEY,
     },
     body: JSON.stringify({
       from: 'World Monitor <noreply@worldmonitor.app>',
       to: RECIPIENTS,
-      subject: `[WM Briefing] Okinawa Intelligence Update — March 29, 2026`,
+      subject: '[WM Briefing] Okinawa Intelligence Summary — ' + today,
       html,
     }),
+    signal: controller.signal,
   });
+  clearTimeout(timeout);
 
   if (!res.ok) {
     const body = await res.text();
-    console.error(`Resend API error ${res.status}: ${body}`);
+    console.error('Resend API error ' + res.status + ': ' + body);
     process.exit(1);
   }
 
   const data = await res.json();
-  console.log(`Email sent successfully to ${RECIPIENTS.join(', ')}`);
+  console.log('Email sent successfully to ' + RECIPIENTS.length + ' recipients:');
+  RECIPIENTS.forEach(r => console.log('  - ' + r));
   console.log('Resend ID:', data.id);
 }
 
