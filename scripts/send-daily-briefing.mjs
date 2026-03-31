@@ -95,19 +95,19 @@ const html = `
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">High</span>
-          <span style="color: #666; font-size: 11px;">Environmental / PFAS</span>
+          <span style="color: #666; font-size: 11px;">Environmental / Hazmat</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">3. PFAS Contamination at Record Levels Near Kadena &amp; Futenma &mdash; USFJ Denies Base Access</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">3. Kadena Environmental Incidents &mdash; PFAS Record Highs &amp; 575-Gal Diesel Spill</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Okinawa prefecture&rsquo;s annual groundwater survey (released March 27) found the highest PFAS (&ldquo;forever chemicals&rdquo;) contamination levels in a decade. The worst reading &mdash; 2,800 parts per trillion, <strong>56 times the national standard</strong> &mdash; was recorded at Yara Hijaga in Kadena town, downstream from Kadena Air Base.
+          <strong>PFAS (Mar 27):</strong> Okinawa prefecture&rsquo;s annual groundwater survey found the highest PFAS contamination in a decade. The worst reading &mdash; <strong>2,800 ppt, 56x the national standard</strong> &mdash; was at Yara Hijaga in Kadena town. 31 of 44 sampling sites exceeded standards. Elevated levels at 12 sites near Kadena AB, 13 near MCAS Futenma, plus Camp Hansen, Courtney/McTureous, and Foster. USFJ denied Okinawa&rsquo;s fourth access request since 2016 for on-base sampling, calling evidence &ldquo;insufficient.&rdquo;
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Elevated PFAS levels were found at 12 sites around Kadena AB, 13 sites near MCAS Futenma, plus sites near Camp Hansen, Camps Courtney/McTureous, and Camp Foster. USFJ denied the prefecture&rsquo;s December request for on-base water sampling, stating evidence of base-sourced contamination was &ldquo;insufficient.&rdquo; Unidentified foam spotted near bases has intensified local concern.
+          <strong>Diesel Spill (Mar 25):</strong> 575 gallons of diesel fuel spilled at Kadena AB due to equipment failure, affecting the base stormwater system. The 18th Wing contained and recovered the fuel. Stormwater from Kadena flows into the East China Sea and Hija River. Japanese town officials were notified via the Okinawa Defense Bureau but were not given specific details about spill location or damage. This is the second fuel incident at Kadena in under two years.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Community Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Growing political friction between Okinawa prefecture and USFJ. Civic groups demanding on-site base investigations. Issue could escalate during upcoming cost-sharing agreement renegotiations and Governor Tamaki&rsquo;s expected third-term campaign focused on base returns.
+            Growing political friction between Okinawa prefecture and USFJ. Civic groups demanding on-site base investigations. Combined with the diesel spill, environmental issues are amplifying anti-base sentiment ahead of Governor Tamaki&rsquo;s expected third-term campaign and cost-sharing renegotiations.
           </p>
         </div>
       </div>
@@ -143,18 +143,21 @@ const html = `
           <span style="background: #2563eb; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Government</span>
           <span style="color: #666; font-size: 11px;">Political / Legal / Financial</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">5. Political &amp; Financial Developments &mdash; Budget, Legal Cases, Governor Race</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">5. Political &amp; Financial Developments &mdash; Budget, Legal, Governor Race, New Tax</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          <strong>Defense Budget:</strong> Japan&rsquo;s FY2026 defense budget is a record &yen;8.7 trillion (~$58B), up 9.4% YoY &mdash; the fourth year of a five-year plan to reach 2% of GDP, making Japan the world&rsquo;s third-largest defense spender. The overall national budget hit a record &yen;122.3 trillion.
+          <strong>Defense Budget:</strong> Japan&rsquo;s FY2026 defense budget is a record &yen;8.7 trillion (~$58B), up 9.4% YoY &mdash; the fourth year of a five-year plan to reach 2% of GDP, making Japan the world&rsquo;s third-largest defense spender. Includes ~$1.14B for upgraded surface-to-ship missiles.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          <strong>Okinawa Development:</strong> State development funds for Okinawa rise to &yen;264.7B (first increase in 10 years), but still below the &yen;300B requested by the prefecture. Finance Ministry upgraded Okinawa&rsquo;s economic assessment citing tourism and consumption growth.
+          <strong>Okinawa Development:</strong> State development funds rise to &yen;264.7B (first increase in 10 years), but still below the &yen;300B requested by the prefecture. Finance Ministry upgraded Okinawa&rsquo;s economic assessment citing tourism and consumption growth.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          <strong>Legal:</strong> Japan&rsquo;s Supreme Court rejected appeal by Kadena-based US airman Brennon Washington, finalizing a 5-year prison sentence for assault. A 7-year sentence was separately finalized for a US Marine in an Okinawa sexual assault case. These cases continue to fuel local anti-base sentiment.
+          <strong>Accommodation Tax (Effective April 1):</strong> Okinawa introduces Japan&rsquo;s first prefectural-level lodging tax: 2% of net accommodation fees, capped at &yen;2,000/night. Expected to generate ~&yen;7.8B annually. Revenue split between prefecture and municipalities. Five municipalities (Ishigaki, Miyakojima, Motobu, Onna, Chatan) plan supplementary local taxes of 1&ndash;2%.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          <strong>Politics:</strong> Governor Denny Tamaki is expected to seek a third term, with his campaign focused on early return of MCAS Futenma in Ginowan. Defense Minister Koizumi pledged to reduce the US military footprint during his January visit to Okinawa.
+          <strong>Legal:</strong> Supreme Court finalized a 5-year sentence for Kadena-based airman Brennon Washington (assault) and a 7-year sentence for a USMC Lance Cpl. Jamel Clayton (sexual assault). Cases continue fueling local anti-base sentiment.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          <strong>Politics:</strong> Governor Denny Tamaki announced third-term bid (Mar 28), focused on MCAS Futenma return. Defense Minister Koizumi pledged to reduce the US footprint during January Okinawa visit. Solo US military police patrols in nightlife districts remain suspended since Nov 2025 after an excessive-force incident near Kadena.
         </p>
       </div>
     </div>
@@ -166,12 +169,38 @@ const html = `
           <span style="background: #7c3aed; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Training</span>
           <span style="color: #666; font-size: 11px;">Exercises / Readiness</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">6. Recent Exercises &mdash; Iron Fist, Stormbreaker 26.2</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">6. Exercises &amp; Base Operations</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          <strong>Iron Fist (Feb 11 &ndash; Mar 9):</strong> ~800 US Marines, ~2,100 Navy sailors, and ~2,000 JGSDF/JMSDF personnel conducted amphibious landing and urban seizure training at Camp Hansen. The exercise focused on jointly defending island territories east of Taiwan. Expanded to more island training sites this year.
+          <strong>Iron Fist (Feb 11 &ndash; Mar 9):</strong> ~800 US Marines, ~2,100 Navy sailors, and ~2,000 JGSDF/JMSDF personnel conducted amphibious landing and urban seizure training at Camp Hansen. Focused on jointly defending island territories east of Taiwan. Expanded to additional island sites.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          <strong>Stormbreaker 26.2 (Mar 11&ndash;16):</strong> 7th Communication Battalion, III MEF Information Group, concluded communications exercise at Camp Hansen, enhancing austere-environment operations and III MEF readiness across the Indo-Pacific.
+          <strong>Beverly Midnight 26 (Mar 12):</strong> Kadena AB conducted operational readiness exercise involving the 733rd Air Mobility Sq, 18th SFS, 18th OSS, and 18th CES. Simulated UXO discovery, base defense patrols, equipment failures, and aircraft fire response.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          <strong>Stormbreaker 26.2 (Mar 11&ndash;16):</strong> 7th Comm Bn, III MEF Information Group, concluded comms exercise at Camp Hansen enhancing austere-environment ops.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          <strong>KC-135 Crew Vigil (Mar 20):</strong> 909th Air Refueling Squadron held a vigil at Kadena honoring six airmen killed in a KC-135 Stratotanker crash in western Iraq while supporting Operation Epic Fury.
+        </p>
+      </div>
+    </div>
+
+    <!-- Event 7 -->
+    <div style="margin-bottom: 24px;">
+      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">High</span>
+          <span style="color: #666; font-size: 11px;">Local / Incident</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">7. Henoko Boat Capsize &amp; Iwo Jima Expansion Study</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          <strong>Henoko Tragedy (Mar 16):</strong> Two boats capsized off Henoko, Nago, near the Camp Schwab replacement facility construction site. Two people died: a 17-year-old student and the boat captain. The boats were carrying 18 students from Doshisha International Senior High School (Kyoto) on a peace education program, along with 3 crew. A high-wave advisory was in effect. The incident has drawn renewed attention to the contentious Henoko relocation project.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          <strong>MCAS Futenma Status:</strong> Pentagon&rsquo;s FY2026 budget report states Futenma &ldquo;will not be returned to Japan&rdquo; until an alternative long runway is selected. Camp Schwab construction not expected to complete until at least <strong>2033</strong>. Its V-configuration runways (~1 mile each) are deemed insufficient vs. Futenma&rsquo;s 1.7-mile runway per GAO.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          <strong>Iwo Jima Expansion:</strong> Japan&rsquo;s Defense Ministry is studying upgrades to Iwo Jima (~1,200 km south of Tokyo) including runway extensions, strengthened port facilities, and a floating pier. The island would serve as an alternate base should Okinawa airfields be degraded by Chinese missile strikes. Analysis suggests Chinese precision strikes could close Naha and Kadena runways for ~280 hours (11&ndash;12 days).
         </p>
       </div>
     </div>
@@ -180,7 +209,7 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
       <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Seismic Activity &mdash; Okinawa Region</p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        Minor seismic activity recorded near Okinawa over the past 48 hours. Two light earthquakes (M3.1 and M3.4) occurred northwest of Okinawa Island on March 29. The strongest quake near Okinawa in March 2026 was a M4.7 in the Philippine Sea on March 20. No tsunami warnings or significant structural impacts reported. Normal background seismicity for the region.
+        Earthquake swarm recorded near Taira, Okinawa on March 30: M5.1 (01:12 UTC, 10km depth), M4.7 (03:31 UTC), M4.7 (04:04 UTC), M4.6 (02:12 UTC). Two lighter events (M3.1, M3.4) occurred NW of Okinawa Island on March 29. No tsunami warnings or structural damage reported. Elevated seismicity warrants monitoring but within expected parameters for the region.
       </p>
     </div>
 
