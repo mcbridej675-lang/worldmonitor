@@ -7,9 +7,7 @@
  */
 
 const RECIPIENTS = [
-  'mcbridej675@gmail.com',
-  'john.mcbride.mil@usmc.mil',
-  'paul.foersch@usmc.mil',
+  'johnmcbride2928@gmail.com',
 ];
 const RESEND_KEY = process.env.RESEND_API_KEY;
 
@@ -53,7 +51,7 @@ const html = `
         </div>
         <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">1. 31st MEU Deployed to Middle East &mdash; Indo-Pacific Gap Widens</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          More than 2,200 Marines from the Okinawa-based 31st Marine Expeditionary Unit and the amphibious assault ship USS Tripoli (homeported in Sasebo) have been ordered to the Middle East as the US-Israel campaign against Iran enters its fifth week. Defense Secretary Hegseth approved the deployment to reinforce forces managing the Strait of Hormuz crisis.
+          More than 2,200 Marines from the Okinawa-based 31st Marine Expeditionary Unit aboard USS Tripoli (LHA-7) and USS New Orleans (LPD-18) have arrived in U.S. Central Command waters as of March 28 after departing Sasebo, Japan. Defense Secretary Hegseth approved the deployment to reinforce forces managing the Strait of Hormuz crisis as the US-Israel campaign against Iran continues. The 82nd Airborne Division HQ and a brigade combat team are also slated to deploy, and the 11th MEU (Boxer ARG) may serve as reinforcement.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
           The 31st MEU is the <strong>only permanently forward-deployed MEU in the Pacific</strong>. Defense analysts warn this creates a significant gap in Indo-Pacific power projection and increases the defense burden on Japan and regional allies. Retired Marine Col. Grant Newsham noted the Navy &ldquo;doesn&rsquo;t have enough amphibious ships in working order to keep enough MEUs fully operational.&rdquo;
@@ -125,7 +123,7 @@ const html = `
           The US-Japan Host Nation Support cost-sharing agreement expires at the end of FY2026, requiring renegotiation now. Japan&rsquo;s contributions are among the most generous globally. Talks focus on redistribution rather than withdrawal &mdash; relocating some Marine units to Guam/Australia while enhancing capabilities at Kadena AB and Yokosuka Naval Base.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The Air Force has delayed permanent F-15EX Eagle II deployment to Kadena (reported Feb 2026) due to Boeing production issues. Meanwhile, experts argue the DPRI plan to shift ~10,000 Marines from Okinawa should be halted given the 2027 China/Taiwan timeline. The 12th Marine Littoral Regiment&rsquo;s 12th Littoral Anti-Air Battalion unveiled new facilities at Camp Hansen on March 6.
+          Two F-15EX Eagle II jets arrived at Kadena in July 2025 to prepare for permanent deployment of 36 aircraft in spring 2026, replacing the withdrawn F-15C/D fleet, though Boeing production issues may delay the full transition. Meanwhile, experts argue the DPRI plan to shift ~10,000 Marines from Okinawa should be halted given the 2027 China/Taiwan timeline. The 12th Marine Littoral Regiment&rsquo;s 12th Littoral Anti-Air Battalion unveiled new facilities at Camp Hansen on March 6. Additionally, multiple US Navy bases in Japan have canceled spring open-base festivals citing heightened security concerns.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Key Watchpoints</p>
@@ -145,7 +143,7 @@ const html = `
         </div>
         <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">5. Political &amp; Financial Developments &mdash; Budget, Legal, Governor Race, New Tax</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          <strong>Defense Budget:</strong> Japan&rsquo;s FY2026 defense budget is a record &yen;8.7 trillion (~$58B), up 9.4% YoY &mdash; the fourth year of a five-year plan to reach 2% of GDP, making Japan the world&rsquo;s third-largest defense spender. Includes ~$1.14B for upgraded surface-to-ship missiles.
+          <strong>Defense Budget:</strong> Japan&rsquo;s FY2026 defense budget is a record &yen;9.04 trillion (~$58B), the first time exceeding &yen;9T &mdash; up 3.8% YoY as part of a five-year plan to reach 2% of GDP, making Japan the world&rsquo;s third-largest defense spender. The US State Department also approved a $340M FMS sale to support Japan&rsquo;s indigenous HVGP hypersonic missile testing program.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
           <strong>Okinawa Development:</strong> State development funds rise to &yen;264.7B (first increase in 10 years), but still below the &yen;300B requested by the prefecture. Finance Ministry upgraded Okinawa&rsquo;s economic assessment citing tourism and consumption growth.
@@ -217,7 +215,7 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
       <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Sources</p>
       <p style="color: #888; font-size: 11px; line-height: 1.8; margin: 0;">
-        Stars and Stripes &bull; The Japan Times &bull; Military.com &bull; Naval News &bull; The Diplomat &bull; Defense News &bull; CRS Reports (Congress.gov) &bull; Military Times &bull; NHK &bull; Japan Today &bull; DVIDSHUB &bull; Nippon.com &bull; Al Jazeera &bull; PBS News
+        Stars and Stripes &bull; The Japan Times &bull; Military.com &bull; Naval News &bull; The Diplomat &bull; Defense News &bull; USNI News &bull; Military Times &bull; NHK &bull; Japan Today &bull; DVIDSHUB &bull; Janes &bull; Breaking Defense &bull; Army Recognition &bull; Volcano Discovery &bull; JMA
       </p>
     </div>
 
@@ -234,33 +232,36 @@ const html = `
   </div>
 </div>`;
 
-async function send() {
-  const res = await fetch('https://api.resend.com/emails', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      Authorization: `Bearer ${RESEND_KEY}`,
-    },
-    body: JSON.stringify({
-      from: 'World Monitor <onboarding@resend.dev>',
-      to: RECIPIENTS,
-      subject: `[WM Briefing] Okinawa Regional Intelligence — ${today}`,
-      html,
-    }),
-  });
+import { execSync } from 'node:child_process';
 
-  if (!res.ok) {
-    const body = await res.text();
-    console.error(`Resend API error ${res.status}: ${body}`);
+const payload = JSON.stringify({
+  from: 'World Monitor <onboarding@resend.dev>',
+  to: RECIPIENTS,
+  subject: `[WM Briefing] Okinawa Regional Intelligence — ${today}`,
+  html,
+});
+
+try {
+  const result = execSync(
+    `curl -s -w "\\n%{http_code}" --connect-timeout 30 -X POST https://api.resend.com/emails ` +
+    `-H "Content-Type: application/json" ` +
+    `-H "Authorization: Bearer ${RESEND_KEY}" ` +
+    `-d @-`,
+    { input: payload, encoding: 'utf8', timeout: 60000 },
+  );
+  const lines = result.trim().split('\n');
+  const httpCode = lines.pop();
+  const body = lines.join('\n');
+
+  if (!httpCode.startsWith('2')) {
+    console.error(`Resend API error ${httpCode}: ${body}`);
     process.exit(1);
   }
 
-  const data = await res.json();
+  const data = JSON.parse(body);
   console.log(`Email sent successfully to ${RECIPIENTS.join(', ')}`);
   console.log('Resend ID:', data.id);
-}
-
-send().catch((err) => {
-  console.error('Failed to send email:', err);
+} catch (err) {
+  console.error('Failed to send email:', err.message);
   process.exit(1);
-});
+}
