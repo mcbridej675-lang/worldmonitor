@@ -44,7 +44,7 @@ const html = `
 
     <!-- Market Snapshot -->
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 16px 20px; margin-bottom: 24px;">
-      <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Market Snapshot &mdash; April 2, 2026</p>
+      <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Market Snapshot &mdash; April 3, 2026</p>
       <table cellpadding="0" cellspacing="0" border="0" width="100%">
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">S&amp;P 500</td>
@@ -56,19 +56,23 @@ const html = `
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Nikkei 225</td>
-          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">52,463.27 (-2.38%)</td>
+          <td style="padding: 6px 0; color: #22c55e; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">53,123.49 (+1.3%)</td>
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Kospi</td>
-          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">5,234.05 (-4.47%)</td>
+          <td style="padding: 6px 0; color: #22c55e; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">5,377.30 (+2.7%)</td>
+        </tr>
+        <tr>
+          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Shanghai Composite</td>
+          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">3,880.10 (-1.0%)</td>
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Brent Crude</td>
-          <td style="padding: 6px 0; color: #22c55e; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">$109/bbl (+8%)</td>
+          <td style="padding: 6px 0; color: #22c55e; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">$112.42/bbl (+7.8%)</td>
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px;">WTI Crude</td>
-          <td style="padding: 6px 0; color: #22c55e; font-size: 12px; font-weight: 700; text-align: right;">~$110/bbl (+10%)</td>
+          <td style="padding: 6px 0; color: #22c55e; font-size: 12px; font-weight: 700; text-align: right;">$111.54/bbl (+11.4%)</td>
         </tr>
       </table>
     </div>
@@ -78,18 +82,18 @@ const html = `
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Critical</span>
-          <span style="color: #666; font-size: 11px;">Geopolitics / Energy</span>
+          <span style="color: #666; font-size: 11px;">Energy / Gulf Security</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">1. US-Iran War Escalation &mdash; Trump Vows Weeks More of Bombing; Strait of Hormuz in Crisis</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">1. Iran Strikes Gulf Energy Infrastructure &mdash; UAE Habshan Gas Facility Shut Down, Kuwait Refinery Hit</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          President Trump declared in a televised address that US military objectives in Iran have been &ldquo;largely met&rdquo; but announced that strikes will continue for &ldquo;several more weeks.&rdquo; Preliminary casualty figures stand at 1,937 dead in Iran, 24 in Israel, 13 US soldiers, and 27 in Gulf states. Iranian drones struck fuel storage at Kuwait International Airport, causing a major fire. Iran also launched three missiles at Qatar &mdash; two were intercepted but a third hit an oil tanker registered by QatarEnergy. The Strait of Hormuz remains effectively closed, though Iranian state media reported negotiations with Oman on a protocol to &ldquo;monitor&rdquo; ship traffic, which briefly calmed markets before close.
+          In a dramatic escalation of Iranian retaliatory strikes, Abu Dhabi suspended all operations at the Habshan gas facility &mdash; the UAE&rsquo;s largest, processing 6.1 billion standard cubic feet per day &mdash; after falling debris from intercepted Iranian drones and missiles sparked fires. One Egyptian national was killed during the evacuation and four were injured. Hours earlier, Iranian drone strikes hit Kuwait&rsquo;s Mina al-Ahmadi oil refinery (the third time it has been targeted) and a desalination plant, marking the second attack on Kuwaiti water infrastructure in four days. Neither the UAE nor Kuwait are members of the US-led coalition against Iran, raising alarm about the indiscriminate widening of the conflict to neutral Gulf states.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Financial Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Oil:</strong> Brent surged 8% to $109; WTI spiked nearly 10% to ~$110, briefly crossing $113. The IEA has called this the &ldquo;largest supply disruption in the history of the global oil market.&rdquo; Goldman Sachs projects US gasoline at $3.50/gal and warns of persistent inflation if closures continue.<br/><br/>
-            <strong>Stocks to watch:</strong> <span style="color: #22c55e;">Bullish:</span> <strong>ExxonMobil (XOM), Chevron (CVX), ConocoPhillips (COP), Halliburton (HAL)</strong> &mdash; direct beneficiaries of elevated crude prices. <strong>Lockheed Martin (LMT), Raytheon (RTX), Northrop Grumman (NOC)</strong> &mdash; defense spending surge. <strong>Occidental Petroleum (OXY)</strong> &mdash; heavily levered to oil price.<br/>
-            <span style="color: #ef4444;">Bearish:</span> <strong>Delta (DAL), United Airlines (UAL), American Airlines (AAL)</strong> &mdash; jet fuel costs crushing margins. <strong>Carnival (CCL), Royal Caribbean (RCL)</strong> &mdash; Gulf route cancellations. <strong>FedEx (FDX), UPS (UPS)</strong> &mdash; shipping cost inflation.
+            <strong>Oil &amp; Gas:</strong> WTI surged 11.4% to $111.54/bbl; Brent jumped 7.8% to $112.42/bbl. The IEA warns April will be &ldquo;much worse than March&rdquo; as pre-war cargo shipments are now fully depleted. The Habshan shutdown removes a major LNG and gas processing hub from the global supply chain.<br/><br/>
+            <strong>Stocks to watch:</strong> <span style="color: #22c55e;">Bullish:</span> <strong>ExxonMobil (XOM), Chevron (CVX), ConocoPhillips (COP)</strong> &mdash; direct beneficiaries of crude above $110. <strong>Halliburton (HAL), Schlumberger (SLB)</strong> &mdash; oilfield services demand surge. <strong>ADNOC Drilling (UAE: ADNOCDRILL)</strong> &mdash; paradoxically benefits long-term from reconstruction.<br/>
+            <span style="color: #ef4444;">Bearish:</span> <strong>Airlines: Delta (DAL), Lufthansa (DLAKY), Emirates Group</strong> &mdash; jet fuel costs exploding. <strong>Utilities exposed to LNG: NextEra (NEE)</strong> &mdash; natural gas price spike hits power generation costs. <strong>Kuwait Finance House (KFH)</strong> &mdash; infrastructure damage weighs on Kuwaiti financials.
           </p>
         </div>
       </div>
@@ -100,18 +104,18 @@ const html = `
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Critical</span>
-          <span style="color: #666; font-size: 11px;">Conflict / Eastern Europe</span>
+          <span style="color: #666; font-size: 11px;">Military / Strait of Hormuz</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">2. Russia Claims Full Control of Luhansk Oblast &mdash; Ukraine Denies</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">2. Iran Claims It Shot Down Two US Fighter Jets Near Strait of Hormuz &mdash; Search for Downed Pilot</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Russia&rsquo;s Defence Ministry announced its forces have captured the entirety of Luhansk Oblast in eastern Ukraine, which would mark the first complete seizure of a Ukrainian administrative region since the 2022 invasion. Ukraine&rsquo;s military has denied the claim, stating that the 3rd Assault Brigade still holds positions near the front line. If confirmed, this represents a significant shift in the war&rsquo;s trajectory and a potential bargaining chip in any future negotiations.
+          Iran&rsquo;s state media announced that its air defenses downed a US F-15 and an A-10 aircraft operating near the Strait of Hormuz. Search and rescue operations are reportedly underway for at least one downed pilot. This marks the first confirmed shoot-down of manned American aircraft in the conflict and represents a significant escalation in Iran&rsquo;s capability to contest the skies over the Persian Gulf. Despite the incident, Trump indicated that diplomatic channels would remain open. Casualty figures from the broader conflict now stand at 2,076 dead in Iran, 24 in Israel, 13 US soldiers, and 27 in Gulf states.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Financial Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            European energy security concerns resurface. Natural gas futures likely to tick upward on renewed instability fears. European defense stocks continue their multi-year rally.<br/><br/>
-            <strong>Stocks to watch:</strong> <span style="color: #22c55e;">Bullish:</span> <strong>Rheinmetall (RNMBY), BAE Systems (BAESY), Leonardo (FINMY)</strong> &mdash; European defense spending acceleration. <strong>Cheniere Energy (LNG)</strong> &mdash; US LNG exports to Europe remain critical.<br/>
-            <span style="color: #ef4444;">Bearish:</span> <strong>European industrials, Volkswagen (VWAGY), BASF (BASFY)</strong> &mdash; energy cost pressure on German manufacturing. European banks with Eastern European exposure face uncertainty.
+            The shoot-down shattered the assumption of US air dominance and sent VIX volatility spiking. This signals a protracted conflict with higher risk of US escalation, further delaying any Hormuz reopening.<br/><br/>
+            <strong>Stocks to watch:</strong> <span style="color: #22c55e;">Bullish:</span> <strong>Lockheed Martin (LMT), Raytheon (RTX), Northrop Grumman (NOC)</strong> &mdash; defense spending acceleration inevitable. <strong>L3Harris (LHX)</strong> &mdash; electronic warfare and ISR demand. <strong>Palantir (PLTR)</strong> &mdash; intelligence and targeting platform.<br/>
+            <span style="color: #ef4444;">Bearish:</span> <strong>Boeing (BA)</strong> &mdash; F-15 manufacturer faces scrutiny on platform survivability. <strong>Cruise lines: Carnival (CCL), Royal Caribbean (RCL)</strong> &mdash; Persian Gulf completely off-limits. <strong>Insurers: Lloyd&rsquo;s syndicates, Hiscox (HCXLF)</strong> &mdash; war risk premiums skyrocketing.
           </p>
         </div>
       </div>
@@ -122,18 +126,18 @@ const html = `
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">High</span>
-          <span style="color: #666; font-size: 11px;">Middle East / Humanitarian</span>
+          <span style="color: #666; font-size: 11px;">Trade / Shipping</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">3. Israel Pressures Ethnic Displacement in Southern Lebanon &mdash; Human Rights Groups Condemn</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">3. First Western Vessel Transits Strait of Hormuz Since War Began &mdash; CMA CGM Breaks the Blockade</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The New York Times reports that Israeli military officials are privately urging Christian and Druze communities in southern Lebanon to force out Shiite Muslim residents sheltering among them. Human rights organizations, including Amnesty International and Human Rights Watch, have condemned the plan as ethnic cleansing. This expands Israel&rsquo;s military footprint in Lebanon amid the broader regional war with Iran, raising the risk of a wider multi-front conflict across the Levant.
+          A Malta-flagged container ship owned by French shipping giant CMA CGM successfully passed through the Strait of Hormuz &mdash; the first Western European vessel to do so since the US-Israeli strikes on Iran began in late February. The ship, the <em>Kribi</em>, changed its AIS transponder destination to &ldquo;Owner France&rdquo; before entering Iranian territorial waters, signaling its non-belligerent nationality. CMA CGM reportedly coordinated the transit directly with Iranian maritime authorities. Omani and Japanese vessels also transited, suggesting Iran is selectively allowing passage for non-coalition nations. This could mark the beginning of a two-tier shipping regime in the Gulf.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Financial Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Adds to the broader Middle East risk premium in commodity markets. Geopolitical uncertainty weighs on emerging market indices across the MENA region.<br/><br/>
-            <strong>Stocks to watch:</strong> <span style="color: #22c55e;">Bullish:</span> <strong>Elbit Systems (ESLT), Israel Aerospace Industries</strong> &mdash; Israeli defense demand. <strong>Gold miners: Barrick Gold (GOLD), Newmont (NEM)</strong> &mdash; safe-haven demand pushing gold higher.<br/>
-            <span style="color: #ef4444;">Bearish:</span> <strong>Emerging market ETFs (EEM, INDA)</strong> &mdash; risk-off rotation from MENA-exposed assets. <strong>Tourism/hospitality in the Eastern Mediterranean</strong> &mdash; cancellations and insurance costs rising.
+            A selective reopening could relieve some pressure on global supply chains &mdash; but only for non-US-aligned nations. This fragments the global shipping market and creates a geopolitical premium on trade routes.<br/><br/>
+            <strong>Stocks to watch:</strong> <span style="color: #22c55e;">Bullish:</span> <strong>CMA CGM (private), Maersk (AMKBY), Hapag-Lloyd (HLAG.DE)</strong> &mdash; European shippers with potential safe-passage advantage. <strong>ZIM Integrated (ZIM)</strong> &mdash; container shipping rates surging. <strong>Frontline (FRO), Euronav (EURN)</strong> &mdash; tanker rates at historic highs.<br/>
+            <span style="color: #ef4444;">Bearish:</span> <strong>Amazon (AMZN), Walmart (WMT)</strong> &mdash; supply chain delays on goods routed through the Gulf. <strong>FedEx (FDX), UPS (UPS)</strong> &mdash; global logistics costs rising. US-flagged shipping companies face exclusion from Hormuz transit.
           </p>
         </div>
       </div>
@@ -143,18 +147,19 @@ const html = `
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #2563eb; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Notable</span>
-          <span style="color: #666; font-size: 11px;">Space / Science</span>
+          <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">High</span>
+          <span style="color: #666; font-size: 11px;">Africa / Humanitarian</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">4. NASA Launches Artemis II &mdash; First Crewed Lunar Flyby Since 1972</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">4. Sudan&rsquo;s RSF Drone Strikes Hospital During Children&rsquo;s Vaccination Campaign &mdash; 10 Killed</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          NASA successfully launched the Artemis II mission on April 1, sending four astronauts on a flyby of the Moon &mdash; the first crewed mission beyond low-Earth orbit since Apollo 17 in December 1972. The mission, aboard the Orion spacecraft atop the Space Launch System (SLS) rocket, marks a major milestone in NASA&rsquo;s plan to return humans to the lunar surface with Artemis III. The mission validates critical life support systems and deep-space navigation for the crewed landing attempt.
+          The Rapid Support Forces (RSF) launched two drone strikes on Al-Jabalain Hospital in White Nile State, Sudan, hitting an operating theater and a maternity ward during a children&rsquo;s immunization campaign. M&eacute;decins Sans Fronti&egrave;res confirmed 10 dead, including seven medical staff, and at least 19 wounded. Sudan&rsquo;s Foreign Ministry condemned the attack and called for designating the RSF a terrorist organization. The WHO reports over 200 attacks on healthcare facilities since the war began in April 2023. Last month, 70 people including 13 children were killed in a hospital strike in Darfur. The world&rsquo;s worst humanitarian crisis continues largely out of the global spotlight.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Financial Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Validates the Artemis pipeline and increases confidence in NASA&rsquo;s long-term contracting pipeline. Positive catalyst for aerospace contractors in the Artemis supply chain.<br/><br/>
-            <strong>Stocks to watch:</strong> <span style="color: #22c55e;">Bullish:</span> <strong>Lockheed Martin (LMT)</strong> &mdash; builds the Orion capsule. <strong>Boeing (BA)</strong> &mdash; SLS core stage contractor. <strong>Northrop Grumman (NOC)</strong> &mdash; SLS solid rocket boosters. <strong>Intuitive Machines (LUNR), Rocket Lab (RKLB)</strong> &mdash; broader space sector sentiment lift. <strong>Jacobs Solutions (J)</strong> &mdash; NASA ground systems engineering.
+            Limited direct market impact, but Sudan&rsquo;s collapse disrupts Red Sea shipping insurance costs and compounds the broader Africa risk premium. Gold mining operations near Sudan&rsquo;s borders face elevated security costs.<br/><br/>
+            <strong>Stocks to watch:</strong> <span style="color: #22c55e;">Bullish:</span> <strong>AeroVironment (AVAV), Kratos Defense (KTOS)</strong> &mdash; counter-drone systems demand rising globally. <strong>Barrick Gold (GOLD)</strong> &mdash; safe-haven flows plus African mining proximity risk hedging.<br/>
+            <span style="color: #ef4444;">Bearish:</span> <strong>Endeavour Mining (EDV.TO)</strong> &mdash; West/East African mining operations face security spillover. <strong>Red Sea shipping insurers</strong> &mdash; claims rising alongside Houthi and regional instability.
           </p>
         </div>
       </div>
@@ -164,19 +169,18 @@ const html = `
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">High</span>
-          <span style="color: #666; font-size: 11px;">Asia-Pacific / Defense</span>
+          <span style="background: #2563eb; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Notable</span>
+          <span style="color: #666; font-size: 11px;">Space / Science</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">5. Asian Markets Plunge as Regional Instability Compounds &mdash; Korea, Japan Lead Selloff</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">5. Artemis II Astronauts En Route to the Moon &mdash; First Crewed Lunar Mission in 54 Years</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Asia-Pacific markets suffered their worst session in months as Trump&rsquo;s war escalation speech shattered hopes for an imminent end to the Iran conflict. South Korea&rsquo;s Kospi crashed 4.47% to 5,234.05 &mdash; the steepest drop in the region. Japan&rsquo;s Nikkei 225 fell 2.38% to 52,463.27 as the yen strengthened on safe-haven flows. Hong Kong&rsquo;s Hang Seng dropped ~1%, and China&rsquo;s CSI 300 lost 1.04%. The selloff was amplified by the withdrawal of the US 31st Marine Expeditionary Unit from the Indo-Pacific to the Middle East, deepening concerns about regional security gaps as China maintains pressure near Taiwan.
+          Two days after its historic April 1 launch, NASA&rsquo;s Artemis II mission is now in deep space with four astronauts aboard the Orion spacecraft heading for a lunar flyby &mdash; the first crewed mission beyond low-Earth orbit since Apollo 17 in 1972. The crew includes historic firsts: Victor Glover as the first person of color, Christina Koch as the first woman, and Jeremy Hansen as the first non-American to travel to the Moon&rsquo;s vicinity. The ten-day mission validates critical life support and navigation systems for the eventual Artemis III crewed landing. A rare bright spot in a week dominated by conflict.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Financial Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Japan&rsquo;s record &yen;9.04 trillion defense budget ($58B) partially offsets security fears but cannot replace US forward presence. Yen strength hurts Japanese exporters. South Korea&rsquo;s export-heavy economy faces dual headwinds of oil costs and regional risk.<br/><br/>
-            <strong>Stocks to watch:</strong> <span style="color: #22c55e;">Bullish:</span> <strong>Mitsubishi Heavy Industries (MHVYF)</strong> &mdash; Japan&rsquo;s primary defense contractor, just deployed Type 25 long-range missiles. <strong>Kawasaki Heavy (KWHIY), IHI Corp</strong> &mdash; Japanese defense industrials. <strong>Hanwha Aerospace (Korea)</strong> &mdash; Korean defense export boom.<br/>
-            <span style="color: #ef4444;">Bearish:</span> <strong>Toyota (TM), Sony (SONY), Samsung (SSNLF)</strong> &mdash; Asian exporters hit by yen/won strength and oil cost pressure. <strong>TSMC (TSM)</strong> &mdash; Taiwan proximity risk discount widens.
+            Validates the Artemis contracting pipeline worth tens of billions over the next decade. Positive sentiment catalyst for the space sector amid broader market gloom.<br/><br/>
+            <strong>Stocks to watch:</strong> <span style="color: #22c55e;">Bullish:</span> <strong>Lockheed Martin (LMT)</strong> &mdash; Orion capsule builder. <strong>Boeing (BA)</strong> &mdash; SLS core stage contractor. <strong>Northrop Grumman (NOC)</strong> &mdash; SLS solid rocket boosters. <strong>Intuitive Machines (LUNR), Rocket Lab (RKLB)</strong> &mdash; broader space sector sentiment lift. <strong>Jacobs Solutions (J)</strong> &mdash; NASA ground systems engineering.
           </p>
         </div>
       </div>
@@ -186,13 +190,16 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #dc2626; padding: 20px; margin-bottom: 24px;">
       <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Macro Outlook &mdash; Key Themes</p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Stagflation risk is the dominant macro concern.</strong> The Strait of Hormuz closure echoes the 1970s energy crisis &mdash; sustained oil above $100 feeds inflation, forces central banks to hold rates higher for longer, and drags on growth. The Dow and S&amp;P 500 are tracking their worst month since September 2022.
+        <strong style="color: #fff;">The energy crisis is deepening, not stabilizing.</strong> Today&rsquo;s strikes on UAE and Kuwaiti infrastructure confirm that Iran is willing to target neutral Gulf states &mdash; dramatically widening the conflict&rsquo;s economic blast radius. With Habshan offline and the IEA warning that April will see &ldquo;zero&rdquo; new Hormuz cargo, oil above $110 is the new floor, not the ceiling.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Defensive positioning recommended:</strong> Overweight energy, defense, and gold. Underweight consumer discretionary, airlines, and rate-sensitive growth. Watch for any Strait of Hormuz reopening signal as the key catalyst for a relief rally.
+        <strong style="color: #fff;">A two-tier global trade system is emerging.</strong> The CMA CGM transit proves the Strait isn&rsquo;t fully closed &mdash; it&rsquo;s selectively closed to US-allied nations. This fragments global shipping and creates a geopolitical premium: European and Asian companies with non-belligerent flags gain a structural advantage over US-aligned logistics.
+      </p>
+      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
+        <strong style="color: #fff;">Defensive positioning remains critical:</strong> Overweight energy, defense, gold, and European shippers. Underweight airlines, consumer discretionary, and US-flagged logistics. The shoot-down of US jets raises the floor on conflict duration.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        <strong style="color: #fff;">Markets closed tomorrow (Good Friday).</strong> Thin pre-holiday liquidity amplified today&rsquo;s volatility. Expect gap risk on Monday if weekend developments shift the war trajectory.
+        <strong style="color: #fff;">Markets closed tomorrow (Good Friday).</strong> Thin pre-holiday liquidity amplified today&rsquo;s moves. Weekend developments could create significant gap risk on Monday&rsquo;s open.
       </p>
     </div>
 
@@ -200,7 +207,7 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
       <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Sources</p>
       <p style="color: #888; font-size: 11px; line-height: 1.8; margin: 0;">
-        Bloomberg &bull; CNBC &bull; Reuters &bull; Al Jazeera &bull; The New York Times &bull; CNN Business &bull; Morgan Stanley &bull; Goldman Sachs &bull; Democracy Now &bull; Wikipedia Current Events &bull; NASA &bull; The Motley Fool &bull; Yahoo Finance &bull; NPR &bull; IEA
+        Al Jazeera &bull; Bloomberg &bull; CNBC &bull; Reuters &bull; Euronews &bull; CNN &bull; Washington Post &bull; M&eacute;decins Sans Fronti&egrave;res &bull; IEA &bull; NASA &bull; Maritime Executive &bull; US News &bull; Fortune &bull; The National (UAE) &bull; Xinhua
       </p>
     </div>
 
