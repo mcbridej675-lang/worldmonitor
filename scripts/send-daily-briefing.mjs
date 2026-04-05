@@ -55,7 +55,7 @@ const html = `
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">PRC Activity Level</td>
-          <td style="padding: 6px 0; color: #ea580c; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">ELEVATED &mdash; Y-9FQ ASW patrols near Okinawa</td>
+          <td style="padding: 6px 0; color: #ea580c; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">ELEVATED &mdash; Y-9FQ ASW patrols; carrier drills near SW Japan</td>
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">China-Japan Relations</td>
@@ -63,19 +63,27 @@ const html = `
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Japan Defense Posture</td>
-          <td style="padding: 6px 0; color: #ea580c; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">HEIGHTENED &mdash; Type 25 missiles now operational</td>
+          <td style="padding: 6px 0; color: #ea580c; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">HEIGHTENED &mdash; Type 25 missiles operational; Space Ops Squadron stood up</td>
+        </tr>
+        <tr>
+          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">SDF Interoperability</td>
+          <td style="padding: 6px 0; color: #ea580c; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">EXPANDING &mdash; 11 weapons protection ops in 2025 (incl. UK firsts)</td>
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Liberty Status</td>
           <td style="padding: 6px 0; color: #ea580c; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">RESTRICTED &mdash; Solo patrols paused</td>
         </tr>
         <tr>
+          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">DPRK Posture</td>
+          <td style="padding: 6px 0; color: #ea580c; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">PROVOCATIVE &mdash; Condemns Japan Type 25 deployments</td>
+        </tr>
+        <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Nikkei 225</td>
-          <td style="padding: 6px 0; color: #22c55e; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">53,123.49 (+1.26%)</td>
+          <td style="padding: 6px 0; color: #22c55e; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">53,172 (+1.35%)</td>
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px;">USD/JPY</td>
-          <td style="padding: 6px 0; color: #bbb; font-size: 12px; font-weight: 700; text-align: right;">159.66</td>
+          <td style="padding: 6px 0; color: #bbb; font-size: 12px; font-weight: 700; text-align: right;">159.74</td>
         </tr>
       </table>
     </div>
@@ -218,23 +226,69 @@ const html = `
       </div>
     </div>
 
+    <!-- Event 7: SDF Weapons Protection -->
+    <div style="margin-bottom: 24px;">
+      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">High</span>
+          <span style="color: #666; font-size: 11px;">Military / Interoperability &mdash; REPORTED APR 4</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">7. Japan SDF Conducted 11 Weapons Protection Missions for Foreign Militaries in 2025 &mdash; Including First-Ever UK Assets</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          The Defense Ministry disclosed April 4 that the SDF conducted <strong>11 weapons protection missions</strong> in 2025 to safeguard foreign military ships and aircraft under national security laws. Breakdown: <strong>4 cases</strong> protecting US warships during ISR activities related to ballistic missile threats; <strong>5 cases</strong> involving US warships and aircraft during joint training; <strong>2 cases</strong> protecting <strong>British warships</strong> during joint training &mdash; marking the <strong>first time the SDF has ever protected UK military assets</strong>.
+        </p>
+        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
+          <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
+          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
+            The inclusion of UK assets signals Japan&rsquo;s security framework is expanding beyond the bilateral US-Japan alliance into a multilateral posture. This aligns with PM Takaichi&rsquo;s push for deeper ties with AUKUS partners and NATO. The volume of protection missions &mdash; 11 in a single year &mdash; underscores the operational tempo around Japan&rsquo;s southwestern waters.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Event 8: Space Operations -->
+    <div style="margin-bottom: 24px;">
+      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #2563eb; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Notable</span>
+          <span style="color: #666; font-size: 11px;">Military / Force Restructuring &mdash; REPORTED APR 4</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">8. JASDF Space Operations Group Elevated to Squadron &mdash; Air &ldquo;Self-Defense Force&rdquo; to Be Renamed Aerospace SDF</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          As part of a massive spring reorganization, Japan&rsquo;s <strong>Space Operations Group</strong> was elevated to <strong>Space Operations Squadron</strong> status. The unit will be further upgraded to a <strong>Space Operations Corps</strong> later this year. The Japan Air Self-Defense Force will be officially renamed the <strong>Aerospace Self-Defense Force</strong>, reflecting expanded domain responsibilities including space situational awareness and satellite defense.
+        </p>
+        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
+          <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
+          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
+            Japan is operationalizing its multi-domain defense strategy. The space domain is critical for ISR over the East and South China Seas. Elevating space units signals Japan&rsquo;s commitment to monitoring PRC and DPRK missile activities and satellite threats &mdash; capabilities directly relevant to Okinawa&rsquo;s defense.
+          </p>
+        </div>
+      </div>
+    </div>
+
     <!-- Additional Items -->
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
       <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Additional Items of Note</p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Helicopter Incident Protests (Mar 30):</strong> Okinawa Prefectural Assembly formally protested a Marine UH-1Y Venom helicopter&rsquo;s precautionary landing near Kyoda Baseball Field in Nago, which interrupted a youth baseball practice. Fuels ongoing tensions over aircraft safety near residential areas.
+        <strong style="color: #fff;">DPRK Condemnation (Apr 4):</strong> KCNA published commentary denouncing Japan&rsquo;s &ldquo;dangerous military attempt,&rdquo; specifically targeting Type 25 missile deployments and the new Pacific Defense Planning Office. Pyongyang warned Japan&rsquo;s missile expansion could &ldquo;push the region into danger.&rdquo;
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Defense Ministry Pacific Office (Apr 1):</strong> New Pacific Defense Planning Office established under Defense Minister Koizumi to conduct comprehensive review of SDF structure for Pacific defense. Koizumi: &ldquo;Boosting defense posture in the vast Pacific region is an urgent priority.&rdquo;
+        <strong style="color: #fff;">Yonaguni Earthquake (Apr 5):</strong> M4.6 earthquake at 15:34 UTC near Yonaguni Island (68 mi from Taiwan), depth 135km. No tsunami warning issued. Follows M4.3 near Miyakojima on Apr 3.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Solo Patrols Remain Paused:</strong> Solo military patrols in Okinawa nightlife districts remain suspended pending investigation into assault incident. Liberty restrictions continue.
+        <strong style="color: #fff;">Helicopter Incident Protests (Mar 30):</strong> Okinawa Prefectural Assembly formally protested Marine UH-1Y Venom precautionary landing near Kyoda Baseball Field in Nago. Formal protest letter expected mid-April to US authorities.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Military Spouse Leadership Seminar (Apr 14&ndash;16):</strong> Spring seminar at Butler Officers&rsquo; Club, Plaza Housing, near Camp Foster.
+        <strong style="color: #fff;">Defense Ministry Pacific Office (Apr 1):</strong> New Pacific Defense Planning Office established under Defense Minister Koizumi. Koizumi: &ldquo;Boosting defense posture in the vast Pacific region is an urgent priority.&rdquo;
+      </p>
+      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
+        <strong style="color: #fff;">Solo Patrols Remain Paused:</strong> Solo military patrols in Okinawa nightlife districts remain suspended pending investigation into Nov 2025 assault incident. MP retraining ongoing with focus on de-escalation and jurisdictional authority under Japanese law.
+      </p>
+      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
+        <strong style="color: #fff;">Okinawa Development Funding (FY2026):</strong> State funds for Okinawa increased &yen;500M to &yen;264.7B &mdash; first rise in 10 years. Still short of &yen;300B+ requested by prefecture. Increase tied to upcoming gubernatorial election.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        <strong style="color: #fff;">4.3 Magnitude Earthquake (Apr 3):</strong> Miyakojima, Okinawa &mdash; depth 35km, no tsunami warning issued.
+        <strong style="color: #fff;">Military Spouse Leadership Seminar (Apr 14&ndash;16):</strong> Spring seminar at Butler Officers&rsquo; Club, Plaza Housing, near Camp Foster.
       </p>
     </div>
 
@@ -245,13 +299,19 @@ const html = `
         <strong style="color: #fff;">Force posture is the #1 concern.</strong> The 31st MEU&rsquo;s absence creates the most significant gap in US forward presence in years. China&rsquo;s Y-9FQ patrol suggests Beijing is probing during this window.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Japan&rsquo;s military transformation is accelerating at unprecedented pace.</strong> Type 25 missile deployment, the new Pacific Defense Planning Office, record defense spending, and field evacuation drills all in the same week signal a fundamental shift in Japan&rsquo;s defense identity.
+        <strong style="color: #fff;">Japan&rsquo;s military transformation is accelerating at unprecedented pace.</strong> Type 25 missile deployment, Pacific Defense Planning Office, Space Operations Squadron elevation, 11 weapons protection missions, record defense spending, and field evacuation drills &mdash; all within days &mdash; signal a fundamental shift in Japan&rsquo;s defense identity.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">China-Japan economic decoupling adds a new dimension.</strong> Export restrictions on rare earths and dual-use items create defense supply chain vulnerabilities.
+        <strong style="color: #fff;">Multilateral security deepening.</strong> SDF protection of UK military assets for the first time marks Japan&rsquo;s evolution from bilateral to multilateral security partnerships. Watch for AUKUS integration and NATO engagement.
+      </p>
+      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
+        <strong style="color: #fff;">China-Japan economic decoupling adds a new dimension.</strong> Export restrictions on rare earths and dual-use items create defense supply chain vulnerabilities. ECFR analysts warn the crisis is becoming &ldquo;structural&rdquo; rather than episodic.
+      </p>
+      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
+        <strong style="color: #fff;">DPRK rhetoric escalating.</strong> Pyongyang&rsquo;s April 4 KCNA commentary specifically targeting Japan&rsquo;s Type 25 deployments adds a second adversarial vector to Okinawa&rsquo;s security environment.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        <strong style="color: #fff;">Local political dynamics remain volatile.</strong> Base burden debate, Futenma timeline, helicopter incidents, and liberty restrictions contribute to friction. Upcoming gubernatorial election adds sensitivity.
+        <strong style="color: #fff;">Local political dynamics remain volatile.</strong> Base burden debate, Futenma timeline, helicopter incidents, liberty restrictions, and Okinawa development funding all contribute to friction. Upcoming gubernatorial election adds sensitivity.
       </p>
     </div>
 
@@ -259,7 +319,7 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
       <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Sources</p>
       <p style="color: #888; font-size: 11px; line-height: 1.8; margin: 0;">
-        Stars and Stripes &bull; The Japan Times &bull; Naval News &bull; Naval Today &bull; Military.com &bull; Military Times &bull; Nippon.com &bull; Japan Ministry of Defense / Joint Staff &bull; Janes Defence &bull; USNI News &bull; Army Recognition &bull; Defense News &bull; The Diplomat &bull; Al Jazeera &bull; South China Morning Post &bull; Responsible Statecraft &bull; War on the Rocks &bull; Task and Purpose
+        Stars and Stripes &bull; The Japan Times &bull; Naval News &bull; Naval Today &bull; Military.com &bull; Military Times &bull; Nippon.com &bull; Japan Ministry of Defense / Joint Staff &bull; Janes Defence &bull; USNI News &bull; Army Recognition &bull; Defense News &bull; The Diplomat &bull; Al Jazeera &bull; South China Morning Post &bull; Responsible Statecraft &bull; War on the Rocks &bull; KCNA &bull; NK News &bull; Earthquake Track &bull; CSIS &bull; ECFR &bull; International Crisis Group
       </p>
     </div>
 
