@@ -7,9 +7,7 @@
  */
 
 const RECIPIENTS = [
-  'mcbridej675@gmail.com',
-  'john.mcbride.mil@usmc.mil',
-  'paul.foersch@usmc.mil',
+  'johnmcbride2928@gmail.com',
 ];
 const RESEND_KEY = process.env.RESEND_API_KEY;
 
@@ -24,7 +22,7 @@ const today = new Date().toLocaleDateString('en-US', {
 
 const html = `
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 720px; margin: 0 auto; background: #0a0a0a; color: #e0e0e0; padding: 0;">
-  <div style="background: linear-gradient(90deg, #dc2626, #ffffff); height: 4px;"></div>
+  <div style="background: linear-gradient(90deg, #dc2626, #f59e0b, #3b82f6); height: 4px;"></div>
   <div style="padding: 32px 28px;">
 
     <table cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 28px;">
@@ -34,224 +32,174 @@ const html = `
         </td>
         <td style="padding-left: 10px;">
           <div style="font-size: 15px; font-weight: 800; color: #fff; letter-spacing: -0.5px;">WORLD MONITOR</div>
-          <div style="font-size: 9px; color: #666; text-transform: uppercase; letter-spacing: 2px;">Okinawa Regional Intelligence Briefing</div>
+          <div style="font-size: 9px; color: #666; text-transform: uppercase; letter-spacing: 2px;">Global Daily Intelligence Briefing</div>
         </td>
       </tr>
     </table>
 
     <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #dc2626; padding: 16px 20px; margin-bottom: 24px;">
       <p style="font-size: 11px; color: #666; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 4px;">${today}</p>
-      <p style="font-size: 20px; font-weight: 700; color: #fff; margin: 0;">Okinawa, Japan &mdash; 24-Hour Intelligence Summary</p>
-      <p style="font-size: 12px; color: #888; margin: 8px 0 0;">Military &bull; Intelligence &bull; Government &bull; Financial</p>
+      <p style="font-size: 20px; font-weight: 700; color: #fff; margin: 0;">Top 5 Global Events &mdash; 24-Hour Summary</p>
+      <p style="font-size: 12px; color: #888; margin: 8px 0 0;">Geopolitics &bull; Energy &bull; Markets &bull; Diplomacy &bull; Global Affairs</p>
     </div>
 
-    <!-- THREAT ENVIRONMENT -->
+    <!-- MARKET SNAPSHOT -->
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 16px 20px; margin-bottom: 24px;">
-      <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Current Threat Environment &mdash; Okinawa AOR</p>
+      <p style="color: #3b82f6; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Market Snapshot</p>
       <table cellpadding="0" cellspacing="0" border="0" width="100%">
         <tr>
-          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Force Posture</td>
-          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">DEGRADED &mdash; 31st MEU deployed to CENTCOM</td>
+          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">WTI Crude Oil</td>
+          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">$113+/bbl &mdash; Highest since 2022</td>
         </tr>
         <tr>
-          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">PRC Activity Level</td>
-          <td style="padding: 6px 0; color: #ea580c; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">ELEVATED &mdash; Y-9FQ ASW patrols near Okinawa</td>
+          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Brent Crude</td>
+          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">~$110/bbl &mdash; Strait of Hormuz closed</td>
         </tr>
         <tr>
-          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">China-Japan Relations</td>
-          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">CRISIS &mdash; Export bans on 40 Japanese entities</td>
+          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">European Natural Gas</td>
+          <td style="padding: 6px 0; color: #ea580c; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">ELEVATED &mdash; TurkStream sabotage threat</td>
         </tr>
         <tr>
-          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Japan Defense Posture</td>
-          <td style="padding: 6px 0; color: #ea580c; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">HEIGHTENED &mdash; Type 25 missiles now operational</td>
+          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Fed Rate Outlook</td>
+          <td style="padding: 6px 0; color: #ea580c; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">No cuts until mid-2027 priced in</td>
         </tr>
         <tr>
-          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Liberty Status</td>
-          <td style="padding: 6px 0; color: #ea580c; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">RESTRICTED &mdash; Solo patrols paused</td>
-        </tr>
-        <tr>
-          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Nikkei 225</td>
-          <td style="padding: 6px 0; color: #22c55e; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">53,123.49 (+1.26%)</td>
-        </tr>
-        <tr>
-          <td style="padding: 6px 0; color: #bbb; font-size: 12px;">USD/JPY</td>
-          <td style="padding: 6px 0; color: #bbb; font-size: 12px; font-weight: 700; text-align: right;">159.66</td>
+          <td style="padding: 6px 0; color: #bbb; font-size: 12px;">Global Risk Sentiment</td>
+          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right;">RISK-OFF &mdash; Multi-front conflict escalation</td>
         </tr>
       </table>
     </div>
 
-    <!-- Event 1: Type 25 Missiles -->
+    <!-- Event 1: Oil Crisis & Strait of Hormuz -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Critical</span>
-          <span style="color: #666; font-size: 11px;">Military / Force Posture</span>
+          <span style="color: #666; font-size: 11px;">Energy / Global Economy</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">1. Japan Deploys Type 25 Stand-Off Missiles &mdash; First Domestically Developed Long-Range Strike Capability Now Operational</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">1. Global Oil Crisis Deepens &mdash; Crude Surges Past $113/Barrel as Strait of Hormuz Remains Closed</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          On March 31, the JGSDF deployed two new domestically developed missile systems: the <strong>Type 25 SSM</strong> (an upgraded Type 12 surface-to-ship missile with <strong>1,000km range</strong>) at Camp Kengun in Kumamoto Prefecture, and the <strong>Type 25 HGP</strong> (Hyper Velocity Gliding Projectile, a hypersonic weapon) at Camp Fuji in Shizuoka Prefecture.
+          Crude oil prices surged past <strong>$113 per barrel</strong> (WTI) and Brent hit approximately <strong>$110/bbl</strong> &mdash; the highest levels since June 2022. The price spike is driven by Iran&rsquo;s ongoing closure of the <strong>Strait of Hormuz</strong>, which handles roughly one-fifth of global oil and LNG supplies. The closure came in retaliation for US-Israeli strikes on Iran that began February 28.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The &ldquo;25&rdquo; designation reflects FY2025 naming convention. The Type 25 SSM can strike targets across the East China Sea, Taiwan Strait, and beyond. Ship- and air-launched variants are planned for FY2027. Future deployments include <strong>Camp Kamifurano</strong> (Hokkaido) and <strong>Camp Ebino</strong> (Miyazaki) in FY2026.
+          International diesel rates have climbed from ~$88/bbl in late February to approximately <strong>$238/bbl</strong> by early April &mdash; a 170%+ increase. The energy shock is now cascading through developing economies, with Pakistan forced to raise petrol prices by <strong>42.7%</strong> and diesel by <strong>54.9%</strong>. Goldman Sachs has reset its oil price forecast for the remainder of 2026.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
+          <p style="color: #f59e0b; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Market Impact &amp; Stocks to Watch</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            This is a watershed moment for Japan&rsquo;s defense posture. For the first time, Japan possesses domestically developed stand-off strike missiles capable of reaching Chinese military installations. Combined with the record defense budget and the new Pacific Defense Planning Office, Japan is rapidly building the infrastructure for a credible counter-strike capability &mdash; a concept that was politically unthinkable just five years ago.
+            <strong style="color: #22c55e;">Winners:</strong> Energy majors &mdash; <strong>Exxon Mobil (XOM)</strong>, <strong>Chevron (CVX)</strong>, <strong>ConocoPhillips (COP)</strong>, <strong>Devon Energy (DVN)</strong>, and <strong>Diamondback Energy (FANG)</strong> all rallied ~3-4%. <strong>APA Corp (APA)</strong> gained 4.3%. Oil services firms like <strong>Halliburton (HAL)</strong> and <strong>Schlumberger (SLB)</strong> also benefit.<br/><br/>
+            <strong style="color: #ef4444;">Losers:</strong> Airlines &mdash; <strong>Delta (DAL)</strong>, <strong>United (UAL)</strong>, <strong>Southwest (LUV)</strong>, <strong>Alaska Air (ALK)</strong> all fell ~4%. Cruise lines &mdash; <strong>Carnival (CCL)</strong>, <strong>Royal Caribbean (RCL)</strong>, <strong>Norwegian (NCLH)</strong> dropped ~4%. Shipping and logistics costs rising across the board. Consumer discretionary under pressure from higher transport costs.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- Event 2: Chinese ASW Aircraft -->
+    <!-- Event 2: Israel Invades Lebanon -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Critical</span>
-          <span style="color: #666; font-size: 11px;">Intelligence / PRC Military Activity</span>
+          <span style="color: #666; font-size: 11px;">Conflict / Middle East</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">2. China Deploys New Y-9FQ Anti-Submarine Warfare Aircraft Near Okinawa &mdash; JASDF Scrambles Fighters</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">2. Israel&rsquo;s Ground Invasion of Lebanon Intensifies &mdash; 1,400+ Killed, Nearly 1 Million Displaced</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          On March 28, Japanese fighter pilots from the Southwestern Air Command intercepted an improved variant of China&rsquo;s Y-9 maritime patrol aircraft operating over the East China Sea approximately <strong>160 miles northeast of Okinawa</strong>. Identified as the <strong>Y-9FQ</strong>, a next-generation ASW platform first observed at a Chinese factory in 2022, officially unveiled during Beijing&rsquo;s Victory Day parade September 2025.
+          Israel&rsquo;s ground invasion of southern Lebanon, launched March 16, continues to escalate. At least <strong>54 health workers</strong> are among the <strong>1,400+ people killed</strong>. Nearly <strong>1 million Lebanese</strong> &mdash; 20% of the population &mdash; have been displaced. Israeli strikes hit Beirut&rsquo;s southern suburbs on April 5, killing at least 4 people, while 10 more were killed in southern Lebanon including a family of six.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Features redesigned nose with AESA radar, advanced electro-optical sensors, upgraded ELINT systems. Paint scheme suggests <strong>full operational capability</strong>, likely PLA Naval Air Force units from Zhejiang province. Japan Joint Staff confirmed &ldquo;visible differences including the shape of the aircraft&rsquo;s nose and additional antennas.&rdquo;
+          Defense Minister Katz announced plans to establish a permanent <strong>&ldquo;security zone&rdquo;</strong> covering nearly one-tenth of Lebanon, barring 600,000 people from returning to their homes. Canadian PM Carney condemned it as an &ldquo;illegal invasion,&rdquo; and ten EU nations called for a ceasefire. Jordan reported intercepting <strong>261 missiles and drones</strong> from Iran over five weeks.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
+          <p style="color: #f59e0b; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Market Impact &amp; Stocks to Watch</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            China is actively improving its ability to detect and track US and allied submarine activity near Okinawa. The timing &mdash; coinciding with the 31st MEU&rsquo;s departure and reduced US force posture &mdash; suggests deliberate intelligence collection during a window of diminished US presence.
+            Multi-front Middle Eastern conflict is the primary driver of the global risk-off environment. <strong>Defense stocks</strong> benefit: <strong>Lockheed Martin (LMT)</strong>, <strong>RTX Corp (RTX)</strong>, <strong>Northrop Grumman (NOC)</strong>, <strong>General Dynamics (GD)</strong>, and <strong>L3Harris (LHX)</strong> see sustained demand. <strong>Gold (GLD ETF)</strong> and <strong>safe-haven assets</strong> continue to attract inflows. Israeli tech stocks face geopolitical discount &mdash; <strong>CyberArk (CYBR)</strong>, <strong>Check Point (CHKP)</strong> may underperform peers despite strong fundamentals. <strong>Insurance/reinsurance</strong> firms like <strong>Munich Re</strong> and <strong>Swiss Re</strong> face elevated war-risk claims.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- Event 3: 31st MEU Departure -->
+    <!-- Event 3: Turkish Stream Pipeline Sabotage -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Critical</span>
-          <span style="color: #666; font-size: 11px;">Military / Force Posture</span>
+          <span style="color: #666; font-size: 11px;">Energy Security / Europe</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">3. 31st MEU &amp; USS Tripoli Operating in CENTCOM &mdash; ~3,500 Marines and Sailors Now in Middle East</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">3. Explosives Found Near TurkStream Gas Pipeline in Serbia &mdash; European Energy Security Threatened</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The USS Tripoli ARG and 31st MEU (approximately <strong>3,500 Marines and Sailors</strong>) arrived in CENTCOM waters on March 27 after departing Sasebo on March 13. The force includes F-35B Lightning IIs from VMFA-121, MV-22B Ospreys, and MH-60S Seahawks. Deployed to support Strait of Hormuz operations amid the US-Iran conflict.
+          Serbian President Vu&#269;i&#263; announced that army and police discovered <strong>two large packages of explosives with detonators</strong> inside backpacks just meters from the TurkStream gas pipeline in northern Serbia&rsquo;s Kanji&#382;a. The Balkan Stream extension of TurkStream carries Russian natural gas to Serbia and Hungary &mdash; one of Europe&rsquo;s last remaining Russian gas supply routes.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          This removes one of the <strong>primary ground combat elements</strong> in the Pacific capable of rapid crisis response involving China, North Korea, or Taiwan. The US Navy lacks sufficient amphibious ships to backfill.
+          Hungarian PM Orb&aacute;n accused Ukraine of the sabotage attempt. Ukraine&rsquo;s Foreign Ministry denied involvement, suggesting a &ldquo;Russian false-flag operation&rdquo; ahead of Hungary&rsquo;s pivotal <strong>April 12 elections</strong>, where Orb&aacute;n&rsquo;s party trails the opposition Tisza party. Hungary, Russia, Serbia, and Turkey agreed to strengthen pipeline protection. Hungary announced military deployment to guard the pipeline.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
+          <p style="color: #f59e0b; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Market Impact &amp; Stocks to Watch</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            The simultaneous deployment to CENTCOM and increased Chinese ASW activity near Okinawa represents a <strong>strategic vulnerability</strong>. Japan&rsquo;s record defense budget and new Type 25 missiles partially offset the gap, but cannot substitute for the expeditionary strike capability the MEU provides.
+            European natural gas futures spiked on the news. Coming on top of the Hormuz closure, this is a <strong>dual energy supply shock</strong> for Europe. <strong>European gas utilities</strong> face cost pressure &mdash; watch <strong>E.ON (EOAN.DE)</strong>, <strong>Engie (ENGI.PA)</strong>, and <strong>RWE (RWE.DE)</strong>. LNG suppliers benefit &mdash; <strong>Cheniere Energy (LNG)</strong>, <strong>Shell (SHEL)</strong>, and <strong>TotalEnergies (TTE)</strong> gain from higher spot prices and rerouting demand. Pipeline security firms and defense contractors with European exposure benefit. <strong>Gazprom (GAZP.ME)</strong> faces revenue risk if the pipeline is disrupted. Hungarian and Serbian equities face political uncertainty ahead of the April 12 election.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- Event 4: Evacuation Drill -->
+    <!-- Event 4: Pakistan Energy Crisis -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">High</span>
-          <span style="color: #666; font-size: 11px;">Government / Civil Defense</span>
+          <span style="color: #666; font-size: 11px;">Economic Crisis / South Asia</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">4. Japan Announces First Field Evacuation Drill for Remote Okinawan Islands &mdash; Taiwan Contingency</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">4. Pakistan Raises Fuel Prices by Up to 55% &mdash; Developing World Bears Brunt of Global Energy Shock</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Announced April 3: first-ever field evacuation drill for remote Okinawan islands under the civil protection law, scheduled <strong>January 2027</strong>. Includes tabletop and live field exercises involving five municipalities: <strong>Ishigaki, Miyakojima, Taketomi, Yonaguni, and Tarama</strong> &mdash; all in the Sakishima Island chain near Taiwan.
+          Pakistan announced its <strong>second massive fuel price hike in one month</strong>: petrol surged <strong>42.7%</strong> to Rs458.40/litre and diesel jumped <strong>54.9%</strong> to Rs520.35/litre ($1.88/litre). Hi-Octane crossed Rs580/litre. This is the steepest fuel price increase in Pakistan&rsquo;s history, driven directly by the global oil crisis from the Iran conflict and Hormuz closure.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          All seven Kyushu prefectures plus Yamaguchi will participate as evacuee-receiving areas. Previous exercises (FY2022&ndash;FY2025) were tabletop-only. Plan calls for evacuation of <strong>120,000 residents and visitors within 6 days</strong>.
+          The government announced emergency relief: <strong>Rs100/litre subsidies</strong> for motorcycle, rickshaw, and intercity transport users, plus agricultural support during harvest season. The crisis illustrates how Middle Eastern conflict is cascading through emerging markets &mdash; countries dependent on oil imports face spiraling inflation, currency pressure, and social instability.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
+          <p style="color: #f59e0b; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Market Impact &amp; Stocks to Watch</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Transition from tabletop to field drills signals Japan is operationalizing Taiwan contingency plans. Yonaguni is just 68 miles from Taiwan. Combined with record defense spending and Type 25 deployments, Tokyo views a cross-strait crisis as a near-term planning scenario.
+            This signals broader <strong>emerging market contagion risk</strong>. Oil-importing nations across South Asia, Africa, and Southeast Asia face similar inflationary pressure. <strong>Emerging market ETFs</strong> like <strong>iShares MSCI Emerging Markets (EEM)</strong> and <strong>Vanguard FTSE Emerging Markets (VWO)</strong> face headwinds. <strong>Frontier market bonds</strong> are under stress &mdash; Pakistan sovereign debt risk is elevated. Countries with IMF programs face fiscal strain. Conversely, <strong>Gulf state sovereign wealth funds</strong> and oil exporters like Saudi Aramco benefit from elevated revenues. <strong>Remittance companies</strong> may see increased flows as diaspora supports families facing higher costs.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- Event 5: Marines Drone Strike Milestone -->
-    <div style="margin-bottom: 24px;">
-      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
-        <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">High</span>
-          <span style="color: #666; font-size: 11px;">Military / Innovation</span>
-        </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">5. USMC Conducts First-Ever Live-Fire Drone Strike Against Maritime Vessel &mdash; Naval Base White Beach, Okinawa</h3>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Marines from <strong>III Expeditionary Operations Training Group</strong> alongside US Naval Special Warfare Command executed the USMC&rsquo;s first live-fire drone strike against a maritime surface vessel launched from a naval surface craft at Naval Base White Beach. The target USV was designed and constructed by the training group itself.
-        </p>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Major Brant Wayson called it &ldquo;a landmark in the increasingly close integration of special operations forces and conventional forces.&rdquo; Marines are being trained to construct unmanned systems from locally available materials during conflict scenarios.
-        </p>
-        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Advances Marine Corps transformation toward distributed maritime operations and sea-denial in the First Island Chain. Aligns with III MEF&rsquo;s evolving role as a sea-denial force. Directly relevant to countering PRC naval expansion.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Event 6: China-Japan Diplomatic Crisis -->
+    <!-- Event 5: Pope Leo XIV Easter -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #2563eb; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Notable</span>
-          <span style="color: #666; font-size: 11px;">Government / Diplomatic</span>
+          <span style="color: #666; font-size: 11px;">Global Affairs / Diplomacy</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">6. China-Japan Diplomatic Crisis Deepens &mdash; Export Bans Target 40 Japanese Defense Entities</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">5. Pope Leo XIV Celebrates First Easter &mdash; Calls for Peace Amid Multi-Front Wars</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The ongoing China-Japan diplomatic crisis, triggered by PM Takaichi&rsquo;s November remarks that a Chinese attack on Taiwan could constitute an &ldquo;existential crisis for Japan,&rdquo; continues to escalate. China has banned all dual-use exports to Japan for military use (January 6), restricted rare earth exports, and placed <strong>40 Japanese entities</strong> (including Mitsubishi Heavy Industries, Kawasaki Heavy Industries, Fujitsu subsidiaries) on export control/watchlists (February 25).
+          Pope Leo XIV celebrated his <strong>first Easter vigil</strong> as pontiff at St. Peter&rsquo;s Basilica on April 4, baptizing and confirming 10 new Catholics. In his homily, the Pope said Easter &ldquo;drives out hatred, fosters concord, and brings down the mighty,&rdquo; reflecting on &ldquo;tombs still to be opened today&rdquo; including &ldquo;war, injustice, and the isolation of peoples and nations.&rdquo;
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Japan&rsquo;s 2026 Diplomatic Bluebook downgraded China from &ldquo;most important&rdquo; to &ldquo;an important neighboring country.&rdquo; Japan&rsquo;s vice foreign minister summoned the Chinese ambassador to protest; China rejected the demand.
+          The Pope announced a special <strong>prayer vigil for peace</strong> in St. Peter&rsquo;s Square on April 11. His Easter Urbi et Orbi message urged those who &ldquo;unleash wars&rdquo; to choose peace. The message carries particular weight given the simultaneous conflicts in Iran, Lebanon, Gaza, and Ukraine &mdash; the most volatile geopolitical landscape since World War II.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
+          <p style="color: #f59e0b; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Market Impact &amp; Stocks to Watch</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            The economic dimension of the China-Japan confrontation directly impacts defense supply chains and industrial readiness. The export restrictions on rare earth materials and dual-use items create vulnerabilities for Japan&rsquo;s defense industry at precisely the moment Tokyo is accelerating its military buildup.
+            While primarily a moral and diplomatic event, papal peace calls historically signal the severity of global instability. The Vatican&rsquo;s moral authority can influence European political sentiment toward ceasefire negotiations. If diplomatic momentum builds, <strong>risk-on assets</strong> would rally and oil would retreat sharply. Watch for any Vatican-mediated backchannel diplomacy &mdash; a ceasefire announcement would trigger a sharp reversal in energy stocks and a rally in beaten-down travel, airline, and consumer sectors. <strong>Italian tourism stocks</strong> see a modest boost from Easter pilgrimage traffic to Rome.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- Additional Items -->
-    <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
-      <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Additional Items of Note</p>
-      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Helicopter Incident Protests (Mar 30):</strong> Okinawa Prefectural Assembly formally protested a Marine UH-1Y Venom helicopter&rsquo;s precautionary landing near Kyoda Baseball Field in Nago, which interrupted a youth baseball practice. Fuels ongoing tensions over aircraft safety near residential areas.
-      </p>
-      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Defense Ministry Pacific Office (Apr 1):</strong> New Pacific Defense Planning Office established under Defense Minister Koizumi to conduct comprehensive review of SDF structure for Pacific defense. Koizumi: &ldquo;Boosting defense posture in the vast Pacific region is an urgent priority.&rdquo;
-      </p>
-      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Solo Patrols Remain Paused:</strong> Solo military patrols in Okinawa nightlife districts remain suspended pending investigation into assault incident. Liberty restrictions continue.
-      </p>
-      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Military Spouse Leadership Seminar (Apr 14&ndash;16):</strong> Spring seminar at Butler Officers&rsquo; Club, Plaza Housing, near Camp Foster.
-      </p>
-      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        <strong style="color: #fff;">4.3 Magnitude Earthquake (Apr 3):</strong> Miyakojima, Okinawa &mdash; depth 35km, no tsunami warning issued.
-      </p>
-    </div>
-
     <!-- Outlook -->
     <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #dc2626; padding: 20px; margin-bottom: 24px;">
-      <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Okinawa Outlook &mdash; Key Watch Items</p>
+      <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Week Ahead &mdash; Key Watch Items</p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Force posture is the #1 concern.</strong> The 31st MEU&rsquo;s absence creates the most significant gap in US forward presence in years. China&rsquo;s Y-9FQ patrol suggests Beijing is probing during this window.
+        <strong style="color: #fff;">Trump&rsquo;s &ldquo;Tuesday 8:00 PM&rdquo; announcement.</strong> A cryptic social media post has triggered speculation about a major Iran escalation or potential diplomatic development. Markets will be on edge until Tuesday evening.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Japan&rsquo;s military transformation is accelerating at unprecedented pace.</strong> Type 25 missile deployment, the new Pacific Defense Planning Office, record defense spending, and field evacuation drills all in the same week signal a fundamental shift in Japan&rsquo;s defense identity.
+        <strong style="color: #fff;">Hungary elections April 12.</strong> The TurkStream pipeline incident adds a wild card to already tight polls. Outcome affects EU energy policy and Russia-Europe gas flows.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">China-Japan economic decoupling adds a new dimension.</strong> Export restrictions on rare earths and dual-use items create defense supply chain vulnerabilities.
+        <strong style="color: #fff;">Private credit redemption wave.</strong> Apollo, Blackstone, Ares, and Blue Owl face unprecedented redemption requests. A liquidity crunch in private credit could spill into broader financial markets.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        <strong style="color: #fff;">Local political dynamics remain volatile.</strong> Base burden debate, Futenma timeline, helicopter incidents, and liberty restrictions contribute to friction. Upcoming gubernatorial election adds sensitivity.
+        <strong style="color: #fff;">Oil above $110 is unsustainable for most economies.</strong> If Hormuz remains closed, expect more developing nations to follow Pakistan with emergency price hikes, potential social unrest, and IMF interventions. The longer oil stays elevated, the higher recession risk globally.
       </p>
     </div>
 
@@ -259,7 +207,7 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
       <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Sources</p>
       <p style="color: #888; font-size: 11px; line-height: 1.8; margin: 0;">
-        Stars and Stripes &bull; The Japan Times &bull; Naval News &bull; Naval Today &bull; Military.com &bull; Military Times &bull; Nippon.com &bull; Japan Ministry of Defense / Joint Staff &bull; Janes Defence &bull; USNI News &bull; Army Recognition &bull; Defense News &bull; The Diplomat &bull; Al Jazeera &bull; South China Morning Post &bull; Responsible Statecraft &bull; War on the Rocks &bull; Task and Purpose
+        Al Jazeera &bull; Reuters &bull; Bloomberg &bull; CNBC &bull; CNN &bull; NPR &bull; Euronews &bull; The Washington Post &bull; Fortune &bull; Council on Foreign Relations &bull; Foreign Policy &bull; Vatican News &bull; Dawn (Pakistan) &bull; Daily Sabah &bull; BusinessToday &bull; Goldman Sachs Research &bull; Northeastern University &bull; Deloitte Insights
       </p>
     </div>
 
@@ -281,7 +229,7 @@ import { execSync } from 'node:child_process';
 const payload = JSON.stringify({
   from: 'World Monitor <onboarding@resend.dev>',
   to: RECIPIENTS,
-  subject: `[World Monitor] Okinawa Regional Intelligence Briefing \u2014 ${today}`,
+  subject: `[World Monitor] Global Daily Briefing \u2014 ${today}`,
   html,
 });
 
