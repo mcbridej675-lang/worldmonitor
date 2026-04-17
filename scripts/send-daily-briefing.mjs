@@ -51,27 +51,31 @@ const html = `
       <table cellpadding="0" cellspacing="0" border="0" width="100%">
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Force Posture</td>
-          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">DEGRADED &mdash; 31st MEU deployed to CENTCOM</td>
+          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">DEGRADED &mdash; 31st MEU deployed to CENTCOM; ~3,500 Marines in Middle East</td>
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">PRC Activity Level</td>
-          <td style="padding: 6px 0; color: #ea580c; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">ELEVATED &mdash; Y-9FQ ASW patrols; carrier drills near SW Japan</td>
+          <td style="padding: 6px 0; color: #ea580c; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">ELEVATED &mdash; Y-9FQ ASW patrols near Okinawa; carrier drills near SW Japan</td>
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">China-Japan Relations</td>
-          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">CRISIS &mdash; Export bans on 40 Japanese entities</td>
+          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">CRISIS &mdash; Export bans on 40 entities; arms export overhaul imminent</td>
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Japan Defense Posture</td>
-          <td style="padding: 6px 0; color: #ea580c; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">HEIGHTENED &mdash; Type 25 missiles operational; Space Ops Squadron stood up</td>
+          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">SURGE &mdash; Type 25 missiles live; Balikatan combat deployment imminent</td>
         </tr>
         <tr>
-          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">SDF Interoperability</td>
-          <td style="padding: 6px 0; color: #ea580c; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">EXPANDING &mdash; 11 weapons protection ops in 2025 (incl. UK firsts)</td>
+          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">SDF Power Projection</td>
+          <td style="padding: 6px 0; color: #ea580c; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">EXPANDING &mdash; 1,400 SDF troops deploying to Philippines Apr 20</td>
+        </tr>
+        <tr>
+          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Arms Export Policy</td>
+          <td style="padding: 6px 0; color: #ea580c; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">HISTORIC SHIFT &mdash; Category limits to be scrapped; frigate sales to PHL</td>
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Liberty Status</td>
-          <td style="padding: 6px 0; color: #ea580c; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">RESTRICTED &mdash; Solo patrols paused</td>
+          <td style="padding: 6px 0; color: #ea580c; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">RESTRICTED &mdash; Solo patrols paused; orientation briefing under review</td>
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">DPRK Posture</td>
@@ -79,48 +83,114 @@ const html = `
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Nikkei 225</td>
-          <td style="padding: 6px 0; color: #22c55e; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">53,172 (+1.35%)</td>
+          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">58,886 (-1.06%)</td>
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px;">USD/JPY</td>
-          <td style="padding: 6px 0; color: #bbb; font-size: 12px; font-weight: 700; text-align: right;">159.74</td>
+          <td style="padding: 6px 0; color: #bbb; font-size: 12px; font-weight: 700; text-align: right;">159.06</td>
         </tr>
       </table>
     </div>
 
-    <!-- Event 1: Type 25 Missiles -->
+    <!-- Event 1: Japan Joins Balikatan 2026 -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Critical</span>
-          <span style="color: #666; font-size: 11px;">Military / Force Posture</span>
+          <span style="color: #666; font-size: 11px;">Military / Power Projection &mdash; REPORTED APR 16</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">1. Japan Deploys Type 25 Stand-Off Missiles &mdash; First Domestically Developed Long-Range Strike Capability Now Operational</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">1. Japan Deploys Combat Units to Philippines for First Time Since WWII &mdash; 1,400 SDF Troops Join Balikatan 2026</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          On March 31, the JGSDF deployed two new domestically developed missile systems: the <strong>Type 25 SSM</strong> (an upgraded Type 12 surface-to-ship missile with <strong>1,000km range</strong>) at Camp Kengun in Kumamoto Prefecture, and the <strong>Type 25 HGP</strong> (Hyper Velocity Gliding Projectile, a hypersonic weapon) at Camp Fuji in Shizuoka Prefecture.
+          Japan will deploy <strong>1,400 combat-capable SDF personnel</strong> with warships, aircraft, and <strong>Type 88 anti-ship missile systems</strong> to the US-Philippines Balikatan exercises (April 20&ndash;May 8). This is the <strong>first time since WWII</strong> that Japanese combat troops will set foot on Philippine soil. Japan will be the third-largest troop contributor to the biggest-ever iteration of the drills, with 17,000 total personnel from multiple nations.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The &ldquo;25&rdquo; designation reflects FY2025 naming convention. The Type 25 SSM can strike targets across the East China Sea, Taiwan Strait, and beyond. Ship- and air-launched variants are planned for FY2027. Future deployments include <strong>Camp Kamifurano</strong> (Hokkaido) and <strong>Camp Ebino</strong> (Miyazaki) in FY2026.
+          Japanese units will participate in defensive operations while carrying weapons and will <strong>fire a missile in a ship-sinking exercise</strong> in northwestern Philippine waters facing the disputed South China Sea. Personnel drawn from GSDF, MSDF, ASDF, plus cyber and medical units. Enabled by the Japan-Philippines visiting-forces agreement that entered force September 2025.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            This is a watershed moment for Japan&rsquo;s defense posture. For the first time, Japan possesses domestically developed stand-off strike missiles capable of reaching Chinese military installations. Combined with the record defense budget and the new Pacific Defense Planning Office, Japan is rapidly building the infrastructure for a credible counter-strike capability &mdash; a concept that was politically unthinkable just five years ago.
+            This represents a seismic shift in Japan&rsquo;s security posture. Deploying combat units with offensive weapons to the South China Sea signals Tokyo&rsquo;s intent to actively deter PRC aggression beyond its own territory. The timing &mdash; while 31st MEU is in CENTCOM and Trump wavers on alliance commitments &mdash; shows Japan filling a regional security vacuum. Directly relevant to First Island Chain defense and Taiwan contingency planning.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- Event 2: Chinese ASW Aircraft -->
+    <!-- Event 2: Japan Arms Export Revolution -->
+    <div style="margin-bottom: 24px;">
+      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Critical</span>
+          <span style="color: #666; font-size: 11px;">Government / Defense Industry &mdash; REPORTED APR 15</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">2. Japan&rsquo;s Biggest Arms Export Opening Since WWII &mdash; Takaichi Government to Scrap Export Category Limits</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          PM Takaichi&rsquo;s ruling party has recommended <strong>scrapping the five-category limits</strong> that currently confine arms sales to transport, rescue, early warning, surveillance, and mine clearance equipment. The changes, expected to be approved <strong>this month</strong>, would maintain a ban on conflict zone exports except in extraordinary cases. First expected deal: <strong>used frigates to the Philippines</strong>, followed by missile defense systems.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          Interest from Warsaw to Manila has surged as Trump wavers on security commitments and US weapons supplies are strained by Iran and Ukraine conflicts. Mitsubishi Electric&rsquo;s defense unit SVP Masahiko Arai: <strong>&ldquo;Offers are coming from everywhere.&rdquo;</strong> Defense contractors Toshiba and Mitsubishi Electric hiring staff and adding capacity in London and Singapore.
+        </p>
+        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
+          <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
+          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
+            Japan is positioning itself as an alternative defense supplier for US allies uncertain about Washington&rsquo;s reliability. Frigate sales to Manila would deepen the Japan-Philippines security axis and create interoperability in the South China Sea. This transformation &mdash; from near-total arms export prohibition to active defense exporter &mdash; is one of the most consequential strategic shifts in the Indo-Pacific.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Event 3: Futenma 30-Year Anniversary -->
+    <div style="margin-bottom: 24px;">
+      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">High</span>
+          <span style="color: #666; font-size: 11px;">Government / Base Politics &mdash; REPORTED APR 13</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">3. Futenma Air Station Return Passes 30-Year Mark &mdash; No Concrete Date Set; Government Says It Takes Delay &ldquo;Seriously&rdquo;</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          Thirty years have passed since Japan and the United States agreed to return MCAS Futenma in Ginowan to local control. The original timeline promised return within 5&ndash;7 years. Chief Cabinet Secretary <strong>Minoru Kihara</strong> stated the government takes the delay &ldquo;seriously&rdquo; but reiterated that <strong>relocation to Henoko is &ldquo;the only viable solution.&rdquo;</strong>
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          Governor <strong>Denny Tamaki</strong> plans to seek a third term with Futenma as his central campaign issue. The base remains in a densely populated area surrounded by houses and schools &mdash; described as <strong>&ldquo;the most dangerous base in the world.&rdquo;</strong> Strong local opposition to Henoko construction continues.
+        </p>
+        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
+          <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
+          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
+            The 30-year milestone is a political flashpoint. Gov. Tamaki will leverage this for his reelection campaign. The Futenma impasse remains the single most divisive issue in US-Japan alliance management on Okinawa and continues to fuel anti-base sentiment across the prefecture.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Event 4: Marines Refuse Okinawa Meeting -->
+    <div style="margin-bottom: 24px;">
+      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">High</span>
+          <span style="color: #666; font-size: 11px;">Military / Community Relations &mdash; REPORTED APR 14</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">4. Marine Corps Refuses Meeting with Okinawa Officials Over Helicopter Incident &mdash; Formal Protest Pending</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          The Marine Corps rejected a request from Okinawa Prefectural Assembly representatives to meet regarding a <strong>UH-1Y Venom precautionary landing near Kyoda Baseball Field</strong> in Nago that disrupted a youth baseball practice. Assembly members planned to hand-deliver a <strong>formal protest letter adopted March 27</strong> urging the US military to disclose the cause, indicate preventive measures, and ensure safety.
+        </p>
+        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
+          <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
+          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
+            The refusal to meet with local officials on a flight safety incident compounds existing community friction. Combined with the ongoing sexual assault investigations, solo patrol suspension, and orientation briefing review, the US military&rsquo;s relationship with the Okinawa prefectural government remains under significant strain.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Event 5: Chinese ASW Aircraft -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Critical</span>
           <span style="color: #666; font-size: 11px;">Intelligence / PRC Military Activity</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">2. China Deploys New Y-9FQ Anti-Submarine Warfare Aircraft Near Okinawa &mdash; JASDF Scrambles Fighters</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">5. China Deploys New Y-9FQ Anti-Submarine Warfare Aircraft Near Okinawa &mdash; JASDF Scrambles Fighters</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          On March 28, Japanese fighter pilots from the Southwestern Air Command intercepted an improved variant of China&rsquo;s Y-9 maritime patrol aircraft operating over the East China Sea approximately <strong>160 miles northeast of Okinawa</strong>. Identified as the <strong>Y-9FQ</strong>, a next-generation ASW platform first observed at a Chinese factory in 2022, officially unveiled during Beijing&rsquo;s Victory Day parade September 2025.
+          Japanese fighter pilots from the Southwestern Air Command intercepted an improved variant of China&rsquo;s Y-9 maritime patrol aircraft operating over the East China Sea approximately <strong>160 miles northeast of Okinawa</strong>. Identified as the <strong>Y-9FQ</strong>, a next-generation ASW platform first observed at a Chinese factory in 2022, officially unveiled during Beijing&rsquo;s Victory Day parade September 2025.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
           Features redesigned nose with AESA radar, advanced electro-optical sensors, upgraded ELINT systems. Paint scheme suggests <strong>full operational capability</strong>, likely PLA Naval Air Force units from Zhejiang province. Japan Joint Staff confirmed &ldquo;visible differences including the shape of the aircraft&rsquo;s nose and additional antennas.&rdquo;
@@ -134,16 +204,16 @@ const html = `
       </div>
     </div>
 
-    <!-- Event 3: 31st MEU Departure -->
+    <!-- Event 6: 31st MEU Departure -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Critical</span>
           <span style="color: #666; font-size: 11px;">Military / Force Posture</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">3. 31st MEU &amp; USS Tripoli Operating in CENTCOM &mdash; ~3,500 Marines and Sailors Now in Middle East</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">6. 31st MEU &amp; USS Tripoli Operating in CENTCOM &mdash; ~3,500 Marines and Sailors Now in Middle East</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The USS Tripoli ARG and 31st MEU (approximately <strong>3,500 Marines and Sailors</strong>) arrived in CENTCOM waters on March 27 after departing Sasebo on March 13. The force includes F-35B Lightning IIs from VMFA-121, MV-22B Ospreys, and MH-60S Seahawks. Deployed to support Strait of Hormuz operations amid the US-Iran conflict.
+          The USS Tripoli ARG and 31st MEU (approximately <strong>3,500 Marines and Sailors</strong>) remain in CENTCOM waters after arriving March 27 from Sasebo. The force includes F-35B Lightning IIs from VMFA-121, MV-22B Ospreys, and MH-60S Seahawks. Deployed to support Strait of Hormuz operations amid the US-Iran conflict.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
           This removes one of the <strong>primary ground combat elements</strong> in the Pacific capable of rapid crisis response involving China, North Korea, or Taiwan. The US Navy lacks sufficient amphibious ships to backfill.
@@ -151,116 +221,50 @@ const html = `
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            The simultaneous deployment to CENTCOM and increased Chinese ASW activity near Okinawa represents a <strong>strategic vulnerability</strong>. Japan&rsquo;s record defense budget and new Type 25 missiles partially offset the gap, but cannot substitute for the expeditionary strike capability the MEU provides.
+            The simultaneous deployment to CENTCOM and increased Chinese ASW activity near Okinawa represents a <strong>strategic vulnerability</strong>. Japan&rsquo;s record defense budget, new Type 25 missiles, and Balikatan deployment partially offset the gap, but cannot substitute for the expeditionary strike capability the MEU provides.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- Event 4: Evacuation Drill -->
-    <div style="margin-bottom: 24px;">
-      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
-        <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">High</span>
-          <span style="color: #666; font-size: 11px;">Government / Civil Defense</span>
-        </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">4. Japan Announces First Field Evacuation Drill for Remote Okinawan Islands &mdash; Taiwan Contingency</h3>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Announced April 3: first-ever field evacuation drill for remote Okinawan islands under the civil protection law, scheduled <strong>January 2027</strong>. Includes tabletop and live field exercises involving five municipalities: <strong>Ishigaki, Miyakojima, Taketomi, Yonaguni, and Tarama</strong> &mdash; all in the Sakishima Island chain near Taiwan.
-        </p>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          All seven Kyushu prefectures plus Yamaguchi will participate as evacuee-receiving areas. Previous exercises (FY2022&ndash;FY2025) were tabletop-only. Plan calls for evacuation of <strong>120,000 residents and visitors within 6 days</strong>.
-        </p>
-        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Transition from tabletop to field drills signals Japan is operationalizing Taiwan contingency plans. Yonaguni is just 68 miles from Taiwan. Combined with record defense spending and Type 25 deployments, Tokyo views a cross-strait crisis as a near-term planning scenario.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Event 5: Marines Drone Strike Milestone -->
-    <div style="margin-bottom: 24px;">
-      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
-        <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">High</span>
-          <span style="color: #666; font-size: 11px;">Military / Innovation</span>
-        </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">5. USMC Conducts First-Ever Live-Fire Drone Strike Against Maritime Vessel &mdash; Naval Base White Beach, Okinawa</h3>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Marines from <strong>III Expeditionary Operations Training Group</strong> alongside US Naval Special Warfare Command executed the USMC&rsquo;s first live-fire drone strike against a maritime surface vessel launched from a naval surface craft at Naval Base White Beach. The target USV was designed and constructed by the training group itself.
-        </p>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Major Brant Wayson called it &ldquo;a landmark in the increasingly close integration of special operations forces and conventional forces.&rdquo; Marines are being trained to construct unmanned systems from locally available materials during conflict scenarios.
-        </p>
-        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Advances Marine Corps transformation toward distributed maritime operations and sea-denial in the First Island Chain. Aligns with III MEF&rsquo;s evolving role as a sea-denial force. Directly relevant to countering PRC naval expansion.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Event 6: China-Japan Diplomatic Crisis -->
+    <!-- Event 7: Fatal Boat Incident Investigation -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #2563eb; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Notable</span>
-          <span style="color: #666; font-size: 11px;">Government / Diplomatic</span>
+          <span style="color: #666; font-size: 11px;">Civilian / Safety &mdash; REPORTED APR 16</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">6. China-Japan Diplomatic Crisis Deepens &mdash; Export Bans Target 40 Japanese Defense Entities</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">7. Fatal Henoko Boat Capsize Investigation Continues One Month On &mdash; Coast Guard Probes Negligence</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The ongoing China-Japan diplomatic crisis, triggered by PM Takaichi&rsquo;s November remarks that a Chinese attack on Taiwan could constitute an &ldquo;existential crisis for Japan,&rdquo; continues to escalate. China has banned all dual-use exports to Japan for military use (January 6), restricted rare earth exports, and placed <strong>40 Japanese entities</strong> (including Mitsubishi Heavy Industries, Kawasaki Heavy Industries, Fujitsu subsidiaries) on export control/watchlists (February 25).
+          One month after two boats (Heiwamaru and Fukutsu) capsized off <strong>Henoko, Nago City</strong> on March 16, killing <strong>17-year-old Doshisha student Tomoka Takeishi</strong> and <strong>71-year-old captain Hajime Kanai</strong>, the Japan Coast Guard&rsquo;s 11th Regional HQ in Naha continues its investigation. Boats were carrying 21 people, including 18 students from Doshisha International High School on a &ldquo;peace study&rdquo; trip near the Henoko base construction site.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Japan&rsquo;s 2026 Diplomatic Bluebook downgraded China from &ldquo;most important&rdquo; to &ldquo;an important neighboring country.&rdquo; Japan&rsquo;s vice foreign minister summoned the Chinese ambassador to protest; China rejected the demand.
+          Boats seized on suspicions of <strong>professional negligence resulting in death</strong>. MEXT stepping up scrutiny of Doshisha Educational Corporation, finding safety protocols and teacher supervision inadequate. The school&rsquo;s anti-base &ldquo;peace study&rdquo; curriculum is now under national debate.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            The economic dimension of the China-Japan confrontation directly impacts defense supply chains and industrial readiness. The export restrictions on rare earth materials and dual-use items create vulnerabilities for Japan&rsquo;s defense industry at precisely the moment Tokyo is accelerating its military buildup.
+            This incident adds a new dimension to the Henoko/base politics debate. The fatalities during an anti-base educational trip have sparked national controversy over the politicization of school trips to Okinawa. Conservative media is using the incident to push back against anti-base activism.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- Event 7: SDF Weapons Protection -->
-    <div style="margin-bottom: 24px;">
-      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
-        <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">High</span>
-          <span style="color: #666; font-size: 11px;">Military / Interoperability &mdash; REPORTED APR 4</span>
-        </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">7. Japan SDF Conducted 11 Weapons Protection Missions for Foreign Militaries in 2025 &mdash; Including First-Ever UK Assets</h3>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The Defense Ministry disclosed April 4 that the SDF conducted <strong>11 weapons protection missions</strong> in 2025 to safeguard foreign military ships and aircraft under national security laws. Breakdown: <strong>4 cases</strong> protecting US warships during ISR activities related to ballistic missile threats; <strong>5 cases</strong> involving US warships and aircraft during joint training; <strong>2 cases</strong> protecting <strong>British warships</strong> during joint training &mdash; marking the <strong>first time the SDF has ever protected UK military assets</strong>.
-        </p>
-        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            The inclusion of UK assets signals Japan&rsquo;s security framework is expanding beyond the bilateral US-Japan alliance into a multilateral posture. This aligns with PM Takaichi&rsquo;s push for deeper ties with AUKUS partners and NATO. The volume of protection missions &mdash; 11 in a single year &mdash; underscores the operational tempo around Japan&rsquo;s southwestern waters.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Event 8: Space Operations -->
+    <!-- Event 8: Newcomers Orientation Review -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #2563eb; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Notable</span>
-          <span style="color: #666; font-size: 11px;">Military / Force Restructuring &mdash; REPORTED APR 4</span>
+          <span style="color: #666; font-size: 11px;">Military / SOFA &mdash; REPORTED APR 14</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">8. JASDF Space Operations Group Elevated to Squadron &mdash; Air &ldquo;Self-Defense Force&rdquo; to Be Renamed Aerospace SDF</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">8. US Military Newcomers Orientation on Okinawa May Change After Prefectural Feedback</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          As part of a massive spring reorganization, Japan&rsquo;s <strong>Space Operations Group</strong> was elevated to <strong>Space Operations Squadron</strong> status. The unit will be further upgraded to a <strong>Space Operations Corps</strong> later this year. The Japan Air Self-Defense Force will be officially renamed the <strong>Aerospace Self-Defense Force</strong>, reflecting expanded domain responsibilities including space situational awareness and satellite defense.
+          US military officials are considering changes to the SOFA newcomers briefing given to all arriving service members after the <strong>Okinawa prefectural government reviewed the Okinawa Orientation Overview</strong> and provided formal input. The prefecture proposed changes to sections addressing incidents and accidents involving service members and to descriptions of <strong>Irei No Hi</strong> (June 23 memorial day) and Okinawans&rsquo; desire for peace.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Japan is operationalizing its multi-domain defense strategy. The space domain is critical for ISR over the East and South China Seas. Elevating space units signals Japan&rsquo;s commitment to monitoring PRC and DPRK missile activities and satellite threats &mdash; capabilities directly relevant to Okinawa&rsquo;s defense.
+            Part of a broader response to sexual assault cases on the island. Any orientation changes that incorporate Okinawan perspectives could improve community relations, but the underlying issues &mdash; liberty restrictions, assault investigations, and helicopter incidents &mdash; will continue to drive tension regardless of briefing content.
           </p>
         </div>
       </div>
@@ -270,25 +274,34 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
       <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Additional Items of Note</p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
+        <strong style="color: #fff;">Type 25 Missiles Operational (Mar 31):</strong> JGSDF deployed <strong>Type 25 SSM</strong> (1,000km range) at Camp Kengun, Kumamoto and <strong>Type 25 HGP</strong> (hypersonic gliding projectile) at Camp Fuji, Shizuoka. Japan&rsquo;s first domestically developed long-range strike capability. Ship- and air-launched variants planned FY2027.
+      </p>
+      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
+        <strong style="color: #fff;">USMC First Live-Fire Maritime Drone Strike (Apr 3):</strong> III Expeditionary Operations Training Group and Naval Special Warfare Command executed the USMC&rsquo;s first live-fire drone strike against a maritime vessel at Naval Base White Beach, Okinawa. Marines trained to build unmanned systems from locally available materials.
+      </p>
+      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
         <strong style="color: #fff;">DPRK Condemnation (Apr 4):</strong> KCNA published commentary denouncing Japan&rsquo;s &ldquo;dangerous military attempt,&rdquo; specifically targeting Type 25 missile deployments and the new Pacific Defense Planning Office. Pyongyang warned Japan&rsquo;s missile expansion could &ldquo;push the region into danger.&rdquo;
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Yonaguni Earthquake (Apr 5):</strong> M4.6 earthquake at 15:34 UTC near Yonaguni Island (68 mi from Taiwan), depth 135km. No tsunami warning issued. Follows M4.3 near Miyakojima on Apr 3.
+        <strong style="color: #fff;">SDF Weapons Protection Missions (Apr 4):</strong> Defense Ministry disclosed SDF conducted 11 weapons protection missions in 2025 for foreign military assets &mdash; 4 for US warships (ISR/ballistic missile), 5 for US ships/aircraft (joint training), and 2 for <strong>UK warships (first ever)</strong>.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Helicopter Incident Protests (Mar 30):</strong> Okinawa Prefectural Assembly formally protested Marine UH-1Y Venom precautionary landing near Kyoda Baseball Field in Nago. Formal protest letter expected mid-April to US authorities.
+        <strong style="color: #fff;">Japan Evacuation Drill Planned (Apr 3):</strong> First field evacuation drill for Sakishima Islands (Ishigaki, Miyakojima, Yonaguni, Taketomi, Tarama) scheduled January 2027. Plan: evacuate 120,000 residents within 6 days. Signals operationalization of Taiwan contingency planning.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Defense Ministry Pacific Office (Apr 1):</strong> New Pacific Defense Planning Office established under Defense Minister Koizumi. Koizumi: &ldquo;Boosting defense posture in the vast Pacific region is an urgent priority.&rdquo;
+        <strong style="color: #fff;">Space Operations Elevated (Apr 1):</strong> JASDF Space Operations Group upgraded to Squadron; ASDF to be renamed Aerospace Self-Defense Force. Further elevation to Space Operations Corps planned later this year.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Solo Patrols Remain Paused:</strong> Solo military patrols in Okinawa nightlife districts remain suspended pending investigation into Nov 2025 assault incident. MP retraining ongoing with focus on de-escalation and jurisdictional authority under Japanese law.
+        <strong style="color: #fff;">China-Japan Diplomatic Crisis:</strong> Export bans on 40 Japanese defense entities, rare earth restrictions, Diplomatic Bluebook downgrade. China rejected Japan&rsquo;s protest over sanctions. Defense supply chain vulnerabilities mounting.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Okinawa Development Funding (FY2026):</strong> State funds for Okinawa increased &yen;500M to &yen;264.7B &mdash; first rise in 10 years. Still short of &yen;300B+ requested by prefecture. Increase tied to upcoming gubernatorial election.
+        <strong style="color: #fff;">Solo Patrols Remain Paused:</strong> Solo military patrols in Okinawa nightlife districts remain suspended pending investigation into assault incident. MP retraining ongoing. Two Marines under investigation for alleged rapes.
+      </p>
+      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
+        <strong style="color: #fff;">BOJ Rate Watch (Apr 9):</strong> BOJ Governor Ueda says real rates remain &ldquo;clearly negative&rdquo; and financial conditions accommodative. Slim chance of rate hike at Apr 27&ndash;28 meeting. Record &yen;122.3T FY2026 budget (+6.3%) now in effect.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        <strong style="color: #fff;">Military Spouse Leadership Seminar (Apr 14&ndash;16):</strong> Spring seminar at Butler Officers&rsquo; Club, Plaza Housing, near Camp Foster.
+        <strong style="color: #fff;">Okinawa Tourism:</strong> Finance Ministry upgraded Okinawa tourism and personal consumption assessments. No significant impact from Chinese government advisories discouraging visits to Japan.
       </p>
     </div>
 
@@ -296,22 +309,22 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #dc2626; padding: 20px; margin-bottom: 24px;">
       <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Okinawa Outlook &mdash; Key Watch Items</p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Force posture is the #1 concern.</strong> The 31st MEU&rsquo;s absence creates the most significant gap in US forward presence in years. China&rsquo;s Y-9FQ patrol suggests Beijing is probing during this window.
+        <strong style="color: #fff;">Balikatan 2026 begins April 20.</strong> Japan&rsquo;s first-ever combat deployment to the Philippines is the most consequential near-term event. Watch for PRC reaction to SDF missile fire exercises in South China Sea waters. 1,400 SDF troops with Type 88 anti-ship missiles will operate alongside 17,000 US and Philippine personnel through May 8.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Japan&rsquo;s military transformation is accelerating at unprecedented pace.</strong> Type 25 missile deployment, Pacific Defense Planning Office, Space Operations Squadron elevation, 11 weapons protection missions, record defense spending, and field evacuation drills &mdash; all within days &mdash; signal a fundamental shift in Japan&rsquo;s defense identity.
+        <strong style="color: #fff;">Japan becoming an arms exporter.</strong> The imminent scrapping of export category limits represents Japan&rsquo;s biggest defense industry shift since WWII. Frigate sales to the Philippines would create a new Japan-PHL defense axis. Demand from Warsaw to Manila signals Japan is positioning as an alternative to unreliable US supply.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Multilateral security deepening.</strong> SDF protection of UK military assets for the first time marks Japan&rsquo;s evolution from bilateral to multilateral security partnerships. Watch for AUKUS integration and NATO engagement.
+        <strong style="color: #fff;">Force posture remains degraded.</strong> The 31st MEU&rsquo;s continued absence in CENTCOM creates the most significant gap in US forward presence in years. China&rsquo;s Y-9FQ ASW patrols near Okinawa suggest deliberate intelligence collection during diminished US presence.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">China-Japan economic decoupling adds a new dimension.</strong> Export restrictions on rare earths and dual-use items create defense supply chain vulnerabilities. ECFR analysts warn the crisis is becoming &ldquo;structural&rdquo; rather than episodic.
+        <strong style="color: #fff;">Japan&rsquo;s military transformation accelerating.</strong> Type 25 missiles, Balikatan combat deployment, arms export revolution, Space Operations elevation, UK weapons protection firsts, record &yen;9T+ defense budget, Pacific Defense Planning Office, and field evacuation drills &mdash; all within weeks &mdash; signal the most fundamental shift in Japan&rsquo;s defense identity since 1945.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">DPRK rhetoric escalating.</strong> Pyongyang&rsquo;s April 4 KCNA commentary specifically targeting Japan&rsquo;s Type 25 deployments adds a second adversarial vector to Okinawa&rsquo;s security environment.
+        <strong style="color: #fff;">Local political dynamics volatile.</strong> Futenma 30-year milestone, helicopter incident refusal, fatal Henoko boat probe, assault investigations, liberty restrictions, and orientation review all driving community friction. Gov. Tamaki&rsquo;s reelection campaign will amplify anti-base sentiment.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        <strong style="color: #fff;">Local political dynamics remain volatile.</strong> Base burden debate, Futenma timeline, helicopter incidents, liberty restrictions, and Okinawa development funding all contribute to friction. Upcoming gubernatorial election adds sensitivity.
+        <strong style="color: #fff;">Financial watch.</strong> Nikkei pulled back 1.06% to 58,886. BOJ Apr 27&ndash;28 meeting approaching with slim rate hike prospects. Yen steady at ~159/USD. Record FY2026 &yen;122.3T budget now in effect. China-Japan economic decoupling creating structural supply chain risks for defense industry.
       </p>
     </div>
 
@@ -319,7 +332,7 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
       <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Sources</p>
       <p style="color: #888; font-size: 11px; line-height: 1.8; margin: 0;">
-        Stars and Stripes &bull; The Japan Times &bull; Naval News &bull; Naval Today &bull; Military.com &bull; Military Times &bull; Nippon.com &bull; Japan Ministry of Defense / Joint Staff &bull; Janes Defence &bull; USNI News &bull; Army Recognition &bull; Defense News &bull; The Diplomat &bull; Al Jazeera &bull; South China Morning Post &bull; Responsible Statecraft &bull; War on the Rocks &bull; KCNA &bull; NK News &bull; Earthquake Track &bull; CSIS &bull; ECFR &bull; International Crisis Group
+        Stars and Stripes &bull; The Japan Times &bull; Naval News &bull; Naval Today &bull; Military.com &bull; Military Times &bull; Nippon.com &bull; Japan Ministry of Defense / Joint Staff &bull; The Diplomat &bull; Reuters &bull; AP News &bull; Al Jazeera &bull; South China Morning Post &bull; Defense News &bull; USNI News &bull; Rappler &bull; Vision Times &bull; The Mainichi &bull; Asahi Shimbun &bull; NHK World &bull; IMF &bull; Bank of Japan &bull; KCNA &bull; Trading Economics &bull; PBS News
       </p>
     </div>
 
