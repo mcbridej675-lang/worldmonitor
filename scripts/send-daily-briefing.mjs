@@ -51,7 +51,7 @@ const html = `
       <table cellpadding="0" cellspacing="0" border="0" width="100%">
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Force Posture</td>
-          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">DEGRADED &mdash; 31st MEU deployed to CENTCOM; ~3,500 Marines in Middle East</td>
+          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">DEGRADED &mdash; 31st MEU + Kadena airmen deployed to CENTCOM; Op. Epic Fury active</td>
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">PRC Activity Level</td>
@@ -83,11 +83,11 @@ const html = `
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Nikkei 225</td>
-          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">58,886 (-1.06%)</td>
+          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">58,476 (-1.75%)</td>
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px;">USD/JPY</td>
-          <td style="padding: 6px 0; color: #bbb; font-size: 12px; font-weight: 700; text-align: right;">159.06</td>
+          <td style="padding: 6px 0; color: #bbb; font-size: 12px; font-weight: 700; text-align: right;">158.63</td>
         </tr>
       </table>
     </div>
@@ -227,14 +227,37 @@ const html = `
       </div>
     </div>
 
-    <!-- Event 7: Fatal Boat Incident Investigation -->
+    <!-- Event 7: Kadena Airmen in CENTCOM -->
+    <div style="margin-bottom: 24px;">
+      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Critical</span>
+          <span style="color: #666; font-size: 11px;">Military / Force Posture &mdash; REPORTED APR 6</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">7. Kadena Air Base Airmen Serving &ldquo;In Harm&rsquo;s Way&rdquo; in Operation Epic Fury &mdash; 18th Wing Personnel Deployed to CENTCOM</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          Brig. Gen. <strong>John Gallemore</strong> confirmed the 18th Wing at Kadena Air Base has personnel deployed in support of US Central Command operations against Iran as part of <strong>Operation Epic Fury</strong>. In an April 4 AFN interview, Gallemore stated: <strong>&ldquo;We do absolutely have families that have loved ones in harm&rsquo;s way.&rdquo;</strong> Specific locations remain classified. CENTCOM lists 26 aircraft varieties in the operation, including B-1 Lancers and LUCAS one-way attack drones.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          As of April 6, the Air Force has reported <strong>36 wounded and 6 deaths</strong> in Operation Epic Fury. Total US service member casualties stand at <strong>365 injured and 13 killed</strong>. This further compounds the strain on Okinawa-based forces already diminished by the 31st MEU&rsquo;s departure.
+        </p>
+        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
+          <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
+          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
+            Kadena&rsquo;s 18th Wing is the largest combat wing in the Pacific. Any significant draw on its personnel and assets for Middle East operations directly reduces the US ability to respond to contingencies in the Taiwan Strait, East China Sea, and Korean Peninsula. Combined with the 31st MEU absence, Okinawa&rsquo;s force posture is at its lowest point in years.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Event 8: Fatal Boat Incident Investigation -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #2563eb; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Notable</span>
           <span style="color: #666; font-size: 11px;">Civilian / Safety &mdash; REPORTED APR 16</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">7. Fatal Henoko Boat Capsize Investigation Continues One Month On &mdash; Coast Guard Probes Negligence</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">8. Fatal Henoko Boat Capsize Investigation Continues One Month On &mdash; Coast Guard Probes Negligence</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
           One month after two boats (Heiwamaru and Fukutsu) capsized off <strong>Henoko, Nago City</strong> on March 16, killing <strong>17-year-old Doshisha student Tomoka Takeishi</strong> and <strong>71-year-old captain Hajime Kanai</strong>, the Japan Coast Guard&rsquo;s 11th Regional HQ in Naha continues its investigation. Boats were carrying 21 people, including 18 students from Doshisha International High School on a &ldquo;peace study&rdquo; trip near the Henoko base construction site.
         </p>
@@ -257,7 +280,7 @@ const html = `
           <span style="background: #2563eb; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Notable</span>
           <span style="color: #666; font-size: 11px;">Military / SOFA &mdash; REPORTED APR 14</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">8. US Military Newcomers Orientation on Okinawa May Change After Prefectural Feedback</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">9. US Military Newcomers Orientation on Okinawa May Change After Prefectural Feedback</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
           US military officials are considering changes to the SOFA newcomers briefing given to all arriving service members after the <strong>Okinawa prefectural government reviewed the Okinawa Orientation Overview</strong> and provided formal input. The prefecture proposed changes to sections addressing incidents and accidents involving service members and to descriptions of <strong>Irei No Hi</strong> (June 23 memorial day) and Okinawans&rsquo; desire for peace.
         </p>
@@ -295,6 +318,9 @@ const html = `
         <strong style="color: #fff;">China-Japan Diplomatic Crisis:</strong> Export bans on 40 Japanese defense entities, rare earth restrictions, Diplomatic Bluebook downgrade. China rejected Japan&rsquo;s protest over sanctions. Defense supply chain vulnerabilities mounting.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
+        <strong style="color: #fff;">USAG Japan Commander Visits Okinawa (Apr 14):</strong> Erik Davis, U.S. Army Garrison Japan commander, visited Okinawa to assess mission readiness, touring Torii Beach and meeting with FMWR staff on quality-of-life programs strengthening soldier and family readiness.
+      </p>
+      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
         <strong style="color: #fff;">Solo Patrols Remain Paused:</strong> Solo military patrols in Okinawa nightlife districts remain suspended pending investigation into assault incident. MP retraining ongoing. Two Marines under investigation for alleged rapes.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
@@ -324,7 +350,7 @@ const html = `
         <strong style="color: #fff;">Local political dynamics volatile.</strong> Futenma 30-year milestone, helicopter incident refusal, fatal Henoko boat probe, assault investigations, liberty restrictions, and orientation review all driving community friction. Gov. Tamaki&rsquo;s reelection campaign will amplify anti-base sentiment.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        <strong style="color: #fff;">Financial watch.</strong> Nikkei pulled back 1.06% to 58,886. BOJ Apr 27&ndash;28 meeting approaching with slim rate hike prospects. Yen steady at ~159/USD. Record FY2026 &yen;122.3T budget now in effect. China-Japan economic decoupling creating structural supply chain risks for defense industry.
+        <strong style="color: #fff;">Financial watch.</strong> Nikkei dropped 1.75% to 58,476, retreating from record highs as investors adopt caution. BOJ Apr 27&ndash;28 meeting approaching with slim rate hike prospects. Yen at ~158.63/USD. Record FY2026 &yen;122.3T budget now in effect. China-Japan economic decoupling creating structural supply chain risks for defense industry.
       </p>
     </div>
 
