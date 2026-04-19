@@ -51,7 +51,7 @@ const html = `
       <table cellpadding="0" cellspacing="0" border="0" width="100%">
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Force Posture</td>
-          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">DEGRADED &mdash; 31st MEU + Kadena airmen deployed to CENTCOM; Op. Epic Fury active</td>
+          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">DEGRADED &mdash; 31st MEU + Kadena airmen in CENTCOM; ceasefire failed Apr 11; naval blockade active</td>
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">PRC Activity Level</td>
@@ -59,15 +59,15 @@ const html = `
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">China-Japan Relations</td>
-          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">CRISIS &mdash; Export bans on 40 entities; arms export overhaul imminent</td>
+          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">CRISIS &mdash; 40 entities banned; rare earth controls on 7 categories; diplomatic downgrade</td>
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Japan Defense Posture</td>
-          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">SURGE &mdash; Type 25 missiles live; Balikatan combat deployment imminent</td>
+          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">SURGE &mdash; Type 25 missiles live; Balikatan 2026 launches tomorrow (Apr 20)</td>
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">SDF Power Projection</td>
-          <td style="padding: 6px 0; color: #ea580c; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">EXPANDING &mdash; 1,400 SDF troops deploying to Philippines Apr 20</td>
+          <td style="padding: 6px 0; color: #ea580c; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">EXPANDING &mdash; 1,400 SDF combat troops + Type 88 missiles deploying to Philippines tomorrow</td>
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Arms Export Policy</td>
@@ -83,11 +83,11 @@ const html = `
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Nikkei 225</td>
-          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">58,476 (-1.75%)</td>
+          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">58,886 (-1.06%)</td>
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px;">USD/JPY</td>
-          <td style="padding: 6px 0; color: #bbb; font-size: 12px; font-weight: 700; text-align: right;">158.63</td>
+          <td style="padding: 6px 0; color: #bbb; font-size: 12px; font-weight: 700; text-align: right;">159.06</td>
         </tr>
       </table>
     </div>
@@ -239,7 +239,7 @@ const html = `
           Brig. Gen. <strong>John Gallemore</strong> confirmed the 18th Wing at Kadena Air Base has personnel deployed in support of US Central Command operations against Iran as part of <strong>Operation Epic Fury</strong>. In an April 4 AFN interview, Gallemore stated: <strong>&ldquo;We do absolutely have families that have loved ones in harm&rsquo;s way.&rdquo;</strong> Specific locations remain classified. CENTCOM lists 26 aircraft varieties in the operation, including B-1 Lancers and LUCAS one-way attack drones.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          As of April 6, the Air Force has reported <strong>36 wounded and 6 deaths</strong> in Operation Epic Fury. Total US service member casualties stand at <strong>365 injured and 13 killed</strong>. This further compounds the strain on Okinawa-based forces already diminished by the 31st MEU&rsquo;s departure.
+          As of April 19, total US service member casualties in Operation Epic Fury stand at <strong>381 wounded and 13 killed</strong>. Ceasefire negotiations in Islamabad <strong>failed on April 11</strong>; the US has since initiated a <strong>naval blockade</strong> of Iranian commercial ports. This further compounds the strain on Okinawa-based forces already diminished by the 31st MEU&rsquo;s departure.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
@@ -257,12 +257,12 @@ const html = `
           <span style="background: #2563eb; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Notable</span>
           <span style="color: #666; font-size: 11px;">Civilian / Safety &mdash; REPORTED APR 16</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">8. Fatal Henoko Boat Capsize Investigation Continues One Month On &mdash; Coast Guard Probes Negligence</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">7. Fatal Henoko Boat Capsize Investigation Continues One Month On &mdash; Coast Guard Probes Negligence</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
           One month after two boats (Heiwamaru and Fukutsu) capsized off <strong>Henoko, Nago City</strong> on March 16, killing <strong>17-year-old Doshisha student Tomoka Takeishi</strong> and <strong>71-year-old captain Hajime Kanai</strong>, the Japan Coast Guard&rsquo;s 11th Regional HQ in Naha continues its investigation. Boats were carrying 21 people, including 18 students from Doshisha International High School on a &ldquo;peace study&rdquo; trip near the Henoko base construction site.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Boats seized on suspicions of <strong>professional negligence resulting in death</strong>. MEXT stepping up scrutiny of Doshisha Educational Corporation, finding safety protocols and teacher supervision inadequate. The school&rsquo;s anti-base &ldquo;peace study&rdquo; curriculum is now under national debate.
+          Boats seized on suspicions of <strong>professional negligence resulting in death</strong>. MEXT stepping up scrutiny of Doshisha Educational Corporation, finding safety protocols and teacher supervision inadequate. On April 17, both <strong>LDP and Japan Innovation Party</strong> submitted formal recommendations to the PM&rsquo;s office demanding comprehensive safety reforms. Government plans to issue guidance by mid-2026. The school&rsquo;s anti-base &ldquo;peace study&rdquo; curriculum is now under national debate.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
@@ -280,7 +280,7 @@ const html = `
           <span style="background: #2563eb; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Notable</span>
           <span style="color: #666; font-size: 11px;">Military / SOFA &mdash; REPORTED APR 14</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">9. US Military Newcomers Orientation on Okinawa May Change After Prefectural Feedback</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">8. US Military Newcomers Orientation on Okinawa May Change After Prefectural Feedback</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
           US military officials are considering changes to the SOFA newcomers briefing given to all arriving service members after the <strong>Okinawa prefectural government reviewed the Okinawa Orientation Overview</strong> and provided formal input. The prefecture proposed changes to sections addressing incidents and accidents involving service members and to descriptions of <strong>Irei No Hi</strong> (June 23 memorial day) and Okinawans&rsquo; desire for peace.
         </p>
@@ -315,10 +315,7 @@ const html = `
         <strong style="color: #fff;">Space Operations Elevated (Apr 1):</strong> JASDF Space Operations Group upgraded to Squadron; ASDF to be renamed Aerospace Self-Defense Force. Further elevation to Space Operations Corps planned later this year.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">China-Japan Diplomatic Crisis:</strong> Export bans on 40 Japanese defense entities, rare earth restrictions, Diplomatic Bluebook downgrade. China rejected Japan&rsquo;s protest over sanctions. Defense supply chain vulnerabilities mounting.
-      </p>
-      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">USAG Japan Commander Visits Okinawa (Apr 14):</strong> Erik Davis, U.S. Army Garrison Japan commander, visited Okinawa to assess mission readiness, touring Torii Beach and meeting with FMWR staff on quality-of-life programs strengthening soldier and family readiness.
+        <strong style="color: #fff;">China-Japan Diplomatic Crisis:</strong> 40 Japanese defense entities banned (incl. Mitsubishi Shipbuilding, IHI Corp, JAXA); Apr 4 rare earth controls on 7 categories targeting Japan&rsquo;s 71.9% import dependency; Diplomatic Bluebook downgrade. China rejected Japan&rsquo;s protest over sanctions. Defense supply chain vulnerabilities mounting.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
         <strong style="color: #fff;">Solo Patrols Remain Paused:</strong> Solo military patrols in Okinawa nightlife districts remain suspended pending investigation into assault incident. MP retraining ongoing. Two Marines under investigation for alleged rapes.
@@ -341,16 +338,16 @@ const html = `
         <strong style="color: #fff;">Japan becoming an arms exporter.</strong> The imminent scrapping of export category limits represents Japan&rsquo;s biggest defense industry shift since WWII. Frigate sales to the Philippines would create a new Japan-PHL defense axis. Demand from Warsaw to Manila signals Japan is positioning as an alternative to unreliable US supply.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Force posture remains degraded.</strong> The 31st MEU&rsquo;s continued absence in CENTCOM creates the most significant gap in US forward presence in years. China&rsquo;s Y-9FQ ASW patrols near Okinawa suggest deliberate intelligence collection during diminished US presence.
+        <strong style="color: #fff;">Force posture remains degraded.</strong> The 31st MEU&rsquo;s continued absence in CENTCOM creates the most significant gap in US forward presence in years. Ceasefire failure on April 11 and the new naval blockade mean no near-term return of forces. China&rsquo;s Y-9FQ ASW patrols near Okinawa suggest deliberate intelligence collection during diminished US presence. US casualties now at 13 KIA, 381 WIA.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
         <strong style="color: #fff;">Japan&rsquo;s military transformation accelerating.</strong> Type 25 missiles, Balikatan combat deployment, arms export revolution, Space Operations elevation, UK weapons protection firsts, record &yen;9T+ defense budget, Pacific Defense Planning Office, and field evacuation drills &mdash; all within weeks &mdash; signal the most fundamental shift in Japan&rsquo;s defense identity since 1945.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Local political dynamics volatile.</strong> Futenma 30-year milestone, helicopter incident refusal, fatal Henoko boat probe, assault investigations, liberty restrictions, and orientation review all driving community friction. Gov. Tamaki&rsquo;s reelection campaign will amplify anti-base sentiment.
+        <strong style="color: #fff;">Local political dynamics volatile.</strong> Futenma 30-year milestone, helicopter incident refusal, fatal Henoko boat probe (LDP/JIP safety recommendations submitted Apr 17), assault investigations, liberty restrictions, and orientation review all driving community friction. Gov. Tamaki&rsquo;s reelection campaign (Sep 13) will amplify anti-base sentiment.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        <strong style="color: #fff;">Financial watch.</strong> Nikkei dropped 1.75% to 58,476, retreating from record highs as investors adopt caution. BOJ Apr 27&ndash;28 meeting approaching with slim rate hike prospects. Yen at ~158.63/USD. Record FY2026 &yen;122.3T budget now in effect. China-Japan economic decoupling creating structural supply chain risks for defense industry.
+        <strong style="color: #fff;">Financial watch.</strong> Nikkei closed at 58,475.90 (-1.75%) on Apr 17, retreating from record highs. BOJ Apr 27&ndash;28 meeting approaching with slim rate hike prospects. Yen at ~158.63/USD. Record FY2026 &yen;122.3T budget now in effect. China&rsquo;s April 4 rare earth export controls on 7 categories (samarium, gadolinium, terbium, dysprosium, lutetium, scandium, yttrium) compound supply chain risks &mdash; China accounts for 71.9% of Japan&rsquo;s rare earth imports.
       </p>
     </div>
 
