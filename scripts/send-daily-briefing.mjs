@@ -50,6 +50,10 @@ const html = `
       <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Current Threat Environment &mdash; Okinawa AOR</p>
       <table cellpadding="0" cellspacing="0" border="0" width="100%">
         <tr>
+          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Seismic Alert</td>
+          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">ACTIVE &mdash; M7.7 quake off Iwate; tsunami advisory issued then downgraded; 171K evacuated; M4.1 near Yonaguni Apr 19</td>
+        </tr>
+        <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Force Posture</td>
           <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">DEGRADED &mdash; 31st MEU + Kadena airmen in CENTCOM; ceasefire failed Apr 11; naval blockade active</td>
         </tr>
@@ -63,11 +67,11 @@ const html = `
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Japan Defense Posture</td>
-          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">SURGE &mdash; Type 25 missiles live; Balikatan 2026 launches tomorrow (Apr 20)</td>
+          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">SURGE &mdash; Type 25 missiles live; Balikatan 2026 launched today (Apr 20); 1,400 SDF troops in Philippines</td>
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">SDF Power Projection</td>
-          <td style="padding: 6px 0; color: #ea580c; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">EXPANDING &mdash; 1,400 SDF combat troops + Type 88 missiles deploying to Philippines tomorrow</td>
+          <td style="padding: 6px 0; color: #ea580c; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">EXPANDING &mdash; 1,400 SDF combat troops + Type 88 missiles deployed to Philippines today</td>
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Arms Export Policy</td>
@@ -83,13 +87,36 @@ const html = `
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Nikkei 225</td>
-          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">58,886 (-1.06%)</td>
+          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">58,476 (-1.75% Fri close)</td>
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px;">USD/JPY</td>
-          <td style="padding: 6px 0; color: #bbb; font-size: 12px; font-weight: 700; text-align: right;">159.06</td>
+          <td style="padding: 6px 0; color: #bbb; font-size: 12px; font-weight: 700; text-align: right;">~158.63</td>
         </tr>
       </table>
+    </div>
+
+    <!-- BREAKING: Earthquake -->
+    <div style="margin-bottom: 24px;">
+      <div style="background: #111; border: 2px solid #dc2626; padding: 20px;">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px; animation: pulse 2s infinite;">&#9888; Breaking</span>
+          <span style="color: #666; font-size: 11px;">Seismic / Disaster Response &mdash; APR 20, 2026</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">BREAKING: M7.7 Earthquake Strikes Off Northeastern Japan &mdash; Tsunami Warning Issued, 172K Evacuated</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          A powerful <strong>magnitude 7.4</strong> earthquake (revised to <strong>M7.7 by JMA</strong>) struck off Iwate Prefecture at <strong>4:53 PM JST today (April 20)</strong>. A <strong>three-meter tsunami warning</strong> was issued for Iwate, later downgraded to an advisory. Waves of <strong>0.8m at Kuji Port</strong> and 0.4m at Miyako Port were recorded. <strong>171,957 evacuation orders</strong> issued across five prefectures (Iwate, Hokkaido, Aomori and others).
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          No casualties or structural damage reported as of this briefing. Chief Cabinet Secretary <strong>Minoru Kihara</strong> confirmed no injuries. Nuclear plants reported no abnormalities. JMA warned aftershocks of similar magnitude possible within the coming week; probability of M8+ quake elevated to ~1% (vs. 0.1% baseline). Separately, a <strong>M4.1 earthquake struck near Yonaguni, Okinawa</strong> on April 19 at 167km depth.
+        </p>
+        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
+          <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
+          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
+            While northeastern Honshu bore the brunt, the Yonaguni quake reminds that Okinawa sits in an active seismic zone. The Sakishima Islands evacuation drill planned for January 2027 takes on added urgency. Monitor for market impact when the Nikkei opens tomorrow (Apr 21) and any disruption to SDF logistics supporting Balikatan deployments.
+          </p>
+        </div>
+      </div>
     </div>
 
     <!-- Event 1: Japan Joins Balikatan 2026 -->
@@ -97,14 +124,14 @@ const html = `
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Critical</span>
-          <span style="color: #666; font-size: 11px;">Military / Power Projection &mdash; REPORTED APR 16</span>
+          <span style="color: #666; font-size: 11px;">Military / Power Projection &mdash; LAUNCHED APR 20</span>
         </div>
         <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">1. Japan Deploys Combat Units to Philippines for First Time Since WWII &mdash; 1,400 SDF Troops Join Balikatan 2026</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Japan will deploy <strong>1,400 combat-capable SDF personnel</strong> with warships, aircraft, and <strong>Type 88 anti-ship missile systems</strong> to the US-Philippines Balikatan exercises (April 20&ndash;May 8). This is the <strong>first time since WWII</strong> that Japanese combat troops will set foot on Philippine soil. Japan will be the third-largest troop contributor to the biggest-ever iteration of the drills, with 17,000 total personnel from multiple nations.
+          Japan has deployed <strong>1,400 combat-capable SDF personnel</strong> with warships, aircraft, and <strong>Type 88 anti-ship missile systems</strong> to the US-Philippines Balikatan exercises (April 20&ndash;May 8), which <strong>officially launched today</strong>. This is the <strong>first time since WWII</strong> that Japanese combat troops have set foot on Philippine soil. Japan is the third-largest troop contributor to the biggest-ever iteration of the drills, with 17,000+ total personnel from the US, Philippines, Japan, Australia, and France.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Japanese units will participate in defensive operations while carrying weapons and will <strong>fire a missile in a ship-sinking exercise</strong> in northwestern Philippine waters facing the disputed South China Sea. Personnel drawn from GSDF, MSDF, ASDF, plus cyber and medical units. Enabled by the Japan-Philippines visiting-forces agreement that entered force September 2025.
+          Japanese units are participating in defensive operations while carrying weapons and will <strong>fire a Type 88 anti-ship missile in a ship-sinking exercise</strong> in northwestern Philippine waters facing the disputed South China Sea. Personnel drawn from GSDF, MSDF, ASDF, plus cyber and medical units. Exercises span Luzon and Palawan. Philippine Armed Forces chief Gen. <strong>Romeo Brawner</strong>: &ldquo;Let this exercise affirm our commitment to stand together.&rdquo; Enabled by the Japan-Philippines reciprocal access agreement (September 2025).
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
@@ -332,7 +359,7 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #dc2626; padding: 20px; margin-bottom: 24px;">
       <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Okinawa Outlook &mdash; Key Watch Items</p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Balikatan 2026 begins April 20.</strong> Japan&rsquo;s first-ever combat deployment to the Philippines is the most consequential near-term event. Watch for PRC reaction to SDF missile fire exercises in South China Sea waters. 1,400 SDF troops with Type 88 anti-ship missiles will operate alongside 17,000 US and Philippine personnel through May 8.
+        <strong style="color: #fff;">Balikatan 2026 launched today (Apr 20).</strong> Japan&rsquo;s first-ever combat deployment to the Philippines is now underway. Watch for PRC reaction to SDF missile fire exercises in South China Sea waters. 1,400 SDF troops with Type 88 anti-ship missiles are operating alongside 17,000+ US, Philippine, Australian, and French personnel through May 8.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
         <strong style="color: #fff;">Japan becoming an arms exporter.</strong> The imminent scrapping of export category limits represents Japan&rsquo;s biggest defense industry shift since WWII. Frigate sales to the Philippines would create a new Japan-PHL defense axis. Demand from Warsaw to Manila signals Japan is positioning as an alternative to unreliable US supply.
@@ -347,7 +374,10 @@ const html = `
         <strong style="color: #fff;">Local political dynamics volatile.</strong> Futenma 30-year milestone, helicopter incident refusal, fatal Henoko boat probe (LDP/JIP safety recommendations submitted Apr 17), assault investigations, liberty restrictions, and orientation review all driving community friction. Gov. Tamaki&rsquo;s reelection campaign (Sep 13) will amplify anti-base sentiment.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        <strong style="color: #fff;">Financial watch.</strong> Nikkei closed at 58,475.90 (-1.75%) on Apr 17, retreating from record highs. BOJ Apr 27&ndash;28 meeting approaching with slim rate hike prospects. Yen at ~158.63/USD. Record FY2026 &yen;122.3T budget now in effect. China&rsquo;s April 4 rare earth export controls on 7 categories (samarium, gadolinium, terbium, dysprosium, lutetium, scandium, yttrium) compound supply chain risks &mdash; China accounts for 71.9% of Japan&rsquo;s rare earth imports.
+        <strong style="color: #fff;">M7.7 earthquake today (Apr 20).</strong> A powerful earthquake off Iwate prompted tsunami warnings and 172K evacuations. No casualties reported. Okinawa not directly affected, but a M4.1 quake near Yonaguni on Apr 19 highlights seismic risk in the Sakishima chain. Monitor Nikkei reaction when markets open Apr 21.
+      </p>
+      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
+        <strong style="color: #fff;">Financial watch.</strong> Nikkei closed at 58,476 (-1.75%) on Apr 17, retreating from record highs. BOJ Apr 27&ndash;28 meeting approaching with slim rate hike prospects. Yen at ~158.63/USD. Record FY2026 &yen;122.3T budget now in effect. China&rsquo;s April 4 rare earth export controls on 7 categories (samarium, gadolinium, terbium, dysprosium, lutetium, scandium, yttrium) compound supply chain risks &mdash; China accounts for 71.9% of Japan&rsquo;s rare earth imports. Okinawa development funds increased by &yen;500M to &yen;264.7B for FY2026 &mdash; first rise in 10 years.
       </p>
     </div>
 
