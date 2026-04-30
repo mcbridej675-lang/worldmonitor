@@ -7,9 +7,7 @@
  */
 
 const RECIPIENTS = [
-  'mcbridej675@gmail.com',
-  'john.mcbride.mil@usmc.mil',
-  'paul.foersch@usmc.mil',
+  'johnmcbride2928@gmail.com',
 ];
 const RESEND_KEY = process.env.RESEND_API_KEY;
 
@@ -24,368 +22,196 @@ const today = new Date().toLocaleDateString('en-US', {
 
 const html = `
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 720px; margin: 0 auto; background: #0a0a0a; color: #e0e0e0; padding: 0;">
-  <div style="background: linear-gradient(90deg, #dc2626, #ffffff); height: 4px;"></div>
+  <div style="background: linear-gradient(90deg, #1e40af, #7c3aed, #dc2626); height: 4px;"></div>
   <div style="padding: 32px 28px;">
 
     <table cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 28px;">
       <tr>
         <td style="width: 36px; height: 36px; border-radius: 50%; border: 1px solid #222; text-align: center; vertical-align: middle; background: #111;">
-          <span style="font-size: 18px; color: #dc2626;">&#9678;</span>
+          <span style="font-size: 18px; color: #7c3aed;">&#9678;</span>
         </td>
         <td style="padding-left: 10px;">
           <div style="font-size: 15px; font-weight: 800; color: #fff; letter-spacing: -0.5px;">WORLD MONITOR</div>
-          <div style="font-size: 9px; color: #666; text-transform: uppercase; letter-spacing: 2px;">Okinawa Regional Intelligence Briefing</div>
+          <div style="font-size: 9px; color: #666; text-transform: uppercase; letter-spacing: 2px;">Global Daily Intelligence Briefing</div>
         </td>
       </tr>
     </table>
 
-    <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #dc2626; padding: 16px 20px; margin-bottom: 24px;">
+    <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #7c3aed; padding: 16px 20px; margin-bottom: 24px;">
       <p style="font-size: 11px; color: #666; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 4px;">${today}</p>
-      <p style="font-size: 20px; font-weight: 700; color: #fff; margin: 0;">Okinawa, Japan &mdash; 24-Hour Intelligence Summary</p>
-      <p style="font-size: 12px; color: #888; margin: 8px 0 0;">Military &bull; Intelligence &bull; Government &bull; Financial</p>
+      <p style="font-size: 20px; font-weight: 700; color: #fff; margin: 0;">Top 5 Global Events &mdash; 24-Hour Summary</p>
+      <p style="font-size: 12px; color: #888; margin: 8px 0 0;">Geopolitics &bull; Markets &bull; Regulation &bull; Trade Impact</p>
     </div>
 
-    <!-- THREAT ENVIRONMENT -->
+    <!-- MARKET SNAPSHOT -->
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 16px 20px; margin-bottom: 24px;">
-      <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Current Threat Environment &mdash; Okinawa AOR</p>
+      <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Market Snapshot &mdash; April 30, 2026</p>
       <table cellpadding="0" cellspacing="0" border="0" width="100%">
         <tr>
-          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Seismic Alert</td>
-          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">ACTIVE &mdash; M7.7 quake off Iwate; tsunami advisory issued then downgraded; 171K evacuated; M4.1 near Yonaguni Apr 19</td>
+          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">S&P 500</td>
+          <td style="padding: 6px 0; color: #22c55e; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">7,209.01 (All-Time High)</td>
         </tr>
         <tr>
-          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Force Posture</td>
-          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">DEGRADED &mdash; 31st MEU + Kadena airmen in CENTCOM; ceasefire failed Apr 11; naval blockade active</td>
+          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Dow Jones</td>
+          <td style="padding: 6px 0; color: #22c55e; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">49,652.14 (+1.62%)</td>
         </tr>
         <tr>
-          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">PRC Activity Level</td>
-          <td style="padding: 6px 0; color: #ea580c; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">ELEVATED &mdash; Y-9FQ ASW patrols near Okinawa; carrier drills near SW Japan</td>
-        </tr>
-        <tr>
-          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">China-Japan Relations</td>
-          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">CRISIS &mdash; 40 entities banned; rare earth controls on 7 categories; diplomatic downgrade</td>
-        </tr>
-        <tr>
-          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Japan Defense Posture</td>
-          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">SURGE &mdash; Type 25 missiles live; Balikatan 2026 launched today (Apr 20); 1,400 SDF troops in Philippines</td>
-        </tr>
-        <tr>
-          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">SDF Power Projection</td>
-          <td style="padding: 6px 0; color: #ea580c; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">EXPANDING &mdash; 1,400 SDF combat troops + Type 88 missiles deployed to Philippines today</td>
-        </tr>
-        <tr>
-          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Arms Export Policy</td>
-          <td style="padding: 6px 0; color: #ea580c; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">HISTORIC SHIFT &mdash; Category limits to be scrapped; frigate sales to PHL</td>
-        </tr>
-        <tr>
-          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Liberty Status</td>
-          <td style="padding: 6px 0; color: #ea580c; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">RESTRICTED &mdash; Solo patrols paused; orientation briefing under review</td>
-        </tr>
-        <tr>
-          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">DPRK Posture</td>
-          <td style="padding: 6px 0; color: #ea580c; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">PROVOCATIVE &mdash; Condemns Japan Type 25 deployments</td>
+          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Nasdaq</td>
+          <td style="padding: 6px 0; color: #22c55e; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">24,892.31 (+0.89%, Record Close)</td>
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Nikkei 225</td>
-          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">58,476 (-1.75% Fri close)</td>
+          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">59,284.92 (-1.06%)</td>
         </tr>
         <tr>
-          <td style="padding: 6px 0; color: #bbb; font-size: 12px;">USD/JPY</td>
-          <td style="padding: 6px 0; color: #bbb; font-size: 12px; font-weight: 700; text-align: right;">~158.63</td>
+          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Hang Seng</td>
+          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">Down 1.27%</td>
+        </tr>
+        <tr>
+          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Brent Crude</td>
+          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">$118/bbl (+6%)</td>
+        </tr>
+        <tr>
+          <td style="padding: 6px 0; color: #bbb; font-size: 12px;">TTF Natural Gas</td>
+          <td style="padding: 6px 0; color: #ea580c; font-size: 12px; font-weight: 700; text-align: right;">&euro;47/MWh</td>
         </tr>
       </table>
     </div>
 
-    <!-- BREAKING: Earthquake -->
-    <div style="margin-bottom: 24px;">
-      <div style="background: #111; border: 2px solid #dc2626; padding: 20px;">
-        <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px; animation: pulse 2s infinite;">&#9888; Breaking</span>
-          <span style="color: #666; font-size: 11px;">Seismic / Disaster Response &mdash; APR 20, 2026</span>
-        </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">BREAKING: M7.7 Earthquake Strikes Off Northeastern Japan &mdash; Tsunami Warning Issued, 172K Evacuated</h3>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          A powerful <strong>magnitude 7.4</strong> earthquake (revised to <strong>M7.7 by JMA</strong>) struck off Iwate Prefecture at <strong>4:53 PM JST today (April 20)</strong>. A <strong>three-meter tsunami warning</strong> was issued for Iwate, later downgraded to an advisory. Waves of <strong>0.8m at Kuji Port</strong> and 0.4m at Miyako Port were recorded. <strong>171,957 evacuation orders</strong> issued across five prefectures (Iwate, Hokkaido, Aomori and others).
-        </p>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          No casualties or structural damage reported as of this briefing. Chief Cabinet Secretary <strong>Minoru Kihara</strong> confirmed no injuries. Nuclear plants reported no abnormalities. JMA warned aftershocks of similar magnitude possible within the coming week; probability of M8+ quake elevated to ~1% (vs. 0.1% baseline). Separately, a <strong>M4.1 earthquake struck near Yonaguni, Okinawa</strong> on April 19 at 167km depth.
-        </p>
-        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            While northeastern Honshu bore the brunt, the Yonaguni quake reminds that Okinawa sits in an active seismic zone. The Sakishima Islands evacuation drill planned for January 2027 takes on added urgency. Monitor for market impact when the Nikkei opens tomorrow (Apr 21) and any disruption to SDF logistics supporting Balikatan deployments.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Event 1: Japan Joins Balikatan 2026 -->
+    <!-- EVENT 1: Gaza Flotilla -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Critical</span>
-          <span style="color: #666; font-size: 11px;">Military / Power Projection &mdash; LAUNCHED APR 20</span>
+          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">1</span>
+          <span style="color: #666; font-size: 11px;">Middle East / Humanitarian &mdash; Apr 30</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">1. Japan Deploys Combat Units to Philippines for First Time Since WWII &mdash; 1,400 SDF Troops Join Balikatan 2026</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Israel Seizes Gaza-Bound Aid Flotilla in International Waters &mdash; 175 Activists Detained</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Japan has deployed <strong>1,400 combat-capable SDF personnel</strong> with warships, aircraft, and <strong>Type 88 anti-ship missile systems</strong> to the US-Philippines Balikatan exercises (April 20&ndash;May 8), which <strong>officially launched today</strong>. This is the <strong>first time since WWII</strong> that Japanese combat troops have set foot on Philippine soil. Japan is the third-largest troop contributor to the biggest-ever iteration of the drills, with 17,000+ total personnel from the US, Philippines, Japan, Australia, and France.
+          Israeli naval forces intercepted <strong>22 vessels</strong> of the Global Sumud Flotilla more than <strong>600 nautical miles from Gaza</strong>, near the Greek island of Crete. Approximately <strong>175 crew members were detained</strong> as drones, communications jamming technology, and armed raiding parties halted the humanitarian fleet in international waters. The flotilla was carrying food and medical supplies intended to break Israel&rsquo;s blockade of Gaza.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Japanese units are participating in defensive operations while carrying weapons and will <strong>fire a Type 88 anti-ship missile in a ship-sinking exercise</strong> in northwestern Philippine waters facing the disputed South China Sea. Personnel drawn from GSDF, MSDF, ASDF, plus cyber and medical units. Exercises span Luzon and Palawan. Philippine Armed Forces chief Gen. <strong>Romeo Brawner</strong>: &ldquo;Let this exercise affirm our commitment to stand together.&rdquo; Enabled by the Japan-Philippines reciprocal access agreement (September 2025).
+          Turkey condemned the seizure as <strong>&ldquo;an act of piracy.&rdquo;</strong> Spain&rsquo;s PM Pedro S&aacute;nchez called it illegal, stating <strong>&ldquo;Israel is once again violating international law by attacking a civilian flotilla in waters that do not belong to it.&rdquo;</strong> Amnesty International called it a &ldquo;brazen interception.&rdquo; Israel&rsquo;s Foreign Minister said detained activists would be taken to Greece.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
+          <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            This represents a seismic shift in Japan&rsquo;s security posture. Deploying combat units with offensive weapons to the South China Sea signals Tokyo&rsquo;s intent to actively deter PRC aggression beyond its own territory. The timing &mdash; while 31st MEU is in CENTCOM and Trump wavers on alliance commitments &mdash; shows Japan filling a regional security vacuum. Directly relevant to First Island Chain defense and Taiwan contingency planning.
+            Escalates geopolitical risk premiums in energy markets. <strong>Brent crude already at $118/bbl</strong> remains elevated amid broader Middle East instability. Defense stocks (<strong>Elbit Systems [ESLT], Rafael via Israel Aerospace Industries, BAE Systems [BA.L]</strong>) see continued demand. Shipping and logistics firms with Mediterranean exposure face heightened insurance costs. Turkish equities and lira could face volatility if Ankara escalates diplomatic response. Watch <strong>ZIM Integrated Shipping [ZIM]</strong> and <strong>Frontline [FRO]</strong> for shipping rate impacts.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- Event 2: Japan Arms Export Revolution -->
+    <!-- EVENT 2: South Korea Yoon Sentence -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Critical</span>
-          <span style="color: #666; font-size: 11px;">Government / Defense Industry &mdash; REPORTED APR 15</span>
+          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">2</span>
+          <span style="color: #666; font-size: 11px;">Asia-Pacific / Political &mdash; Apr 30</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">2. Japan&rsquo;s Biggest Arms Export Opening Since WWII &mdash; Takaichi Government to Scrap Export Category Limits</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">South Korea: Appeals Court Sentences Ex-President Yoon Suk Yeol to 7 Years &mdash; On Top of Life Sentence</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          PM Takaichi&rsquo;s ruling party has recommended <strong>scrapping the five-category limits</strong> that currently confine arms sales to transport, rescue, early warning, surveillance, and mine clearance equipment. The changes, expected to be approved <strong>this month</strong>, would maintain a ban on conflict zone exports except in extraordinary cases. First expected deal: <strong>used frigates to the Philippines</strong>, followed by missile defense systems.
+          The Seoul High Court increased former President Yoon Suk Yeol&rsquo;s sentence to <strong>7 years</strong> for obstructing justice, up from a previous 5-year term. The court reversed an earlier partial acquittal, finding him <strong>guilty on all counts</strong> including resisting arrest and illegally bypassing a Cabinet meeting before his brief imposition of martial law in December 2024. This sentence is <strong>in addition to a life sentence</strong> he already received on rebellion charges.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Interest from Warsaw to Manila has surged as Trump wavers on security commitments and US weapons supplies are strained by Iran and Ukraine conflicts. Mitsubishi Electric&rsquo;s defense unit SVP Masahiko Arai: <strong>&ldquo;Offers are coming from everywhere.&rdquo;</strong> Defense contractors Toshiba and Mitsubishi Electric hiring staff and adding capacity in London and Singapore.
+          Separately, prosecutors have requested a <strong>30-year prison term</strong> in another trial over allegations Yoon ordered drone flights over Pyongyang to create justifiable conditions for martial law. His legal team has announced an appeal to the Supreme Court. The political crisis stemming from his December 2024 martial law attempt remains <strong>the most serious challenge to South Korean democracy in decades</strong>.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
+          <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Japan is positioning itself as an alternative defense supplier for US allies uncertain about Washington&rsquo;s reliability. Frigate sales to Manila would deepen the Japan-Philippines security axis and create interoperability in the South China Sea. This transformation &mdash; from near-total arms export prohibition to active defense exporter &mdash; is one of the most consequential strategic shifts in the Indo-Pacific.
+            The legal resolution provides political clarity, which markets generally welcome. The <strong>KOSPI</strong> may see modest relief as institutional uncertainty fades. <strong>Samsung Electronics [005930.KS]</strong>, <strong>SK Hynix [000660.KS]</strong>, and <strong>Hyundai Motor [005380.KS]</strong> are bellwethers for Korean political stability sentiment. The Korean won (KRW) could strengthen slightly against the dollar as the country moves past constitutional crisis. Watch <strong>iShares MSCI South Korea ETF [EWY]</strong> for broader index exposure.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- Event 3: Futenma 30-Year Anniversary -->
+    <!-- EVENT 3: EU vs Meta -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">High</span>
-          <span style="color: #666; font-size: 11px;">Government / Base Politics &mdash; REPORTED APR 13</span>
+          <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">3</span>
+          <span style="color: #666; font-size: 11px;">Europe / Tech Regulation &mdash; Apr 29</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">3. Futenma Air Station Return Passes 30-Year Mark &mdash; No Concrete Date Set; Government Says It Takes Delay &ldquo;Seriously&rdquo;</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">EU Accuses Meta of Failing to Protect Minors on Facebook &amp; Instagram &mdash; Fines Up to 6% of Revenue</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Thirty years have passed since Japan and the United States agreed to return MCAS Futenma in Ginowan to local control. The original timeline promised return within 5&ndash;7 years. Chief Cabinet Secretary <strong>Minoru Kihara</strong> stated the government takes the delay &ldquo;seriously&rdquo; but reiterated that <strong>relocation to Henoko is &ldquo;the only viable solution.&rdquo;</strong>
+          The European Commission formally accused <strong>Meta Platforms</strong> of violating the Digital Services Act (DSA) by failing to prevent children under 13 from accessing Facebook and Instagram. Key findings: minors can <strong>input false birthdates with no verification</strong>, the reporting tool for minor accounts requires <strong>up to 7 clicks</strong> to access, and Meta is inadequately assessing risks of children being exposed to age-inappropriate content.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Governor <strong>Denny Tamaki</strong> plans to seek a third term with Futenma as his central campaign issue. The base remains in a densely populated area surrounded by houses and schools &mdash; described as <strong>&ldquo;the most dangerous base in the world.&rdquo;</strong> Strong local opposition to Henoko construction continues.
+          Separately, <strong>Australia announced plans to tax Meta, Google, and TikTok</strong> a proportion of their revenue to fund news journalism, with draft legislation expected by July. This compounds the global regulatory tightening on Big Tech, with the EU&rsquo;s DSA enforcement representing the most consequential regulatory action. Violations can result in <strong>fines of up to 6% of worldwide annual revenue</strong> &mdash; potentially billions of dollars for Meta.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
+          <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            The 30-year milestone is a political flashpoint. Gov. Tamaki will leverage this for his reelection campaign. The Futenma impasse remains the single most divisive issue in US-Japan alliance management on Okinawa and continues to fuel anti-base sentiment across the prefecture.
+            <strong>Meta Platforms [META]</strong> faces potential fines exceeding $8B based on 2025 revenue. This creates a regulatory overhang that could pressure shares and drag the broader tech sector. <strong>Alphabet [GOOGL]</strong> and <strong>TikTok parent ByteDance</strong> (private) face similar DSA scrutiny. Australia&rsquo;s proposed revenue tax adds another cost layer. Regulatory compliance spending will increase across the sector &mdash; watch <strong>Snap [SNAP]</strong>, <strong>Pinterest [PINS]</strong>, and other social platforms for contagion effects. Age-verification tech companies are potential beneficiaries.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- Event 4: Marines Refuse Okinawa Meeting -->
+    <!-- EVENT 4: Iran War / Oil Blockade -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">High</span>
-          <span style="color: #666; font-size: 11px;">Military / Community Relations &mdash; REPORTED APR 14</span>
+          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">4</span>
+          <span style="color: #666; font-size: 11px;">Global / Energy &amp; Security &mdash; Apr 29&ndash;30</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">4. Marine Corps Refuses Meeting with Okinawa Officials Over Helicopter Incident &mdash; Formal Protest Pending</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Iran Blockade Enters Third Week &mdash; Pentagon Reveals $25B War Cost; Brent Crude Surges to $118</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The Marine Corps rejected a request from Okinawa Prefectural Assembly representatives to meet regarding a <strong>UH-1Y Venom precautionary landing near Kyoda Baseball Field</strong> in Nago that disrupted a youth baseball practice. Assembly members planned to hand-deliver a <strong>formal protest letter adopted March 27</strong> urging the US military to disclose the cause, indicate preventive measures, and ensure safety.
+          Day 61 of the conflict in the Middle East. Top Pentagon officials testified before Congress for the first time since Operation Epic Fury began, revealing the war has cost approximately <strong>$25 billion</strong>. The two-week-old naval blockade has prevented <strong>38 ships from entering or leaving Iranian ports</strong>. President Trump told aides to prepare for a <strong>months-long blockade</strong>, insisting there will be no letup until Iran agrees to end its nuclear weapons program.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          Brent crude has surged to <strong>$118/barrel (+6%)</strong>, with TTF gas at <strong>&euro;47/MWh</strong>. California gasoline prices hit <strong>$6/gallon</strong>, a 30% increase since the conflict began. Iran&rsquo;s foreign minister is conducting a regional diplomatic tour despite cancellation of US envoys&rsquo; visits. The IMF titled its April World Economic Outlook <strong>&ldquo;Global Economy in the Shadow of War&rdquo;</strong>, downgrading global growth forecasts.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
+          <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            The refusal to meet with local officials on a flight safety incident compounds existing community friction. Combined with the ongoing sexual assault investigations, solo patrol suspension, and orientation briefing review, the US military&rsquo;s relationship with the Okinawa prefectural government remains under significant strain.
+            The single largest driver of global market volatility. <strong>Energy supermajors</strong> are direct beneficiaries: <strong>ExxonMobil [XOM]</strong>, <strong>Chevron [CVX]</strong>, <strong>Shell [SHEL]</strong>, <strong>TotalEnergies [TTE]</strong>, <strong>BP [BP]</strong>. Oil services firms <strong>Halliburton [HAL]</strong> and <strong>Schlumberger [SLB]</strong> benefit from sustained high prices. Airlines (<strong>Delta [DAL]</strong>, <strong>United [UAL]</strong>, <strong>Ryanair [RYAAY]</strong>) face fuel cost headwinds. Defense contractors <strong>Lockheed Martin [LMT]</strong>, <strong>RTX Corp [RTX]</strong>, <strong>Northrop Grumman [NOC]</strong> see sustained demand. Consumer discretionary and transport sectors face margin compression from elevated fuel costs.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- Event 5: Chinese ASW Aircraft -->
+    <!-- EVENT 5: IMF Downgrade + Earnings Divergence -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Critical</span>
-          <span style="color: #666; font-size: 11px;">Intelligence / PRC Military Activity</span>
+          <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">5</span>
+          <span style="color: #666; font-size: 11px;">Global / Economy &amp; Earnings &mdash; Apr 30</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">5. China Deploys New Y-9FQ Anti-Submarine Warfare Aircraft Near Okinawa &mdash; JASDF Scrambles Fighters</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">IMF Downgrades Global Growth Amid War &mdash; But Corporate Earnings Defy Pessimism</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Japanese fighter pilots from the Southwestern Air Command intercepted an improved variant of China&rsquo;s Y-9 maritime patrol aircraft operating over the East China Sea approximately <strong>160 miles northeast of Okinawa</strong>. Identified as the <strong>Y-9FQ</strong>, a next-generation ASW platform first observed at a Chinese factory in 2022, officially unveiled during Beijing&rsquo;s Victory Day parade September 2025.
+          The IMF&rsquo;s April 2026 World Economic Outlook, titled <strong>&ldquo;Global Economy in the Shadow of War,&rdquo;</strong> downgraded global growth forecasts citing the Iran conflict, energy price spikes, and trade disruptions. The report warns of persistent inflation driven by elevated energy costs and disrupted supply chains through the Strait of Hormuz.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Features redesigned nose with AESA radar, advanced electro-optical sensors, upgraded ELINT systems. Paint scheme suggests <strong>full operational capability</strong>, likely PLA Naval Air Force units from Zhejiang province. Japan Joint Staff confirmed &ldquo;visible differences including the shape of the aircraft&rsquo;s nose and additional antennas.&rdquo;
+          Yet corporate earnings painted a sharply different picture. <strong>Caterpillar</strong> beat expectations and raised guidance, sending shares up <strong>~10%</strong>. <strong>Qualcomm</strong> surged <strong>16%</strong> on a Q2 earnings beat. <strong>Eli Lilly</strong> jumped <strong>7%</strong> after blowing past expectations and raising full-year sales outlook. <strong>Alphabet</strong> reported strong results. The S&P 500 hit a new all-time high at 7,209, highlighting a stark divergence between macro pessimism and micro-level corporate strength &mdash; particularly in tech and healthcare.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
+          <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            China is actively improving its ability to detect and track US and allied submarine activity near Okinawa. The timing &mdash; coinciding with the 31st MEU&rsquo;s departure and reduced US force posture &mdash; suggests deliberate intelligence collection during a window of diminished US presence.
+            The macro-micro divergence is the key theme. <strong>Caterpillar [CAT]</strong> (+10%) signals infrastructure/industrial resilience. <strong>Qualcomm [QCOM]</strong> (+16%) validates AI chip demand beyond Nvidia. <strong>Eli Lilly [LLY]</strong> (+7%) confirms the GLP-1/obesity drug boom is accelerating. <strong>Alphabet [GOOGL]</strong> strength underpins big tech. However, the IMF downgrade suggests this earnings-driven rally may face headwinds from energy-driven inflation, consumer spending pullbacks, and potential emerging market debt stress. Watch for rotation from cyclicals into defensive names if oil stays above $115.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- Event 6: 31st MEU Departure -->
-    <div style="margin-bottom: 24px;">
-      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
-        <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Critical</span>
-          <span style="color: #666; font-size: 11px;">Military / Force Posture</span>
-        </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">6. 31st MEU &amp; USS Tripoli Operating in CENTCOM &mdash; ~3,500 Marines and Sailors Now in Middle East</h3>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The USS Tripoli ARG and 31st MEU (approximately <strong>3,500 Marines and Sailors</strong>) remain in CENTCOM waters after arriving March 27 from Sasebo. The force includes F-35B Lightning IIs from VMFA-121, MV-22B Ospreys, and MH-60S Seahawks. Deployed to support Strait of Hormuz operations amid the US-Iran conflict.
-        </p>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          This removes one of the <strong>primary ground combat elements</strong> in the Pacific capable of rapid crisis response involving China, North Korea, or Taiwan. The US Navy lacks sufficient amphibious ships to backfill.
-        </p>
-        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            The simultaneous deployment to CENTCOM and increased Chinese ASW activity near Okinawa represents a <strong>strategic vulnerability</strong>. Japan&rsquo;s record defense budget, new Type 25 missiles, and Balikatan deployment partially offset the gap, but cannot substitute for the expeditionary strike capability the MEU provides.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Event 7: Kadena Airmen in CENTCOM -->
-    <div style="margin-bottom: 24px;">
-      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
-        <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Critical</span>
-          <span style="color: #666; font-size: 11px;">Military / Force Posture &mdash; REPORTED APR 6</span>
-        </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">7. Kadena Air Base Airmen Serving &ldquo;In Harm&rsquo;s Way&rdquo; in Operation Epic Fury &mdash; 18th Wing Personnel Deployed to CENTCOM</h3>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Brig. Gen. <strong>John Gallemore</strong> confirmed the 18th Wing at Kadena Air Base has personnel deployed in support of US Central Command operations against Iran as part of <strong>Operation Epic Fury</strong>. In an April 4 AFN interview, Gallemore stated: <strong>&ldquo;We do absolutely have families that have loved ones in harm&rsquo;s way.&rdquo;</strong> Specific locations remain classified. CENTCOM lists 26 aircraft varieties in the operation, including B-1 Lancers and LUCAS one-way attack drones.
-        </p>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          As of April 19, total US service member casualties in Operation Epic Fury stand at <strong>381 wounded and 13 killed</strong>. Ceasefire negotiations in Islamabad <strong>failed on April 11</strong>; the US has since initiated a <strong>naval blockade</strong> of Iranian commercial ports. This further compounds the strain on Okinawa-based forces already diminished by the 31st MEU&rsquo;s departure.
-        </p>
-        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Kadena&rsquo;s 18th Wing is the largest combat wing in the Pacific. Any significant draw on its personnel and assets for Middle East operations directly reduces the US ability to respond to contingencies in the Taiwan Strait, East China Sea, and Korean Peninsula. Combined with the 31st MEU absence, Okinawa&rsquo;s force posture is at its lowest point in years.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Event 8: Fatal Boat Incident Investigation -->
-    <div style="margin-bottom: 24px;">
-      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
-        <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #2563eb; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Notable</span>
-          <span style="color: #666; font-size: 11px;">Civilian / Safety &mdash; REPORTED APR 16</span>
-        </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">7. Fatal Henoko Boat Capsize Investigation Continues One Month On &mdash; Coast Guard Probes Negligence</h3>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          One month after two boats (Heiwamaru and Fukutsu) capsized off <strong>Henoko, Nago City</strong> on March 16, killing <strong>17-year-old Doshisha student Tomoka Takeishi</strong> and <strong>71-year-old captain Hajime Kanai</strong>, the Japan Coast Guard&rsquo;s 11th Regional HQ in Naha continues its investigation. Boats were carrying 21 people, including 18 students from Doshisha International High School on a &ldquo;peace study&rdquo; trip near the Henoko base construction site.
-        </p>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Boats seized on suspicions of <strong>professional negligence resulting in death</strong>. MEXT stepping up scrutiny of Doshisha Educational Corporation, finding safety protocols and teacher supervision inadequate. On April 17, both <strong>LDP and Japan Innovation Party</strong> submitted formal recommendations to the PM&rsquo;s office demanding comprehensive safety reforms. Government plans to issue guidance by mid-2026. The school&rsquo;s anti-base &ldquo;peace study&rdquo; curriculum is now under national debate.
-        </p>
-        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            This incident adds a new dimension to the Henoko/base politics debate. The fatalities during an anti-base educational trip have sparked national controversy over the politicization of school trips to Okinawa. Conservative media is using the incident to push back against anti-base activism.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Event 8: Newcomers Orientation Review -->
-    <div style="margin-bottom: 24px;">
-      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
-        <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #2563eb; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">Notable</span>
-          <span style="color: #666; font-size: 11px;">Military / SOFA &mdash; REPORTED APR 14</span>
-        </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">8. US Military Newcomers Orientation on Okinawa May Change After Prefectural Feedback</h3>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          US military officials are considering changes to the SOFA newcomers briefing given to all arriving service members after the <strong>Okinawa prefectural government reviewed the Okinawa Orientation Overview</strong> and provided formal input. The prefecture proposed changes to sections addressing incidents and accidents involving service members and to descriptions of <strong>Irei No Hi</strong> (June 23 memorial day) and Okinawans&rsquo; desire for peace.
-        </p>
-        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Assessment</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Part of a broader response to sexual assault cases on the island. Any orientation changes that incorporate Okinawan perspectives could improve community relations, but the underlying issues &mdash; liberty restrictions, assault investigations, and helicopter incidents &mdash; will continue to drive tension regardless of briefing content.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Additional Items -->
-    <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
-      <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Additional Items of Note</p>
+    <!-- KEY TAKEAWAY -->
+    <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #7c3aed; padding: 20px; margin-bottom: 24px;">
+      <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Key Takeaway &mdash; What to Watch</p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Type 25 Missiles Operational (Mar 31):</strong> JGSDF deployed <strong>Type 25 SSM</strong> (1,000km range) at Camp Kengun, Kumamoto and <strong>Type 25 HGP</strong> (hypersonic gliding projectile) at Camp Fuji, Shizuoka. Japan&rsquo;s first domestically developed long-range strike capability. Ship- and air-launched variants planned FY2027.
+        <strong style="color: #fff;">The global economy is splitting in two.</strong> Corporate earnings in the US are historically strong &mdash; S&P 500 at all-time highs &mdash; while the IMF warns of weakening global growth, $118 oil, and geopolitical escalation. This divergence is unsustainable. Either energy costs will eventually drag down corporate margins, or the conflict will resolve and oil will correct. Position accordingly.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">USMC First Live-Fire Maritime Drone Strike (Apr 3):</strong> III Expeditionary Operations Training Group and Naval Special Warfare Command executed the USMC&rsquo;s first live-fire drone strike against a maritime vessel at Naval Base White Beach, Okinawa. Marines trained to build unmanned systems from locally available materials.
-      </p>
-      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">DPRK Condemnation (Apr 4):</strong> KCNA published commentary denouncing Japan&rsquo;s &ldquo;dangerous military attempt,&rdquo; specifically targeting Type 25 missile deployments and the new Pacific Defense Planning Office. Pyongyang warned Japan&rsquo;s missile expansion could &ldquo;push the region into danger.&rdquo;
-      </p>
-      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">SDF Weapons Protection Missions (Apr 4):</strong> Defense Ministry disclosed SDF conducted 11 weapons protection missions in 2025 for foreign military assets &mdash; 4 for US warships (ISR/ballistic missile), 5 for US ships/aircraft (joint training), and 2 for <strong>UK warships (first ever)</strong>.
-      </p>
-      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Japan Evacuation Drill Planned (Apr 3):</strong> First field evacuation drill for Sakishima Islands (Ishigaki, Miyakojima, Yonaguni, Taketomi, Tarama) scheduled January 2027. Plan: evacuate 120,000 residents within 6 days. Signals operationalization of Taiwan contingency planning.
-      </p>
-      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Space Operations Elevated (Apr 1):</strong> JASDF Space Operations Group upgraded to Squadron; ASDF to be renamed Aerospace Self-Defense Force. Further elevation to Space Operations Corps planned later this year.
-      </p>
-      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">China-Japan Diplomatic Crisis:</strong> 40 Japanese defense entities banned (incl. Mitsubishi Shipbuilding, IHI Corp, JAXA); Apr 4 rare earth controls on 7 categories targeting Japan&rsquo;s 71.9% import dependency; Diplomatic Bluebook downgrade. China rejected Japan&rsquo;s protest over sanctions. Defense supply chain vulnerabilities mounting.
-      </p>
-      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Solo Patrols Remain Paused:</strong> Solo military patrols in Okinawa nightlife districts remain suspended pending investigation into assault incident. MP retraining ongoing. Two Marines under investigation for alleged rapes.
-      </p>
-      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">BOJ Rate Watch (Apr 9):</strong> BOJ Governor Ueda says real rates remain &ldquo;clearly negative&rdquo; and financial conditions accommodative. Slim chance of rate hike at Apr 27&ndash;28 meeting. Record &yen;122.3T FY2026 budget (+6.3%) now in effect.
+        <strong style="color: #fff;">Sectors to favor:</strong> Energy (XOM, CVX, SHEL), Defense (LMT, RTX, NOC), Healthcare/GLP-1 (LLY), Semiconductors (QCOM, NVDA), and age-verification/regtech companies as EU enforcement intensifies.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        <strong style="color: #fff;">Okinawa Tourism:</strong> Finance Ministry upgraded Okinawa tourism and personal consumption assessments. No significant impact from Chinese government advisories discouraging visits to Japan.
-      </p>
-    </div>
-
-    <!-- Outlook -->
-    <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #dc2626; padding: 20px; margin-bottom: 24px;">
-      <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Okinawa Outlook &mdash; Key Watch Items</p>
-      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Balikatan 2026 launched today (Apr 20).</strong> Japan&rsquo;s first-ever combat deployment to the Philippines is now underway. Watch for PRC reaction to SDF missile fire exercises in South China Sea waters. 1,400 SDF troops with Type 88 anti-ship missiles are operating alongside 17,000+ US, Philippine, Australian, and French personnel through May 8.
-      </p>
-      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Japan becoming an arms exporter.</strong> The imminent scrapping of export category limits represents Japan&rsquo;s biggest defense industry shift since WWII. Frigate sales to the Philippines would create a new Japan-PHL defense axis. Demand from Warsaw to Manila signals Japan is positioning as an alternative to unreliable US supply.
-      </p>
-      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Force posture remains degraded.</strong> The 31st MEU&rsquo;s continued absence in CENTCOM creates the most significant gap in US forward presence in years. Ceasefire failure on April 11 and the new naval blockade mean no near-term return of forces. China&rsquo;s Y-9FQ ASW patrols near Okinawa suggest deliberate intelligence collection during diminished US presence. US casualties now at 13 KIA, 381 WIA.
-      </p>
-      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Japan&rsquo;s military transformation accelerating.</strong> Type 25 missiles, Balikatan combat deployment, arms export revolution, Space Operations elevation, UK weapons protection firsts, record &yen;9T+ defense budget, Pacific Defense Planning Office, and field evacuation drills &mdash; all within weeks &mdash; signal the most fundamental shift in Japan&rsquo;s defense identity since 1945.
-      </p>
-      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Local political dynamics volatile.</strong> Futenma 30-year milestone, helicopter incident refusal, fatal Henoko boat probe (LDP/JIP safety recommendations submitted Apr 17), assault investigations, liberty restrictions, and orientation review all driving community friction. Gov. Tamaki&rsquo;s reelection campaign (Sep 13) will amplify anti-base sentiment.
-      </p>
-      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        <strong style="color: #fff;">M7.7 earthquake today (Apr 20).</strong> A powerful earthquake off Iwate prompted tsunami warnings and 172K evacuations. No casualties reported. Okinawa not directly affected, but a M4.1 quake near Yonaguni on Apr 19 highlights seismic risk in the Sakishima chain. Monitor Nikkei reaction when markets open Apr 21.
-      </p>
-      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Financial watch.</strong> Nikkei closed at 58,476 (-1.75%) on Apr 17, retreating from record highs. BOJ Apr 27&ndash;28 meeting approaching with slim rate hike prospects. Yen at ~158.63/USD. Record FY2026 &yen;122.3T budget now in effect. China&rsquo;s April 4 rare earth export controls on 7 categories (samarium, gadolinium, terbium, dysprosium, lutetium, scandium, yttrium) compound supply chain risks &mdash; China accounts for 71.9% of Japan&rsquo;s rare earth imports. Okinawa development funds increased by &yen;500M to &yen;264.7B for FY2026 &mdash; first rise in 10 years.
+        <strong style="color: #fff;">Sectors to watch with caution:</strong> Airlines (DAL, UAL, RYAAY), social media (META, SNAP) facing regulatory headwinds, consumer discretionary exposed to fuel inflation, and emerging market equities sensitive to IMF growth downgrades.
       </p>
     </div>
 
     <!-- Sources -->
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
-      <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Sources</p>
+      <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Sources</p>
       <p style="color: #888; font-size: 11px; line-height: 1.8; margin: 0;">
-        Stars and Stripes &bull; The Japan Times &bull; Naval News &bull; Naval Today &bull; Military.com &bull; Military Times &bull; Nippon.com &bull; Japan Ministry of Defense / Joint Staff &bull; The Diplomat &bull; Reuters &bull; AP News &bull; Al Jazeera &bull; South China Morning Post &bull; Defense News &bull; USNI News &bull; Rappler &bull; Vision Times &bull; The Mainichi &bull; Asahi Shimbun &bull; NHK World &bull; IMF &bull; Bank of Japan &bull; KCNA &bull; Trading Economics &bull; PBS News
+        Al Jazeera &bull; Amnesty International &bull; Reuters &bull; NPR &bull; CNN &bull; CNBC &bull; The Japan Times &bull; The Manila Times &bull; Euronews &bull; NBC News &bull; ABC News &bull; Democracy Now &bull; IMF World Economic Outlook &bull; Council on Foreign Relations &bull; CaixaBank Research &bull; Fox News &bull; Morning Star
       </p>
     </div>
 
@@ -395,7 +221,7 @@ const html = `
         UNCLASSIFIED // FOR GENERAL DISTRIBUTION
       </p>
       <p style="font-size: 10px; color: #555; margin: 0;">
-        Powered by <a href="https://worldmonitor.app" style="color: #dc2626; text-decoration: none;">World Monitor</a> &mdash; Real-time intelligence for a connected world.
+        Powered by <a href="https://worldmonitor.app" style="color: #7c3aed; text-decoration: none;">World Monitor</a> &mdash; Real-time intelligence for a connected world.
       </p>
     </div>
 
@@ -407,7 +233,7 @@ import { execSync } from 'node:child_process';
 const payload = JSON.stringify({
   from: 'World Monitor <onboarding@resend.dev>',
   to: RECIPIENTS,
-  subject: `[World Monitor] Okinawa Regional Intelligence Briefing \u2014 ${today}`,
+  subject: `[World Monitor] Global Daily Briefing — ${today}`,
   html,
 });
 
