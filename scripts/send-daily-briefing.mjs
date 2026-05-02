@@ -45,149 +45,149 @@ const html = `
 
     <!-- MARKET SNAPSHOT -->
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 16px 20px; margin-bottom: 24px;">
-      <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Market Snapshot &mdash; April 30, 2026</p>
+      <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Market Snapshot &mdash; May 2, 2026</p>
       <table cellpadding="0" cellspacing="0" border="0" width="100%">
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">S&P 500</td>
-          <td style="padding: 6px 0; color: #22c55e; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">7,209.01 (All-Time High)</td>
-        </tr>
-        <tr>
-          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Dow Jones</td>
-          <td style="padding: 6px 0; color: #22c55e; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">49,652.14 (+1.62%)</td>
+          <td style="padding: 6px 0; color: #22c55e; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">7,230.12 (+0.29%, All-Time High)</td>
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Nasdaq</td>
-          <td style="padding: 6px 0; color: #22c55e; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">24,892.31 (+0.89%, Record Close)</td>
+          <td style="padding: 6px 0; color: #22c55e; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">25,114.44 (+0.89%, Record Close)</td>
+        </tr>
+        <tr>
+          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Dow Jones</td>
+          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">49,499.27 (-0.31%)</td>
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Nikkei 225</td>
-          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">59,284.92 (-1.06%)</td>
+          <td style="padding: 6px 0; color: #22c55e; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">59,513.12 (+0.38%)</td>
         </tr>
         <tr>
-          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Hang Seng</td>
-          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">Down 1.27%</td>
+          <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">USD/JPY</td>
+          <td style="padding: 6px 0; color: #22c55e; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">&yen;155 (Yen +2.5% post-intervention)</td>
         </tr>
         <tr>
           <td style="padding: 6px 0; color: #bbb; font-size: 12px; border-bottom: 1px solid #1a1a1a;">Brent Crude</td>
-          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">$118/bbl (+6%)</td>
+          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right; border-bottom: 1px solid #1a1a1a;">$110.23/bbl (-0.2%)</td>
         </tr>
         <tr>
-          <td style="padding: 6px 0; color: #bbb; font-size: 12px;">TTF Natural Gas</td>
-          <td style="padding: 6px 0; color: #ea580c; font-size: 12px; font-weight: 700; text-align: right;">&euro;47/MWh</td>
+          <td style="padding: 6px 0; color: #bbb; font-size: 12px;">WTI Crude</td>
+          <td style="padding: 6px 0; color: #ef4444; font-size: 12px; font-weight: 700; text-align: right;">$103.27/bbl (-2.0%)</td>
         </tr>
       </table>
     </div>
 
-    <!-- EVENT 1: Gaza Flotilla -->
+    <!-- EVENT 1: UAE Leaves OPEC -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">1</span>
-          <span style="color: #666; font-size: 11px;">Middle East / Humanitarian &mdash; Apr 30</span>
+          <span style="color: #666; font-size: 11px;">Global / Energy &mdash; May 1</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Israel Seizes Gaza-Bound Aid Flotilla in International Waters &mdash; 175 Activists Detained</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">UAE Exits OPEC After Six Decades &mdash; Plans to Boost Oil Output to 5 Million bpd</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Israeli naval forces intercepted <strong>22 vessels</strong> of the Global Sumud Flotilla more than <strong>600 nautical miles from Gaza</strong>, near the Greek island of Crete. Approximately <strong>175 crew members were detained</strong> as drones, communications jamming technology, and armed raiding parties halted the humanitarian fleet in international waters. The flotilla was carrying food and medical supplies intended to break Israel&rsquo;s blockade of Gaza.
+          The United Arab Emirates has officially left OPEC and the broader OPEC+ alliance effective <strong>May 1, 2026</strong>, ending six decades of membership. The departure follows years of tension over production quotas. The UAE plans to expand output capacity from <strong>3.4 million barrels per day to 5 million bpd by 2027</strong>, an increase of roughly <strong>1.6 million bpd</strong> &mdash; equivalent to 1.5% of global oil supply.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Turkey condemned the seizure as <strong>&ldquo;an act of piracy.&rdquo;</strong> Spain&rsquo;s PM Pedro S&aacute;nchez called it illegal, stating <strong>&ldquo;Israel is once again violating international law by attacking a civilian flotilla in waters that do not belong to it.&rdquo;</strong> Amnesty International called it a &ldquo;brazen interception.&rdquo; Israel&rsquo;s Foreign Minister said detained activists would be taken to Greece.
+          Energy Minister Suhail al-Mazrouei cited <strong>&ldquo;national interests&rdquo;</strong> as the driving factor, freeing the UAE from cartel-imposed production caps. The exit comes during the Iran war, which currently constrains Gulf exports through the Strait of Hormuz. However, analysts warn that once the conflict subsides, the UAE could <strong>flood the market</strong> with its massive spare capacity, fundamentally undermining OPEC&rsquo;s ability to control global oil prices. Saudi Arabia is now increasingly isolated as the cartel&rsquo;s anchor producer.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Escalates geopolitical risk premiums in energy markets. <strong>Brent crude already at $118/bbl</strong> remains elevated amid broader Middle East instability. Defense stocks (<strong>Elbit Systems [ESLT], Rafael via Israel Aerospace Industries, BAE Systems [BA.L]</strong>) see continued demand. Shipping and logistics firms with Mediterranean exposure face heightened insurance costs. Turkish equities and lira could face volatility if Ankara escalates diplomatic response. Watch <strong>ZIM Integrated Shipping [ZIM]</strong> and <strong>Frontline [FRO]</strong> for shipping rate impacts.
+            A structural shift for oil markets. Short-term: limited immediate impact due to Hormuz blockade constraints. Medium-term: <strong>bearish for oil prices</strong> once conflict resolves, as the UAE&rsquo;s uncapped production will increase global supply. <strong>ADNOC Distribution [ADNOCDIST.AD]</strong> and UAE-linked equities benefit from production upside. Saudi Aramco&rsquo;s pricing power weakens. Energy supermajors <strong>Shell [SHEL]</strong>, <strong>BP [BP]</strong>, and <strong>TotalEnergies [TTE]</strong> with UAE joint ventures may see partnership shifts. <strong>iShares MSCI UAE ETF [UAE]</strong> is the direct play. Longer-dated oil futures could see downward pressure as markets price in higher future supply.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- EVENT 2: South Korea Yoon Sentence -->
+    <!-- EVENT 2: Japan Yen Intervention -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">2</span>
-          <span style="color: #666; font-size: 11px;">Asia-Pacific / Political &mdash; Apr 30</span>
+          <span style="color: #666; font-size: 11px;">Asia-Pacific / Currency &mdash; May 1</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">South Korea: Appeals Court Sentences Ex-President Yoon Suk Yeol to 7 Years &mdash; On Top of Life Sentence</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Japan Spends $34.5 Billion Intervening in Currency Markets &mdash; Yen Surges 2.5%</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The Seoul High Court increased former President Yoon Suk Yeol&rsquo;s sentence to <strong>7 years</strong> for obstructing justice, up from a previous 5-year term. The court reversed an earlier partial acquittal, finding him <strong>guilty on all counts</strong> including resisting arrest and illegally bypassing a Cabinet meeting before his brief imposition of martial law in December 2024. This sentence is <strong>in addition to a life sentence</strong> he already received on rebellion charges.
+          The Bank of Japan launched its <strong>first currency intervention since July 2024</strong>, spending an estimated <strong>&yen;5.4 trillion ($34.5 billion)</strong> to prop up the yen after it breached the <strong>&yen;160-to-the-dollar red line</strong>. The yen surged more than <strong>2.5%</strong> in a matter of hours, its biggest single-day gain in three years, moving rapidly from above &yen;160 to the &yen;155 range.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Separately, prosecutors have requested a <strong>30-year prison term</strong> in another trial over allegations Yoon ordered drone flights over Pyongyang to create justifiable conditions for martial law. His legal team has announced an appeal to the Supreme Court. The political crisis stemming from his December 2024 martial law attempt remains <strong>the most serious challenge to South Korean democracy in decades</strong>.
+          Finance officials had issued a <strong>&ldquo;final warning&rdquo;</strong> to speculators before the intervention. The yen&rsquo;s weakness has been driven by <strong>wide US-Japan interest rate differentials</strong> and exacerbated by surging oil import costs from the Iran conflict. Bloomberg analysts warn the rally <strong>risks fading quickly</strong> without sustained follow-up intervention, as fundamental rate differentials remain unchanged. The move risks friction with Washington, as the Trump administration opposes currency manipulation by trade partners.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            The legal resolution provides political clarity, which markets generally welcome. The <strong>KOSPI</strong> may see modest relief as institutional uncertainty fades. <strong>Samsung Electronics [005930.KS]</strong>, <strong>SK Hynix [000660.KS]</strong>, and <strong>Hyundai Motor [005380.KS]</strong> are bellwethers for Korean political stability sentiment. The Korean won (KRW) could strengthen slightly against the dollar as the country moves past constitutional crisis. Watch <strong>iShares MSCI South Korea ETF [EWY]</strong> for broader index exposure.
+            Massive FX volatility creates both risk and opportunity. Japanese exporters <strong>Toyota [TM/7203.T]</strong>, <strong>Sony [SONY/6758.T]</strong>, and <strong>Nintendo [NTDOY/7974.T]</strong> face earnings headwinds from a stronger yen. Conversely, Japanese importers and domestically-focused firms benefit. The <strong>Nikkei 225</strong> and <strong>WisdomTree Japan Hedged Equity ETF [DXJ]</strong> are directly impacted. FX carry traders shorting the yen face severe squeeze risk. <strong>Invesco CurrencyShares Japanese Yen Trust [FXY]</strong> is the direct currency play. Watch for BoJ rate decision signals &mdash; any hint of tightening would amplify the yen rally.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- EVENT 3: EU vs Meta -->
+    <!-- EVENT 3: US Troop Withdrawal from Germany -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">3</span>
-          <span style="color: #666; font-size: 11px;">Europe / Tech Regulation &mdash; Apr 29</span>
+          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">3</span>
+          <span style="color: #666; font-size: 11px;">Europe / NATO &amp; Security &mdash; May 1&ndash;2</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">EU Accuses Meta of Failing to Protect Minors on Facebook &amp; Instagram &mdash; Fines Up to 6% of Revenue</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Pentagon Orders 5,000 US Troops Out of Germany &mdash; NATO Alliance Under Strain</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The European Commission formally accused <strong>Meta Platforms</strong> of violating the Digital Services Act (DSA) by failing to prevent children under 13 from accessing Facebook and Instagram. Key findings: minors can <strong>input false birthdates with no verification</strong>, the reporting tool for minor accounts requires <strong>up to 7 clicks</strong> to access, and Meta is inadequately assessing risks of children being exposed to age-inappropriate content.
+          The United States will withdraw approximately <strong>5,000 troops from Germany</strong> over the next 6 to 12 months, the Pentagon confirmed Friday. The withdrawal includes <strong>one brigade combat team</strong> and supporting forces. The decision follows a public clash between President Trump and German Chancellor <strong>Friedrich Merz</strong>, who criticized Washington&rsquo;s strategy in the Iran conflict, calling the US approach <strong>&ldquo;humiliating.&rdquo;</strong>
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Separately, <strong>Australia announced plans to tax Meta, Google, and TikTok</strong> a proportion of their revenue to fund news journalism, with draft legislation expected by July. This compounds the global regulatory tightening on Big Tech, with the EU&rsquo;s DSA enforcement representing the most consequential regulatory action. Violations can result in <strong>fines of up to 6% of worldwide annual revenue</strong> &mdash; potentially billions of dollars for Meta.
+          The move alarmed Republican lawmakers, with senior senators calling it <strong>&ldquo;reckless&rdquo;</strong> and warning it undermines European security at a critical moment. Major US military medical facilities like <strong>Landstuhl</strong> will remain operational, as they are crucial for treating wounded soldiers from the Iran war. The withdrawal deepens questions about NATO&rsquo;s cohesion and could accelerate European efforts to build independent defense capabilities. Germany is now expected to <strong>fast-track its own rearmament program</strong>.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Meta Platforms [META]</strong> faces potential fines exceeding $8B based on 2025 revenue. This creates a regulatory overhang that could pressure shares and drag the broader tech sector. <strong>Alphabet [GOOGL]</strong> and <strong>TikTok parent ByteDance</strong> (private) face similar DSA scrutiny. Australia&rsquo;s proposed revenue tax adds another cost layer. Regulatory compliance spending will increase across the sector &mdash; watch <strong>Snap [SNAP]</strong>, <strong>Pinterest [PINS]</strong>, and other social platforms for contagion effects. Age-verification tech companies are potential beneficiaries.
+            European defense stocks are the clear winners. <strong>Rheinmetall [RHM.DE]</strong>, <strong>BAE Systems [BA.L]</strong>, <strong>Leonardo [LDO.MI]</strong>, and <strong>Thales [HO.PA]</strong> stand to benefit from accelerated EU defense spending. The <strong>Euro STOXX 600</strong> could see sector rotation into defense and away from US-dependent sectors. The euro may weaken against the dollar on geopolitical uncertainty. German defense ETFs and the broader <strong>iShares MSCI Germany ETF [EWG]</strong> deserve monitoring. US defense contractors <strong>Lockheed Martin [LMT]</strong> and <strong>RTX Corp [RTX]</strong> may face reduced European contract visibility.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- EVENT 4: Iran War / Oil Blockade -->
+    <!-- EVENT 4: Myanmar Suu Kyi House Arrest -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">4</span>
-          <span style="color: #666; font-size: 11px;">Global / Energy &amp; Security &mdash; Apr 29&ndash;30</span>
+          <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">4</span>
+          <span style="color: #666; font-size: 11px;">Southeast Asia / Political &mdash; May 1</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Iran Blockade Enters Third Week &mdash; Pentagon Reveals $25B War Cost; Brent Crude Surges to $118</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Myanmar Transfers Aung San Suu Kyi from Prison to House Arrest &mdash; Junta Seeks Legitimacy</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Day 61 of the conflict in the Middle East. Top Pentagon officials testified before Congress for the first time since Operation Epic Fury began, revealing the war has cost approximately <strong>$25 billion</strong>. The two-week-old naval blockade has prevented <strong>38 ships from entering or leaving Iranian ports</strong>. President Trump told aides to prepare for a <strong>months-long blockade</strong>, insisting there will be no letup until Iran agrees to end its nuclear weapons program.
+          Myanmar&rsquo;s military junta announced that detained opposition leader <strong>Aung San Suu Kyi</strong> has been transferred from prison to house arrest, more than <strong>five years after the February 2021 coup</strong> that removed her from power. The move was part of a prisoner amnesty marking a Buddhist holiday, reducing her sentence to <strong>18 years and 9 months</strong>, of which more than 13 years remain to be served.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Brent crude has surged to <strong>$118/barrel (+6%)</strong>, with TTF gas at <strong>&euro;47/MWh</strong>. California gasoline prices hit <strong>$6/gallon</strong>, a 30% increase since the conflict began. Iran&rsquo;s foreign minister is conducting a regional diplomatic tour despite cancellation of US envoys&rsquo; visits. The IMF titled its April World Economic Outlook <strong>&ldquo;Global Economy in the Shadow of War&rdquo;</strong>, downgrading global growth forecasts.
+          The order came from President <strong>Min Aung Hlaing</strong>, the former military chief who led the coup. Her son, <strong>Kim Aris</strong>, stated bluntly: <strong>&ldquo;Moving her is not freeing her&rdquo;</strong> and said she remains a hostage. Lawyers cannot confirm she has actually been moved, and the location of her house arrest has not been disclosed. Human rights groups view this as an <strong>image rehabilitation exercise</strong> by the junta, which has faced intensifying resistance from armed opposition groups across the country.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            The single largest driver of global market volatility. <strong>Energy supermajors</strong> are direct beneficiaries: <strong>ExxonMobil [XOM]</strong>, <strong>Chevron [CVX]</strong>, <strong>Shell [SHEL]</strong>, <strong>TotalEnergies [TTE]</strong>, <strong>BP [BP]</strong>. Oil services firms <strong>Halliburton [HAL]</strong> and <strong>Schlumberger [SLB]</strong> benefit from sustained high prices. Airlines (<strong>Delta [DAL]</strong>, <strong>United [UAL]</strong>, <strong>Ryanair [RYAAY]</strong>) face fuel cost headwinds. Defense contractors <strong>Lockheed Martin [LMT]</strong>, <strong>RTX Corp [RTX]</strong>, <strong>Northrop Grumman [NOC]</strong> see sustained demand. Consumer discretionary and transport sectors face margin compression from elevated fuel costs.
+            Limited direct market impact, but important for Southeast Asian geopolitics. If the junta successfully rehabilitates its image, Western sanctions could eventually ease, reopening Myanmar&rsquo;s natural gas reserves and rare earth mineral deposits to foreign investment. <strong>PTTEP [PTTEP.BK]</strong> (Thailand) and <strong>Woodside Energy [WDS]</strong> have Myanmar gas exposure. Watch the <strong>iShares MSCI Frontier &amp; Select EM ETF [FM]</strong> for broader frontier market sentiment. Japanese conglomerates with Myanmar projects, including <strong>Mitsubishi Corp [8058.T]</strong>, could benefit from any thaw.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- EVENT 5: IMF Downgrade + Earnings Divergence -->
+    <!-- EVENT 5: Global May Day Protests + Iran War Fallout -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">5</span>
-          <span style="color: #666; font-size: 11px;">Global / Economy &amp; Earnings &mdash; Apr 30</span>
+          <span style="color: #666; font-size: 11px;">Global / Labor &amp; Energy Crisis &mdash; May 1</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">IMF Downgrades Global Growth Amid War &mdash; But Corporate Earnings Defy Pessimism</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Millions March on May Day as Iran War Fuels Global Energy Crisis &mdash; Demands for Peace and Wages</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The IMF&rsquo;s April 2026 World Economic Outlook, titled <strong>&ldquo;Global Economy in the Shadow of War,&rdquo;</strong> downgraded global growth forecasts citing the Iran conflict, energy price spikes, and trade disruptions. The report warns of persistent inflation driven by elevated energy costs and disrupted supply chains through the Strait of Hormuz.
+          May Day 2026 saw the <strong>largest coordinated global protests in years</strong>, with millions taking to the streets across every continent. Unlike typical labor rallies, this year&rsquo;s demonstrations were dominated by fury over the <strong>Iran war&rsquo;s economic fallout</strong>: surging fuel prices, rising food costs, and shrinking purchasing power. Major demonstrations were held in <strong>Paris, Berlin, Seoul, Jakarta, Istanbul, S&atilde;o Paulo, Melbourne, and London</strong>.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Yet corporate earnings painted a sharply different picture. <strong>Caterpillar</strong> beat expectations and raised guidance, sending shares up <strong>~10%</strong>. <strong>Qualcomm</strong> surged <strong>16%</strong> on a Q2 earnings beat. <strong>Eli Lilly</strong> jumped <strong>7%</strong> after blowing past expectations and raising full-year sales outlook. <strong>Alphabet</strong> reported strong results. The S&P 500 hit a new all-time high at 7,209, highlighting a stark divergence between macro pessimism and micro-level corporate strength &mdash; particularly in tech and healthcare.
+          Workers demanded <strong>higher wages to match energy-driven inflation</strong>, peace in the Middle East, and government intervention on fuel costs. In Europe, unions called for emergency price caps on energy. In Southeast Asia, garment and factory workers protested collapsing real wages. The IMF&rsquo;s recent downgrade of global growth &mdash; titled <strong>&ldquo;Global Economy in the Shadow of War&rdquo;</strong> &mdash; underscored the protesters&rsquo; grievances: the war economy is enriching energy producers while crushing workers and consumers.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            The macro-micro divergence is the key theme. <strong>Caterpillar [CAT]</strong> (+10%) signals infrastructure/industrial resilience. <strong>Qualcomm [QCOM]</strong> (+16%) validates AI chip demand beyond Nvidia. <strong>Eli Lilly [LLY]</strong> (+7%) confirms the GLP-1/obesity drug boom is accelerating. <strong>Alphabet [GOOGL]</strong> strength underpins big tech. However, the IMF downgrade suggests this earnings-driven rally may face headwinds from energy-driven inflation, consumer spending pullbacks, and potential emerging market debt stress. Watch for rotation from cyclicals into defensive names if oil stays above $115.
+            Rising social unrest signals growing political pressure on governments to intervene in energy markets &mdash; potentially through price caps, windfall taxes, or subsidies. European energy firms <strong>Equinor [EQNR]</strong>, <strong>Shell [SHEL]</strong>, and <strong>TotalEnergies [TTE]</strong> face windfall tax risk. Wage pressure will compress margins in labor-intensive sectors: retail (<strong>Carrefour [CA.PA]</strong>, <strong>Tesco [TSCO.L]</strong>), hospitality, and manufacturing. Consumer staples (<strong>Nestl&eacute; [NESN.SW]</strong>, <strong>Unilever [UL]</strong>) benefit as defensive plays. If protests escalate, watch for supply chain disruptions in European and Asian manufacturing hubs.
           </p>
         </div>
       </div>
@@ -197,13 +197,13 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #7c3aed; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Key Takeaway &mdash; What to Watch</p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">The global economy is splitting in two.</strong> Corporate earnings in the US are historically strong &mdash; S&P 500 at all-time highs &mdash; while the IMF warns of weakening global growth, $118 oil, and geopolitical escalation. This divergence is unsustainable. Either energy costs will eventually drag down corporate margins, or the conflict will resolve and oil will correct. Position accordingly.
+        <strong style="color: #fff;">The post-OPEC oil order is being born in wartime.</strong> The UAE&rsquo;s exit from OPEC is the most structurally significant energy event in years &mdash; but its impact is masked by the Iran war&rsquo;s Hormuz blockade. Once the conflict ends, a wave of uncapped UAE supply hitting the market could crash oil prices, creating a whiplash reversal for energy stocks currently riding $110+ Brent.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Sectors to favor:</strong> Energy (XOM, CVX, SHEL), Defense (LMT, RTX, NOC), Healthcare/GLP-1 (LLY), Semiconductors (QCOM, NVDA), and age-verification/regtech companies as EU enforcement intensifies.
+        <strong style="color: #fff;">Sectors to favor:</strong> European defense (RHM.DE, BA.L, LDO.MI) as NATO fractures force EU self-reliance; Japanese domestic equities (post-intervention yen strength); frontier markets (FM) if Myanmar thaw materializes; consumer staples (NESN, UL) as defensive plays against inflation-driven unrest.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        <strong style="color: #fff;">Sectors to watch with caution:</strong> Airlines (DAL, UAL, RYAAY), social media (META, SNAP) facing regulatory headwinds, consumer discretionary exposed to fuel inflation, and emerging market equities sensitive to IMF growth downgrades.
+        <strong style="color: #fff;">Sectors to watch with caution:</strong> Japanese exporters (TM, SONY) facing yen headwinds; energy supermajors if UAE flooding risk gets priced in; European labor-intensive sectors exposed to wage pressure; any company with significant Strait of Hormuz logistics dependency.
       </p>
     </div>
 
@@ -211,7 +211,7 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Sources</p>
       <p style="color: #888; font-size: 11px; line-height: 1.8; margin: 0;">
-        Al Jazeera &bull; Amnesty International &bull; Reuters &bull; NPR &bull; CNN &bull; CNBC &bull; The Japan Times &bull; The Manila Times &bull; Euronews &bull; NBC News &bull; ABC News &bull; Democracy Now &bull; IMF World Economic Outlook &bull; Council on Foreign Relations &bull; CaixaBank Research &bull; Fox News &bull; Morning Star
+        Al Jazeera &bull; Bloomberg &bull; CNBC &bull; CNN &bull; NPR &bull; The Japan Times &bull; The Diplomat &bull; Reuters &bull; Washington Post &bull; Military Times &bull; Breaking Defense &bull; Gulf News &bull; The Motley Fool &bull; Morning Star &bull; PBS &bull; Stars and Stripes &bull; IMF World Economic Outlook
       </p>
     </div>
 
