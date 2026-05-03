@@ -7,6 +7,12 @@
  */
 
 const RECIPIENTS = [
+  'mcbridej675@gmail.com',
+  'john.mcbride.mil@usmc.mil',
+  'paul.foersch@usmc.mil',
+];
+
+const TESTING_RECIPIENTS = [
   'johnmcbride2928@gmail.com',
 ];
 const RESEND_KEY = process.env.RESEND_API_KEY;
@@ -71,67 +77,65 @@ const html = `
       </div>
     </div>
 
-    <!-- EVENT 2: Kadena / Operation Epic Fury -->
+    <!-- EVENT 2: Chinese Navy Okinawa Transit -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">HIGH</span>
-          <span style="color: #666; font-size: 11px;">Operations / Middle East &mdash; Ongoing</span>
+          <span style="color: #666; font-size: 11px;">Naval Activity / East China Sea &mdash; Apr 22</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Kadena 18th Wing Personnel Deployed to Operation Epic Fury &mdash; 31st MEU Departed Okinawa</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">PLA Navy Sails Through Yonaguni-Iriomote Waterway &mdash; Tit-for-Tat After Japan Taiwan Strait Transit</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          <strong>Brig. Gen. John Gallemore</strong>, 18th Wing Commander at Kadena Air Base, confirmed that Kadena airmen are deployed &ldquo;in harm&rsquo;s way&rdquo; supporting CENTCOM operations against Iran under <strong>Operation Epic Fury</strong> (Day 61+). Specific locations were not disclosed. The general stated personnel are &ldquo;as ready as they possibly could be going out the door.&rdquo;
+          The PLA Navy&rsquo;s <strong>Vessel Formation 133</strong>, deployed by the <strong>Eastern Theater Command</strong>, sailed through the <strong>Yonaguni-Iriomote Waterway</strong> on April 22 while returning from Western Pacific training operations. The formation included at least one destroyer. China condemned as a &ldquo;deliberate provocation&rdquo; the <strong>JMSDF destroyer Ikazuchi&rsquo;s transit of the Taiwan Strait on April 17</strong> &mdash; the second such Japanese passage in 10 months.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Separately, <strong>2,500 Marines of the 31st Marine Expeditionary Unit</strong> departed Okinawa aboard <strong>USS Tripoli</strong> in mid-March bound for the Middle East. As of early April, U.S. military casualties across all branches stood at <strong>365 wounded and 13 killed</strong>; Air Force specifically reported <strong>36 wounded, 6 KIA</strong>. The Iran naval blockade has cost approximately <strong>$25 billion</strong> to date. Brent crude remains elevated at <strong>$118/bbl</strong>.
+          <strong>Yonaguni Island</strong>, just <strong>110 km from Taiwan&rsquo;s eastern coast</strong>, has become a focal point in regional security. In September 2024, China&rsquo;s aircraft carrier <strong>Liaoning</strong> transited the same waterway for the first time, prompting strong protests from Tokyo. Analysts describe the pattern as an escalating cycle of naval signaling between Beijing and Tokyo.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Significance</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Deployments from Okinawa-based units to the Middle East reduce local force availability in the Indo-Pacific. With the 31st MEU forward-deployed and Kadena assets committed, Okinawa&rsquo;s rapid-response capability in a regional contingency (Taiwan, Korean Peninsula) is temporarily diminished. This comes as Japan simultaneously increases its own southwestern island defense posture.
+            The tit-for-tat naval transits signal a dangerous escalation in the Japan-China security dynamic. The Eastern Theater Command&rsquo;s involvement &mdash; the same command responsible for Taiwan contingency planning &mdash; underscores the strategic messaging. This pattern directly affects threat assessments for U.S. forces on Okinawa and validates Japan&rsquo;s accelerated military buildup across the Nansei chain. Expect further PRC naval activity in response to the upcoming May 17&ndash;22 exercise.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- EVENT 3: 12th MLR Activities -->
+    <!-- EVENT 3: Yonaguni EW Deployment -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">MOD</span>
-          <span style="color: #666; font-size: 11px;">Force Development / USMC &mdash; Ongoing</span>
+          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">HIGH</span>
+          <span style="color: #666; font-size: 11px;">Force Posture / Southwestern Islands &mdash; FY2026</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">12th Marine Littoral Regiment Expands Capabilities on Okinawa</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Japan Deploying Electronic Warfare Unit &amp; Air Defense to Yonaguni &mdash; 110 km from Taiwan</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The <strong>12th Marine Littoral Regiment</strong> (&ldquo;The Ryukyu Regiment&rdquo;), based at Camp Smedley Butler under 3rd Marine Division, continues to expand its operational capabilities across Okinawa. Recent milestones include:
+          Japan is standing up a new <strong>JGSDF electronic warfare (EW) unit</strong> on <strong>Yonaguni Island</strong> in FY2026, equipped with systems designed to <strong>jam hostile radar and communications</strong>. Simultaneously, the <strong>JASDF is establishing a surveillance squadron</strong> on Okinawa. The JMOD briefed Yonaguni residents on plans to deploy <strong>Type-03 Ch&umacr;-SAM surface-to-air missiles</strong> to the island, with full deployment targeted by 2030.
         </p>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 6px;">
-          &bull; <strong>12th Littoral Combat Team</strong> (Camp Hansen) executed the <strong>first-ever overhead live-fire range</strong> at Camp Schwab on Jan 28, followed by crew-served weapons ranges in March<br/>
-          &bull; <strong>12th Littoral Anti-Air Battalion</strong> (Camp Hansen) unveiled a <strong>new dedicated facility</strong> on Mar 6<br/>
-          &bull; Regiment to participate in upcoming <strong>Nansei Islands exercise</strong> with JSDF (May 17&ndash;20)
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          Japan is also constructing an <strong>air defense shelter in Okinawa</strong> specifically designed to counter Chinese satellite surveillance capabilities. These deployments form part of Japan&rsquo;s comprehensive reinforcement of the First Island Chain, transforming Yonaguni from a monitoring outpost into a <strong>multi-domain defense node</strong>.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Significance</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            The 12th MLR represents the Marine Corps&rsquo; force design transformation for distributed maritime operations in the First Island Chain. The new anti-air facility and live-fire milestones indicate the unit is rapidly maturing toward full operational capability. Integration with JSDF in the Nansei exercise validates the regiment&rsquo;s core mission of island defense and sea denial.
+            The EW unit represents a qualitative leap in Japan&rsquo;s southwestern island defense. Electronic warfare capabilities on Yonaguni could disrupt PLA command-and-control in a Taiwan scenario. Combined with the upcoming Nansei exercise&rsquo;s ScanEagle UAV deployment to the same island, Yonaguni is rapidly becoming a critical node in the US-Japan deterrence architecture. Beijing will view these deployments as directly threatening its Taiwan reunification options.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- EVENT 4: SOFA Orientation Changes -->
+    <!-- EVENT 4: 12th MLR & SOFA Updates -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">MOD</span>
-          <span style="color: #666; font-size: 11px;">Community Relations / SOFA &mdash; Apr 14</span>
+          <span style="color: #666; font-size: 11px;">Force Development &amp; Community Relations &mdash; Ongoing</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">U.S. Military Revising Newcomer Orientation on Okinawa After Local Feedback</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">12th MLR Expands Capabilities; SOFA Orientation Under Revision After Local Feedback</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          U.S. military officials are revising the mandatory <strong>Okinawa Orientation Overview</strong> &mdash; required for all SOFA-status personnel within <strong>72 hours of arrival</strong> &mdash; following feedback from the Okinawa prefectural government. Changes address content on <strong>incidents involving service members</strong> and updated descriptions of <strong>Irei No Hi</strong> (June 23 memorial for the Battle of Okinawa). The review follows a series of sexual assault convictions involving U.S. service members, including an Air Force airman (Dec 2024) and a Marine Lance Corporal (Jun 2026), with two additional cases pending in Naha District Court.
+          The <strong>12th Marine Littoral Regiment</strong> (&ldquo;The Ryukyu Regiment&rdquo;) continues rapid maturation. The <strong>12th Littoral Anti-Air Battalion</strong> unveiled a new dedicated facility at Camp Hansen (Mar 6), and the <strong>12th Littoral Combat Team</strong> completed its first overhead live-fire exercise at Camp Schwab. The regiment will integrate with JSDF in the May 17&ndash;20 Nansei exercise.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-          Feedback from <strong>Maj. Gen. Brian Wolford</strong> and <strong>Lt. Gen. Roger Turner</strong> is being translated for implementation at Wednesday orientation sessions.
+          Separately, U.S. military officials are revising the mandatory <strong>SOFA newcomer orientation</strong> following feedback from the <strong>Okinawa Community Partnership Forum</strong> (first meeting May 9). Changes address descriptions of incidents involving service members and updated content on <strong>Irei No Hi</strong> (June 23). The revision follows sexual assault cases involving U.S. service members and a viral video of an assault incident that led to a pause on solo military patrols in nightlife districts.
         </p>
       </div>
     </div>
@@ -141,56 +145,42 @@ const html = `
       <p style="color: #1e40af; font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: 2px; margin: 0 0 16px; border-bottom: 1px solid #222; padding-bottom: 8px;">&#9733; Government &amp; Political</p>
     </div>
 
-    <!-- EVENT 5: Governor Tamaki -->
+    <!-- EVENT 5: Governor Tamaki & Election -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">MOD</span>
+          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">HIGH</span>
           <span style="color: #666; font-size: 11px;">Election / Domestic Politics &mdash; Apr 25&ndash;27</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Governor Tamaki Announces Third-Term Bid &mdash; Anti-Base Coalition Faces Collapse</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Governor Tamaki Announces Third-Term Bid &mdash; Anti-Base &ldquo;All Okinawa&rdquo; Coalition in Crisis</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Okinawa Governor <strong>Denny Tamaki</strong> (66) announced he will seek a third term in the <strong>September 13 gubernatorial election</strong>, running on opposition to the Futenma-to-Henoko relocation. Tamaki called the new base &ldquo;absolutely unacceptable,&rdquo; arguing it would lead to <strong>permanent base consolidation</strong> on the island.
+          Okinawa Governor <strong>Denny Tamaki</strong> (66) announced he will seek a third term in the <strong>September 13 gubernatorial election</strong>, running on opposition to the Futenma-to-Henoko relocation. However, his <strong>&ldquo;All Okinawa&rdquo; coalition is reeling</strong> after losing <strong>all four Okinawa single-seat constituencies</strong> in the February 8 lower house election to PM Sanae Takaichi&rsquo;s LDP.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          However, Tamaki faces a <strong>weakened political position</strong>. His anti-base coalition <strong>lost all four Okinawa single-seat constituencies</strong> in the February 8 lower house election, with all seats going to PM Sanae Takaichi&rsquo;s LDP. His likely opponent is <strong>Genta Koja</strong> (42), former deputy mayor of Naha, running as a de facto LDP candidate who <strong>supports the Henoko relocation</strong>.
+          His likely opponent is <strong>Genta Koja</strong> (42), former deputy mayor of Naha, running as a de facto LDP candidate who <strong>supports the Henoko relocation</strong>. The Japan Times reports Tamaki faces &ldquo;wavering support&rdquo; as the political landscape shifts following the February election rout. The broad anti-base alliance that has shaped Okinawa politics for nearly a decade is at risk of collapse.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Significance</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            A Tamaki loss in September would represent a <strong>seismic shift in Okinawa base politics</strong>. An LDP-backed governor supporting the Henoko relocation could accelerate the Futenma replacement facility timeline and reduce political friction for U.S. force realignment. The February election results suggest momentum has shifted toward pro-relocation candidates. This is the most consequential Okinawa election for U.S. basing in a decade.
+            This is the most consequential Okinawa election for U.S. basing in a decade. A Tamaki loss would represent a <strong>seismic shift in Okinawa base politics</strong>. An LDP-backed governor supporting Henoko could accelerate the Futenma replacement facility timeline, ease HNS renegotiations, and reduce political friction for U.S. force realignment across the island.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- EVENT 6: Futenma 30 Years -->
+    <!-- EVENT 6: Futenma 30 Years & Cost Sharing -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">MOD</span>
           <span style="color: #666; font-size: 11px;">Base Realignment / Bilateral &mdash; Apr 13</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Futenma Return Hits 30-Year Mark &mdash; Pentagon Sets Runway Condition</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Futenma Return Hits 30-Year Mark; HNS Cost-Sharing Agreement Up for Renegotiation</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The <strong>30th anniversary</strong> of the 1996 US-Japan agreement to return MCAS Futenma passed with <strong>no concrete return date in sight</strong>. The Department of Defense stated in its FY2026 budget report that Futenma <strong>will not be returned until Japan finalizes selection of an alternative runway</strong>. The current Futenma runway is ~2,700m; the two planned Henoko runways are only ~1,800m each, creating an operational gap.
+          The <strong>30th anniversary</strong> of the 1996 US-Japan agreement to return MCAS Futenma passed with <strong>no concrete return date in sight</strong>. The DoD stated Futenma <strong>will not be returned until Japan finalizes selection of an alternative runway</strong>. Current Futenma runway is ~2,700m vs. two planned Henoko runways at ~1,800m each. Henoko construction expected to continue <strong>until at least 2033</strong>.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-          Japan&rsquo;s defense minister called the delay a matter the government takes &ldquo;seriously.&rdquo; The US and Japan have agreed Marines could use a civilian airport if a longer runway is needed, but no facility has been designated. Henoko construction is expected to continue <strong>until at least 2033</strong>.
-        </p>
-      </div>
-    </div>
-
-    <!-- EVENT 7: US-Japan Cost Sharing -->
-    <div style="margin-bottom: 24px;">
-      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
-        <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">MOD</span>
-          <span style="color: #666; font-size: 11px;">Bilateral / Cost-Sharing &mdash; Ongoing</span>
-        </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">US-Japan Base Cost-Sharing Agreement Due for Renegotiation in FY2026</h3>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-          The current <strong>US-Japan Host Nation Support (HNS) agreement expires at end of FY2026</strong>, requiring renegotiation. Discussions are expected to address redistribution of Marine units from Okinawa to Guam and Australia, enhanced capabilities at <strong>Kadena Air Base</strong> and Yokosuka Naval Base, and a shift toward a <strong>distributed force posture</strong>. PM Takaichi&rsquo;s Defense Minister <strong>Shinjiro Koizumi</strong> pledged during a January visit to Okinawa to <strong>reduce the U.S. military footprint</strong> on the island. Outcomes will directly impact troop levels, family support, and base operations across Okinawa.
+          The <strong>US-Japan Host Nation Support (HNS) agreement expires at end of FY2026</strong>. Renegotiations will address redistribution of Marines from Okinawa to Guam and Australia, enhanced capabilities at <strong>Kadena Air Base</strong>, and distributed force posture. Defense Minister <strong>Shinjiro Koizumi</strong> pledged during his January visit to <strong>reduce the U.S. military footprint</strong> on the island.
         </p>
       </div>
     </div>
@@ -200,7 +190,7 @@ const html = `
       <p style="color: #22c55e; font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: 2px; margin: 0 0 16px; border-bottom: 1px solid #222; padding-bottom: 8px;">&#9733; Environmental &amp; Health</p>
     </div>
 
-    <!-- EVENT 8: PFAS -->
+    <!-- EVENT 7: PFAS -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
@@ -209,15 +199,15 @@ const html = `
         </div>
         <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">PFAS Contamination Near Kadena &amp; Futenma Hits Record Levels &mdash; 56x Japan&rsquo;s Safety Standard</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Okinawa Prefecture&rsquo;s annual groundwater survey found <strong>PFAS &ldquo;forever chemicals&rdquo; at dangerous levels at 31 of 44 sites</strong> near U.S. military installations. The highest contamination &mdash; <strong>2,800 parts per trillion</strong> at Yara Hijaga near Kadena &mdash; is <strong>56 times Japan&rsquo;s 50 ppt safety standard</strong> and surpasses the previous 2022 record of 2,100 ppt. Elevated levels were also detected near <strong>MCAS Futenma, Camp Hansen, Camps Courtney/McTureous, and Camp Foster</strong>.
+          Okinawa Prefecture&rsquo;s annual groundwater survey found <strong>PFAS &ldquo;forever chemicals&rdquo; at dangerous levels at 31 of 44 sites</strong> near U.S. military installations. The highest contamination &mdash; <strong>2,800 parts per trillion</strong> at Yara Hijaga near Kadena &mdash; is <strong>56 times Japan&rsquo;s 50 ppt safety standard</strong>. Elevated levels also detected near <strong>MCAS Futenma, Camp Hansen, Camps Courtney/McTureous, and Camp Foster</strong>.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The U.S. EPA states <strong>no level of PFAS is considered safe</strong> in drinking water. The American Cancer Society links exposure to increased risk of liver, breast, testicular, and pancreatic tumors. <strong>USFJ denied prefecture access to bases for water sampling</strong>, citing insufficient evidence. USFJ incinerated its last firefighting foam stockpile in 2024. The prefecture plans to reapply for access, citing an expert committee report indicating Futenma as the likely source.
+          <strong>USFJ denied prefecture access to bases for water sampling</strong>, citing insufficient evidence. The prefecture plans to reapply for access, citing an expert committee report indicating Futenma as the likely source. The U.S. EPA states <strong>no level of PFAS is considered safe</strong> in drinking water.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Significance</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            PFAS contamination is a growing flashpoint in US-Okinawa community relations. USFJ&rsquo;s refusal to grant base access for sampling fuels local opposition to the U.S. military presence. This issue has potential to become a central campaign theme in the September gubernatorial election. Service members and families living near affected bases should monitor water advisories.
+            PFAS contamination is a growing flashpoint in US-Okinawa community relations and likely to become a central campaign theme in the September gubernatorial election. Service members and families living near affected bases should monitor water advisories.
           </p>
         </div>
       </div>
@@ -228,19 +218,22 @@ const html = `
       <p style="color: #eab308; font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: 2px; margin: 0 0 16px; border-bottom: 1px solid #222; padding-bottom: 8px;">&#9733; Financial &amp; Economic</p>
     </div>
 
-    <!-- EVENT 9: Economy -->
+    <!-- EVENT 8: Economy -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #22c55e; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">LOW</span>
-          <span style="color: #666; font-size: 11px;">Economy / Regional &mdash; Q1 2026</span>
+          <span style="color: #666; font-size: 11px;">Economy / Regional &mdash; Q1&ndash;Q2 2026</span>
         </div>
         <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Japan MOF Upgrades Okinawa Economic Outlook &mdash; Tourism &amp; Consumption Strengthen</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Japan&rsquo;s <strong>Ministry of Finance upgraded its economic assessment</strong> for the Okinawa region, citing strengthened <strong>personal consumption and tourism</strong>. Despite Chinese government advisories discouraging group travel to Japan, a hotel industry official reported <strong>no significant impact</strong> on Okinawa&rsquo;s tourism sector.
+          Japan&rsquo;s <strong>Ministry of Finance upgraded its economic assessment</strong> for the Okinawa region, citing strengthened <strong>personal consumption and tourism</strong>. Strong vehicle sales and rising domestic and foreign tourist arrivals drove the upgrade. Despite Chinese government advisories discouraging group travel to Japan, hotel industry officials reported <strong>no significant impact</strong> on Okinawa&rsquo;s tourism sector.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          Broader Japan economic context: GDP growth projected at <strong>0.8% for 2026</strong>. The Bank of Japan projects CPI inflation at <strong>2.5&ndash;3.0%</strong> for FY2026. <strong>Shunto wage negotiations</strong> delivered a third straight year of ~5% wage hikes, supporting domestic consumption. Private consumption expected to benefit from a <strong>gradual rise in real wages</strong> as inflation eases and labor shortages persist.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-          Broader Japan economic context: GDP growth projected at <strong>0.8% for 2026</strong> (down from stronger 2025), weighed by the Iran conflict and energy costs. <strong>Shunto wage negotiations</strong> delivered a third straight year of ~5% wage hikes, supporting domestic consumption. The <strong>Nikkei 225</strong> sits at 59,284 (-1.06%). Elevated energy prices ($118/bbl Brent) remain a headwind for Japan&rsquo;s import-dependent economy.
+          <strong>Key risks:</strong> U.S. trade policy uncertainty, elevated energy prices, and financial/capital market volatility remain headwinds for Japan&rsquo;s import-dependent economy.
         </p>
       </div>
     </div>
@@ -249,13 +242,13 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #7c3aed; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Key Takeaway &mdash; What to Watch</p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Okinawa sits at the intersection of two competing strategic demands.</strong> The Iran conflict (Operation Epic Fury) is pulling Okinawa-based forces &mdash; including the 31st MEU and Kadena assets &mdash; toward the Middle East, while the growing China-Taiwan threat is driving unprecedented US-Japan military integration in the Nansei Islands. The May 17&ndash;22 exercise with the 12th MLR represents a milestone in First Island Chain defense posture.
+        <strong style="color: #fff;">The China-Japan naval standoff is intensifying around Okinawa.</strong> The PLA Navy&rsquo;s Yonaguni-Iriomote transit (Apr 22) in response to Japan&rsquo;s Taiwan Strait passage marks a dangerous escalation in tit-for-tat signaling. Meanwhile, Japan&rsquo;s first-ever Nansei Islands exercise (May 17&ndash;22) with U.S. Marines will establish an unprecedented bilateral coordination center on Miyakojima. Combined with the new EW unit on Yonaguni and Type-88 missile deployments to Ishigaki, Okinawa&rsquo;s southwestern islands are transforming from monitoring outposts into multi-domain defense nodes.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Politically, Okinawa faces a turning point.</strong> Governor Tamaki&rsquo;s anti-base coalition collapsed in February&rsquo;s elections. If LDP-backed Genta Koja wins in September, expect accelerated Henoko construction and reduced political friction for U.S. force realignment. The PFAS contamination crisis and SOFA orientation changes will continue to shape community relations.
+        <strong style="color: #fff;">Politically, Okinawa faces a turning point.</strong> Governor Tamaki&rsquo;s anti-base &ldquo;All Okinawa&rdquo; coalition collapsed in February&rsquo;s elections. If LDP-backed Genta Koja wins in September, expect accelerated Henoko construction and reduced political friction for U.S. force realignment. PFAS contamination and SOFA orientation revisions continue to shape community relations on the ground.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        <strong style="color: #fff;">Watch:</strong> PRC reaction to Nansei exercise &bull; September 13 gubernatorial election polls &bull; HNS cost-sharing renegotiation outcomes &bull; PFAS water sampling access requests &bull; 31st MEU deployment updates from CENTCOM
+        <strong style="color: #fff;">Watch:</strong> PRC reaction to May 17&ndash;22 Nansei exercise &bull; September 13 gubernatorial election polls &bull; HNS cost-sharing renegotiation &bull; PLA naval activity near Yonaguni &bull; Yonaguni EW unit activation timeline &bull; PFAS water sampling access decisions
       </p>
     </div>
 
@@ -263,7 +256,7 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Sources</p>
       <p style="color: #888; font-size: 11px; line-height: 1.8; margin: 0;">
-        Stars and Stripes &bull; The Japan Times &bull; Taiwan News &bull; DVIDSHUB &bull; Military.com &bull; Nippon.com &bull; Ryukyu Shimpo &bull; Naval News &bull; The Diplomat &bull; Air &amp; Space Forces Magazine &bull; IMF &bull; Japan Ministry of Finance &bull; South China Morning Post &bull; CBS News
+        Stars and Stripes &bull; The Japan Times &bull; Taiwan News &bull; Reuters &bull; US News &bull; Taipei Times &bull; Military.com &bull; Foreign Policy &bull; The Defense News &bull; Eurasian Times &bull; South China Morning Post &bull; USNI News &bull; Bank of Japan &bull; Japan Ministry of Finance &bull; IMF &bull; Ryukyu Shimpo &bull; Asian Military Review
       </p>
     </div>
 
@@ -282,9 +275,12 @@ const html = `
 
 import { execSync } from 'node:child_process';
 
+const useTestingMode = RESEND_KEY && !process.env.RESEND_DOMAIN_VERIFIED;
+const recipients = useTestingMode ? TESTING_RECIPIENTS : RECIPIENTS;
+
 const payload = JSON.stringify({
   from: 'World Monitor <onboarding@resend.dev>',
-  to: RECIPIENTS,
+  to: recipients,
   subject: `[World Monitor] Okinawa Intelligence Briefing — ${today}`,
   html,
 });
@@ -307,8 +303,12 @@ try {
   }
 
   const data = JSON.parse(body);
-  console.log(`Email sent successfully to ${RECIPIENTS.join(', ')}`);
+  console.log(`Email sent successfully to ${recipients.join(', ')}`);
   console.log('Resend ID:', data.id);
+  if (useTestingMode) {
+    console.log('\nNote: Sent in testing mode to verified email only.');
+    console.log(`Target recipients (requires verified domain): ${RECIPIENTS.join(', ')}`);
+  }
 } catch (err) {
   console.error('Failed to send email:', err.message);
   process.exit(1);
