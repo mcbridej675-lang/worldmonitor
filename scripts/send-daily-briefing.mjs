@@ -123,7 +123,47 @@ const html = `
       </div>
     </div>
 
-    <!-- EVENT 4: 12th MLR & SOFA Updates -->
+    <!-- EVENT 4: Operation Epic Fury - Kadena & 31st MEU -->
+    <div style="margin-bottom: 24px;">
+      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">HIGH</span>
+          <span style="color: #666; font-size: 11px;">Operations / CENTCOM &mdash; Ongoing</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Kadena Airmen &amp; 31st MEU Deployed for Operation Epic Fury Against Iran</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          <strong>18th Wing personnel from Kadena Air Base</strong> are deployed &ldquo;in harm&rsquo;s way&rdquo; supporting U.S. Central Command operations against Iran, the wing commander confirmed in an April AFN interview. The Air Force has reported <strong>36 wounded in action and 6 deaths</strong> across the operation as of mid-April.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          In mid-March, <strong>2,500 members of the 31st Marine Expeditionary Unit</strong> (Camp Hansen, Okinawa) departed aboard the <strong>USS Tripoli</strong> from Sasebo for the Middle East to support <strong>Operation Epic Fury</strong>, which began Feb 28 and was paused Apr 9 during a two-week ceasefire. CENTCOM listed 26 aircraft types in use, from B-1 Lancers to LUCAS one-way attack drones.
+        </p>
+        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
+          <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Significance</p>
+          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
+            The simultaneous deployment of Okinawa-based air and ground forces to the Middle East raises force readiness questions for the Indo-Pacific theater. With the 31st MEU &mdash; the region&rsquo;s primary rapid-response force &mdash; in CENTCOM and Kadena airmen forward-deployed, Okinawa&rsquo;s immediate crisis response capacity is temporarily reduced during a period of heightened China-Japan tensions.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- EVENT 5: Senkaku Incursions -->
+    <div style="margin-bottom: 24px;">
+      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">MOD</span>
+          <span style="color: #666; font-size: 11px;">Maritime Security / East China Sea &mdash; Apr 27</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Chinese Coast Guard Ships Enter Senkaku Territorial Waters &mdash; Record Pace Continues</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          <strong>Four armed Haijing-class coast guard ships</strong> entered Japanese territorial waters near <strong>Minamikojima</strong> (Senkaku Islands, Okinawa Prefecture) on April 27, remaining approximately two hours before withdrawing. The Japan Coast Guard reports that Chinese vessels were present in the contiguous zone around the Senkakus on <strong>357 of 365 days in 2025</strong> &mdash; a fourth consecutive annual record.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          Chinese coast guard vessels have become <strong>larger, more heavily armed, and reinforced</strong> throughout 2025&ndash;2026. Japan announced plans to counter China&rsquo;s armed coast guard fleet with enhanced maritime law enforcement capabilities. PM Takaichi&rsquo;s statement that military force in a Taiwan conflict could constitute a &ldquo;survival-threatening situation&rdquo; &mdash; providing legal grounds for Japanese intervention &mdash; has further inflamed Beijing.
+        </p>
+      </div>
+    </div>
+
+    <!-- EVENT 6: 12th MLR & SOFA Updates -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
@@ -247,8 +287,11 @@ const html = `
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
         <strong style="color: #fff;">Politically, Okinawa faces a turning point.</strong> Governor Tamaki&rsquo;s anti-base &ldquo;All Okinawa&rdquo; coalition collapsed in February&rsquo;s elections. If LDP-backed Genta Koja wins in September, expect accelerated Henoko construction and reduced political friction for U.S. force realignment. PFAS contamination and SOFA orientation revisions continue to shape community relations on the ground.
       </p>
+      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
+        <strong style="color: #fff;">Force readiness is stretched.</strong> The 31st MEU and Kadena airmen are forward-deployed for Operation Epic Fury against Iran, temporarily reducing Okinawa&rsquo;s rapid-response capacity during the most tense period in East China Sea relations in years. Chinese coast guard incursions at the Senkakus continue at record pace (357/365 days in 2025), and the PLA Navy&rsquo;s Yonaguni transit signals willingness to operate in Japan&rsquo;s southwestern approaches.
+      </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        <strong style="color: #fff;">Watch:</strong> PRC reaction to May 17&ndash;22 Nansei exercise &bull; September 13 gubernatorial election polls &bull; HNS cost-sharing renegotiation &bull; PLA naval activity near Yonaguni &bull; Yonaguni EW unit activation timeline &bull; PFAS water sampling access decisions
+        <strong style="color: #fff;">Watch:</strong> PRC reaction to May 17&ndash;22 Nansei exercise &bull; Operation Epic Fury ceasefire status &amp; 31st MEU return timeline &bull; September 13 gubernatorial election polls &bull; HNS cost-sharing renegotiation &bull; PLA naval activity near Yonaguni &bull; Yonaguni EW unit activation timeline &bull; PFAS water sampling access decisions
       </p>
     </div>
 
@@ -256,7 +299,7 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Sources</p>
       <p style="color: #888; font-size: 11px; line-height: 1.8; margin: 0;">
-        Stars and Stripes &bull; The Japan Times &bull; Taiwan News &bull; Reuters &bull; US News &bull; Taipei Times &bull; Military.com &bull; Foreign Policy &bull; The Defense News &bull; Eurasian Times &bull; South China Morning Post &bull; USNI News &bull; Bank of Japan &bull; Japan Ministry of Finance &bull; IMF &bull; Ryukyu Shimpo &bull; Asian Military Review
+        Stars and Stripes &bull; The Japan Times &bull; Taiwan News &bull; Reuters &bull; US News &bull; Taipei Times &bull; Military.com &bull; Foreign Policy &bull; Defense News &bull; Eurasian Times &bull; South China Morning Post &bull; USNI News &bull; Janes &bull; Al Jazeera &bull; Nippon.com &bull; Air &amp; Space Forces Magazine &bull; Bank of Japan &bull; Japan Ministry of Finance &bull; IMF &bull; Ryukyu Shimpo &bull; Asian Military Review
       </p>
     </div>
 
