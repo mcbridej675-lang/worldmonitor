@@ -51,10 +51,10 @@ const html = `
 
     <!-- ===================== BREAKING NEWS BANNER ===================== -->
     <div style="background: #1a0a0a; border: 2px solid #dc2626; padding: 16px 20px; margin-bottom: 24px;">
-      <p style="color: #dc2626; font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 2px; margin: 0 0 8px;">&#9888; Breaking &mdash; May 5, 2026</p>
-      <p style="color: #fff; font-size: 15px; font-weight: 700; margin: 0 0 8px;">Secretary Rubio Declares Operation Epic Fury &ldquo;Over&rdquo; &mdash; 31st MEU Return Anticipated</p>
+      <p style="color: #dc2626; font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 2px; margin: 0 0 8px;">&#9888; Breaking &mdash; May 10, 2026</p>
+      <p style="color: #fff; font-size: 15px; font-weight: 700; margin: 0 0 8px;">Iran Launches Drone Strikes on Qatar, UAE &amp; Kuwait &mdash; Ceasefire in Jeopardy; 31st MEU Return Delayed</p>
       <p style="color: #bbb; font-size: 12px; line-height: 1.6; margin: 0;">
-        Secretary of State Marco Rubio announced today that Operation Epic Fury against Iran is officially &ldquo;over&rdquo; after achieving military objectives in 38 days. The U.S. has transitioned to &ldquo;Project Freedom,&rdquo; a defensive operation to reopen the Strait of Hormuz. The <strong>31st MEU (2,500 Marines from Camp Hansen)</strong> deployed aboard USS Tripoli in mid-March is now expected to begin its return to Okinawa, potentially restoring the region&rsquo;s rapid-response capacity within weeks. However, the ceasefire remains fragile &mdash; Iran launched missiles at UAE shipping and targets for a second consecutive day, and Defense Secretary Hegseth warned further strikes remain possible.
+        Iran launched drone strikes against <strong>Qatar, the UAE, and Kuwait</strong> on May 10, severely testing the fragile ceasefire declared five days earlier. A drone set fire to a commercial ship off Qatar&rsquo;s coast, while the UAE intercepted two drones and Kuwait reported hostile drones entering its airspace. No casualties were reported. Since Iran began its strikes on the UAE, air defenses have engaged <strong>551 ballistic missiles, 29 cruise missiles, and 2,263 drones</strong> (230 injuries total). President Trump warned that if Iran does not abide by the ceasefire, &ldquo;the bombing starts&hellip; at a much higher level and intensity.&rdquo; The <strong>31st MEU (2,500 Marines from Camp Hansen)</strong> aboard USS Tripoli &mdash; deployed to the Middle East on March 13 to secure the Strait of Hormuz &mdash; now faces an <strong>indefinite return timeline</strong> as the crisis escalates, leaving Okinawa&rsquo;s rapid-response capacity diminished.
       </p>
     </div>
 
@@ -68,19 +68,19 @@ const html = `
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">HIGH</span>
-          <span style="color: #666; font-size: 11px;">Force Posture / Indo-Pacific &mdash; May 2&ndash;3</span>
+          <span style="color: #666; font-size: 11px;">Force Posture / Indo-Pacific &mdash; May 3&ndash;6</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">12 F-22 Raptors Deploy to Kadena Air Base &mdash; $1.8B Stealth Package from Alaska</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Two F-22 Raptor Squadrons Deploy to Kadena as F-35As Depart &amp; F-15EX Delivery Stalls</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          A total of <strong>12 F-22 Raptor stealth fighters</strong> arrived at <strong>Kadena Air Base</strong> on May 2&ndash;3, with six aircraft touching down each day. The jets deployed from <strong>Joint Base Elmendorf-Richardson, Alaska</strong>, representing approximately <strong>$1.8 billion in combat assets</strong> ($150M per airframe). The coordinated two-day arrival sequence indicates a planned operational deployment rather than a routine rotation.
+          Two squadrons of <strong>F-22 Raptors</strong> arrived at <strong>Kadena Air Base</strong> for rotational duty with the 18th Wing: the <strong>90th Expeditionary Fighter Squadron</strong> from Joint Base Elmendorf-Richardson, Alaska (12 aircraft, May 3&ndash;4) and the <strong>27th Expeditionary Fighter Squadron</strong> from Joint Base Langley-Eustis, Virginia. Simultaneously, <strong>two F-35A Lightning II squadrons departed</strong> Kadena, returning to their home stations. The rotation places an estimated <strong>12&ndash;24 F-22s</strong> at Asia&rsquo;s largest U.S. Air Force installation.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Kadena &mdash; the <strong>largest U.S. Air Force installation in Asia</strong> &mdash; now hosts the most significant concentration of 5th-generation fighters in the Western Pacific. The deployment comes as the base transitions from retired F-15C/D Eagles to a mixed fighter force of F-22s and F-16s, dramatically enhancing air superiority capabilities across the First Island Chain.
+          The deployment is a stopgap: the <strong>planned permanent fleet of 36 F-15EX Eagle IIs</strong> (announced July 2024 to replace 48 retired F-15C/Ds) remains <strong>delayed due to a monthslong Boeing strike in 2025</strong>. The Air Force confirmed in February it has postponed F-15EX delivery plans indefinitely. Kadena&rsquo;s 18th Wing meanwhile participated in the <strong>2026 Naha Dragon Boat Race (Hari)</strong> May 3&ndash;5, strengthening community ties.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Significance</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Timing is critical: 12 stealth fighters arrive at Kadena just as Operation Epic Fury concludes and two weeks before Japan&rsquo;s Nansei Islands exercise. The deployment signals a rapid force reconstitution in the Indo-Pacific following CENTCOM drawdowns and serves as visible deterrence amid escalating Chinese and Russian naval activity around Okinawa. PRC intelligence will note the shift from aging F-15s to air-dominant F-22s.
+            The dual-squadron F-22 deployment signals urgent Indo-Pacific force reconstitution as Operation Epic Fury winds down. With F-15EX deliveries stalled and F-35As rotating out, Kadena is cycling through temporary fighter packages &mdash; a vulnerability if the Iran ceasefire collapses and CENTCOM demands resurge. The F-22&rsquo;s air-dominance capability is critical given the recent Sino-Russian naval activity near Okinawa and the upcoming Nansei Islands exercise.
           </p>
         </div>
       </div>
@@ -114,11 +114,11 @@ const html = `
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">HIGH</span>
-          <span style="color: #666; font-size: 11px;">Force Posture / Indo-Pacific &mdash; May 1</span>
+          <span style="color: #666; font-size: 11px;">Force Posture / Indo-Pacific &mdash; T-7 Days</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">JSDF First-Ever Nansei Islands Exercise in 12 Days &mdash; 12th MLR to Establish Bilateral Command Center</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">JSDF First-Ever Nansei Islands Exercise in 7 Days &mdash; 12th MLR to Establish Bilateral Command Center</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The Japan Ground Self-Defense Force&rsquo;s <strong>Ground Component Command</strong> will conduct its first-ever exercise focused on the remote Nansei (Ryukyu) island chain from <strong>May 17&ndash;22, 2026</strong>. Approximately <strong>300 JGSDF soldiers</strong> from all regional armies will participate in mobile deployment and material transportation drills across <strong>nine ports</strong>.
+          The Japan Ground Self-Defense Force&rsquo;s <strong>Ground Component Command</strong> will conduct its first-ever exercise focused on the remote Nansei (Ryukyu) island chain from <strong>May 17&ndash;22, 2026</strong>. Approximately <strong>300 JGSDF soldiers</strong> from all five regional armies will participate in mobile deployment and material transportation drills across <strong>nine ports</strong>. This follows the conclusion of <strong>Balikatan 2026</strong> (Apr 20&ndash;May 8), in which Japan participated as an <strong>active partner for the first time</strong> alongside the U.S., Philippines, Australia, Canada, New Zealand, and France.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
           <strong>20 Marines from the 12th Marine Littoral Regiment</strong> (Camp Butler, Okinawa) will join command post training in <strong>Miyakojima city</strong> from May 17&ndash;20, establishing the <strong>first-ever U.S.-Japan coordination center</strong> on the island. Key deployments include a <strong>Type-88 surface-to-ship guided missile launcher</strong> to Ishigaki (150 mi east of Taiwan) and <strong>two ScanEagle II UAVs</strong> to Yonaguni (70 mi east of Taiwan).
@@ -126,7 +126,7 @@ const html = `
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Significance</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Exercise launches just days after the concentrated Russian-Chinese naval activity. The bilateral command center on Miyakojima is a significant first for US-Japan interoperability in a potential Taiwan contingency. No U.S. units will operate on Ishigaki or Yonaguni, maintaining political sensitivities. Watch for PRC reaction via diplomatic statements or retaliatory PLA naval activity.
+            The exercise launches days after the Senkaku incursion (May 8) and concentrated Russian-Chinese naval transits (Apr 21&ndash;28). PLA Southern Theater Command responded to Balikatan with a surface task group east of the Luzon Strait (Apr 24) and the carrier Liaoning transited the Taiwan Strait (Apr 20). The bilateral command center on Miyakojima is a significant first for US-Japan interoperability in a potential Taiwan contingency. Watch for PRC reaction via diplomatic statements or retaliatory naval activity.
           </p>
         </div>
       </div>
@@ -155,36 +155,42 @@ const html = `
       </div>
     </div>
 
-    <!-- EVENT 5: Senkaku Incursions & Survey Vessel -->
+    <!-- EVENT 5: Senkaku Incursions — May 8 Update -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">MOD</span>
-          <span style="color: #666; font-size: 11px;">Maritime Security / East China Sea &mdash; Mar&ndash;Apr 2026</span>
+          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">HIGH</span>
+          <span style="color: #666; font-size: 11px;">Maritime Security / East China Sea &mdash; May 8</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Chinese Coast Guard Chases Japanese Fishing Boat; Survey Vessel Spotted in Senkaku EEZ</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">4 Chinese Coast Guard Ships Enter Senkaku Territorial Waters &mdash; First Incursion Since April 28</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Chinese coast guard vessels <strong>chased a Japanese fishing boat into disputed waters</strong> near the Senkaku Islands in March, marking a dangerous escalation in gray-zone tactics. Separately, a <strong>Chinese marine research vessel</strong> was spotted in April extending a wire-like object into the ocean within Japan&rsquo;s exclusive economic zone around the Senkakus &mdash; suspected of conducting an <strong>unauthorized survey</strong>. The Japan Coast Guard urged the vessel to cease operations.
+          Four Chinese coast guard vessels <strong>entered Japanese territorial waters</strong> near <strong>Uotsuri Island</strong> in the Senkaku chain on <strong>May 8 between 4:15&ndash;4:35 p.m.</strong>, departing around 6 p.m. The 11th Regional Coast Guard headquarters in Naha confirmed this was the <strong>first intrusion since April 28</strong>. The incursion comes just days before the JSDF&rsquo;s first-ever Nansei Islands exercise (May 17&ndash;22).
         </p>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-          Chinese vessels were present in the contiguous zone around the Senkakus on <strong>357 of 365 days in 2025</strong> &mdash; a fourth consecutive annual record. Coast guard vessels have become <strong>larger, more heavily armed, and reinforced</strong>. The 11th Regional Coast Guard commander stated the situation is &ldquo;increasingly severe&rdquo; and &ldquo;unpredictable.&rdquo; Japan announced plans to counter China&rsquo;s armed coast guard fleet with enhanced maritime law enforcement capabilities.
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          This continues an aggressive pattern: Chinese vessels were present in the contiguous zone around the Senkakus on <strong>357 of 365 days in 2025</strong> &mdash; a fourth consecutive annual record. Earlier this year, Chinese coast guard vessels <strong>chased a Japanese fishing boat</strong> (March) and a research vessel conducted an <strong>unauthorized survey</strong> in Japan&rsquo;s EEZ (April). Japan&rsquo;s FY2026 budget includes <strong>four MQ-9B SeaGuardian drones and two large patrol ships</strong> to counter the threat.
         </p>
+        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
+          <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">Significance</p>
+          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
+            The May 8 incursion resumes a near-daily pattern of gray-zone pressure. With Okinawa&rsquo;s 31st MEU deployed to the Middle East and Japan preparing the Nansei exercise, Beijing may be probing response times and gauging the impact of U.S. force drawdowns in the region. The timing &mdash; nine days before the first-ever Nansei drill &mdash; is unlikely coincidental.
+          </p>
+        </div>
       </div>
     </div>
 
-    <!-- EVENT 6: 12th MLR & SOFA Updates -->
+    <!-- EVENT 6: 12th MLR, Camp Foster Return & SOFA Updates -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">MOD</span>
-          <span style="color: #666; font-size: 11px;">Force Development &amp; Community Relations &mdash; Ongoing</span>
+          <span style="color: #666; font-size: 11px;">Force Development &amp; Community Relations &mdash; May 9</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">12th MLR Expands Capabilities; SOFA Orientation Under Revision After Local Feedback</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Camp Foster Kishaba Return Finalized; SOFA Orientation Revised at First Community Partnership Forum</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The <strong>12th Marine Littoral Regiment</strong> (&ldquo;The Ryukyu Regiment&rdquo;) continues rapid maturation. The <strong>12th Littoral Anti-Air Battalion</strong> unveiled a new dedicated facility at Camp Hansen (Mar 6), and the <strong>12th Littoral Combat Team</strong> completed its first overhead live-fire exercise at Camp Schwab. The regiment will integrate with JSDF in the May 17&ndash;20 Nansei exercise.
+          The Japan-U.S. Joint Committee finalized an agreement to return approximately <strong>12 acres of the Kishaba Housing Area on Camp Foster</strong> to Okinawa, potentially by fall 2026, to alleviate traffic congestion. The <strong>12th Marine Littoral Regiment</strong> (&ldquo;The Ryukyu Regiment&rdquo;) continues rapid maturation: the <strong>12th Littoral Anti-Air Battalion</strong> unveiled a new facility at Camp Hansen (Mar 6), and the <strong>12th Littoral Combat Team</strong> completed its first overhead live-fire exercise at Camp Schwab. The regiment integrates with JSDF in the May 17&ndash;20 Nansei exercise.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-          Separately, U.S. military officials are revising the mandatory <strong>SOFA newcomer orientation</strong> following feedback from the <strong>Okinawa Community Partnership Forum</strong> (first meeting May 9). Changes address descriptions of incidents involving service members and updated content on <strong>Irei No Hi</strong> (June 23). The revision follows sexual assault cases involving U.S. service members and a viral video of an assault incident that led to a pause on solo military patrols in nightlife districts.
+          The <strong>Okinawa Community Partnership Forum held its first meeting May 9</strong>. U.S. military officials are revising the mandatory <strong>SOFA newcomer orientation</strong> based on prefectural feedback, addressing descriptions of incidents involving service members and updated content on <strong>Irei No Hi</strong> (June 23). Solo military police patrols in nightlife districts <strong>remain suspended</strong> following a November 2025 assault incident. The <strong>54th anniversary of Okinawa&rsquo;s reversion</strong> to Japan falls on May 15 &mdash; Governor Tamaki gave a joint media interview at the Prefectural Office on May 9 to mark the occasion.
         </p>
       </div>
     </div>
@@ -262,27 +268,44 @@ const html = `
       </div>
     </div>
 
+    <!-- ===================== SEISMIC SECTION ===================== -->
+    <div style="margin-bottom: 24px;">
+      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">MOD</span>
+          <span style="color: #666; font-size: 11px;">Seismic Activity / Ryukyu Islands &mdash; May 9&ndash;10</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Earthquake Cluster Near Iriomote &amp; Miyakojima &mdash; Three Quakes in 24 Hours</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          Three earthquakes struck the southwestern Ryukyu Islands in the past 24 hours: a <strong>M4.4</strong> in the Philippine Sea 69 km south of Miyakojima (May 9, 10:26 AM JST, depth 35 km), a <strong>M3.1</strong> in the East China Sea 10 km NE of Iriomote (May 10, 1:02 AM JST), and a <strong>M4.6</strong> 24 km north of Iriomote (May 10, 1:18 AM JST). No tsunami risk, casualties, or significant damage reported. The cluster is concentrated near the islands that will host the Nansei exercise in 7 days. Seismic activity is common in the region but is being monitored for any impact on exercise logistics.
+        </p>
+      </div>
+    </div>
+
     <!-- ===================== FINANCIAL SECTION ===================== -->
     <div style="margin-bottom: 8px; margin-top: 32px;">
       <p style="color: #eab308; font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: 2px; margin: 0 0 16px; border-bottom: 1px solid #222; padding-bottom: 8px;">&#9733; Financial &amp; Economic</p>
     </div>
 
-    <!-- EVENT 10: Economy & Yen -->
+    <!-- EVENT 10: Economy, Markets & Yen -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #ea580c; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">MOD</span>
-          <span style="color: #666; font-size: 11px;">Economy / Currency &mdash; May 5</span>
+          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">HIGH</span>
+          <span style="color: #666; font-size: 11px;">Economy / Markets / Currency &mdash; May 7&ndash;9</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Yen Under Pressure at &yen;156.5/USD &mdash; Japan Running Out of Intervention Options</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Yen Spikes to 10-Week High on Intervention Chatter; BOJ Holds at 0.75%; Nikkei Falls on Iran Fears</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The Japanese yen steadied at <strong>&yen;156.5 per dollar</strong> after briefly strengthening to ~155.5 following a suspected government intervention. The Japan Times reports Japan can conduct <strong>only two more three-day intervention sessions before November</strong> under IMF guidelines to maintain freely-floating currency status. The wide US-Japan interest rate differential and Iran war energy costs continue pressuring the yen.
+          The yen <strong>spiked to a 10-week high on May 7</strong>, sparking intervention speculation before settling at <strong>&yen;156.7/USD</strong> by May 8. The BOJ held its policy rate at <strong>0.75%</strong> (highest since September 1995) at its April 28 meeting in a <strong>6&ndash;3 vote</strong>, citing Iran war uncertainty. The bank <strong>cut its GDP growth forecast to 0.5%</strong> (from 1.0%) and <strong>raised core inflation to 2.8%</strong> (from 1.9%). Next rate hike expected <strong>no earlier than July</strong>.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Japan&rsquo;s <strong>Ministry of Finance upgraded its economic assessment</strong> for the Okinawa region, citing strengthened personal consumption and tourism. GDP growth is projected at <strong>0.8% for 2026</strong> with BOJ CPI inflation at <strong>2.5&ndash;3.0%</strong>. Shunto wage negotiations delivered a third straight year of ~5% wage hikes. Despite Chinese travel advisories, Okinawa tourism remains strong.
+          The <strong>Nikkei 225 fell 0.29% to 62,651</strong> on May 8 as three U.S. Navy destroyers intercepted Iranian attacks in the Strait of Hormuz, reviving geopolitical risk concerns. Japan faces a <strong>Section 301 investigation</strong> from the USTR (initiated March 2026), and the <strong>15% U.S. tariff on most Japanese imports</strong> remains in effect under the 2025 trade framework. Japan has committed <strong>$550B in strategic U.S. investments</strong> (semiconductors, AI, critical minerals) to maintain favorable trade terms.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          <strong>Okinawa economy:</strong> Ministry of Finance upgraded the regional assessment to <strong>&ldquo;recovering&rdquo;</strong>. Okinawa tourism is on track to exceed <strong>10 million visitors</strong> for the first time in FY2025, with revenue targeting <strong>&yen;1 trillion</strong>. Named <strong>#2 on Expedia&rsquo;s Destinations of the Year 2026</strong> (71% search increase). A new <strong>2% accommodation tax</strong> took effect in April, projected to generate &yen;7.8B annually. Shuri Castle main hall restoration due <strong>fall 2026</strong>.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-          <strong>Impact on personnel:</strong> The weak yen means U.S. service members&rsquo; dollar-denominated pay has <strong>increased purchasing power off-base</strong>. However, rising inflation (2.5&ndash;3%) is eroding this advantage as local prices increase. Energy costs remain elevated due to the Iran conflict and Strait of Hormuz disruptions.
+          <strong>Impact on personnel:</strong> The weak yen means U.S. service members&rsquo; dollar-denominated pay has <strong>increased purchasing power off-base</strong>. However, rising inflation (2.8%) is eroding this advantage. Energy costs remain elevated due to the Iran conflict and Strait of Hormuz disruptions. The new accommodation tax applies to off-base hotel stays.
         </p>
       </div>
     </div>
@@ -291,16 +314,16 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #7c3aed; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Key Takeaway &mdash; What to Watch</p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Epic Fury ends &mdash; Indo-Pacific force reconstitution begins.</strong> Rubio&rsquo;s declaration today that the Iran operation is &ldquo;over&rdquo; signals the 31st MEU and Kadena-deployed airmen may soon return to Okinawa, restoring the region&rsquo;s rapid-response capacity. The simultaneous arrival of 12 F-22 Raptors at Kadena (May 2&ndash;3) suggests the Pentagon is already pivoting combat power back to the Indo-Pacific.
+        <strong style="color: #fff;">Iran ceasefire in jeopardy &mdash; 31st MEU return indefinitely delayed.</strong> Today&rsquo;s Iranian drone strikes on Qatar, UAE, and Kuwait shatter the fragile ceasefire declared just five days ago. With Trump threatening &ldquo;much higher level&rdquo; bombing if Iran does not comply, the 2,500 Marines aboard USS Tripoli face an indefinite Middle East deployment, leaving Okinawa&rsquo;s rapid-response capacity diminished at a critical moment. The F-22 rotation at Kadena is a partial stopgap, but without the MEU, the region&rsquo;s amphibious capability remains compromised.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Sino-Russian naval pressure is intensifying.</strong> The coordinated Russian-Chinese warship transits through Japan&rsquo;s southwestern approaches (Apr 21&ndash;28) &mdash; including China&rsquo;s unprecedented use of the Yokoate Waterway &mdash; represent the most concentrated foreign naval activity near Okinawa in recent memory. Japan&rsquo;s first-ever Nansei Islands exercise (May 17&ndash;22) with the 12th MLR is a direct response.
+        <strong style="color: #fff;">China probing as U.S. forces stretch thin.</strong> The May 8 Senkaku incursion (first since April 28), coordinated Sino-Russian naval transits (Apr 21&ndash;28), and PLA Southern Theater Command exercises near Luzon (Apr 24) suggest Beijing is exploiting the U.S. force drawdown for the Iran war. The Nansei exercise (May 17&ndash;22) and Kadena&rsquo;s F-22s are the response, but the capability gap is real.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Politically, Okinawa faces a turning point.</strong> Governor Tamaki&rsquo;s &ldquo;All Okinawa&rdquo; coalition is fracturing as the CRA hedges on base relocation. If LDP-backed Genta Koja wins in September, expect accelerated Henoko construction and reduced friction for U.S. force realignment.
+        <strong style="color: #fff;">Politically, Okinawa faces a turning point.</strong> Governor Tamaki&rsquo;s &ldquo;All Okinawa&rdquo; coalition is fracturing after losing all four seats in February. If LDP-backed Genta Koja wins in September, expect accelerated Henoko construction, eased HNS renegotiations, and reduced friction for U.S. force realignment. The May 15 reversion anniversary will sharpen the political debate.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        <strong style="color: #fff;">Watch:</strong> 31st MEU return timeline from CENTCOM &bull; Iran ceasefire stability &amp; Hormuz reopening &bull; PRC reaction to Nansei exercise (May 17&ndash;22) &bull; F-22 deployment duration at Kadena &bull; September 13 gubernatorial election polls &bull; HNS cost-sharing renegotiation &bull; Yen intervention capacity &bull; PFAS water sampling access
+        <strong style="color: #fff;">Watch:</strong> Iran ceasefire collapse &amp; 31st MEU deployment extension &bull; PRC reaction to Nansei exercise (May 17&ndash;22) &bull; Senkaku incursion frequency &bull; F-22/F-15EX rotation timeline at Kadena &bull; BOJ July rate decision &bull; September 13 gubernatorial election polls &bull; HNS cost-sharing renegotiation &bull; May 15 Okinawa reversion anniversary &bull; Yen intervention capacity &bull; PFAS water sampling access
       </p>
     </div>
 
@@ -308,7 +331,7 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Sources</p>
       <p style="color: #888; font-size: 11px; line-height: 1.8; margin: 0;">
-        CNN &bull; ABC News &bull; Time &bull; CBS News &bull; Stars and Stripes &bull; The Japan Times &bull; Taiwan News &bull; Reuters &bull; USNI News &bull; Military.com &bull; South China Morning Post &bull; The Diplomat &bull; Newsweek &bull; Nippon.com &bull; Air &amp; Space Forces Magazine &bull; Bank of Japan &bull; Japan Ministry of Finance &bull; IMF &bull; Ryukyu Shimpo &bull; Meyka Defense
+        CNN &bull; Fortune &bull; Time &bull; CBS News &bull; Al Jazeera &bull; Stars and Stripes &bull; The Japan Times &bull; USNI News &bull; Military.com &bull; Air &amp; Space Forces Magazine &bull; DVIDSHUB &bull; South China Morning Post &bull; The Diplomat &bull; Newsweek &bull; Nippon.com &bull; AEI &bull; CNBC &bull; Bank of Japan &bull; Japan Ministry of Finance &bull; MOFA Japan &bull; Trading Economics &bull; VolcanoDiscovery &bull; Times of Israel &bull; Expedia
       </p>
     </div>
 
