@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * World Monitor — Global Daily Briefing Email Sender
+ * World Monitor — Okinawa Daily Briefing Email Sender
  *
  * Usage:
  *   RESEND_API_KEY=re_xxxx node scripts/send-daily-briefing.mjs
@@ -38,134 +38,162 @@ const html = `
         </td>
         <td style="padding-left: 10px;">
           <div style="font-size: 15px; font-weight: 800; color: #fff; letter-spacing: -0.5px;">WORLD MONITOR</div>
-          <div style="font-size: 9px; color: #666; text-transform: uppercase; letter-spacing: 2px;">Global Intelligence Briefing</div>
+          <div style="font-size: 9px; color: #666; text-transform: uppercase; letter-spacing: 2px;">Okinawa Intelligence Briefing</div>
         </td>
       </tr>
     </table>
 
     <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #7c3aed; padding: 16px 20px; margin-bottom: 24px;">
       <p style="font-size: 11px; color: #666; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 4px;">${today}</p>
-      <p style="font-size: 20px; font-weight: 700; color: #fff; margin: 0;">Top 5 Global Events &mdash; 24-Hour Summary</p>
-      <p style="font-size: 12px; color: #888; margin: 8px 0 0;">Geopolitics &bull; Conflict &bull; Financial Markets &bull; Stock Impact</p>
+      <p style="font-size: 20px; font-weight: 700; color: #fff; margin: 0;">Okinawa, Japan &mdash; 24-Hour Intelligence Summary</p>
+      <p style="font-size: 12px; color: #888; margin: 8px 0 0;">Military &bull; Government &bull; Financial &bull; Security &bull; Environment</p>
     </div>
 
-    <!-- ===================== EVENT 1: TRUMP-XI BEIJING SUMMIT ===================== -->
+    <!-- ===================== ITEM 1: KAIJU RAIN 26 ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">1</span>
-          <span style="color: #666; font-size: 11px;">Geopolitics / Trade / Indo-Pacific &mdash; May 14</span>
+          <span style="background: #1e40af; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">MILITARY</span>
+          <span style="color: #666; font-size: 11px;">Exercise &mdash; Active Through May 31</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Trump-Xi Beijing Summit: Xi Warns Taiwan Mishandling Risks &ldquo;Conflict&rdquo;; U.S. Clears Nvidia AI Chip Sales to China</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Exercise Kaiju Rain 26: III MIG Conducts Major Information Warfare Exercise Across Okinawa</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          President Trump landed in Beijing for a high-stakes two-day summit with Chinese President Xi Jinping &mdash; the most consequential bilateral meeting of 2026. Xi reserved his sharpest rhetoric for <strong>Taiwan</strong>, warning that mishandling the issue would put the relationship in &ldquo;great jeopardy&rdquo; and that the two nations risk &ldquo;collision or conflict.&rdquo; He called Taiwan &ldquo;the most important issue in U.S.-China relations.&rdquo;
+          Approximately <strong>1,000 Marines and Sailors</strong> from <strong>III Marine Expeditionary Force Information Group (III MIG)</strong> are conducting <strong>Exercise Kaiju Rain 26</strong> across multiple locations in Japan, with primary operations at <strong>Camp Hansen, Okinawa</strong> and <strong>Ie Shima Auxiliary Airfield</strong>. The exercise runs <strong>May 1&ndash;31, 2026</strong>.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          On the economic front, Washington reportedly cleared sales of <strong>Nvidia&rsquo;s H200 AI chips</strong> to major Chinese firms including Alibaba, Tencent, ByteDance, and JD.com. Xi told visiting U.S. tech leaders including <strong>Elon Musk and Jensen Huang</strong> that &ldquo;China&rsquo;s door will only open wider.&rdquo; Both leaders agreed the <strong>Strait of Hormuz must remain open</strong> and discussed Chinese purchases of U.S. agriculture and fentanyl precursor flows.
+          <strong>Key capabilities being exercised:</strong> The 5th Air Naval Gunfire Liaison Company (ANGLICO) is deploying <strong>Skydio X2D drones</strong> (3.5-mile range, 16x digital zoom) to identify enemy vessels around Ie Shima. The <strong>7th Communication Battalion</strong> is establishing distributed command posts under contested conditions. The <strong>3rd Radio Battalion</strong> is employing <strong>powered paragliders</strong> with 100-mile range for insertion/extraction without air support. Training also includes <strong>cyber defense, electronic warfare, live-fire events,</strong> and <strong>intelligence sensor integration</strong> with Japan Self-Defense Force counterparts.
         </p>
-        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market &amp; Stock Impact</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>S&amp;P 500 rose 0.58% to 7,444</strong> (new all-time high); <strong>Nasdaq +1.2%</strong>. European markets rallied: <strong>DAX +1.4%, CAC 40 +0.6%</strong>. Asia mixed: <strong>Nikkei &minus;0.98%</strong>, <strong>Kospi +1.75%</strong>.<br/><br/>
-            <strong>Stocks to watch:</strong> <strong>NVDA</strong> (Nvidia) &mdash; direct beneficiary of H200 China sales clearance, jumped on the news. <strong>BABA</strong> (Alibaba), <strong>TCEHY</strong> (Tencent), <strong>JD</strong> (JD.com) &mdash; approved H200 buyers, Chinese tech rally revived. <strong>TSM</strong> (TSMC) &mdash; Xi&rsquo;s Taiwan rhetoric adds geopolitical risk premium to the world&rsquo;s most critical chipmaker. <strong>AAPL</strong> (Apple) &mdash; major China revenue exposure benefits from thawing trade relations. <strong>ADM, BG</strong> (Archer-Daniels-Midland, Bunge) &mdash; potential uplift from increased Chinese agricultural purchases.
-          </p>
-        </div>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          <strong>Assessment:</strong> Kaiju Rain 26 builds on the inaugural 2025 iteration and represents a significant advance in III MIG&rsquo;s ability to integrate multi-domain information capabilities. The exercise is directly relevant to the Marine Corps&rsquo; Force Design strategy emphasizing dispersed, mobile operations on islands within enemy missile range &mdash; a clear signal toward Taiwan contingency preparedness.
+        </p>
       </div>
     </div>
 
-    <!-- ===================== EVENT 2: RUSSIA-UKRAINE MASSIVE AERIAL ASSAULT ===================== -->
+    <!-- ===================== ITEM 2: TRUMP-XI SUMMIT & TAIWAN ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">2</span>
-          <span style="color: #666; font-size: 11px;">Conflict / Europe &mdash; May 13&ndash;14</span>
+          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">GEOPOLITICS</span>
+          <span style="color: #666; font-size: 11px;">Indo-Pacific Impact &mdash; May 14</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Russia Unleashes Largest Aerial Assault of the War: 800+ Drones Hit Ukraine, 14+ Killed</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Trump-Xi Summit: Xi Warns Taiwan Mishandling Risks &ldquo;Conflict&rdquo; &mdash; Direct Implications for Okinawa Force Posture</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Russia launched its <strong>heaviest wartime aerial assault</strong> on Ukraine across a devastating two-day campaign. On May 13, over <strong>800 drones</strong> struck central Ukraine in a massive daytime attack, killing at least <strong>14 people and injuring over 80</strong>, including children. A follow-up overnight barrage hit <strong>Kyiv</strong> with ballistic missiles and drones, partially collapsing a multistory residential building and burying civilians under rubble.
+          During the two-day Beijing summit, President Xi Jinping issued his sharpest Taiwan rhetoric to date, warning that mishandling the Taiwan issue could lead to &ldquo;collision or conflict&rdquo; and calling it &ldquo;the most important issue in U.S.-China relations.&rdquo; Both leaders agreed the <strong>Strait of Hormuz must remain open</strong> and discussed trade, agriculture, and fentanyl precursors.
         </p>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Ukraine&rsquo;s air defenses intercepted <strong>693 targets overnight</strong>, including 41 missiles and 652 drones. However, 15 missiles and 23 drones struck targets across <strong>24 locations</strong>. Cities hit included <strong>Kremenchuk, Bila Tserkva, Kharkiv, Sumy, and Odesa</strong>. The scale represents a dramatic escalation in Russia&rsquo;s drone warfare capacity and suggests a new phase of intensified long-range bombardment.
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          <strong>Okinawa Relevance:</strong> Any escalation over Taiwan would place Okinawa-based forces at the epicenter of the U.S. response. The <strong>III MEF at Camp Courtney</strong>, <strong>Kadena Air Base (18th Wing)</strong>, and <strong>MCAS Futenma</strong> are all within the first island chain. Xi&rsquo;s rhetoric underscores why Kaiju Rain 26&rsquo;s information warfare rehearsals and the Marine Littoral Regiment transformation are being accelerated. The summit also comes as the <strong>U.S.&ndash;Japan cost-sharing agreement for bases expires in FY2026</strong>, with renegotiations underway.
         </p>
-        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market &amp; Stock Impact</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Escalation supports <strong>defense and grain</strong> sectors while pressuring European equities. European natural gas futures ticked higher on renewed supply anxiety.<br/><br/>
-            <strong>Stocks to watch:</strong> <strong>RTX</strong> (RTX Corp) &mdash; Patriot air defense systems are the backbone of Ukraine&rsquo;s shield; demand accelerates. <strong>LMT</strong> (Lockheed Martin) &mdash; HIMARS, JASSM-ER supplier; benefits from NATO replenishment orders. <strong>NOC</strong> (Northrop Grumman) &mdash; builds ammunition and integrated air defense systems. <strong>RHEINMETALL</strong> (RHM.DE) &mdash; Germany&rsquo;s top defense contractor is surging on European rearmament demand. <strong>Wheat futures</strong> &mdash; Odesa and Kharkiv are key grain export hubs; disruption bullish for WEAT and global food prices. <strong>BG</strong> (Bunge) &mdash; Ukrainian grain supply disruption affects global agricultural trading.
-          </p>
-        </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 3: IRAN CEASEFIRE BREAKING DOWN ===================== -->
+    <!-- ===================== ITEM 3: MARINES TO MIDDLE EAST ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">3</span>
-          <span style="color: #666; font-size: 11px;">Energy / Middle East / Global Economy &mdash; Ongoing</span>
+          <span style="background: #1e40af; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">MILITARY</span>
+          <span style="color: #666; font-size: 11px;">Force Readiness &mdash; Ongoing</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Iran Ceasefire on &ldquo;Life Support&rdquo;: Oil Above $105, Strait of Hormuz Still Disrupted</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">2,200+ Okinawa-Based Marines Deployed to Middle East; Force Posture Impact on Island</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The fragile ceasefire between the U.S. and Iran is rapidly deteriorating. Trump called Tehran&rsquo;s 14-point counter-proposal &ldquo;garbage&rdquo; and said the ceasefire was on &ldquo;massive life support.&rdquo; Iran&rsquo;s chief negotiator issued an ultimatum: accept their conditions &mdash; including recognition of sovereignty over the <strong>Strait of Hormuz</strong>, lifting the naval blockade, and unfreezing Iranian assets &mdash; or face &ldquo;failure.&rdquo;
+          More than <strong>2,200 Marines</strong> from Okinawa-based units were deployed to the Middle East beginning in March 2026 in response to the ongoing Iran crisis. This represents a significant drawdown of island-based combat power at a time of heightened Indo-Pacific tensions.
         </p>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          <strong>Brent crude</strong> settled at <strong>$107.77/barrel</strong> (+3.4%), while <strong>WTI</strong> closed at <strong>$102.18</strong> (+4.2%). Crude flows through the Strait of Hormuz have declined by <strong>nearly 6 million barrels per day</strong> since the conflict began. The <strong>IEA warned</strong> that the global market could remain &ldquo;severely undersupplied until October&rdquo; even if the conflict ends next month. U.S. inflation hit <strong>3.8% annually</strong>, driven heavily by energy costs. Meanwhile, <strong>Nigeria&rsquo;s Dangote Refinery</strong> exported a record <strong>1.66 billion liters</strong> in April, emerging as a critical alternative supplier.
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          <strong>Assessment:</strong> The deployment creates a temporary readiness gap for III MEF&rsquo;s ability to respond to a Taiwan or Korean Peninsula contingency. While rotation forces may backfill, the simultaneous demand signals from the Middle East and Indo-Pacific continue to strain the Marine Corps&rsquo; global force management. The Iran ceasefire remains fragile &mdash; Trump called Tehran&rsquo;s counter-proposal &ldquo;garbage&rdquo; &mdash; meaning these Marines may remain deployed for an extended period.
         </p>
-        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market &amp; Stock Impact</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Energy is the dominant macro driver. Oil above $100 creates stagflationary pressure globally, hurting consumer stocks while boosting energy producers. Airlines and shipping face margin compression.<br/><br/>
-            <strong>Stocks to watch:</strong> <strong>XOM</strong> (ExxonMobil), <strong>CVX</strong> (Chevron), <strong>SHEL</strong> (Shell), <strong>BP</strong> &mdash; all benefit from elevated crude prices; XOM and CVX at or near 52-week highs. <strong>DAL, UAL, AAL</strong> (Delta, United, American Airlines) &mdash; jet fuel costs squeezing margins; downside risk if oil stays above $100. <strong>DANGOTE</strong> (NGX: DANGCEM) &mdash; the refinery&rsquo;s emergence as a global alternative supplier is transforming Nigeria&rsquo;s oil economy. <strong>HAL</strong> (Halliburton) &mdash; oilfield services demand rising as producers push output. <strong>GLD/Gold</strong> &mdash; safe-haven flows accelerating on ceasefire collapse fears.
-          </p>
-        </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 4: JERUSALEM DAY & AL-AQSA ===================== -->
+    <!-- ===================== ITEM 4: AI TRAINING MANDATE ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">4</span>
-          <span style="color: #666; font-size: 11px;">Middle East / Religious Tensions &mdash; May 14</span>
+          <span style="background: #1e40af; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">MILITARY</span>
+          <span style="color: #666; font-size: 11px;">Training &amp; Modernization &mdash; May 13</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Jerusalem Day: Israeli Minister Ben Gvir Storms Al-Aqsa; Jordan Condemns &ldquo;Flagrant Breach&rdquo;</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Marine Corps Mandates Servicewide AI Training by Year&rsquo;s End &mdash; All Okinawa-Based Personnel Affected</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Israeli National Security Minister <strong>Itamar Ben Gvir</strong> stormed the <strong>Al-Aqsa Mosque compound</strong> (Temple Mount) during Jerusalem Day, waving an Israeli flag in front of the Dome of the Rock alongside far-right MK who called to &ldquo;get rid of all the mosques&rdquo; and build the Temple. Thousands of ultranationalist Israelis marched through occupied <strong>East Jerusalem&rsquo;s Damascus Gate</strong> as Palestinian shops were forced to close.
+          As of May 13, the Marine Corps requires <strong>all active duty, reserve, officer, and enlisted Marines</strong> to complete a <strong>45-minute artificial intelligence course</strong> via the Marine Corps eLearning Ecosystem (MCeLE) by <strong>December 31, 2026</strong>. The course covers AI fundamentals, practical applications, and responsible use guidelines, including familiarization with <strong>Google Gemini, OpenAI ChatGPT, and xAI Grok</strong> through the DoD&rsquo;s <strong>GenAI.mil platform</strong>.
         </p>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          <strong>Jordan&rsquo;s Foreign Ministry</strong> condemned the incursion as a &ldquo;blatant violation of international law&rdquo; and a &ldquo;flagrant breach of the historical and legal status quo.&rdquo; The provocation comes at a particularly dangerous moment, as the region is already inflamed by the Iran conflict and ongoing Israeli military operations in Lebanon and Gaza. The event risks igniting broader unrest across the Muslim world during an already volatile period.
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          <strong>Okinawa Impact:</strong> This mandate applies to all personnel across Camp Foster, Camp Hansen, Camp Kinser, Camp Courtney, Camp Schwab, MCAS Futenma, and MCBJ Camp Butler. Intermediate and advanced AI courses are under development for later in the fiscal year. The training supports broader DoD efforts to integrate AI across operational planning and decision-making.
         </p>
-        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market &amp; Stock Impact</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Adds another flashpoint to an already-overloaded Middle East risk premium. Markets largely priced in regional instability, but a broader escalation (e.g., Third Intifada triggers) would spike safe havens and oil further.<br/><br/>
-            <strong>Stocks to watch:</strong> <strong>GLD/IAU</strong> (Gold ETFs) &mdash; safe-haven demand rises with each new Middle East flashpoint. <strong>TEVA</strong> (Teva Pharmaceutical) &mdash; Israel&rsquo;s largest publicly traded company; exposed to domestic instability risk. <strong>Tel Aviv 125 Index</strong> &mdash; Israeli equities face headwinds from political instability and regional conflict. <strong>Defense sector</strong> (RTX, LMT, ESLT/Elbit Systems) &mdash; sustained demand for Iron Dome systems and border security. <strong>Oil futures</strong> &mdash; any widening of the conflict adds to the existing energy supply risk.
-          </p>
-        </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 5: KEVIN WARSH FED CHAIR ===================== -->
+    <!-- ===================== ITEM 5: PFAS CONTAMINATION ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">5</span>
-          <span style="color: #666; font-size: 11px;">Monetary Policy / Global Finance &mdash; May 13</span>
+          <span style="background: #eab308; color: #000; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">ENVIRONMENT</span>
+          <span style="color: #666; font-size: 11px;">Public Health / Base Relations &mdash; Ongoing</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Kevin Warsh Confirmed as Federal Reserve Chair in Closest Vote in Modern Era (54&ndash;45)</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">PFAS &ldquo;Forever Chemical&rdquo; Contamination: Record Levels Near Kadena &amp; Futenma; U.S. Military Denies Base Access</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The U.S. Senate confirmed <strong>Kevin Warsh</strong> as the next Federal Reserve Chair in a <strong>54&ndash;45 vote</strong>, the most divisive confirmation for a Fed chair in modern history. Only Sen. John Fetterman (D-PA) crossed party lines. Warsh, 56, replaces Jerome Powell and will chair his first FOMC meeting on <strong>June 16&ndash;17</strong>.
+          Okinawa Prefecture&rsquo;s annual groundwater survey found PFAS contamination exceeding Japan&rsquo;s water quality standard (50 ppt) at <strong>31 of 44 sampling sites</strong> around U.S. bases. The highest level &mdash; <strong>2,800 parts per trillion (56x the national standard)</strong> &mdash; was recorded at Yara Hijaga in Kadena town, downstream of <strong>Kadena Air Base</strong>. Elevated levels were also found near <strong>MCAS Futenma, Camp Hansen, Camps Courtney and McTureous, and Camp Foster</strong>.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          President Trump has publicly pressured Warsh to cut rates, but markets are pricing a <strong>97% chance rates stay unchanged</strong> at 3.50&ndash;3.75% through 2026. With U.S. inflation at <strong>3.8% annually</strong> &mdash; the highest in three years, driven by the Iran energy crisis &mdash; rate cuts are effectively off the table. The appointment introduces uncertainty into the global monetary policy outlook and has implications for every central bank&rsquo;s calculus, from the ECB to the BOJ to the PBOC.
+          Unidentified foam appearing near U.S. bases has heightened PFAS concerns. The Okinawa prefectural government and civic groups have requested <strong>on-base water sampling access four times since 2016</strong>; USFJ has denied all requests, stating the evidence linking bases to contamination is &ldquo;insufficient.&rdquo;
         </p>
-        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market &amp; Stock Impact</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            The &ldquo;higher for longer&rdquo; rate environment persists. Dollar strength pressures emerging market currencies and commodity importers. Bond markets remain volatile ahead of Warsh&rsquo;s first meeting.<br/><br/>
-            <strong>Stocks to watch:</strong> <strong>JPM, GS, BAC</strong> (JPMorgan, Goldman Sachs, Bank of America) &mdash; banks benefit from sustained higher rates via net interest income; financials sector is a relative winner. <strong>TLT</strong> (iShares 20+ Year Treasury ETF) &mdash; long-duration bonds under pressure if Warsh signals hawkishness. <strong>XLK/QQQ</strong> (Tech sector) &mdash; growth stocks face headwinds from no rate relief; watch AAPL, MSFT, GOOGL for rate sensitivity. <strong>O, AMT</strong> (Realty Income, American Tower) &mdash; REITs disadvantaged in higher-rate environment. <strong>EEM</strong> (Emerging Markets ETF) &mdash; strong dollar and elevated U.S. rates create capital outflow risk from EM economies.
-          </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          <strong>Assessment:</strong> PFAS is the most politically charged environmental issue affecting U.S.-Okinawa base relations. Continued denial of access fuels local opposition and plays into Governor Tamaki&rsquo;s anti-base platform ahead of his expected third-term campaign. This issue risks becoming a wedge in the broader U.S.-Japan alliance at a critical time.
+        </p>
+      </div>
+    </div>
+
+    <!-- ===================== ITEM 6: GOVERNOR TAMAKI & FUTENMA ===================== -->
+    <div style="margin-bottom: 24px;">
+      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #7c3aed; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">GOVERNMENT</span>
+          <span style="color: #666; font-size: 11px;">Okinawa Politics &mdash; April&ndash;May 2026</span>
         </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Governor Tamaki Announces Third-Term Bid; Futenma Return Still Unresolved After 30 Years</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          Okinawa Governor <strong>Denny Tamaki</strong> announced on April 25 that he will seek a <strong>third term</strong>, with his campaign expected to center on the <strong>early return of MCAS Futenma</strong> in Ginowan. This comes as the 30th anniversary of the original U.S.-Japan agreement to relocate Futenma passed in April with <strong>no concrete return date in sight</strong>. Strong local opposition to the Henoko relocation plan in Nago continues to block progress.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          The <strong>Okinawa Prefectural Assembly</strong> held a special session on May 13, unanimously approving a resolution related to the <strong>50th anniversary of Okinawa&rsquo;s reversion to Japan</strong> (which was in 1972).
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          <strong>Assessment:</strong> Tamaki&rsquo;s reelection campaign will intensify scrutiny on PFAS, Futenma, and the broader U.S. military footprint. The Henoko land reclamation project &mdash; the planned alternative site for Futenma &mdash; remains mired in legal battles and local resistance. Expect increased political friction through the gubernatorial election cycle.
+        </p>
+      </div>
+    </div>
+
+    <!-- ===================== ITEM 7: FINANCIAL / FX ===================== -->
+    <div style="margin-bottom: 24px;">
+      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #059669; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">FINANCIAL</span>
+          <span style="color: #666; font-size: 11px;">Markets &amp; Economy &mdash; May 14</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Yen Weakens to 157.9/USD; Finance Ministry Upgraded Okinawa Economic Assessment; BOJ Holds</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          The <strong>USD/JPY rose to 157.91</strong> on May 14, extending yen losses as the dollar strengthened on Iran ceasefire uncertainty and elevated U.S. inflation (3.8%). Japan&rsquo;s Finance Minister <strong>Satsuki Katayama</strong> met with U.S. Treasury Secretary <strong>Scott Bessent</strong>, reiterating close coordination on currency policy. Tokyo is suspected to have spent <strong>over $63 billion</strong> in FX intervention to support the yen.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          The <strong>Nikkei 225 fell 0.98%</strong> on the session. New Fed Chair <strong>Kevin Warsh</strong> was confirmed in a <strong>54&ndash;45 vote</strong>; markets price a <strong>97% chance rates hold at 3.50&ndash;3.75%</strong> through 2026, maintaining pressure on the BOJ&rsquo;s rate differential calculus.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          <strong>Okinawa Economy:</strong> The Finance Ministry upgraded its economic assessment for <strong>Hokuriku and Okinawa</strong> in January 2026, citing strong tourism recovery. <strong>Naha Airport</strong> is set to partially reopen international routes in June, lifting a two-year tourism restriction &mdash; a significant boost for the island&rsquo;s tourism-dependent economy. Okinawa&rsquo;s economy remains on an expansion trend per the BOJ&rsquo;s July 2025 regional assessment.
+        </p>
+      </div>
+    </div>
+
+    <!-- ===================== ITEM 8: WEATHER / NATURAL HAZARDS ===================== -->
+    <div style="margin-bottom: 24px;">
+      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #666; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">WEATHER</span>
+          <span style="color: #666; font-size: 11px;">Natural Hazards &mdash; May 14</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Typhoon Season Approaching; Rainy Season Underway; Magnitude 3.1 Earthquake Near Iriomote Jima</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          <strong>Typhoon No. 5</strong> formed near the Caroline Islands around May 6. Okinawa&rsquo;s rainy season (<em>tsuyu</em>) is underway, with conditions expected to remain <strong>relatively calm through late May</strong> due to high pressure in the south of Japan. Cloudy and rainy days are expected to increase from June onward. Peak typhoon season runs <strong>June through October</strong>, with the heaviest storms typically in August&ndash;September.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          A <strong>magnitude 3.1 earthquake</strong> struck the East China Sea on May 10, approximately 10 km northeast of Iriomote Jima Island in southern Okinawa Prefecture. No tsunami warning was issued and no damage was reported. TCCOR conditions remain normal across all Okinawa installations.
+        </p>
       </div>
     </div>
 
@@ -173,13 +201,13 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #7c3aed; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Key Takeaway &mdash; What to Watch</p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Three simultaneous crises are converging.</strong> The Iran ceasefire collapse is keeping oil above $100 and driving inflation, while Russia&rsquo;s record aerial assault on Ukraine signals a new phase of escalation in Europe. Meanwhile, the Trump-Xi summit is attempting to stabilize the world&rsquo;s most important bilateral relationship even as Xi draws a red line on Taiwan.
+        <strong style="color: #fff;">Okinawa sits at the intersection of three converging pressures.</strong> Xi&rsquo;s escalating Taiwan rhetoric at the Beijing summit underscores the strategic importance of Okinawa-based forces, yet 2,200+ Marines have been diverted to the Middle East, creating a readiness gap. Simultaneously, the largest III MIG information warfare exercise (Kaiju Rain 26) is actively rehearsing the exact capabilities needed for a first island chain contingency.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">The macro picture is stagflationary.</strong> Oil above $100, inflation at 3.8%, and the new Fed chair boxed in by conflicting pressures. The market rally is being carried by AI/tech optimism from the Nvidia-China deal, but the energy shock is a slow-moving weight on consumer spending and corporate margins.
+        <strong style="color: #fff;">Politically, friction is building.</strong> Governor Tamaki&rsquo;s third-term campaign will amplify opposition to the U.S. military presence. The PFAS contamination issue (56x national standards near Kadena) and the 30-year Futenma stalemate provide potent ammunition. The base cost-sharing agreement expires this fiscal year, adding another negotiating pressure point.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        <strong style="color: #fff;">Watch:</strong> Trump-Xi summit Day 2 outcomes &bull; Iran ceasefire deadline &bull; Warsh&rsquo;s first public statements as Fed Chair &bull; Oil price reaction to Hormuz developments &bull; European defense spending commitments post-Ukraine escalation &bull; Al-Aqsa fallout across the Muslim world &bull; Dangote Refinery&rsquo;s growing role in global energy supply
+        <strong style="color: #fff;">Watch:</strong> Trump-Xi summit Day 2 outcomes on Taiwan &bull; Kaiju Rain 26 final exercise phase &bull; Iran ceasefire status (affects Okinawa Marine deployments) &bull; USD/JPY movement toward 160 threshold &bull; Naha Airport international reopening timeline &bull; Prefectural Assembly follow-up on reversion anniversary resolution &bull; Typhoon No. 5 tracking &bull; PFAS advocacy group next steps
       </p>
     </div>
 
@@ -187,7 +215,7 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Sources</p>
       <p style="color: #888; font-size: 11px; line-height: 1.8; margin: 0;">
-        CNBC &bull; CNN &bull; NPR &bull; Al Jazeera &bull; The Washington Post &bull; Reuters &bull; Euronews &bull; Kyiv Independent &bull; Haaretz &bull; The Times of Israel &bull; CBS News &bull; PBS News &bull; Fox News &bull; Yahoo Finance &bull; S&amp;P Global &bull; IEA &bull; Axios &bull; Democracy Now &bull; Arab News
+        DVIDSHUB &bull; Marine Corps Times &bull; Stars and Stripes &bull; The Japan Times &bull; Ryukyu Shimpo &bull; Defense News &bull; CNBC &bull; Reuters &bull; Military.com &bull; USNI News &bull; Atlantic Council &bull; Bank of Japan &bull; Trading Economics &bull; Japan Meteorological Agency &bull; Volcano Discovery &bull; III MEF Public Affairs
       </p>
     </div>
 
@@ -212,7 +240,7 @@ const recipients = useTestingMode ? TESTING_RECIPIENTS : RECIPIENTS;
 const payload = JSON.stringify({
   from: 'World Monitor <onboarding@resend.dev>',
   to: recipients,
-  subject: `[World Monitor] Global Intelligence Briefing — ${today}`,
+  subject: `[World Monitor] Okinawa Intelligence Briefing — ${today}`,
   html,
 });
 
