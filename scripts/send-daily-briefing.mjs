@@ -7,9 +7,7 @@
  */
 
 const RECIPIENTS = [
-  'mcbridej675@gmail.com',
-  'john.mcbride.mil@usmc.mil',
-  'paul.foersch@usmc.mil',
+  'johnmcbride2928@gmail.com',
 ];
 
 const TESTING_RECIPIENTS = [
@@ -49,121 +47,140 @@ const html = `
       <p style="font-size: 12px; color: #888; margin: 8px 0 0;">Geopolitics &bull; Conflict &bull; Financial Markets &bull; Stock Impact</p>
     </div>
 
-    <!-- ===================== EVENT 1: TRUMP-XI BEIJING SUMMIT ===================== -->
+    <!-- Market Snapshot Banner -->
+    <div style="background: #111; border: 1px solid #1a1a1a; padding: 14px 20px; margin-bottom: 24px;">
+      <p style="color: #7c3aed; font-size: 10px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 10px; font-weight: 700;">Friday Close &mdash; May 15, 2026</p>
+      <table cellpadding="0" cellspacing="0" border="0" width="100%">
+        <tr>
+          <td style="color: #ef4444; font-size: 12px; padding: 2px 0;"><strong>S&amp;P 500</strong> 7,408 <span style="font-size: 11px;">&darr;1.24%</span></td>
+          <td style="color: #ef4444; font-size: 12px; padding: 2px 0;"><strong>Nasdaq</strong> 26,225 <span style="font-size: 11px;">&darr;1.54%</span></td>
+        </tr>
+        <tr>
+          <td style="color: #ef4444; font-size: 12px; padding: 2px 0;"><strong>Dow</strong> 49,526 <span style="font-size: 11px;">&darr;537 pts</span></td>
+          <td style="color: #ef4444; font-size: 12px; padding: 2px 0;"><strong>DAX</strong> <span style="font-size: 11px;">&darr;1.59%</span> &bull; <strong>CAC 40</strong> <span style="font-size: 11px;">&darr;1.97%</span></td>
+        </tr>
+        <tr>
+          <td style="color: #22c55e; font-size: 12px; padding: 2px 0;"><strong>Brent</strong> $109/bbl <span style="font-size: 11px;">&uarr;8.1% wk</span></td>
+          <td style="color: #eab308; font-size: 12px; padding: 2px 0;"><strong>10Y Yield</strong> 4.54% (yearly high)</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- ===================== EVENT 1: ISRAEL KILLS HAMAS MILITARY WING LEADER ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">1</span>
-          <span style="color: #666; font-size: 11px;">Geopolitics / Trade / Indo-Pacific &mdash; May 14</span>
+          <span style="color: #666; font-size: 11px;">Middle East / Conflict / Gaza &mdash; May 15&ndash;16</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Trump-Xi Beijing Summit: Xi Warns Taiwan Mishandling Risks &ldquo;Conflict&rdquo;; U.S. Clears Nvidia AI Chip Sales to China</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Israel Kills Hamas Military Wing Leader Izz al-Din al-Haddad &mdash; Last Surviving Oct. 7 Architect</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          President Trump landed in Beijing for a high-stakes two-day summit with Chinese President Xi Jinping &mdash; the most consequential bilateral meeting of 2026. Xi reserved his sharpest rhetoric for <strong>Taiwan</strong>, warning that mishandling the issue would put the relationship in &ldquo;great jeopardy&rdquo; and that the two nations risk &ldquo;collision or conflict.&rdquo; He called Taiwan &ldquo;the most important issue in U.S.-China relations.&rdquo;
+          An Israeli airstrike in western <strong>Gaza City</strong> killed <strong>Izz al-Din al-Haddad</strong>, commander of Hamas&rsquo;s Qassam Brigades and one of the last surviving architects of the <strong>October 7, 2023 attacks</strong>. Nicknamed &ldquo;the Ghost,&rdquo; al-Haddad had survived multiple previous assassination attempts and assumed overall military command after <strong>Mohammed Sinwar</strong> was killed. Hamas confirmed the death, calling the loss &ldquo;profound.&rdquo;
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          On the economic front, Washington reportedly cleared sales of <strong>Nvidia&rsquo;s H200 AI chips</strong> to major Chinese firms including Alibaba, Tencent, ByteDance, and JD.com. Xi told visiting U.S. tech leaders including <strong>Elon Musk and Jensen Huang</strong> that &ldquo;China&rsquo;s door will only open wider.&rdquo; Both leaders agreed the <strong>Strait of Hormuz must remain open</strong> and discussed Chinese purchases of U.S. agriculture and fentanyl precursor flows.
+          Al-Haddad was a founding member of Hamas dating to the 1980s and served on the <strong>Military Council</strong>, the highest command group that planned the October 7 operation. His body was carried through Gaza City draped in Hamas and Palestinian flags. The killing represents a major Israeli intelligence success, but raises questions about what political endgame follows the systematic elimination of Hamas&rsquo;s military leadership.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market &amp; Stock Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>S&amp;P 500 rose 0.58% to 7,444</strong> (new all-time high); <strong>Nasdaq +1.2%</strong>. European markets rallied: <strong>DAX +1.4%, CAC 40 +0.6%</strong>. Asia mixed: <strong>Nikkei &minus;0.98%</strong>, <strong>Kospi +1.75%</strong>.<br/><br/>
-            <strong>Stocks to watch:</strong> <strong>NVDA</strong> (Nvidia) &mdash; direct beneficiary of H200 China sales clearance, jumped on the news. <strong>BABA</strong> (Alibaba), <strong>TCEHY</strong> (Tencent), <strong>JD</strong> (JD.com) &mdash; approved H200 buyers, Chinese tech rally revived. <strong>TSM</strong> (TSMC) &mdash; Xi&rsquo;s Taiwan rhetoric adds geopolitical risk premium to the world&rsquo;s most critical chipmaker. <strong>AAPL</strong> (Apple) &mdash; major China revenue exposure benefits from thawing trade relations. <strong>ADM, BG</strong> (Archer-Daniels-Midland, Bunge) &mdash; potential uplift from increased Chinese agricultural purchases.
+            Accelerates the decapitation of Hamas&rsquo;s military leadership but does not resolve the broader regional conflict. Mildly supportive of risk sentiment if seen as moving toward endgame in Gaza; however, risks retaliatory escalation.<br/><br/>
+            <strong>Stocks to watch:</strong> <strong>ESLT</strong> (Elbit Systems) &mdash; Israel&rsquo;s largest defense company; benefits from sustained military operations and intelligence systems demand. <strong>RTX, LMT</strong> &mdash; continued U.S. defense demand for precision-guided munitions and intelligence platforms. <strong>TEVA</strong> (Teva Pharmaceutical) &mdash; Israel&rsquo;s largest publicly traded company; domestic instability risk premium. <strong>Tel Aviv 125 Index</strong> &mdash; Israeli equities whipsawed between military &ldquo;successes&rdquo; and economic costs of prolonged war. <strong>Oil futures</strong> &mdash; any retaliatory escalation by Iran-backed groups adds to existing Hormuz supply risk.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 2: RUSSIA-UKRAINE MASSIVE AERIAL ASSAULT ===================== -->
+    <!-- ===================== EVENT 2: STRAIT OF HORMUZ ESCALATION ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">2</span>
-          <span style="color: #666; font-size: 11px;">Conflict / Europe &mdash; May 13&ndash;14</span>
+          <span style="color: #666; font-size: 11px;">Energy / Maritime Security / Persian Gulf &mdash; May 14&ndash;15</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Russia Unleashes Largest Aerial Assault of the War: 800+ Drones Hit Ukraine, 14+ Killed</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Strait of Hormuz Erupts: Ship Seized Off UAE, Another Sunk Near Oman &mdash; Brent Surges Past $109</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Russia launched its <strong>heaviest wartime aerial assault</strong> on Ukraine across a devastating two-day campaign. On May 13, over <strong>800 drones</strong> struck central Ukraine in a massive daytime attack, killing at least <strong>14 people and injuring over 80</strong>, including children. A follow-up overnight barrage hit <strong>Kyiv</strong> with ballistic missiles and drones, partially collapsing a multistory residential building and burying civilians under rubble.
+          Tensions in the Persian Gulf escalated sharply after a vessel anchored <strong>38 nautical miles off Fujairah</strong> (UAE) was seized by unauthorized personnel and diverted toward <strong>Iranian waters</strong>, while a separate ship was attacked and <strong>sunk near the coast of Oman</strong>. The UK Maritime Trade Operations center confirmed the incidents and is investigating. Iran has seized multiple vessels in recent weeks, including the tanker <strong>Ocean Koi</strong>.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Ukraine&rsquo;s air defenses intercepted <strong>693 targets overnight</strong>, including 41 missiles and 652 drones. However, 15 missiles and 23 drones struck targets across <strong>24 locations</strong>. Cities hit included <strong>Kremenchuk, Bila Tserkva, Kharkiv, Sumy, and Odesa</strong>. The scale represents a dramatic escalation in Russia&rsquo;s drone warfare capacity and suggests a new phase of intensified long-range bombardment.
+          The Strait of Hormuz has been <strong>effectively closed</strong> since the outbreak of war between the U.S./Israel and Iran on February 28. Crude flows through the strait have dropped by <strong>~4 million barrels/day</strong>. <strong>Brent crude surged past $109/barrel</strong>, adding 8.1% for the week. The Trump-Xi summit failed to produce a breakthrough on reopening the strait, and Iran&rsquo;s chief negotiator warned that the ceasefire would &ldquo;fail&rdquo; without Western concessions. The <strong>IEA warned</strong> global markets could remain &ldquo;severely undersupplied through October.&rdquo;
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market &amp; Stock Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Escalation supports <strong>defense and grain</strong> sectors while pressuring European equities. European natural gas futures ticked higher on renewed supply anxiety.<br/><br/>
-            <strong>Stocks to watch:</strong> <strong>RTX</strong> (RTX Corp) &mdash; Patriot air defense systems are the backbone of Ukraine&rsquo;s shield; demand accelerates. <strong>LMT</strong> (Lockheed Martin) &mdash; HIMARS, JASSM-ER supplier; benefits from NATO replenishment orders. <strong>NOC</strong> (Northrop Grumman) &mdash; builds ammunition and integrated air defense systems. <strong>RHEINMETALL</strong> (RHM.DE) &mdash; Germany&rsquo;s top defense contractor is surging on European rearmament demand. <strong>Wheat futures</strong> &mdash; Odesa and Kharkiv are key grain export hubs; disruption bullish for WEAT and global food prices. <strong>BG</strong> (Bunge) &mdash; Ukrainian grain supply disruption affects global agricultural trading.
+            <strong>This is the dominant macro driver globally.</strong> Oil above $109 is creating stagflationary pressure, pushing U.S. inflation to 3.8%, driving 10-year Treasury yields to 4.54% (yearly highs), and compressing margins for energy-intensive industries.<br/><br/>
+            <strong>Stocks to watch:</strong> <strong>XOM</strong> (ExxonMobil), <strong>CVX</strong> (Chevron), <strong>SHEL</strong> (Shell) &mdash; major beneficiaries of sustained $100+ oil; near 52-week highs. <strong>HAL, SLB</strong> (Halliburton, SLB) &mdash; oilfield services surging as producers race to increase output. <strong>DAL, UAL, AAL</strong> (airlines) &mdash; jet fuel margin compression; downside accelerating. <strong>STNG, FRO</strong> (Scorpio Tankers, Frontline) &mdash; tanker rates spiking on route disruptions and war-risk insurance costs. <strong>ZIM</strong> (ZIM Integrated Shipping) &mdash; rerouting around Hormuz is boosting shipping rates. <strong>DANGCEM</strong> (Dangote, NGX) &mdash; Nigerian refinery emerging as critical alternative crude supplier.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 3: IRAN CEASEFIRE BREAKING DOWN ===================== -->
+    <!-- ===================== EVENT 3: KYIV MOURNS DEADLIEST ATTACK ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">3</span>
-          <span style="color: #666; font-size: 11px;">Energy / Middle East / Global Economy &mdash; Ongoing</span>
+          <span style="color: #666; font-size: 11px;">Conflict / Europe / Ukraine &mdash; May 15</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Iran Ceasefire on &ldquo;Life Support&rdquo;: Oil Above $105, Strait of Hormuz Still Disrupted</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Kyiv Mourns After Russia&rsquo;s Deadliest Capital Attack: 24 Killed Including 3 Children, 1,567 Drones Launched</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The fragile ceasefire between the U.S. and Iran is rapidly deteriorating. Trump called Tehran&rsquo;s 14-point counter-proposal &ldquo;garbage&rdquo; and said the ceasefire was on &ldquo;massive life support.&rdquo; Iran&rsquo;s chief negotiator issued an ultimatum: accept their conditions &mdash; including recognition of sovereignty over the <strong>Strait of Hormuz</strong>, lifting the naval blockade, and unfreezing Iranian assets &mdash; or face &ldquo;failure.&rdquo;
+          Ukraine observed an <strong>official day of mourning</strong> on Friday after Russia&rsquo;s largest-ever aerial assault on the capital killed at least <strong>24 people, including three children</strong>, when a cruise missile destroyed a large residential apartment building in Kyiv. President Zelensky confirmed Russia launched <strong>1,567 drones and 56 missiles</strong> over May 13&ndash;14 &mdash; the heaviest two-day barrage since the war began in 2022.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          <strong>Brent crude</strong> settled at <strong>$107.77/barrel</strong> (+3.4%), while <strong>WTI</strong> closed at <strong>$102.18</strong> (+4.2%). Crude flows through the Strait of Hormuz have declined by <strong>nearly 6 million barrels per day</strong> since the conflict began. The <strong>IEA warned</strong> that the global market could remain &ldquo;severely undersupplied until October&rdquo; even if the conflict ends next month. U.S. inflation hit <strong>3.8% annually</strong>, driven heavily by energy costs. Meanwhile, <strong>Nigeria&rsquo;s Dangote Refinery</strong> exported a record <strong>1.66 billion liters</strong> in April, emerging as a critical alternative supplier.
+          Ukraine intercepted 94% of drones but <strong>only 7% of missiles</strong>, exposing a critical gap in air defenses against cruise and ballistic missiles. Zelensky ordered the military to &ldquo;prepare a response.&rdquo; The mayor of Kyiv called it &ldquo;the enemy&rsquo;s largest-scale attack on the capital&rdquo; and declared the day of mourning. Separately, <strong>Israeli drone strikes killed 16 people in southern Lebanon</strong> despite the ceasefire, including three paramedics.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market &amp; Stock Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Energy is the dominant macro driver. Oil above $100 creates stagflationary pressure globally, hurting consumer stocks while boosting energy producers. Airlines and shipping face margin compression.<br/><br/>
-            <strong>Stocks to watch:</strong> <strong>XOM</strong> (ExxonMobil), <strong>CVX</strong> (Chevron), <strong>SHEL</strong> (Shell), <strong>BP</strong> &mdash; all benefit from elevated crude prices; XOM and CVX at or near 52-week highs. <strong>DAL, UAL, AAL</strong> (Delta, United, American Airlines) &mdash; jet fuel costs squeezing margins; downside risk if oil stays above $100. <strong>DANGOTE</strong> (NGX: DANGCEM) &mdash; the refinery&rsquo;s emergence as a global alternative supplier is transforming Nigeria&rsquo;s oil economy. <strong>HAL</strong> (Halliburton) &mdash; oilfield services demand rising as producers push output. <strong>GLD/Gold</strong> &mdash; safe-haven flows accelerating on ceasefire collapse fears.
+            Escalation supports defense and grain sectors while pressuring European equities. European markets sold off hard: <strong>DAX &minus;1.59%, CAC 40 &minus;1.97%</strong>. European natural gas futures ticked higher on renewed supply disruption fears.<br/><br/>
+            <strong>Stocks to watch:</strong> <strong>RHM.DE</strong> (Rheinmetall) &mdash; Germany&rsquo;s top defense contractor surging on European rearmament; a direct beneficiary of NATO air-defense orders. <strong>RTX</strong> (RTX Corp) &mdash; Patriot missile systems are the backbone of Ukraine&rsquo;s shield; demand accelerates after missile intercept failure. <strong>LMT</strong> (Lockheed Martin) &mdash; HIMARS and JASSM-ER supplier; NATO replenishment orders. <strong>NOC</strong> (Northrop Grumman) &mdash; integrated air defense systems and ammunition. <strong>WEAT</strong> (Wheat ETF) &mdash; disruption to Ukrainian grain export corridors supports prices. <strong>European gas futures</strong> (TTF) &mdash; energy supply anxiety rising.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 4: JERUSALEM DAY & AL-AQSA ===================== -->
+    <!-- ===================== EVENT 4: TRUMP-XI SUMMIT CONCLUDES ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">4</span>
-          <span style="color: #666; font-size: 11px;">Middle East / Religious Tensions &mdash; May 14</span>
+          <span style="color: #666; font-size: 11px;">Geopolitics / Trade / Indo-Pacific &mdash; May 15</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Jerusalem Day: Israeli Minister Ben Gvir Storms Al-Aqsa; Jordan Condemns &ldquo;Flagrant Breach&rdquo;</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Trump-Xi Summit Ends With Boeing Deal but No Iran Breakthrough; Trump Waffles on $14B Taiwan Arms Sale</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Israeli National Security Minister <strong>Itamar Ben Gvir</strong> stormed the <strong>Al-Aqsa Mosque compound</strong> (Temple Mount) during Jerusalem Day, waving an Israeli flag in front of the Dome of the Rock alongside far-right MK who called to &ldquo;get rid of all the mosques&rdquo; and build the Temple. Thousands of ultranationalist Israelis marched through occupied <strong>East Jerusalem&rsquo;s Damascus Gate</strong> as Palestinian shops were forced to close.
+          President Trump departed Beijing after three days of talks with Xi Jinping, calling it a &ldquo;milestone visit&rdquo; that &ldquo;settled a lot of different problems.&rdquo; The headline deliverable: Xi committed to purchase <strong>200 Boeing aircraft</strong> (777s and 737s), with the potential to expand to <strong>750 planes</strong> &mdash; Boeing&rsquo;s first major China sale in nearly a decade, estimated at <strong>$17&ndash;19 billion</strong>. Trump said GE Aerospace would supply <strong>400&ndash;450 engines</strong>.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          <strong>Jordan&rsquo;s Foreign Ministry</strong> condemned the incursion as a &ldquo;blatant violation of international law&rdquo; and a &ldquo;flagrant breach of the historical and legal status quo.&rdquo; The provocation comes at a particularly dangerous moment, as the region is already inflamed by the Iran conflict and ongoing Israeli military operations in Lebanon and Gaza. The event risks igniting broader unrest across the Muslim world during an already volatile period.
+          However, the summit <strong>failed to produce a breakthrough on Iran</strong> or reopening the Strait of Hormuz. On Taiwan, Trump told reporters aboard Air Force One he has <strong>not decided</strong> whether to proceed with a <strong>$14 billion arms package</strong> to Taipei &mdash; a dramatic reversal after Xi warned that Taiwan mishandling risks &ldquo;clashes and even conflicts.&rdquo; Markets sold off Friday as traders digested the lack of concrete progress. <strong>Putin is scheduled to visit Xi on May 19&ndash;20</strong>, just days after Trump&rsquo;s departure.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market &amp; Stock Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Adds another flashpoint to an already-overloaded Middle East risk premium. Markets largely priced in regional instability, but a broader escalation (e.g., Third Intifada triggers) would spike safe havens and oil further.<br/><br/>
-            <strong>Stocks to watch:</strong> <strong>GLD/IAU</strong> (Gold ETFs) &mdash; safe-haven demand rises with each new Middle East flashpoint. <strong>TEVA</strong> (Teva Pharmaceutical) &mdash; Israel&rsquo;s largest publicly traded company; exposed to domestic instability risk. <strong>Tel Aviv 125 Index</strong> &mdash; Israeli equities face headwinds from political instability and regional conflict. <strong>Defense sector</strong> (RTX, LMT, ESLT/Elbit Systems) &mdash; sustained demand for Iron Dome systems and border security. <strong>Oil futures</strong> &mdash; any widening of the conflict adds to the existing energy supply risk.
+            Summit &ldquo;buy the rumor, sell the news&rdquo; &mdash; S&amp;P hit all-time highs Thursday, then reversed hard Friday (&minus;1.24%). Tech was hit hardest: <strong>Intel &minus;6%, AMD &minus;5.7%, Micron &minus;6.6%, NVDA &minus;4.4%</strong>. Cerebras, which surged 68% Thursday on its Nasdaq debut, fell 10% Friday.<br/><br/>
+            <strong>Stocks to watch:</strong> <strong>BA</strong> (Boeing) &mdash; 200-plane China deal is a major catalyst; stock should benefit when deal is formalized, but the 750 &ldquo;stretch&rdquo; is speculative. <strong>GE</strong> (GE Aerospace) &mdash; 400&ndash;450 engine order is a meaningful revenue pipeline. <strong>TSM</strong> (TSMC) &mdash; Taiwan arms sale uncertainty injects geopolitical risk premium into the world&rsquo;s most critical chipmaker. <strong>BABA, TCEHY, JD</strong> (Chinese tech) &mdash; Nvidia H200 chip sales to China cleared during summit; watch for follow-through. <strong>NVDA</strong> (Nvidia) &mdash; China access is reopening, but broader tech selloff overwhelmed the positive news Friday.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 5: KEVIN WARSH FED CHAIR ===================== -->
+    <!-- ===================== EVENT 5: MODI 5-NATION DIPLOMATIC TOUR ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">5</span>
-          <span style="color: #666; font-size: 11px;">Monetary Policy / Global Finance &mdash; May 13</span>
+          <span style="color: #666; font-size: 11px;">Diplomacy / India / Global Realignment &mdash; May 15&ndash;20</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Kevin Warsh Confirmed as Federal Reserve Chair in Closest Vote in Modern Era (54&ndash;45)</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">PM Modi Launches 5-Nation Tour: UAE, Netherlands, Sweden, Norway, Italy &mdash; India Eyes Bigger Global Role</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The U.S. Senate confirmed <strong>Kevin Warsh</strong> as the next Federal Reserve Chair in a <strong>54&ndash;45 vote</strong>, the most divisive confirmation for a Fed chair in modern history. Only Sen. John Fetterman (D-PA) crossed party lines. Warsh, 56, replaces Jerome Powell and will chair his first FOMC meeting on <strong>June 16&ndash;17</strong>.
+          Indian Prime Minister <strong>Narendra Modi</strong> embarked on an ambitious <strong>five-nation diplomatic tour</strong> (May 15&ndash;20), beginning in the <strong>UAE</strong> with talks with President <strong>Sheikh Mohamed bin Zayed Al Nahyan</strong> focused on energy cooperation, trade, and investment. He arrived in the <strong>Netherlands</strong> on Friday for discussions with PM Rob Jetten on <strong>semiconductors, green hydrogen, and defense</strong>, and will meet King Willem-Alexander.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          President Trump has publicly pressured Warsh to cut rates, but markets are pricing a <strong>97% chance rates stay unchanged</strong> at 3.50&ndash;3.75% through 2026. With U.S. inflation at <strong>3.8% annually</strong> &mdash; the highest in three years, driven by the Iran energy crisis &mdash; rate cuts are effectively off the table. The appointment introduces uncertainty into the global monetary policy outlook and has implications for every central bank&rsquo;s calculus, from the ECB to the BOJ to the PBOC.
+          The tour continues to <strong>Sweden</strong> (joint address with European Commission President von der Leyen on AI and supply chains), the <strong>3rd India-Nordic Summit</strong> in Oslo with leaders from Denmark, Finland, Iceland, Norway, and Sweden, and concludes in <strong>Italy</strong> with PM Meloni. The tour signals India&rsquo;s accelerating push to position itself as a <strong>critical node in global supply chains</strong> amid U.S.-China rivalry and to secure technology partnerships outside of both blocs. It coincides with India hosting <strong>BRICS meetings in New Delhi</strong>.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market &amp; Stock Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            The &ldquo;higher for longer&rdquo; rate environment persists. Dollar strength pressures emerging market currencies and commodity importers. Bond markets remain volatile ahead of Warsh&rsquo;s first meeting.<br/><br/>
-            <strong>Stocks to watch:</strong> <strong>JPM, GS, BAC</strong> (JPMorgan, Goldman Sachs, Bank of America) &mdash; banks benefit from sustained higher rates via net interest income; financials sector is a relative winner. <strong>TLT</strong> (iShares 20+ Year Treasury ETF) &mdash; long-duration bonds under pressure if Warsh signals hawkishness. <strong>XLK/QQQ</strong> (Tech sector) &mdash; growth stocks face headwinds from no rate relief; watch AAPL, MSFT, GOOGL for rate sensitivity. <strong>O, AMT</strong> (Realty Income, American Tower) &mdash; REITs disadvantaged in higher-rate environment. <strong>EEM</strong> (Emerging Markets ETF) &mdash; strong dollar and elevated U.S. rates create capital outflow risk from EM economies.
+            India&rsquo;s diplomatic blitz positions the country as the key &ldquo;swing state&rdquo; in the emerging global order. Semiconductor and green energy partnerships with the Netherlands and Nordics could accelerate India&rsquo;s tech ecosystem. The UAE visit reinforces energy security diversification away from Hormuz dependence.<br/><br/>
+            <strong>Stocks to watch:</strong> <strong>INDA</strong> (iShares MSCI India ETF) &mdash; India&rsquo;s strategic positioning as &ldquo;China+1&rdquo; manufacturing hub draws continued capital inflows. <strong>ASML</strong> (ASML Holding) &mdash; Netherlands-India semiconductor partnership could open new export channels for the lithography giant. <strong>RELIANCE</strong> (NSE: RELIANCE) &mdash; India&rsquo;s largest conglomerate benefits from UAE energy deals and green hydrogen partnerships. <strong>INFY, TCS</strong> (Infosys, Tata Consultancy) &mdash; Nordic tech partnerships expand India&rsquo;s IT services market. <strong>ADANIENT</strong> (Adani Enterprises) &mdash; green energy and infrastructure play benefits from European investment commitments. <strong>BSE Sensex / Nifty 50</strong> &mdash; India outperforming most EM peers amid global risk-off.
           </p>
         </div>
       </div>
@@ -173,13 +190,13 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #7c3aed; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Key Takeaway &mdash; What to Watch</p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Three simultaneous crises are converging.</strong> The Iran ceasefire collapse is keeping oil above $100 and driving inflation, while Russia&rsquo;s record aerial assault on Ukraine signals a new phase of escalation in Europe. Meanwhile, the Trump-Xi summit is attempting to stabilize the world&rsquo;s most important bilateral relationship even as Xi draws a red line on Taiwan.
+        <strong style="color: #fff;">The post-summit selloff reveals how fragile the rally was.</strong> Thursday&rsquo;s all-time highs evaporated Friday as the Trump-Xi summit delivered a Boeing deal but no Iran breakthrough, no Hormuz reopening, and Taiwan arms ambiguity. The Dow gave back 537 points and tech was hammered. Oil surging past $109 is the gravity pulling everything down.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">The macro picture is stagflationary.</strong> Oil above $100, inflation at 3.8%, and the new Fed chair boxed in by conflicting pressures. The market rally is being carried by AI/tech optimism from the Nvidia-China deal, but the energy shock is a slow-moving weight on consumer spending and corporate margins.
+        <strong style="color: #fff;">Three wars are reshaping global markets simultaneously.</strong> Gaza (Hamas leader killed, but no endgame), Hormuz (ship seizures escalating, oil undersupplied through October), and Ukraine (record aerial assault, 7% missile intercept rate exposing defense gaps). Each conflict feeds into the others through energy prices, inflation, and defense spending.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        <strong style="color: #fff;">Watch:</strong> Trump-Xi summit Day 2 outcomes &bull; Iran ceasefire deadline &bull; Warsh&rsquo;s first public statements as Fed Chair &bull; Oil price reaction to Hormuz developments &bull; European defense spending commitments post-Ukraine escalation &bull; Al-Aqsa fallout across the Muslim world &bull; Dangote Refinery&rsquo;s growing role in global energy supply
+        <strong style="color: #fff;">Watch next week:</strong> Putin visits Xi in Beijing May 19&ndash;20 (days after Trump left) &bull; Trump&rsquo;s decision on $14B Taiwan arms sale &bull; Iran ceasefire deadline &bull; Modi&rsquo;s India-Nordic Summit in Oslo &bull; Oil price trajectory &mdash; $109 Brent and rising &bull; 10-year Treasury yield at 4.54% and climbing &bull; European defense spending surge post-Kyiv attack
       </p>
     </div>
 
@@ -187,7 +204,7 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Sources</p>
       <p style="color: #888; font-size: 11px; line-height: 1.8; margin: 0;">
-        CNBC &bull; CNN &bull; NPR &bull; Al Jazeera &bull; The Washington Post &bull; Reuters &bull; Euronews &bull; Kyiv Independent &bull; Haaretz &bull; The Times of Israel &bull; CBS News &bull; PBS News &bull; Fox News &bull; Yahoo Finance &bull; S&amp;P Global &bull; IEA &bull; Axios &bull; Democracy Now &bull; Arab News
+        CNBC &bull; CNN &bull; NPR &bull; Al Jazeera &bull; The Washington Post &bull; Reuters &bull; Euronews &bull; Kyiv Independent &bull; PBS News &bull; Fox News &bull; NBC News &bull; Axios &bull; TheStreet &bull; Yahoo Finance &bull; Daily Sabah &bull; Times of Israel &bull; India TV News &bull; ANI &bull; The Tribune India &bull; BlackRock &bull; IEA
       </p>
     </div>
 
