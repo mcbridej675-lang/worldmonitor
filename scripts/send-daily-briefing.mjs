@@ -46,124 +46,124 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #7c3aed; padding: 16px 20px; margin-bottom: 24px;">
       <p style="font-size: 11px; color: #666; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 4px;">${today}</p>
       <p style="font-size: 20px; font-weight: 700; color: #fff; margin: 0;">Top 5 Global Events &mdash; 24-Hour Summary</p>
-      <p style="font-size: 12px; color: #888; margin: 8px 0 0;">Geopolitics &bull; Conflict &bull; Financial Markets &bull; Stock Impact</p>
+      <p style="font-size: 12px; color: #888; margin: 8px 0 0;">Geopolitics &bull; Diplomacy &bull; Health &bull; Financial Markets &bull; Stock Impact</p>
     </div>
 
-    <!-- ===================== EVENT 1: ISRAEL INTERCEPTS GAZA AID FLOTILLA ===================== -->
+    <!-- ===================== EVENT 1: PUTIN-XI BEIJING SUMMIT ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">1</span>
-          <span style="color: #666; font-size: 11px;">Middle East / Maritime / International Law &mdash; May 18&ndash;19</span>
+          <span style="color: #666; font-size: 11px;">Geopolitics / Diplomacy / Energy &mdash; May 19&ndash;21</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Israel Intercepts Gaza Aid Flotilla in International Waters; T&uuml;rkiye Condemns &ldquo;Act of Piracy&rdquo;</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Putin-Xi Beijing Summit Concludes: 40 Agreements Signed, &ldquo;Multipolar World&rdquo; Declaration Issued</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The Israeli Navy intercepted and boarded all remaining vessels of the <strong>Global Sumud Flotilla</strong> &mdash; a convoy of over <strong>50 boats</strong> carrying humanitarian aid from the Turkish port of Marmaris toward Gaza &mdash; in <strong>international waters west of Cyprus</strong>. At least <strong>100 activists</strong> from multiple nations have reportedly been arrested and are being transferred to Israel. Six crew members aboard the <em>Lina al-Nablusi</em> were &ldquo;kidnapped,&rdquo; according to organisers, including <strong>Dr. Margaret Connolly</strong>, an Irish doctor and sister of Irish President Catherine Connolly.
+          Russian President Vladimir Putin wrapped up a <strong>two-day state visit to Beijing</strong> &mdash; his <strong>25th trip to China</strong> &mdash; meeting Chinese President Xi Jinping on the <strong>25th anniversary of the Sino-Russian Treaty of Friendship</strong>. The two leaders signed approximately <strong>40 cooperation documents</strong> and issued two major declarations: one on strengthening the Russia-China comprehensive strategic partnership &mdash; pledging expanded <strong>military, technological, trade, and economic cooperation</strong> &mdash; and a second on <strong>&ldquo;global multipolarity,&rdquo;</strong> calling for a new model of international relations based on equality and mutual respect.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          <strong>T&uuml;rkiye&rsquo;s Foreign Ministry</strong> condemned the interception as an &ldquo;act of piracy&rdquo; and is coordinating the return of Turkish nationals. Multiple governments and human rights organizations have condemned the operation as a violation of international law. Israeli PM Netanyahu described the raid as &ldquo;effectively neutralizing a malicious plan designed to break the isolation we have imposed on Hamas.&rdquo; The incident evokes the <strong>2010 Mavi Marmara raid</strong>, which killed 10 Turkish activists and ruptured Israeli-Turkish relations for years.
+          <strong>Bilateral trade exceeded $240 billion</strong> last year and expanded by a further <strong>20% in the first four months of 2026</strong>. Russian oil exports to China grew <strong>35% in Q1 2026</strong>. Energy deals dominated the agenda, with progress on the <strong>Power of Siberia-2 gas pipeline</strong> and additional oil export routes. The talks unfolded against the backdrop of the Iran-Hormuz crisis disrupting one-fifth of global oil supplies. The summit sends a clear signal: Russia and China are deepening their energy and strategic partnership as Western-led institutions lose influence.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market &amp; Stock Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Heightened Middle East risk premium adds pressure to an already volatile region. Diplomatic fallout with T&uuml;rkiye and Ireland could trigger trade disruptions. Eastern Mediterranean shipping insurance costs may rise.<br/><br/>
-            <strong>Stocks to watch:</strong> <strong>ZIM</strong> (ZIM Integrated Shipping) &mdash; Israeli shipping company faces direct reputational and operational risk. <strong>ESLT</strong> (Elbit Systems) &mdash; Israeli defense firm exposed to potential sanctions or boycott pressure. <strong>TEVA</strong> (Teva Pharmaceutical) &mdash; Israel&rsquo;s largest public company; sensitive to diplomatic isolation risk. <strong>Turkish Lira / BIST 100</strong> &mdash; Ankara&rsquo;s sharp response could spark capital flight if relations deteriorate. <strong>Oil futures</strong> &mdash; each new Middle East flashpoint adds to the existing energy supply risk premium. <strong>GLD/IAU</strong> (Gold ETFs) &mdash; safe-haven demand strengthens.
+            The deepening Russia-China axis reshapes global energy flows and trade corridors. The Power of Siberia-2 pipeline, if finalised, shifts European gas leverage permanently. The &ldquo;multipolar world&rdquo; declaration signals accelerating de-dollarisation efforts. Defence spending in Europe and Asia-Pacific will continue rising.<br/><br/>
+            <strong>Stocks to watch:</strong> <strong>GAZP.ME</strong> (Gazprom) &mdash; direct beneficiary of expanded pipeline capacity to China. <strong>RHM.DE</strong> (Rheinmetall) &mdash; European defence rally extends as NATO responds to Sino-Russian alignment. <strong>LMT</strong> (Lockheed Martin) &mdash; Asia-Pacific rearmament orders accelerating from Japan, South Korea, Australia. <strong>BABA</strong> (Alibaba), <strong>JD</strong> (JD.com) &mdash; expanded Sino-Russian trade benefits Chinese e-commerce platforms. <strong>DXY</strong> (Dollar Index) &mdash; yuan-rouble trade settlement growth chips at dollar dominance. <strong>GLD/IAU</strong> (Gold ETFs) &mdash; central bank gold buying from non-Western nations supports prices.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 2: WHO DECLARES EBOLA GLOBAL EMERGENCY ===================== -->
+    <!-- ===================== EVENT 2: IRAN HORMUZ CRISIS ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">2</span>
-          <span style="color: #666; font-size: 11px;">Global Health / Africa &mdash; May 16&ndash;17</span>
+          <span style="color: #666; font-size: 11px;">Energy / Global Economy / Maritime &mdash; Ongoing</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">WHO Declares Ebola Outbreak in DRC &amp; Uganda a &ldquo;Public Health Emergency of International Concern&rdquo;</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Iran&rsquo;s Strait of Hormuz &ldquo;Controlled Maritime Zone&rdquo; Chokes Global Oil; Brent Peaked at $126, Crude at $96 Today</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The World Health Organization declared the <strong>Ebola outbreak</strong> in the <strong>Democratic Republic of the Congo and Uganda</strong> a <strong>Public Health Emergency of International Concern (PHEIC)</strong> &mdash; the highest alarm level in global health. The outbreak involves the rare <strong>Bundibugyo strain</strong>, for which <strong>no approved vaccine or treatment exists</strong>. As of May 16, health authorities have recorded <strong>8 laboratory-confirmed cases, 246 suspected cases, and 80 suspected deaths</strong> in DRC&rsquo;s Ituri Province.
+          Iran&rsquo;s <strong>Islamic Revolutionary Guard Corps Navy</strong> has redefined the Strait of Hormuz into a <strong>&ldquo;vast operational area&rdquo;</strong> extending from the port city of <strong>Jask to Siri Island</strong>. The newly established <strong>Persian Gulf Strait Authority</strong> &mdash; a permanent institutional body, not a temporary military posture &mdash; claims the mandate to manage all transit through the strait. Its legal standing under international maritime law is <strong>disputed by the majority of the international community</strong>.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The outbreak has already crossed borders: <strong>Uganda</strong> has confirmed two cases linked to DRC travellers, including <strong>one death in Kampala</strong>. Cases linked to the outbreak have also reached Congo&rsquo;s capital, <strong>Kinshasa</strong>, raising fears of wider regional spread. The <strong>CDC has mobilised an international response team</strong>. The WHO stopped short of declaring a pandemic but warned of &ldquo;high regional risk.&rdquo; This is only the <strong>8th PHEIC declaration</strong> in WHO history, placing it alongside COVID-19 and the 2014 West Africa Ebola crisis.
+          The disruption is the <strong>largest to world energy supply since the 1970s</strong>. Brent crude surpassed <strong>$100/barrel on March 8</strong> for the first time in four years, peaking at <strong>$126/barrel</strong>. Approximately <strong>170 million barrels of crude and refined products</strong> remain stuck in the Middle East aboard <strong>166 tankers</strong>. Capital Economics warns prices could top <strong>$130&ndash;$140/barrel</strong> next month if the strait remains closed. Today, markets showed brief optimism on unconfirmed reports of a diplomatic resolution, with US crude settling around <strong>$96</strong>.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market &amp; Stock Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            PHEIC declarations historically trigger pharma rallies and travel/hospitality sell-offs. The Bundibugyo strain&rsquo;s lack of an approved vaccine creates an urgent R&amp;D race. Mining companies with DRC exposure face operational risk.<br/><br/>
-            <strong>Stocks to watch:</strong> <strong>MRNA</strong> (Moderna) &mdash; mRNA platform positioned for rapid Ebola vaccine development; potential emergency use authorization catalyst. <strong>BNTX</strong> (BioNTech) &mdash; similar mRNA capability; watch for partnership announcements. <strong>GILD</strong> (Gilead Sciences) &mdash; makes remdesivir, explored for Ebola treatment. <strong>EBS</strong> (Emergent BioSolutions) &mdash; biodefense contractor with Ebola countermeasure experience. <strong>GLNCY</strong> (Glencore) &mdash; major DRC cobalt/copper mining operations face disruption risk. <strong>ABNB, BKNG</strong> (Airbnb, Booking Holdings) &mdash; African tourism sector vulnerable to travel advisories.
+            The energy crisis remains the single most important macro driver globally. Oil above $100 creates stagflationary pressure, hurting consumer stocks while boosting energy producers. The IEA warned markets could remain &ldquo;severely undersupplied until October.&rdquo; Every $10 rise in crude adds ~0.3% to global inflation.<br/><br/>
+            <strong>Stocks to watch:</strong> <strong>XOM</strong> (ExxonMobil), <strong>SHEL</strong> (Shell), <strong>TTE</strong> (TotalEnergies) &mdash; all benefit from elevated crude; near 52-week highs. <strong>HAL, SLB</strong> (Halliburton, SLB) &mdash; oilfield services demand surging. <strong>DAL, UAL, IAG.L</strong> (Delta, United, IAG) &mdash; jet fuel costs crushing airline margins globally. <strong>DANGCEM.NG</strong> (Dangote Cement / Dangote Refinery) &mdash; Nigeria&rsquo;s mega-refinery emerging as a critical alternative supplier. <strong>2222.SR</strong> (Saudi Aramco) &mdash; benefits from elevated prices and increased Asian demand. <strong>GLD</strong> (Gold) &mdash; safe-haven flows accelerating.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 3: RUSSIA-UKRAINE DRONE WAR ESCALATION ===================== -->
+    <!-- ===================== EVENT 3: WHO EBOLA PHEIC ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">3</span>
-          <span style="color: #666; font-size: 11px;">Conflict / Europe / Black Sea &mdash; May 17&ndash;18</span>
+          <span style="color: #666; font-size: 11px;">Global Health / Africa &mdash; May 16&ndash;21 (Ongoing)</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Ukraine Launches Largest Drone Strike on Moscow; Russia Hits Chinese Ship in Black Sea Before Putin-Xi Meeting</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">WHO Ebola Emergency Widens: Bundibugyo Strain Crosses Borders to Uganda &amp; Kinshasa &mdash; No Vaccine Exists</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Ukraine executed one of its <strong>largest drone strikes on Russia</strong> since the full-scale invasion began, killing at least <strong>4 people including 3 near Moscow</strong> and wounding over a dozen. Drone debris fell near <strong>Russia&rsquo;s largest airport</strong> without causing damage. President Zelenskyy confirmed the strikes, calling them &ldquo;entirely justified&rdquo; as peace talks remain stalled. The operation demonstrates Ukraine&rsquo;s rapidly improving long-range drone capability and willingness to bring the war to Russian civilians.
+          The World Health Organization&rsquo;s <strong>Public Health Emergency of International Concern (PHEIC)</strong> &mdash; declared May 16 &mdash; continues to escalate. The outbreak involves the rare <strong>Bundibugyo strain of Ebola</strong>, for which <strong>no approved vaccine or specific therapeutic exists</strong>. As of this week: <strong>600+ sickened, 130+ likely dead</strong>, with <strong>8 laboratory-confirmed cases and 246 suspected cases</strong> concentrated in DRC&rsquo;s <strong>Ituri Province</strong> across multiple health zones including Bunia, Rwampara, and Mongbwalu.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          In a diplomatically explosive incident, Russian drones struck <strong>two ships in the Black Sea</strong> approaching Ukrainian ports, including the <strong>KSL Deyang</strong> &mdash; a <strong>Chinese-owned cargo vessel with a Chinese crew</strong> sailing under a Marshall Islands flag. The strike occurred just <strong>one day before Putin travelled to Beijing</strong> to meet Xi Jinping. NPR reports a &ldquo;shifting momentum&rdquo; in the war, with signs that Russians are <strong>growing weary</strong> of the conflict while Ukraine&rsquo;s drone technology hits deeper inside Russian territory.
+          The outbreak has crossed borders: <strong>Uganda</strong> confirmed two cases linked to DRC travellers, including <strong>one death in Kampala</strong>. Cases have also reached DRC&rsquo;s capital, <strong>Kinshasa</strong>, raising fears of wider regional spread. This is only the <strong>8th PHEIC declaration</strong> in WHO history, placing it alongside COVID-19 and the 2014 West Africa Ebola crisis. Countries sharing land borders with DRC are at &ldquo;high risk.&rdquo; The lack of a licensed vaccine creates an urgent biomedical R&amp;D race.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market &amp; Stock Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            The Chinese ship strike complicates the Putin-Xi relationship and could shift Beijing&rsquo;s calculus on the war. Black Sea shipping insurance premiums will rise. European defense stocks continue their multi-year rally. Grain supply disruption risk remains elevated.<br/><br/>
-            <strong>Stocks to watch:</strong> <strong>RHM.DE</strong> (Rheinmetall) &mdash; Germany&rsquo;s top defense firm surging on European rearmament spending. <strong>RTX</strong> (RTX Corp) &mdash; Patriot systems and drone countermeasures in demand. <strong>LMT</strong> (Lockheed Martin) &mdash; NATO replenishment orders accelerating. <strong>AVAV</strong> (AeroVironment) &mdash; Switchblade drone maker; direct beneficiary of drone warfare era. <strong>Wheat futures / WEAT</strong> &mdash; Black Sea shipping disruption bullish for global grain prices. <strong>COSCO</strong> (1919.HK) &mdash; Chinese shipping giant faces Black Sea route recalculation.
+            PHEIC declarations historically trigger pharma rallies and travel/hospitality sell-offs. The Bundibugyo strain&rsquo;s lack of an approved vaccine creates an urgent R&amp;D race and potential emergency-use authorisation catalysts. Mining companies with DRC exposure face operational disruption risk &mdash; DRC produces ~70% of global cobalt.<br/><br/>
+            <strong>Stocks to watch:</strong> <strong>MRNA</strong> (Moderna) &mdash; mRNA platform positioned for rapid Ebola vaccine development. <strong>BNTX</strong> (BioNTech) &mdash; similar mRNA capability; watch for partnership announcements. <strong>GILD</strong> (Gilead Sciences) &mdash; remdesivir explored for Ebola treatment. <strong>EBS</strong> (Emergent BioSolutions) &mdash; biodefence contractor with Ebola countermeasure experience. <strong>GLNCY</strong> (Glencore) &mdash; major DRC cobalt/copper mining operations face disruption. <strong>ABNB, BKNG</strong> (Airbnb, Booking) &mdash; African tourism vulnerable to travel advisories. <strong>CMCL</strong> (Caledonia Mining) &mdash; regional mining risk exposure.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 4: IRAN-US CEASEFIRE DETERIORATING ===================== -->
+    <!-- ===================== EVENT 4: BOLIVIA CAPITAL UNDER SIEGE ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">4</span>
-          <span style="color: #666; font-size: 11px;">Energy / Geopolitics / Global Economy &mdash; Ongoing</span>
+          <span style="color: #666; font-size: 11px;">Latin America / Political Crisis / Commodities &mdash; May 19&ndash;21</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Iran-U.S. Ceasefire on &ldquo;Life Support&rdquo;: Trump Cancels Planned Strikes, Sets 5 Hardline Preconditions</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Bolivia&rsquo;s Capital Under Siege: Protests, Blockades &amp; Fuel Crisis Threaten to Topple President Paz</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The April 8 ceasefire between the U.S. and Iran is collapsing. <strong>Intermittent fighting has resumed since May 4</strong>, when Iran struck targets in the UAE, followed by exchanges of fire as U.S. vessels transited through the <strong>Strait of Hormuz</strong> on May 7. Trump said he is holding off on a planned military strike on Iran because &ldquo;serious negotiations&rdquo; are underway, but called Iran&rsquo;s latest proposal &ldquo;TOTALLY UNACCEPTABLE.&rdquo;
+          Bolivia&rsquo;s President <strong>Rodrigo Paz</strong> faces a deepening crisis less than <strong>six months after taking office</strong>. Two weeks of <strong>road closures</strong> &mdash; spearheaded by the Bolivian Workers&rsquo; Central (COB), peasant unions, and miners &mdash; have <strong>emptied markets in La Paz</strong> and <strong>depleted hospital oxygen reserves</strong>. At least <strong>three people have died</strong> after emergency vehicles were blocked from reaching medical centres. Thousands of protesters have taken to the streets demanding the president&rsquo;s resignation.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Trump has set <strong>5 hardline preconditions</strong>: delivery of 400kg enriched uranium to the U.S., reduction to a single nuclear facility, no release of frozen Iranian assets, linking all fronts to negotiations, and no compensation to Iran. U.S. and Iranian officials <strong>have not met since April 12</strong> and are exchanging proposals through intermediaries. Crude flows through Hormuz remain <strong>down ~6 million bpd</strong>. <strong>Brent crude</strong> remains above <strong>$107/barrel</strong>. U.S. inflation sits at <strong>3.8%</strong>, with energy costs as the primary driver.
+          The crisis was triggered by the government ending <strong>fuel subsidies</strong>, driving up gasoline and diesel prices. A subsequent <strong>&ldquo;junk gasoline&rdquo; scandal</strong> &mdash; in which the state imported low-quality fuel that damaged transport workers&rsquo; vehicles &mdash; sparked a wave of strikes and the <strong>resignation of two officials at the state oil company</strong>. Protesters allied with <strong>ex-President Evo Morales</strong> have clashed with security forces. <strong>Eight Latin American governments</strong> from Chile to Costa Rica issued a joint statement rejecting &ldquo;any action aimed at destabilising the democratic order.&rdquo;
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market &amp; Stock Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            The energy crisis is the dominant macro driver globally. Oil above $100 creates stagflationary pressure, hurting consumer stocks while boosting energy producers. The IEA warned markets could remain &ldquo;severely undersupplied until October.&rdquo;<br/><br/>
-            <strong>Stocks to watch:</strong> <strong>XOM</strong> (ExxonMobil), <strong>CVX</strong> (Chevron), <strong>SHEL</strong> (Shell) &mdash; all benefit from elevated crude; near 52-week highs. <strong>DAL, UAL</strong> (Delta, United Airlines) &mdash; jet fuel costs crushing margins. <strong>HAL, SLB</strong> (Halliburton, SLB) &mdash; oilfield services demand surging as producers push output. <strong>DANGCEM.NG</strong> (Dangote) &mdash; Nigeria&rsquo;s mega-refinery exported record 1.66 billion litres in April, emerging as a critical alternative supplier. <strong>GLD</strong> (Gold) &mdash; safe-haven flows accelerating on conflict escalation fears.
+            Bolivia is the world&rsquo;s largest lithium reserve holder and a major natural gas exporter in South America. Political instability threatens lithium mining concessions and gas supply contracts with Brazil and Argentina. Regional contagion risk in Latin America could weaken the Bolivian boliviano and neighbouring currencies.<br/><br/>
+            <strong>Stocks to watch:</strong> <strong>ALB</strong> (Albemarle), <strong>SQM</strong> (Sociedad Qu&iacute;mica y Minera) &mdash; lithium supply disruption from the world&rsquo;s largest reserves benefits competitors in Chile and Australia. <strong>LTHM</strong> (Livent/Arcadium Lithium) &mdash; alternative lithium supplier gains. <strong>PBR</strong> (Petrobras) &mdash; Brazilian energy giant may see reduced Bolivian gas imports. <strong>ARGT</strong> (Argentina ETF) &mdash; regional instability spillover risk. <strong>TSLA, BYD</strong> (1211.HK) &mdash; EV makers face lithium supply chain uncertainty. <strong>Bolivian sovereign bonds</strong> &mdash; default risk rising amid capital flight.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 5: GLOBAL BOND ROUT ===================== -->
+    <!-- ===================== EVENT 5: YEMEN PRISONER SWAP ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">5</span>
-          <span style="color: #666; font-size: 11px;">Global Finance / Bond Markets &mdash; May 19</span>
+          <span style="color: #666; font-size: 11px;">Middle East / Diplomacy / Humanitarian &mdash; May 14&ndash;21</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Global Bond Rout: 30-Year U.S. Treasury Hits 19-Year High at 5.19%; S&amp;P 500 Posts Third Straight Loss</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Yemen&rsquo;s Largest Prisoner Swap in 11-Year Civil War: 1,600+ Detainees to Be Released</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          A global bond sell-off intensified as the <strong>U.S. 30-year Treasury yield</strong> briefly topped <strong>5.19%</strong> &mdash; its highest level in nearly <strong>19 years</strong> &mdash; sending shockwaves through equity markets worldwide. The <strong>S&amp;P 500 fell 0.67%</strong> to 7,353.61, marking its <strong>third consecutive losing session</strong>. The <strong>Nasdaq dropped 0.84%</strong> to 25,870.71. The <strong>Dow shed 322 points</strong> (&minus;0.65%) to close at 49,363.88.
+          Yemen&rsquo;s internationally recognised government and the <strong>Iran-backed Houthi rebels</strong> signed a landmark deal in <strong>Amman, Jordan</strong> following <strong>14 weeks of negotiations</strong> to release over <strong>1,600 detainees</strong> &mdash; the <strong>largest prisoner swap</strong> since the civil war erupted in 2014. Of the nearly 1,700 detainees, approximately <strong>1,100 are Houthi-affiliated</strong>, while <strong>7 Saudis and 20 Sudanese</strong> are among the 580 to be released by the Houthi side. The deal was observed by <strong>U.N. officials and the International Committee of the Red Cross</strong>.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The yield spike reflects a toxic combination: <strong>persistent inflation at 3.8%</strong> driven by the Iran energy crisis, uncertainty over new Fed Chair <strong>Kevin Warsh&rsquo;s</strong> policy direction, and ballooning U.S. fiscal deficits. Bond vigilantes are repricing the &ldquo;higher for longer&rdquo; narrative aggressively. The sell-off is global: <strong>UK Gilts, German Bunds, and Japanese Government Bonds</strong> all saw yields rise in sympathy. Emerging market currencies are under pressure from the strong dollar, with capital outflows accelerating from Asia and Latin America.
+          <strong>U.N. Secretary-General Ant&oacute;nio Guterres</strong> welcomed the deal and called on parties to implement it swiftly. The agreement forms the <strong>first phase of a broader &ldquo;all-for-all&rdquo; prisoner exchange</strong> reached in Muscat. Implementation will be coordinated with the ICRC, building on large swaps conducted in 2020 and 2023. While a positive humanitarian development, analysts note it does not address the underlying military and political divisions &mdash; and occurs against the broader backdrop of Houthi maritime disruption in the <strong>Red Sea and Gulf of Aden</strong>.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market &amp; Stock Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Rising yields compress equity valuations, especially for growth and rate-sensitive sectors. The bond market is now the dominant force in global asset allocation. Financials benefit; REITs and tech suffer.<br/><br/>
-            <strong>Stocks to watch:</strong> <strong>JPM, GS, BAC</strong> (JPMorgan, Goldman Sachs, Bank of America) &mdash; banks benefit from sustained higher rates via net interest income. <strong>TLT</strong> (iShares 20+ Year Treasury ETF) &mdash; long-duration bonds under severe pressure; potential buying opportunity for contrarians. <strong>AAPL, MSFT, GOOGL</strong> &mdash; mega-cap tech faces valuation headwinds from rising discount rates. <strong>O, AMT</strong> (Realty Income, American Tower) &mdash; REITs disadvantaged in higher-rate environment. <strong>EEM</strong> (Emerging Markets ETF) &mdash; strong dollar and elevated U.S. rates create capital outflow risk. <strong>DXY</strong> (Dollar Index) &mdash; strengthening dollar pressures commodity importers globally.
+            The prisoner swap is a rare de-escalation signal in the Middle East. If it builds toward a broader ceasefire, Red Sea shipping disruptions could ease, reducing freight costs and insurance premiums. However, analysts remain cautious &mdash; Houthi maritime attacks have continued independently of peace talks.<br/><br/>
+            <strong>Stocks to watch:</strong> <strong>ZIM</strong> (ZIM Integrated Shipping) &mdash; Red Sea normalisation would reduce costly Cape of Good Hope rerouting. <strong>MAERSK.CO</strong> (A.P. Moller-Maersk), <strong>HLAG.DE</strong> (Hapag-Lloyd) &mdash; global container shipping costs tied to Red Sea access. <strong>2222.SR</strong> (Saudi Aramco) &mdash; Yemeni stability reduces direct security risk to Saudi infrastructure. <strong>AMZN, WMT</strong> (Amazon, Walmart) &mdash; Red Sea normalisation could ease supply chain pressures and reduce shipping costs. <strong>BDRY</strong> (Breakwave Dry Bulk Shipping ETF) &mdash; freight rate normalisation potential.
           </p>
         </div>
       </div>
@@ -173,13 +173,16 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #7c3aed; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Key Takeaway &mdash; What to Watch</p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">The world is fracturing across multiple axes simultaneously.</strong> Israel&rsquo;s flotilla interception risks a diplomatic crisis with NATO ally T&uuml;rkiye while the WHO&rsquo;s Ebola PHEIC declaration adds a health emergency to an already overloaded global risk environment. The Russia-Ukraine drone war is escalating in both directions, with the Chinese ship strike adding a wild card to great-power dynamics.
+        <strong style="color: #fff;">The global order is visibly bifurcating.</strong> The Putin-Xi summit&rsquo;s 40 agreements and &ldquo;multipolar world&rdquo; declaration formalise a Russia-China axis that is reshaping energy flows, trade corridors, and military alliances. This is not posturing &mdash; bilateral trade is up 20% and Russian oil shipments to China surged 35% in Q1 alone.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">The macro picture is stagflationary and deteriorating.</strong> The bond rout is the clearest signal: 30-year yields at 19-year highs with inflation at 3.8% and oil above $107 means the new Fed Chair has no room to cut. The S&amp;P 500&rsquo;s three-day losing streak reflects markets repricing the &ldquo;higher for longer&rdquo; reality. The strong dollar is exporting pain to emerging markets.
+        <strong style="color: #fff;">Energy remains the choke point.</strong> Iran&rsquo;s Hormuz &ldquo;Controlled Maritime Zone&rdquo; is the largest oil supply disruption since the 1970s. With 170 million barrels stuck on tankers and prices volatile between $96&ndash;$126, the stagflationary pressure on every major economy is intensifying. Today&rsquo;s markets rose on unconfirmed peace hopes &mdash; but that&rsquo;s happened before.
+      </p>
+      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
+        <strong style="color: #fff;">Multiple secondary crises are compounding.</strong> WHO&rsquo;s Ebola PHEIC adds a health emergency with no vaccine in sight. Bolivia&rsquo;s capital is paralysed, threatening lithium supply chains critical to the EV transition. Yemen&rsquo;s prisoner swap is a rare bright spot but doesn&rsquo;t resolve Red Sea shipping disruptions.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        <strong style="color: #fff;">Watch:</strong> Gaza flotilla diplomatic fallout (T&uuml;rkiye/Ireland response) &bull; Ebola spread beyond DRC/Uganda borders &bull; Putin-Xi summit outcomes after Chinese ship strike &bull; Iran ceasefire deadline and Hormuz flows &bull; U.S. Treasury auction demand this week &bull; Warsh&rsquo;s first public statements as Fed Chair &bull; Dangote Refinery&rsquo;s growing role in global energy supply
+        <strong style="color: #fff;">Watch:</strong> Iran-Hormuz diplomatic resolution rumours (real or manufactured?) &bull; Putin-Xi summit follow-through on Power of Siberia-2 &bull; Ebola spread beyond DRC/Uganda borders &bull; Bolivia lithium concession status &bull; Yemen prisoner swap implementation &amp; Red Sea Houthi activity &bull; Global bond yields and central bank responses
       </p>
     </div>
 
@@ -187,7 +190,7 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Sources</p>
       <p style="color: #888; font-size: 11px; line-height: 1.8; margin: 0;">
-        Al Jazeera &bull; NPR &bull; CNN &bull; CNBC &bull; TheStreet &bull; Reuters &bull; The Times of Israel &bull; PBS News &bull; UN News &bull; WHO &bull; CDC &bull; Fortune &bull; Axios &bull; Euronews &bull; Arab News &bull; TVP World &bull; Al Arabiya &bull; Global Biodefense &bull; UK House of Commons Library &bull; ACLED
+        Al Jazeera &bull; NPR &bull; CNN &bull; CNBC &bull; Reuters &bull; WHO &bull; ABC News &bull; Washington Post &bull; Fortune &bull; The National &bull; RT &bull; Democracy Now! &bull; Wikipedia &bull; Energy News Beat &bull; TheStreet &bull; Motley Fool &bull; Bloomberg &bull; Capital Economics &bull; ICRC &bull; UN News
       </p>
     </div>
 
