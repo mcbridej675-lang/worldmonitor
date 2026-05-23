@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * World Monitor — Global Daily Briefing Email Sender
+ * World Monitor — Okinawa Daily Briefing Email Sender
  *
  * Usage:
  *   RESEND_API_KEY=re_xxxx node scripts/send-daily-briefing.mjs
@@ -38,134 +38,172 @@ const html = `
         </td>
         <td style="padding-left: 10px;">
           <div style="font-size: 15px; font-weight: 800; color: #fff; letter-spacing: -0.5px;">WORLD MONITOR</div>
-          <div style="font-size: 9px; color: #666; text-transform: uppercase; letter-spacing: 2px;">Global Intelligence Briefing</div>
+          <div style="font-size: 9px; color: #666; text-transform: uppercase; letter-spacing: 2px;">Okinawa Intelligence Briefing</div>
         </td>
       </tr>
     </table>
 
     <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #7c3aed; padding: 16px 20px; margin-bottom: 24px;">
       <p style="font-size: 11px; color: #666; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 4px;">${today}</p>
-      <p style="font-size: 20px; font-weight: 700; color: #fff; margin: 0;">Top 5 Global Events &mdash; 24-Hour Summary</p>
-      <p style="font-size: 12px; color: #888; margin: 8px 0 0;">Geopolitics &bull; Conflict &bull; Financial Markets &bull; Stock Impact</p>
+      <p style="font-size: 20px; font-weight: 700; color: #fff; margin: 0;">Okinawa, Japan &mdash; 24-Hour Intelligence Summary</p>
+      <p style="font-size: 12px; color: #888; margin: 8px 0 0;">Military &bull; Government &bull; Financial &bull; Regional Security</p>
     </div>
 
-    <!-- ===================== EVENT 1: ISRAEL INTERCEPTS GAZA AID FLOTILLA ===================== -->
+    <!-- ===================== EVENT 1: JIANGKAI III FIRST DETECTION ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">1</span>
-          <span style="color: #666; font-size: 11px;">Middle East / Maritime / International Law &mdash; May 18&ndash;19</span>
+          <span style="color: #666; font-size: 11px;">PRC Naval Activity / First Island Chain &mdash; May 18&ndash;19</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Israel Intercepts Gaza Aid Flotilla in International Waters; T&uuml;rkiye Condemns &ldquo;Act of Piracy&rdquo;</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">JMSDF Detects Jiangkai III-Class Frigate Near Okinawa for First Time; PLA Navy Transits Miyako Strait</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The Israeli Navy intercepted and boarded all remaining vessels of the <strong>Global Sumud Flotilla</strong> &mdash; a convoy of over <strong>50 boats</strong> carrying humanitarian aid from the Turkish port of Marmaris toward Gaza &mdash; in <strong>international waters west of Cyprus</strong>. At least <strong>100 activists</strong> from multiple nations have reportedly been arrested and are being transferred to Israel. Six crew members aboard the <em>Lina al-Nablusi</em> were &ldquo;kidnapped,&rdquo; according to organisers, including <strong>Dr. Margaret Connolly</strong>, an Irish doctor and sister of Irish President Catherine Connolly.
+          Japan&rsquo;s Maritime Self-Defense Force confirmed the <strong>first-ever detection of a People&rsquo;s Liberation Army Navy (PLAN) Jiangkai III (Type 054B)-class frigate</strong> operating beyond China&rsquo;s first island chain. On <strong>May 18</strong>, JMSDF spotted the frigate <strong>CNS Luohe (545)</strong> and the fast combat support ship <strong>CNS Hulunhu (901)</strong> approximately <strong>520 km northwest of Kume Island</strong>. By <strong>May 19</strong>, the two vessels <strong>transited southeast through the Miyako Strait</strong> &mdash; between Okinawa Island and Miyako Island &mdash; entering the <strong>Philippine Sea</strong>.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          <strong>T&uuml;rkiye&rsquo;s Foreign Ministry</strong> condemned the interception as an &ldquo;act of piracy&rdquo; and is coordinating the return of Turkish nationals. Multiple governments and human rights organizations have condemned the operation as a violation of international law. Israeli PM Netanyahu described the raid as &ldquo;effectively neutralizing a malicious plan designed to break the isolation we have imposed on Hamas.&rdquo; The incident evokes the <strong>2010 Mavi Marmara raid</strong>, which killed 10 Turkish activists and ruptured Israeli-Turkish relations for years.
+          The Jiangkai III is China&rsquo;s newest guided-missile frigate class, representing a significant leap in PLA Navy surface combatant capability with advanced radar and weapons systems. The transit through the Miyako Strait &mdash; a critical chokepoint in Japan&rsquo;s southwestern island defense perimeter &mdash; underscores <strong>Beijing&rsquo;s accelerating power projection into the Western Pacific</strong>. This detection coincides with the deployment of the <strong>Liaoning carrier strike group</strong> for live-fire drills in the Western Pacific announced on <strong>May 19</strong>.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market &amp; Stock Impact</p>
+          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Operational Significance</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Heightened Middle East risk premium adds pressure to an already volatile region. Diplomatic fallout with T&uuml;rkiye and Ireland could trigger trade disruptions. Eastern Mediterranean shipping insurance costs may rise.<br/><br/>
-            <strong>Stocks to watch:</strong> <strong>ZIM</strong> (ZIM Integrated Shipping) &mdash; Israeli shipping company faces direct reputational and operational risk. <strong>ESLT</strong> (Elbit Systems) &mdash; Israeli defense firm exposed to potential sanctions or boycott pressure. <strong>TEVA</strong> (Teva Pharmaceutical) &mdash; Israel&rsquo;s largest public company; sensitive to diplomatic isolation risk. <strong>Turkish Lira / BIST 100</strong> &mdash; Ankara&rsquo;s sharp response could spark capital flight if relations deteriorate. <strong>Oil futures</strong> &mdash; each new Middle East flashpoint adds to the existing energy supply risk premium. <strong>GLD/IAU</strong> (Gold ETFs) &mdash; safe-haven demand strengthens.
+            First operational deployment of a next-generation Chinese frigate near Japanese waters signals increased PLA Navy confidence in blue-water operations. Combined with the Liaoning carrier group deployment, this represents a coordinated multi-axis push into the Western Pacific. JMSDF and U.S. 7th Fleet anti-submarine and surface surveillance operations in the Miyako Strait corridor will likely intensify.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 2: WHO DECLARES EBOLA GLOBAL EMERGENCY ===================== -->
+    <!-- ===================== EVENT 2: TRILATERAL AIR EXERCISE ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">2</span>
-          <span style="color: #666; font-size: 11px;">Global Health / Africa &mdash; May 16&ndash;17</span>
+          <span style="color: #666; font-size: 11px;">Allied Operations / Air Power &mdash; May 21</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">WHO Declares Ebola Outbreak in DRC &amp; Uganda a &ldquo;Public Health Emergency of International Concern&rdquo;</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">U.S., Japan &amp; Australia Execute Trilateral Air Exercise East of Okinawa with F-22s, F-35s &amp; F-15Js</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The World Health Organization declared the <strong>Ebola outbreak</strong> in the <strong>Democratic Republic of the Congo and Uganda</strong> a <strong>Public Health Emergency of International Concern (PHEIC)</strong> &mdash; the highest alarm level in global health. The outbreak involves the rare <strong>Bundibugyo strain</strong>, for which <strong>no approved vaccine or treatment exists</strong>. As of May 16, health authorities have recorded <strong>8 laboratory-confirmed cases, 246 suspected cases, and 80 suspected deaths</strong> in DRC&rsquo;s Ituri Province.
+          On <strong>May 21</strong>, the United States, Japan and Australia conducted a <strong>trilateral air exercise over the Pacific Ocean east of Okinawa</strong>. The combined force included a significant array of advanced combat and support aircraft:
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The outbreak has already crossed borders: <strong>Uganda</strong> has confirmed two cases linked to DRC travellers, including <strong>one death in Kampala</strong>. Cases linked to the outbreak have also reached Congo&rsquo;s capital, <strong>Kinshasa</strong>, raising fears of wider regional spread. The <strong>CDC has mobilised an international response team</strong>. The WHO stopped short of declaring a pandemic but warned of &ldquo;high regional risk.&rdquo; This is only the <strong>8th PHEIC declaration</strong> in WHO history, placing it alongside COVID-19 and the 2014 West Africa Ebola crisis.
+          <strong>U.S. Air Force:</strong> 3&times; F-22 Raptor, 4&times; F-35A Lightning II, 2&times; KC-135 Stratotanker<br/>
+          <strong>U.S. Marine Corps:</strong> 2&times; F/A-18 Hornet, 1&times; KC-130 tanker<br/>
+          <strong>Japan Air Self-Defense Force:</strong> 4&times; F-15J, 1&times; RC-2 Electronic Intelligence aircraft<br/>
+          <strong>Royal Australian Air Force:</strong> 1&times; P-8A Poseidon, 1&times; KC-30A Multi-Role Transport Tanker
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          The exercise is part of an ongoing series of trilateral engagements designed to enhance interoperability and demonstrate allied resolve in the Indo-Pacific. The inclusion of JASDF&rsquo;s <strong>RC-2 ELINT aircraft</strong> and Australia&rsquo;s <strong>P-8A maritime patrol platform</strong> signals integration of intelligence, surveillance, and reconnaissance capabilities alongside fighter operations.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market &amp; Stock Impact</p>
+          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Operational Significance</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            PHEIC declarations historically trigger pharma rallies and travel/hospitality sell-offs. The Bundibugyo strain&rsquo;s lack of an approved vaccine creates an urgent R&amp;D race. Mining companies with DRC exposure face operational risk.<br/><br/>
-            <strong>Stocks to watch:</strong> <strong>MRNA</strong> (Moderna) &mdash; mRNA platform positioned for rapid Ebola vaccine development; potential emergency use authorization catalyst. <strong>BNTX</strong> (BioNTech) &mdash; similar mRNA capability; watch for partnership announcements. <strong>GILD</strong> (Gilead Sciences) &mdash; makes remdesivir, explored for Ebola treatment. <strong>EBS</strong> (Emergent BioSolutions) &mdash; biodefense contractor with Ebola countermeasure experience. <strong>GLNCY</strong> (Glencore) &mdash; major DRC cobalt/copper mining operations face disruption risk. <strong>ABNB, BKNG</strong> (Airbnb, Booking Holdings) &mdash; African tourism sector vulnerable to travel advisories.
+            The timing &mdash; one day after the Liaoning carrier strike group deployment &mdash; is not coincidental. Trilateral air exercises east of Okinawa rehearse air superiority and sea-denial scenarios directly relevant to a Taiwan contingency. The mix of 5th-gen fighters (F-22/F-35), legacy platforms (F-15J/F-18), ISR assets and tanker support simulates a full-spectrum air campaign.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 3: RUSSIA-UKRAINE DRONE WAR ESCALATION ===================== -->
+    <!-- ===================== EVENT 3: NANSEI ISLANDS EXERCISE ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">3</span>
-          <span style="color: #666; font-size: 11px;">Conflict / Europe / Black Sea &mdash; May 17&ndash;18</span>
+          <span style="color: #666; font-size: 11px;">Japan / USMC / Island Defense &mdash; May 17&ndash;22</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Ukraine Launches Largest Drone Strike on Moscow; Russia Hits Chinese Ship in Black Sea Before Putin-Xi Meeting</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Japan&rsquo;s First-Ever Nansei Islands Defense Exercise Wraps Up; 12th MLR Integrates with JGSDF</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Ukraine executed one of its <strong>largest drone strikes on Russia</strong> since the full-scale invasion began, killing at least <strong>4 people including 3 near Moscow</strong> and wounding over a dozen. Drone debris fell near <strong>Russia&rsquo;s largest airport</strong> without causing damage. President Zelenskyy confirmed the strikes, calling them &ldquo;entirely justified&rdquo; as peace talks remain stalled. The operation demonstrates Ukraine&rsquo;s rapidly improving long-range drone capability and willingness to bring the war to Russian civilians.
+          The Japan Ground Self-Defense Force&rsquo;s <strong>Ground Component Command</strong> concluded a landmark exercise on <strong>May 22</strong> &mdash; the <strong>first time Japan&rsquo;s highest army operational command specifically focused on the Nansei (Ryukyu) Islands</strong> for training. Approximately <strong>300 JGSDF soldiers from all regional armies</strong> and <strong>20 U.S. Marines from the Okinawa-based 12th Marine Littoral Regiment</strong> participated in operations across <strong>Ishigaki, Yonaguni, and Miyakojima</strong>.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          In a diplomatically explosive incident, Russian drones struck <strong>two ships in the Black Sea</strong> approaching Ukrainian ports, including the <strong>KSL Deyang</strong> &mdash; a <strong>Chinese-owned cargo vessel with a Chinese crew</strong> sailing under a Marshall Islands flag. The strike occurred just <strong>one day before Putin travelled to Beijing</strong> to meet Xi Jinping. NPR reports a &ldquo;shifting momentum&rdquo; in the war, with signs that Russians are <strong>growing weary</strong> of the conflict while Ukraine&rsquo;s drone technology hits deeper inside Russian territory.
+          Key activities included: <strong>bilateral command post training</strong> in Miyakojima with a U.S.-Japan coordination center; deployment of <strong>Type-88 surface-to-ship missile launchers</strong> to Ishigaki; deployment of <strong>two ScanEagle II UAVs</strong> to Yonaguni; and <strong>supply transport exercises using nine ports across Japan</strong>. The exercise aimed to &ldquo;improve deterrence and response in the region through mobile deployment and material transportation.&rdquo;
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market &amp; Stock Impact</p>
+          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Operational Significance</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            The Chinese ship strike complicates the Putin-Xi relationship and could shift Beijing&rsquo;s calculus on the war. Black Sea shipping insurance premiums will rise. European defense stocks continue their multi-year rally. Grain supply disruption risk remains elevated.<br/><br/>
-            <strong>Stocks to watch:</strong> <strong>RHM.DE</strong> (Rheinmetall) &mdash; Germany&rsquo;s top defense firm surging on European rearmament spending. <strong>RTX</strong> (RTX Corp) &mdash; Patriot systems and drone countermeasures in demand. <strong>LMT</strong> (Lockheed Martin) &mdash; NATO replenishment orders accelerating. <strong>AVAV</strong> (AeroVironment) &mdash; Switchblade drone maker; direct beneficiary of drone warfare era. <strong>Wheat futures / WEAT</strong> &mdash; Black Sea shipping disruption bullish for global grain prices. <strong>COSCO</strong> (1919.HK) &mdash; Chinese shipping giant faces Black Sea route recalculation.
+            This exercise marks a doctrinal shift for the JGSDF. Deploying anti-ship missiles to Ishigaki (approx. 270 km from Taiwan) and UAVs to Yonaguni (approx. 110 km from Taiwan) rehearses a distributed maritime defense concept that mirrors USMC&rsquo;s Expeditionary Advanced Base Operations (EABO). The 12th MLR&rsquo;s participation signals deepening bilateral interoperability for island defense scenarios.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 4: IRAN-US CEASEFIRE DETERIORATING ===================== -->
+    <!-- ===================== EVENT 4: GSDF OSPREY TO USE FUTENMA ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">4</span>
-          <span style="color: #666; font-size: 11px;">Energy / Geopolitics / Global Economy &mdash; Ongoing</span>
+          <span style="color: #666; font-size: 11px;">USMC-JGSDF / Aviation / Okinawa &mdash; May 22</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Iran-U.S. Ceasefire on &ldquo;Life Support&rdquo;: Trump Cancels Planned Strikes, Sets 5 Hardline Preconditions</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">GSDF V-22 Osprey to Use MCAS Futenma for First Time During Resolute Dragon Exercise</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The April 8 ceasefire between the U.S. and Iran is collapsing. <strong>Intermittent fighting has resumed since May 4</strong>, when Iran struck targets in the UAE, followed by exchanges of fire as U.S. vessels transited through the <strong>Strait of Hormuz</strong> on May 7. Trump said he is holding off on a planned military strike on Iran because &ldquo;serious negotiations&rdquo; are underway, but called Iran&rsquo;s latest proposal &ldquo;TOTALLY UNACCEPTABLE.&rdquo;
+          A Japan Ground Self-Defense Force <strong>V-22 Osprey</strong> is expected to land at <strong>MCAS Futenma in Okinawa Prefecture</strong> for the first time, as part of the upcoming <strong>Resolute Dragon exercise</strong> between JGSDF and U.S. Marine Corps, scheduled for <strong>June 20&ndash;30</strong>. The GSDF is planning to have the Osprey <strong>airlift a mock patient from Miyako Island to Futenma</strong> &mdash; a CASEVAC drill that would also mark the first GSDF Osprey landing on Miyako Island.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Trump has set <strong>5 hardline preconditions</strong>: delivery of 400kg enriched uranium to the U.S., reduction to a single nuclear facility, no release of frozen Iranian assets, linking all fronts to negotiations, and no compensation to Iran. U.S. and Iranian officials <strong>have not met since April 12</strong> and are exchanging proposals through intermediaries. Crude flows through Hormuz remain <strong>down ~6 million bpd</strong>. <strong>Brent crude</strong> remains above <strong>$107/barrel</strong>. U.S. inflation sits at <strong>3.8%</strong>, with energy costs as the primary driver.
+          The Futenma landing is politically sensitive. The base sits in <strong>densely populated Ginowan</strong>, and <strong>Governor Denny Tamaki</strong> &mdash; who announced his bid for a <strong>third term in the Sept. 13 gubernatorial election</strong> &mdash; continues to <strong>oppose the Futenma-to-Henoko relocation plan</strong>. The Futenma site has <strong>not been returned to Japan 30 years after the 1996 agreement</strong>, and a recent dispute over the Henoko replacement facility&rsquo;s shorter runway (1,800m vs. Futenma&rsquo;s 2,700m) has further complicated the timeline.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market &amp; Stock Impact</p>
+          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Political &amp; Operational Context</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            The energy crisis is the dominant macro driver globally. Oil above $100 creates stagflationary pressure, hurting consumer stocks while boosting energy producers. The IEA warned markets could remain &ldquo;severely undersupplied until October.&rdquo;<br/><br/>
-            <strong>Stocks to watch:</strong> <strong>XOM</strong> (ExxonMobil), <strong>CVX</strong> (Chevron), <strong>SHEL</strong> (Shell) &mdash; all benefit from elevated crude; near 52-week highs. <strong>DAL, UAL</strong> (Delta, United Airlines) &mdash; jet fuel costs crushing margins. <strong>HAL, SLB</strong> (Halliburton, SLB) &mdash; oilfield services demand surging as producers push output. <strong>DANGCEM.NG</strong> (Dangote) &mdash; Nigeria&rsquo;s mega-refinery exported record 1.66 billion litres in April, emerging as a critical alternative supplier. <strong>GLD</strong> (Gold) &mdash; safe-haven flows accelerating on conflict escalation fears.
+            A GSDF Osprey at Futenma deepens the base&rsquo;s operational role even as the relocation debate lingers. The Pentagon has conditioned Futenma&rsquo;s return on a long runway at Henoko, which Japan says can be met by using a civilian airport. With Tamaki running on an anti-relocation platform ahead of the September election, Osprey operations at Futenma will amplify local opposition. Construction at Henoko is not expected to finish until <strong>at least 2033</strong>.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 5: GLOBAL BOND ROUT ===================== -->
+    <!-- ===================== EVENT 5: LIAONING CARRIER STRIKE GROUP ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">5</span>
-          <span style="color: #666; font-size: 11px;">Global Finance / Bond Markets &mdash; May 19</span>
+          <span style="color: #666; font-size: 11px;">PRC Power Projection / Western Pacific &mdash; May 19</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Global Bond Rout: 30-Year U.S. Treasury Hits 19-Year High at 5.19%; S&amp;P 500 Posts Third Straight Loss</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">China Deploys Liaoning Carrier Strike Group for Live-Fire Drills in Western Pacific</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          A global bond sell-off intensified as the <strong>U.S. 30-year Treasury yield</strong> briefly topped <strong>5.19%</strong> &mdash; its highest level in nearly <strong>19 years</strong> &mdash; sending shockwaves through equity markets worldwide. The <strong>S&amp;P 500 fell 0.67%</strong> to 7,353.61, marking its <strong>third consecutive losing session</strong>. The <strong>Nasdaq dropped 0.84%</strong> to 25,870.71. The <strong>Dow shed 322 points</strong> (&minus;0.65%) to close at 49,363.88.
+          On <strong>May 19</strong>, Beijing dispatched the <strong>Liaoning carrier strike group</strong> into the Western Pacific for a series of drills including <strong>long-range tactical flight operations, live-fire exercises, escort missions, and integrated search-and-rescue training</strong>. The PLA described the drills as part of its &ldquo;regular annual training program&rdquo; aimed at improving combat readiness.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The yield spike reflects a toxic combination: <strong>persistent inflation at 3.8%</strong> driven by the Iran energy crisis, uncertainty over new Fed Chair <strong>Kevin Warsh&rsquo;s</strong> policy direction, and ballooning U.S. fiscal deficits. Bond vigilantes are repricing the &ldquo;higher for longer&rdquo; narrative aggressively. The sell-off is global: <strong>UK Gilts, German Bunds, and Japanese Government Bonds</strong> all saw yields rise in sympathy. Emerging market currencies are under pressure from the strong dollar, with capital outflows accelerating from Asia and Latin America.
+          The deployment came <strong>days after the Trump-Xi summit in Beijing on May 14&ndash;15</strong>, during which the two leaders agreed to establish a &ldquo;constructive strategic stability relationship.&rdquo; Chinese state media framed the drills as a &ldquo;strong deterrent against certain ill-intentioned countries and Taiwan independence separatist forces.&rdquo; The carrier operations are occurring in the same waters where the U.S.-Japan-Australia trilateral air exercise took place on May 21, underscoring the intensifying <strong>great-power military competition in Okinawa&rsquo;s maritime approaches</strong>.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market &amp; Stock Impact</p>
+          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Strategic Assessment</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Rising yields compress equity valuations, especially for growth and rate-sensitive sectors. The bond market is now the dominant force in global asset allocation. Financials benefit; REITs and tech suffer.<br/><br/>
-            <strong>Stocks to watch:</strong> <strong>JPM, GS, BAC</strong> (JPMorgan, Goldman Sachs, Bank of America) &mdash; banks benefit from sustained higher rates via net interest income. <strong>TLT</strong> (iShares 20+ Year Treasury ETF) &mdash; long-duration bonds under severe pressure; potential buying opportunity for contrarians. <strong>AAPL, MSFT, GOOGL</strong> &mdash; mega-cap tech faces valuation headwinds from rising discount rates. <strong>O, AMT</strong> (Realty Income, American Tower) &mdash; REITs disadvantaged in higher-rate environment. <strong>EEM</strong> (Emerging Markets ETF) &mdash; strong dollar and elevated U.S. rates create capital outflow risk. <strong>DXY</strong> (Dollar Index) &mdash; strengthening dollar pressures commodity importers globally.
+            Beijing is demonstrating that diplomatic engagement with Washington does not equate to military restraint. The concurrent Liaoning deployment and Jiangkai III transit through the Miyako Strait constitute a coordinated show of force in the waters surrounding Okinawa. For U.S. forces on Okinawa, this reinforces the operational imperative behind the 12th MLR&rsquo;s stand-in force concept and the broader Nansei Islands defense buildup.
           </p>
         </div>
+      </div>
+    </div>
+
+    <!-- ===================== FINANCIAL & ECONOMIC SNAPSHOT ===================== -->
+    <div style="margin-bottom: 24px;">
+      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #1e40af; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">&#9733;</span>
+          <span style="color: #666; font-size: 11px;">Financial &amp; Economic Snapshot</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Okinawa &amp; Japan Economic Indicators</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          <strong>Japan GDP:</strong> Real GDP rose <strong>2.1% annualized</strong> in Q1 2026 (Cabinet Office).<br/>
+          <strong>BOJ Policy:</strong> Board member Junko Koeda stated the BOJ should raise rates &ldquo;at an appropriate pace&rdquo;; rates held steady at the April 28 meeting. JGB yields rose in sympathy with the global bond sell-off.<br/>
+          <strong>Exports:</strong> Japan&rsquo;s chip exports surged <strong>44% YoY</strong> in May, driven by AI demand. Trade surplus held positive in April.<br/>
+          <strong>Sentiment:</strong> Economy Watchers Survey fell to <strong>40.80</strong> in April (from 42.20 in March), signaling weakening domestic confidence across all 11 regions including Okinawa.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          <strong>Okinawa Tourism:</strong> Named <strong>Expedia&rsquo;s #2 Destination of the Year 2026</strong> after a 71% YoY surge in searches. FY2025 visitors expected to exceed <strong>10 million for the first time</strong>. A new <strong>2% prefectural accommodation tax</strong> took effect in April 2026 &mdash; Japan&rsquo;s first prefectural-level lodging tax &mdash; projected to generate <strong>&yen;7.8 billion annually</strong>.<br/>
+          <strong>Okinawa Development:</strong> Junglia theme park opened in Nakijin Village. <strong>Shuri Castle main hall restoration</strong> expected to complete by autumn 2026. Finance Ministry upgraded Okinawa&rsquo;s economic assessment to &ldquo;recovering&rdquo; in January 2026.
+        </p>
+      </div>
+    </div>
+
+    <!-- ===================== GOVERNMENT & POLITICAL ===================== -->
+    <div style="margin-bottom: 24px;">
+      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #1e40af; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">&#9733;</span>
+          <span style="color: #666; font-size: 11px;">Government &amp; Political</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Okinawa Political Landscape</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          <strong>Gubernatorial Election:</strong> Gov. <strong>Denny Tamaki</strong> (age 66) announced he will seek a <strong>third term</strong> in the <strong>September 13 gubernatorial election</strong>, running on continued opposition to the Futenma-to-Henoko relocation. His candidacy sets the stage for another referendum on the U.S. military presence.<br/><br/>
+          <strong>Futenma 30th Anniversary:</strong> April 2026 marked <strong>30 years since the 1996 U.S.-Japan agreement</strong> to return MCAS Futenma. The original 5&ndash;7 year timeline has been blown through with no concrete return date. The Pentagon insists on a long runway at the Henoko replacement facility (current plans: 1,800m V-shaped runways vs. Futenma&rsquo;s 2,700m).<br/><br/>
+          <strong>Defense Minister Visit:</strong> Japan&rsquo;s Defense Minister <strong>Koizumi</strong> pledged to reduce the U.S. military footprint on his first visit to Okinawa, while denying any discrepancy with Washington over the Futenma return timeline.
+        </p>
       </div>
     </div>
 
@@ -173,13 +211,13 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #7c3aed; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Key Takeaway &mdash; What to Watch</p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">The world is fracturing across multiple axes simultaneously.</strong> Israel&rsquo;s flotilla interception risks a diplomatic crisis with NATO ally T&uuml;rkiye while the WHO&rsquo;s Ebola PHEIC declaration adds a health emergency to an already overloaded global risk environment. The Russia-Ukraine drone war is escalating in both directions, with the Chinese ship strike adding a wild card to great-power dynamics.
+        <strong style="color: #fff;">Okinawa is at the center of an accelerating military buildup on all sides.</strong> Within a single week: China pushed a next-generation frigate and a carrier strike group through the Miyako Strait and into the Western Pacific; the U.S., Japan and Australia responded with a trilateral air exercise east of Okinawa; and Japan concluded its first-ever Nansei Islands defense exercise with anti-ship missiles deployed to islands visible from Taiwan. The tempo of military activity around Okinawa is the highest in decades.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">The macro picture is stagflationary and deteriorating.</strong> The bond rout is the clearest signal: 30-year yields at 19-year highs with inflation at 3.8% and oil above $107 means the new Fed Chair has no room to cut. The S&amp;P 500&rsquo;s three-day losing streak reflects markets repricing the &ldquo;higher for longer&rdquo; reality. The strong dollar is exporting pain to emerging markets.
+        <strong style="color: #fff;">The Futenma question remains unresolved after 30 years</strong> and will dominate the September gubernatorial election. Gov. Tamaki&rsquo;s third-term bid ensures the anti-relocation movement stays politically viable. Meanwhile, GSDF Osprey operations at Futenma deepen the base&rsquo;s operational integration even as its replacement remains a decade away.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        <strong style="color: #fff;">Watch:</strong> Gaza flotilla diplomatic fallout (T&uuml;rkiye/Ireland response) &bull; Ebola spread beyond DRC/Uganda borders &bull; Putin-Xi summit outcomes after Chinese ship strike &bull; Iran ceasefire deadline and Hormuz flows &bull; U.S. Treasury auction demand this week &bull; Warsh&rsquo;s first public statements as Fed Chair &bull; Dangote Refinery&rsquo;s growing role in global energy supply
+        <strong style="color: #fff;">Watch:</strong> Liaoning carrier group exercise track and duration &bull; PLA Navy Jiangkai III return transit through Miyako Strait &bull; Resolute Dragon exercise (Jun 20&ndash;30) and GSDF Osprey at Futenma &bull; September 13 Okinawa gubernatorial election dynamics &bull; BOJ rate decision impact on Okinawa tourism sector &bull; Shuri Castle restoration completion timeline
       </p>
     </div>
 
@@ -187,7 +225,7 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Sources</p>
       <p style="color: #888; font-size: 11px; line-height: 1.8; margin: 0;">
-        Al Jazeera &bull; NPR &bull; CNN &bull; CNBC &bull; TheStreet &bull; Reuters &bull; The Times of Israel &bull; PBS News &bull; UN News &bull; WHO &bull; CDC &bull; Fortune &bull; Axios &bull; Euronews &bull; Arab News &bull; TVP World &bull; Al Arabiya &bull; Global Biodefense &bull; UK House of Commons Library &bull; ACLED
+        Stars and Stripes &bull; The Japan Times &bull; USNI News &bull; Janes Defence &bull; Defence Blog &bull; UPI &bull; Global Times &bull; South China Morning Post &bull; Defence Security Asia &bull; Japan Ministry of Defense Joint Staff Office &bull; Ryukyu Shimpo &bull; Military.com &bull; Asia Times &bull; NHK &bull; Expedia &bull; Japan Cabinet Office &bull; Bank of Japan
       </p>
     </div>
 
@@ -212,7 +250,7 @@ const recipients = useTestingMode ? TESTING_RECIPIENTS : RECIPIENTS;
 const payload = JSON.stringify({
   from: 'World Monitor <onboarding@resend.dev>',
   to: recipients,
-  subject: `[World Monitor] Global Intelligence Briefing — ${today}`,
+  subject: `[World Monitor] Okinawa Intelligence Briefing — ${today}`,
   html,
 });
 
