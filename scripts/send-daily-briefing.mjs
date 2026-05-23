@@ -7,9 +7,7 @@
  */
 
 const RECIPIENTS = [
-  'mcbridej675@gmail.com',
-  'john.mcbride.mil@usmc.mil',
-  'paul.foersch@usmc.mil',
+  'johnmcbride2928@gmail.com',
 ];
 
 const TESTING_RECIPIENTS = [
@@ -49,121 +47,121 @@ const html = `
       <p style="font-size: 12px; color: #888; margin: 8px 0 0;">Geopolitics &bull; Conflict &bull; Financial Markets &bull; Stock Impact</p>
     </div>
 
-    <!-- ===================== EVENT 1: ISRAEL INTERCEPTS GAZA AID FLOTILLA ===================== -->
+    <!-- ===================== EVENT 1: IRAN-US PEACE DEAL IMMINENT ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">1</span>
-          <span style="color: #666; font-size: 11px;">Middle East / Maritime / International Law &mdash; May 18&ndash;19</span>
+          <span style="color: #666; font-size: 11px;">Middle East / Energy / Geopolitics &mdash; May 23</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Israel Intercepts Gaza Aid Flotilla in International Waters; T&uuml;rkiye Condemns &ldquo;Act of Piracy&rdquo;</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Iran&ndash;U.S. Peace Deal Draft Expected Within 24 Hours; Strait of Hormuz Reopening at Centre of Negotiations</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The Israeli Navy intercepted and boarded all remaining vessels of the <strong>Global Sumud Flotilla</strong> &mdash; a convoy of over <strong>50 boats</strong> carrying humanitarian aid from the Turkish port of Marmaris toward Gaza &mdash; in <strong>international waters west of Cyprus</strong>. At least <strong>100 activists</strong> from multiple nations have reportedly been arrested and are being transferred to Israel. Six crew members aboard the <em>Lina al-Nablusi</em> were &ldquo;kidnapped,&rdquo; according to organisers, including <strong>Dr. Margaret Connolly</strong>, an Irish doctor and sister of Irish President Catherine Connolly.
+          Top negotiators from both sides &mdash; including Iranian Parliament Speaker <strong>Mohammad Bagher Qalifbaf</strong>, Vice President <strong>J.D. Vance</strong>, special envoy <strong>Steve Witkoff</strong>, and <strong>Jared Kushner</strong> &mdash; have reportedly approved a draft peace deal expected to be announced by <strong>Sunday afternoon</strong>. The agreement would end hostilities on all fronts in the largest military conflict the Middle East has seen in decades.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          <strong>T&uuml;rkiye&rsquo;s Foreign Ministry</strong> condemned the interception as an &ldquo;act of piracy&rdquo; and is coordinating the return of Turkish nationals. Multiple governments and human rights organizations have condemned the operation as a violation of international law. Israeli PM Netanyahu described the raid as &ldquo;effectively neutralizing a malicious plan designed to break the isolation we have imposed on Hamas.&rdquo; The incident evokes the <strong>2010 Mavi Marmara raid</strong>, which killed 10 Turkish activists and ruptured Israeli-Turkish relations for years.
+          The critical sticking point remains the <strong>Strait of Hormuz</strong>, through which <strong>20% of global oil supply</strong> flows. Iran has demanded ships pay a transit levy; Washington insists on unconditional, toll-free reopening. The U.S. blockade has now redirected over <strong>100 commercial vessels</strong>. Cumulative global supply losses exceed <strong>1 billion barrels</strong>, with <strong>14 mb/d</strong> shut in. Oil has whipsawed between <strong>$100&ndash;$144/bbl</strong> on conflicting deal signals, currently around <strong>$110/bbl</strong>. Pakistan is mediating. A successful deal would be the single most consequential geopolitical event of 2026.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market &amp; Stock Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Heightened Middle East risk premium adds pressure to an already volatile region. Diplomatic fallout with T&uuml;rkiye and Ireland could trigger trade disruptions. Eastern Mediterranean shipping insurance costs may rise.<br/><br/>
-            <strong>Stocks to watch:</strong> <strong>ZIM</strong> (ZIM Integrated Shipping) &mdash; Israeli shipping company faces direct reputational and operational risk. <strong>ESLT</strong> (Elbit Systems) &mdash; Israeli defense firm exposed to potential sanctions or boycott pressure. <strong>TEVA</strong> (Teva Pharmaceutical) &mdash; Israel&rsquo;s largest public company; sensitive to diplomatic isolation risk. <strong>Turkish Lira / BIST 100</strong> &mdash; Ankara&rsquo;s sharp response could spark capital flight if relations deteriorate. <strong>Oil futures</strong> &mdash; each new Middle East flashpoint adds to the existing energy supply risk premium. <strong>GLD/IAU</strong> (Gold ETFs) &mdash; safe-haven demand strengthens.
+            A deal would trigger the largest single-day oil price decline in years, potentially crashing Brent below $80. Failure would send crude back toward $140+. This is the binary event dominating all global asset pricing right now.<br/><br/>
+            <strong>Stocks to watch:</strong> <strong>XOM, CVX, SHEL</strong> (ExxonMobil, Chevron, Shell) &mdash; energy majors face massive downside if deal reopens Hormuz supply; currently near 52-week highs. <strong>DAL, UAL, LUV</strong> (Delta, United, Southwest) &mdash; airlines rally hard on any deal as jet fuel costs collapse. <strong>HAL, SLB</strong> (Halliburton, SLB) &mdash; oilfield services priced for elevated demand; vulnerable to correction. <strong>GLD/IAU</strong> (Gold ETFs) &mdash; safe-haven unwind on deal, rally on failure. <strong>USO</strong> (Oil ETF) &mdash; extreme volatility expected either direction. <strong>DANGCEM.NG</strong> (Dangote) &mdash; Nigeria&rsquo;s mega-refinery positioned as alternative supplier regardless of outcome.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 2: WHO DECLARES EBOLA GLOBAL EMERGENCY ===================== -->
+    <!-- ===================== EVENT 2: QUAD DIPLOMACY / INDIA ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">2</span>
-          <span style="color: #666; font-size: 11px;">Global Health / Africa &mdash; May 16&ndash;17</span>
+          <span style="color: #666; font-size: 11px;">Indo-Pacific / Diplomacy / Trade &mdash; May 23</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">WHO Declares Ebola Outbreak in DRC &amp; Uganda a &ldquo;Public Health Emergency of International Concern&rdquo;</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Rubio Arrives in New Delhi; Invites Modi to White House as Quad Foreign Ministers Prepare May 26 Summit</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The World Health Organization declared the <strong>Ebola outbreak</strong> in the <strong>Democratic Republic of the Congo and Uganda</strong> a <strong>Public Health Emergency of International Concern (PHEIC)</strong> &mdash; the highest alarm level in global health. The outbreak involves the rare <strong>Bundibugyo strain</strong>, for which <strong>no approved vaccine or treatment exists</strong>. As of May 16, health authorities have recorded <strong>8 laboratory-confirmed cases, 246 suspected cases, and 80 suspected deaths</strong> in DRC&rsquo;s Ituri Province.
+          U.S. Secretary of State <strong>Marco Rubio</strong> arrived in New Delhi on Saturday for his first official visit to India, meeting <strong>Prime Minister Narendra Modi</strong> and delivering a personal invitation from President Trump for a White House visit in the &ldquo;near future.&rdquo; Rubio called India a &ldquo;cornerstone&rdquo; of U.S. Indo-Pacific policy and the two sides agreed to deepen <strong>defence, strategic technology, trade, and energy security</strong> cooperation.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The outbreak has already crossed borders: <strong>Uganda</strong> has confirmed two cases linked to DRC travellers, including <strong>one death in Kampala</strong>. Cases linked to the outbreak have also reached Congo&rsquo;s capital, <strong>Kinshasa</strong>, raising fears of wider regional spread. The <strong>CDC has mobilised an international response team</strong>. The WHO stopped short of declaring a pandemic but warned of &ldquo;high regional risk.&rdquo; This is only the <strong>8th PHEIC declaration</strong> in WHO history, placing it alongside COVID-19 and the 2014 West Africa Ebola crisis.
+          The visit is a reset attempt after relations soured over Washington&rsquo;s <strong>tariff policies</strong>. The <strong>Quad Foreign Ministers&rsquo; Meeting</strong> (India, Japan, Australia, U.S.) is set for <strong>May 26 at Hyderabad House</strong>. The summit comes as the Indo-Pacific alliance seeks to counterbalance China&rsquo;s growing regional influence. The Trump-Xi summit on May 15 produced a $17 billion agricultural purchase commitment from China, but both sides disagreed on what else was agreed &mdash; making the Quad alignment all the more critical for Washington&rsquo;s Asia strategy.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market &amp; Stock Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            PHEIC declarations historically trigger pharma rallies and travel/hospitality sell-offs. The Bundibugyo strain&rsquo;s lack of an approved vaccine creates an urgent R&amp;D race. Mining companies with DRC exposure face operational risk.<br/><br/>
-            <strong>Stocks to watch:</strong> <strong>MRNA</strong> (Moderna) &mdash; mRNA platform positioned for rapid Ebola vaccine development; potential emergency use authorization catalyst. <strong>BNTX</strong> (BioNTech) &mdash; similar mRNA capability; watch for partnership announcements. <strong>GILD</strong> (Gilead Sciences) &mdash; makes remdesivir, explored for Ebola treatment. <strong>EBS</strong> (Emergent BioSolutions) &mdash; biodefense contractor with Ebola countermeasure experience. <strong>GLNCY</strong> (Glencore) &mdash; major DRC cobalt/copper mining operations face disruption risk. <strong>ABNB, BKNG</strong> (Airbnb, Booking Holdings) &mdash; African tourism sector vulnerable to travel advisories.
+            Indo-Pacific trade realignment creates winners in Indian defence and infrastructure. A U.S.-India rapprochement could unlock defence contracts worth billions. Watch for trade concessions that benefit Indian tech and pharma exports.<br/><br/>
+            <strong>Stocks to watch:</strong> <strong>INDA</strong> (iShares MSCI India ETF) &mdash; broad India exposure; benefits from warming U.S. ties. <strong>HAL.NS</strong> (Hindustan Aeronautics) &mdash; Indian defence champion positioned for joint production deals. <strong>INFY, WIT</strong> (Infosys, Wipro) &mdash; Indian IT services benefit from reduced trade friction. <strong>RDY</strong> (Dr. Reddy&rsquo;s Laboratories) &mdash; Indian pharma stands to gain from tariff rollbacks. <strong>LMT, RTX</strong> (Lockheed, RTX) &mdash; U.S. defence primes in line for Indian procurement contracts. <strong>FXI</strong> (China Large-Cap ETF) &mdash; Quad solidarity pressures Chinese equities.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 3: RUSSIA-UKRAINE DRONE WAR ESCALATION ===================== -->
+    <!-- ===================== EVENT 3: EUROPEAN ECONOMIC DETERIORATION ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">3</span>
-          <span style="color: #666; font-size: 11px;">Conflict / Europe / Black Sea &mdash; May 17&ndash;18</span>
+          <span style="color: #666; font-size: 11px;">Europe / Economy / Labour Markets &mdash; May 22&ndash;23</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Ukraine Launches Largest Drone Strike on Moscow; Russia Hits Chinese Ship in Black Sea Before Putin-Xi Meeting</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Europe&rsquo;s Three Largest Economies Show Simultaneous Labour-Market Strain; France Hits 5-Year Unemployment High</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Ukraine executed one of its <strong>largest drone strikes on Russia</strong> since the full-scale invasion began, killing at least <strong>4 people including 3 near Moscow</strong> and wounding over a dozen. Drone debris fell near <strong>Russia&rsquo;s largest airport</strong> without causing damage. President Zelenskyy confirmed the strikes, calling them &ldquo;entirely justified&rdquo; as peace talks remain stalled. The operation demonstrates Ukraine&rsquo;s rapidly improving long-range drone capability and willingness to bring the war to Russian civilians.
+          <strong>France&rsquo;s unemployment rate</strong> climbed to <strong>8.1% in Q1 2026</strong> &mdash; its highest level in five years &mdash; with the European Commission projecting further deterioration to <strong>8.3%</strong> this year and <strong>8.7% in 2027</strong>. <strong>Germany</strong>, after two consecutive years of recession, is forecast to grow just <strong>0.6% in 2026</strong>, with unemployment rising to <strong>4.0%</strong> and its fiscal deficit ballooning to <strong>3.7% of GDP</strong> due to surging defence spending and the energy crisis.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          In a diplomatically explosive incident, Russian drones struck <strong>two ships in the Black Sea</strong> approaching Ukrainian ports, including the <strong>KSL Deyang</strong> &mdash; a <strong>Chinese-owned cargo vessel with a Chinese crew</strong> sailing under a Marshall Islands flag. The strike occurred just <strong>one day before Putin travelled to Beijing</strong> to meet Xi Jinping. NPR reports a &ldquo;shifting momentum&rdquo; in the war, with signs that Russians are <strong>growing weary</strong> of the conflict while Ukraine&rsquo;s drone technology hits deeper inside Russian territory.
+          European equity markets sold off sharply: <strong>Germany&rsquo;s DAX fell 1.59%</strong>, <strong>France&rsquo;s CAC 40 dropped 1.97%</strong>, <strong>Italy&rsquo;s FTSE MIB lost 0.35%</strong>, and the <strong>UK&rsquo;s FTSE 100 slipped 0.37%</strong>. Three of Europe&rsquo;s four largest economies &mdash; Germany, the UK, and France &mdash; are all showing labour-market weakness simultaneously for the first time since the eurozone crisis. The Middle East energy shock is driving inflation, squeezing consumers, and forcing governments into deficit spending just as the ECB faces pressure to hold rates.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market &amp; Stock Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            The Chinese ship strike complicates the Putin-Xi relationship and could shift Beijing&rsquo;s calculus on the war. Black Sea shipping insurance premiums will rise. European defense stocks continue their multi-year rally. Grain supply disruption risk remains elevated.<br/><br/>
-            <strong>Stocks to watch:</strong> <strong>RHM.DE</strong> (Rheinmetall) &mdash; Germany&rsquo;s top defense firm surging on European rearmament spending. <strong>RTX</strong> (RTX Corp) &mdash; Patriot systems and drone countermeasures in demand. <strong>LMT</strong> (Lockheed Martin) &mdash; NATO replenishment orders accelerating. <strong>AVAV</strong> (AeroVironment) &mdash; Switchblade drone maker; direct beneficiary of drone warfare era. <strong>Wheat futures / WEAT</strong> &mdash; Black Sea shipping disruption bullish for global grain prices. <strong>COSCO</strong> (1919.HK) &mdash; Chinese shipping giant faces Black Sea route recalculation.
+            Simultaneous weakness across Europe&rsquo;s core economies signals a potential eurozone-wide downturn. Rising deficits could trigger bond vigilante pressure on peripheral EU debt. The ECB is trapped between inflation and recession.<br/><br/>
+            <strong>Stocks to watch:</strong> <strong>EZU</strong> (iShares MSCI Eurozone ETF) &mdash; broad eurozone exposure under pressure. <strong>SAP.DE</strong> (SAP) &mdash; Germany&rsquo;s largest company; bellwether for European tech sentiment. <strong>MC.PA</strong> (LVMH) &mdash; French luxury giant vulnerable to consumer weakness and tourism slowdown. <strong>SIE.DE</strong> (Siemens) &mdash; industrial bellwether facing demand headwinds. <strong>BNP.PA, DBK.DE</strong> (BNP Paribas, Deutsche Bank) &mdash; European banks face rising credit risk from unemployment. <strong>RHM.DE</strong> (Rheinmetall) &mdash; counter-trend winner; German defence spending surge offsets broader weakness.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 4: IRAN-US CEASEFIRE DETERIORATING ===================== -->
+    <!-- ===================== EVENT 4: RUSSIA-UKRAINE WAR MOMENTUM SHIFT ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">4</span>
-          <span style="color: #666; font-size: 11px;">Energy / Geopolitics / Global Economy &mdash; Ongoing</span>
+          <span style="color: #666; font-size: 11px;">Conflict / Eastern Europe / Black Sea &mdash; May 19&ndash;23</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Iran-U.S. Ceasefire on &ldquo;Life Support&rdquo;: Trump Cancels Planned Strikes, Sets 5 Hardline Preconditions</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Russia Loses 69 Square Miles in Four Weeks as War Momentum Shifts; Record 8,000+ Drone Strikes in Single Month</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The April 8 ceasefire between the U.S. and Iran is collapsing. <strong>Intermittent fighting has resumed since May 4</strong>, when Iran struck targets in the UAE, followed by exchanges of fire as U.S. vessels transited through the <strong>Strait of Hormuz</strong> on May 7. Trump said he is holding off on a planned military strike on Iran because &ldquo;serious negotiations&rdquo; are underway, but called Iran&rsquo;s latest proposal &ldquo;TOTALLY UNACCEPTABLE.&rdquo;
+          In a significant shift, <strong>Russian forces registered a net loss of 69 square miles</strong> of Ukrainian territory over the past four weeks (April 21&ndash;May 19) &mdash; a reversal from the slow but steady gains Moscow had been making. In the most recent week alone, Russia lost a net <strong>29 square miles</strong>. Russia launched more than <strong>8,000 drones</strong> last month, the highest monthly total since the February 2022 invasion, but territorial momentum has swung against them.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Trump has set <strong>5 hardline preconditions</strong>: delivery of 400kg enriched uranium to the U.S., reduction to a single nuclear facility, no release of frozen Iranian assets, linking all fronts to negotiations, and no compensation to Iran. U.S. and Iranian officials <strong>have not met since April 12</strong> and are exchanging proposals through intermediaries. Crude flows through Hormuz remain <strong>down ~6 million bpd</strong>. <strong>Brent crude</strong> remains above <strong>$107/barrel</strong>. U.S. inflation sits at <strong>3.8%</strong>, with energy costs as the primary driver.
+          Estimated casualties now stand at approximately <strong>1 million Russian</strong> and <strong>250,000&ndash;300,000 Ukrainian</strong> military personnel killed and wounded. Critically, <strong>62% of Russians now support peace negotiations</strong> and <strong>61% of Ukrainians</strong> support territorial compromises to end the war &mdash; suggesting public appetite for a settlement is growing on both sides. Ukraine&rsquo;s electrical infrastructure remains devastated, with only <strong>30&ndash;40% of capacity</strong> potentially restorable before next winter.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market &amp; Stock Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            The energy crisis is the dominant macro driver globally. Oil above $100 creates stagflationary pressure, hurting consumer stocks while boosting energy producers. The IEA warned markets could remain &ldquo;severely undersupplied until October.&rdquo;<br/><br/>
-            <strong>Stocks to watch:</strong> <strong>XOM</strong> (ExxonMobil), <strong>CVX</strong> (Chevron), <strong>SHEL</strong> (Shell) &mdash; all benefit from elevated crude; near 52-week highs. <strong>DAL, UAL</strong> (Delta, United Airlines) &mdash; jet fuel costs crushing margins. <strong>HAL, SLB</strong> (Halliburton, SLB) &mdash; oilfield services demand surging as producers push output. <strong>DANGCEM.NG</strong> (Dangote) &mdash; Nigeria&rsquo;s mega-refinery exported record 1.66 billion litres in April, emerging as a critical alternative supplier. <strong>GLD</strong> (Gold) &mdash; safe-haven flows accelerating on conflict escalation fears.
+            Growing peace sentiment on both sides creates a potential catalyst for a ceasefire. European energy and reconstruction plays could see massive upside on any settlement signal. Defence stocks face a paradox: near-term orders accelerating, but long-term demand depends on war duration.<br/><br/>
+            <strong>Stocks to watch:</strong> <strong>RHM.DE</strong> (Rheinmetall) &mdash; Europe&rsquo;s top defence play; orders locked in regardless of peace timeline. <strong>AVAV</strong> (AeroVironment) &mdash; Switchblade and drone warfare leader. <strong>Wheat futures / WEAT</strong> &mdash; Black Sea corridor stability critical for global food prices. <strong>EQNR</strong> (Equinor) &mdash; Norwegian energy giant benefits as Europe seeks non-Russian gas. <strong>HEI</strong> (HEICO) &mdash; aerospace parts supplier surging on military restocking demand. <strong>STLA</strong> (Stellantis) &mdash; has significant exposure to Eastern European manufacturing; peace catalyst.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 5: GLOBAL BOND ROUT ===================== -->
+    <!-- ===================== EVENT 5: GLOBAL MARKET SELLOFF & OIL VOLATILITY ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">5</span>
-          <span style="color: #666; font-size: 11px;">Global Finance / Bond Markets &mdash; May 19</span>
+          <span style="color: #666; font-size: 11px;">Global Finance / Energy Markets &mdash; May 22&ndash;23</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Global Bond Rout: 30-Year U.S. Treasury Hits 19-Year High at 5.19%; S&amp;P 500 Posts Third Straight Loss</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Global Equity Sell-Off Deepens as Oil Volatility, Bond Yields, and Iran Uncertainty Converge</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          A global bond sell-off intensified as the <strong>U.S. 30-year Treasury yield</strong> briefly topped <strong>5.19%</strong> &mdash; its highest level in nearly <strong>19 years</strong> &mdash; sending shockwaves through equity markets worldwide. The <strong>S&amp;P 500 fell 0.67%</strong> to 7,353.61, marking its <strong>third consecutive losing session</strong>. The <strong>Nasdaq dropped 0.84%</strong> to 25,870.71. The <strong>Dow shed 322 points</strong> (&minus;0.65%) to close at 49,363.88.
+          Global equity markets sold off across all regions ahead of the Memorial Day weekend. In Asia, <strong>Japan&rsquo;s Nikkei 225 fell 1.23%</strong> and <strong>South Korea&rsquo;s Kospi dropped 0.86%</strong>. European indices were hit harder: <strong>CAC 40 &minus;1.97%</strong>, <strong>DAX &minus;1.59%</strong>. Oil prices have posted extreme swings, with <strong>North Sea Dated</strong> plunging from a high of <strong>$144/bbl to below $100/bbl</strong> before rebounding to <strong>~$110/bbl</strong> &mdash; all driven by whiplash between Iran deal optimism and collapse fears.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The yield spike reflects a toxic combination: <strong>persistent inflation at 3.8%</strong> driven by the Iran energy crisis, uncertainty over new Fed Chair <strong>Kevin Warsh&rsquo;s</strong> policy direction, and ballooning U.S. fiscal deficits. Bond vigilantes are repricing the &ldquo;higher for longer&rdquo; narrative aggressively. The sell-off is global: <strong>UK Gilts, German Bunds, and Japanese Government Bonds</strong> all saw yields rise in sympathy. Emerging market currencies are under pressure from the strong dollar, with capital outflows accelerating from Asia and Latin America.
+          The IEA confirmed the <strong>largest disruption in global oil supply in history</strong>, with global demand expected to <strong>contract 2.4 mb/d year-over-year in Q2 2026</strong>. Jet fuel prices have nearly <strong>tripled</strong>. Qatar&rsquo;s LNG infrastructure damage will delay the global LNG supply wave by <strong>at least two years</strong>, with a cumulative loss of <strong>~120 bcm</strong> of supply through 2030. Consumer price inflation hit <strong>3.8%</strong> with energy as the primary driver. China&rsquo;s weak retail sales (<strong>1.7% growth</strong>) add to the global demand slowdown picture.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market &amp; Stock Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Rising yields compress equity valuations, especially for growth and rate-sensitive sectors. The bond market is now the dominant force in global asset allocation. Financials benefit; REITs and tech suffer.<br/><br/>
-            <strong>Stocks to watch:</strong> <strong>JPM, GS, BAC</strong> (JPMorgan, Goldman Sachs, Bank of America) &mdash; banks benefit from sustained higher rates via net interest income. <strong>TLT</strong> (iShares 20+ Year Treasury ETF) &mdash; long-duration bonds under severe pressure; potential buying opportunity for contrarians. <strong>AAPL, MSFT, GOOGL</strong> &mdash; mega-cap tech faces valuation headwinds from rising discount rates. <strong>O, AMT</strong> (Realty Income, American Tower) &mdash; REITs disadvantaged in higher-rate environment. <strong>EEM</strong> (Emerging Markets ETF) &mdash; strong dollar and elevated U.S. rates create capital outflow risk. <strong>DXY</strong> (Dollar Index) &mdash; strengthening dollar pressures commodity importers globally.
+            The convergence of supply destruction, demand contraction, and rate uncertainty creates a classic stagflationary environment. Defensive positioning is dominant. The Iran deal binary is the single biggest catalyst for a relief rally or further crash.<br/><br/>
+            <strong>Stocks to watch:</strong> <strong>JPM, GS</strong> (JPMorgan, Goldman Sachs) &mdash; banks benefit from elevated rates and trading volatility. <strong>TLT</strong> (20+ Year Treasury ETF) &mdash; long-duration bonds under severe pressure; contrarian opportunity if Iran deal lands. <strong>AAPL, MSFT, NVDA</strong> &mdash; mega-cap tech faces valuation compression from rising discount rates. <strong>LNG</strong> (Cheniere Energy) &mdash; U.S. LNG exports critical as Qatar supply delayed. <strong>EEM</strong> (Emerging Markets ETF) &mdash; strong dollar and capital outflows create headwinds. <strong>VIX</strong> &mdash; volatility index elevated; options markets pricing extreme tail risk through June.
           </p>
         </div>
       </div>
@@ -173,13 +171,13 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #7c3aed; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Key Takeaway &mdash; What to Watch</p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">The world is fracturing across multiple axes simultaneously.</strong> Israel&rsquo;s flotilla interception risks a diplomatic crisis with NATO ally T&uuml;rkiye while the WHO&rsquo;s Ebola PHEIC declaration adds a health emergency to an already overloaded global risk environment. The Russia-Ukraine drone war is escalating in both directions, with the Chinese ship strike adding a wild card to great-power dynamics.
+        <strong style="color: #fff;">The Iran deal is the event that moves everything.</strong> A draft agreement is reportedly hours away. If it lands, expect a massive oil crash, an equity relief rally, airline stocks surging, and energy producers selling off. If it collapses, oil retests $140+, equity markets face another leg down, and the stagflationary spiral deepens. Every other global risk &mdash; from European recession to the Ukraine war &mdash; is amplified or dampened by this single outcome.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">The macro picture is stagflationary and deteriorating.</strong> The bond rout is the clearest signal: 30-year yields at 19-year highs with inflation at 3.8% and oil above $107 means the new Fed Chair has no room to cut. The S&amp;P 500&rsquo;s three-day losing streak reflects markets repricing the &ldquo;higher for longer&rdquo; reality. The strong dollar is exporting pain to emerging markets.
+        <strong style="color: #fff;">The macro backdrop is deteriorating on multiple fronts.</strong> Europe&rsquo;s three largest economies are weakening simultaneously. China&rsquo;s consumer is stalling at 1.7% retail growth. The IEA is calling this the largest oil supply disruption in history. Qatar&rsquo;s LNG damage extends the energy crisis timeline through 2030. Russia is losing ground in Ukraine while both populations shift toward peace &mdash; creating a potential second major geopolitical catalyst.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        <strong style="color: #fff;">Watch:</strong> Gaza flotilla diplomatic fallout (T&uuml;rkiye/Ireland response) &bull; Ebola spread beyond DRC/Uganda borders &bull; Putin-Xi summit outcomes after Chinese ship strike &bull; Iran ceasefire deadline and Hormuz flows &bull; U.S. Treasury auction demand this week &bull; Warsh&rsquo;s first public statements as Fed Chair &bull; Dangote Refinery&rsquo;s growing role in global energy supply
+        <strong style="color: #fff;">Watch:</strong> Iran deal announcement (expected Sunday) &bull; Strait of Hormuz reopening terms &bull; Quad Foreign Ministers summit May 26 &bull; Modi White House visit timing &bull; Russia-Ukraine territorial momentum &bull; European unemployment trajectory &bull; China retail sales and consumer confidence &bull; Oil price reaction to deal/no-deal
       </p>
     </div>
 
@@ -187,7 +185,7 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Sources</p>
       <p style="color: #888; font-size: 11px; line-height: 1.8; margin: 0;">
-        Al Jazeera &bull; NPR &bull; CNN &bull; CNBC &bull; TheStreet &bull; Reuters &bull; The Times of Israel &bull; PBS News &bull; UN News &bull; WHO &bull; CDC &bull; Fortune &bull; Axios &bull; Euronews &bull; Arab News &bull; TVP World &bull; Al Arabiya &bull; Global Biodefense &bull; UK House of Commons Library &bull; ACLED
+        CBS News &bull; Washington Times &bull; Axios &bull; Al Jazeera &bull; The Print &bull; Military.com &bull; IEA Oil Market Report &bull; Wikipedia &bull; World Economic Forum &bull; European Commission &bull; S&amp;P Global Ratings &bull; Russia Matters (Harvard) &bull; CNBC &bull; UK House of Commons Library &bull; T. Rowe Price &bull; Metaintro &bull; Visual Capitalist
       </p>
     </div>
 
