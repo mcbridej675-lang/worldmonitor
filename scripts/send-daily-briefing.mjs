@@ -49,97 +49,97 @@ const html = `
       <p style="font-size: 12px; color: #888; margin: 8px 0 0;">Military &bull; Government &bull; Intelligence &bull; Financial &bull; Regional Security</p>
     </div>
 
-    <!-- ===================== EVENT 1: INDO-PACIFIC DETERRENCE GAP ===================== -->
+    <!-- ===================== EVENT 1: TYPHOON JANGMI ===================== -->
     <div style="margin-bottom: 24px;">
-      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+      <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #f59e0b; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">1</span>
-          <span style="color: #666; font-size: 11px;">USMC / Force Posture / Indo-Pacific &mdash; May 18</span>
+          <span style="background: #f59e0b; color: #000; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">ALERT</span>
+          <span style="color: #666; font-size: 11px;">Weather / Force Protection / Okinawa &mdash; June 1</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Marine Commandant Acknowledges &ldquo;Unfilled&rdquo; Indo-Pacific Deterrence Gap After 31st MEU Deploys to Middle East</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Typhoon Jangmi Makes Direct Hit on Okinawa; TCCOR 1-Emergency Declared Across All U.S. Installations</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Marine Corps Commandant <strong>Gen. Eric Smith</strong> testified before the House Armed Services Committee that the Corps has left a gap <strong>&ldquo;unfilled&rdquo;</strong> in the Indo-Pacific after redeploying the <strong>31st Marine Expeditionary Unit</strong> &mdash; the only MEU permanently stationed in the region &mdash; from Okinawa to the Middle East. Approximately <strong>2,500 Marines and three warships</strong>, including amphibious assault ship <strong>USS Tripoli</strong> homeported at Sasebo, departed in March to support operations against Iran in the Strait of Hormuz.
+          <strong>Typhoon Jangmi (No. 6)</strong> &mdash; Okinawa&rsquo;s first major typhoon in nearly three years &mdash; struck the main island today with <strong>destructive force</strong>. All U.S. military installations entered <strong>TCCOR 1-Emergency at 10:30 a.m.</strong>, indicating sustained destructive winds of 58 mph or greater were occurring. <strong>Kadena Air Base recorded gusts of 74 mph</strong> and <strong>Naha International Airport recorded 77 mph</strong>, with 5 to 8 inches of rain falling across the island.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The 31st MEU has been <strong>enforcing a blockade of Iranian ports since April 13</strong>, with Marines rappelling from helicopters onto the Iranian-flagged <em>Touska</em> on April 20. Smith was responding to Rep. Derek Tran&rsquo;s question about how the Corps is filling gaps in its ability to deter adversaries &mdash; namely China &mdash; while its only forward-deployed Pacific MEU is in the Persian Gulf. Defense experts have warned that the redeployment <strong>&ldquo;dangerously weakens deterrence against Beijing&rdquo;</strong> at a time when the PLA edges toward its reported 2027 Taiwan readiness timeline.
+          The U.S. Consulate General Naha issued a <strong>formal weather alert</strong>. Marine Corps installations secured all facilities and equipment, canceled all appointments at <strong>U.S. Naval Hospital Okinawa</strong> and the <strong>18th Medical Group</strong>, and adjusted operations island-wide. Sandbags were deployed at Camp Foster building entrances. <strong>All 405+ commercial flights were canceled</strong> on June 1, with an additional 130+ cancellations already announced for June 2. The Okinawa Urban Monorail, all route buses, and all ferry services to Miyakojima and surrounding islands were <strong>suspended</strong>. Jangmi is forecast to pass Okinawa&rsquo;s main island tonight and track toward Amami Oshima by Tuesday morning, then approach Kansai by late June 2.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Operational Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            The absence of the 31st MEU from the Western Pacific is the most significant force posture gap in the region since the unit&rsquo;s establishment. III MEF on Okinawa retains ground and air assets, but lacks the amphibious ready group&rsquo;s rapid-response capability for Taiwan contingencies, humanitarian assistance, and noncombatant evacuation operations. The USS Boxer ARG with the 11th MEU arrived in Singapore this week but is not a permanent Indo-Pacific asset.<br/><br/>
-            <strong>Watch:</strong> Whether the 31st MEU receives a return timeline &bull; Any temporary MEU rotation to fill the gap &bull; Congressional pressure on DoD to restore Pacific posture &bull; Trump&rsquo;s nomination of Lt. Gen. Roger Turner (current III MEF commander) to lead MARFORPAC, signaling leadership transition at Okinawa&rsquo;s top Marine command.
+            All flight operations at Kadena AB and MCAS Futenma are halted. The typhoon will disrupt any ongoing surveillance and maritime patrol missions from Okinawa at a time when PLAN activity near the island chain is at historic highs. Recovery operations and TCCOR downgrade are expected within 24&ndash;48 hours as Jangmi exits the region.<br/><br/>
+            <strong>Watch:</strong> TCCOR downgrade timeline from Kadena and MCAS Futenma &bull; Structural damage assessments to base infrastructure &bull; Impact on ongoing 18th Wing support to Operation Epic Fury rotational deployments &bull; Ferry and air link restoration to Miyako and outlying islands.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 2: CHINESE TYPE 054B FRIGATE ===================== -->
+    <!-- ===================== EVENT 2: CHINA 100+ WARSHIPS ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">2</span>
-          <span style="color: #666; font-size: 11px;">PLAN / Naval Intelligence / First Island Chain &mdash; May 22</span>
+          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">1</span>
+          <span style="color: #666; font-size: 11px;">PLAN / First Island Chain / Unprecedented Buildup &mdash; May 22&ndash;Ongoing</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Japan Detects China&rsquo;s New Type 054B (Jiangkai III) Frigate Transiting Miyako Strait for the First Time</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">China Deploys 100+ Warships Across First Island Chain; Taiwan Accuses Beijing of &ldquo;Wrecking the Status Quo&rdquo;</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Japan&rsquo;s Maritime Self-Defense Force confirmed the <strong>first-ever detection</strong> of a <strong>PLAN Type 054B (Jiangkai III-class) guided-missile frigate</strong> operating beyond China&rsquo;s first island chain. The frigate <strong>CNS Luohe (545)</strong> and fast combat support ship <strong>CNS Hulunhu (901)</strong> were spotted sailing south approximately <strong>520 km northwest of Kume Island</strong>, transiting the <strong>Miyako Strait</strong> between Okinawa and Miyako Island into the Western Pacific.
+          Taiwan announced detection of an <strong>unprecedented deployment of over 100 PLAN warships</strong> simultaneously operating across the First Island Chain &mdash; <strong>more than double the normal 50&ndash;60 vessel presence</strong>. The deployment stretches from the <strong>Yellow Sea to the South China Sea</strong>, with increased activity near the <strong>Miyako Strait</strong>, waters east of Taiwan, the <strong>Bashi Channel</strong>, and the northern South China Sea. The fleet includes a notable concentration of <strong>destroyers, frigates, amphibious ships, and support vessels</strong>.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The Luohe has joined the <strong>Liaoning carrier strike group</strong>, marking the <strong>first confirmed deployment of a Type 054B with a Chinese carrier group</strong>. The Type 054B is a significant upgrade over the older Type 054A, featuring enhanced anti-submarine warfare capabilities with an integrated low-frequency sonar &mdash; a capability gap China has long sought to close. China has begun construction of a <strong>fourth hull</strong> at Hudong Changxingdao shipyard. The Miyako Strait transit demonstrates the PLAN&rsquo;s growing confidence in projecting new platforms beyond the first island chain in close proximity to Okinawa.
+          Taiwan&rsquo;s national security chief directly linked the deployment to the recent <strong>Trump&ndash;Xi Beijing summit</strong>, accusing China of deliberately <strong>&ldquo;wrecking the status quo&rdquo;</strong> in the region. Taiwan conducted a <strong>second &ldquo;joint combat readiness patrol&rdquo; in one week</strong>, dispatching ships and fighter jets to monitor Chinese movements. The <strong>PLAN Type 054B frigate CNS Luohe (545)</strong> was detected transiting the Miyako Strait for the first time, joining the <strong>Liaoning carrier strike group</strong> &mdash; the first confirmed deployment of the new advanced ASW frigate with a Chinese carrier group.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Intelligence Assessment</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            The Type 054B&rsquo;s enhanced ASW suite is purpose-built to counter U.S. and Japanese submarine advantages in the Western Pacific. Its integration into carrier strike groups signals the PLAN is accelerating its blue-water capability timeline. The Miyako Strait &mdash; between Okinawa and Miyako Island &mdash; remains the most strategically significant chokepoint for PLAN Pacific access, and this transit was likely coordinated to coincide with the 31st MEU&rsquo;s absence from the region.<br/><br/>
-            <strong>Watch:</strong> Duration of the Liaoning CSG deployment in the Western Pacific &bull; Whether additional Type 054Bs join the formation &bull; JMSDF tracking and shadowing operations &bull; Any increase in PLAN submarine activity through the Miyako Strait.
+            This is the largest simultaneous PLAN deployment across the First Island Chain on record and coincides with the 31st MEU&rsquo;s absence from the Western Pacific. The Type 054B&rsquo;s enhanced ASW suite is purpose-built to counter U.S. and Japanese submarine advantages. The timing &mdash; post-Trump-Xi summit &mdash; suggests Beijing is demonstrating coercive capability while diplomatically engaged, a pattern consistent with the PLA&rsquo;s 2027 Taiwan readiness timeline.<br/><br/>
+            <strong>Watch:</strong> Duration and composition of the deployment &bull; Whether the Liaoning CSG enters the Philippine Sea &bull; JMSDF tracking operations (degraded by Typhoon Jangmi) &bull; Any PLAN submarine activity through the Miyako Strait &bull; Taiwan&rsquo;s escalation posture.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 3: TRILATERAL AIR EXERCISE + NANSEI ISLANDS ===================== -->
+    <!-- ===================== EVENT 3: 31ST MEU / OPERATION EPIC FURY ===================== -->
+    <div style="margin-bottom: 24px;">
+      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">2</span>
+          <span style="color: #666; font-size: 11px;">USMC / Operation Epic Fury / Indo-Pacific Gap &mdash; Ongoing</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">31st MEU Remains in Middle East; Kadena Airmen &ldquo;In Harm&rsquo;s Way&rdquo;; 13 U.S. Service Members Killed in Iran Operations</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          The <strong>31st Marine Expeditionary Unit</strong> &mdash; the only permanently forward-deployed MEU in the Indo-Pacific &mdash; remains in the <strong>Persian Gulf supporting Operation Epic Fury</strong> against Iran. Approximately <strong>2,500 Marines</strong> and the amphibious assault ship <strong>USS Tripoli</strong> (homeported at Sasebo) departed Okinawa in mid-March. The operation began February 28 and was briefly paused during a two-week ceasefire on April 9 before resuming. Marine Commandant <strong>Gen. Eric Smith</strong> told Congress the gap in the Pacific remains <strong>&ldquo;unfilled.&rdquo;</strong>
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          The <strong>18th Wing at Kadena Air Base</strong> confirmed that Okinawa-based airmen are deployed <strong>&ldquo;in harm&rsquo;s way&rdquo;</strong> supporting CENTCOM operations. The Air Force has reported <strong>36 wounded and 6 killed</strong>; across all services, <strong>365 U.S. service members have been wounded and 13 killed</strong> in Operation Epic Fury. CENTCOM listed 26 aircraft types in use, from <strong>B-1 Lancer bombers to LUCAS one-way attack drones</strong>. The 18th Wing barred a local Okinawa newspaper from a base briefing amid a dispute over Iran coverage, highlighting tensions between operational security and local media relations.
+        </p>
+        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
+          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Operational Impact</p>
+          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
+            The simultaneous deployment of the 31st MEU and Kadena airmen to the Middle East while China surges 100+ warships across the First Island Chain represents the most acute strategic stretch for Okinawa-based forces in decades. III MEF retains ground and air assets on island but lacks the amphibious ready group&rsquo;s rapid-response capability for Taiwan contingencies, HA/DR, and NEO operations.<br/><br/>
+            <strong>Watch:</strong> 31st MEU return timeline &bull; Any temporary MEU rotation to the Pacific &bull; Congressional pressure on DoD to restore Indo-Pacific posture &bull; Kadena 18th Wing force generation capacity while supporting both Epic Fury and Pacific deterrence &bull; Lt. Gen. Turner&rsquo;s nomination to MARFORPAC (III MEF leadership transition).
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== EVENT 4: NANSEI ISLANDS + RESOLUTE DRAGON ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">3</span>
-          <span style="color: #666; font-size: 11px;">U.S.-Japan-Australia / Air Power / Nansei Islands &mdash; May 17&ndash;22</span>
+          <span style="color: #666; font-size: 11px;">U.S.-Japan / Nansei Islands / Force Posture &mdash; May 17&ndash;22 + Upcoming</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">U.S.-Japan-Australia Trilateral Air Exercise East of Okinawa; JGSDF Conducts First-Ever Nansei Islands Deployment Drill</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">JGSDF Completes First-Ever Nansei Islands Deployment Drill; 12th MLR Establishes Coordination Center on Miyakojima; Resolute Dragon 26 Begins June 20</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The U.S., Japan, and Australia conducted a <strong>trilateral air exercise Thursday in airspace east of Okinawa</strong>. The U.S. deployed <strong>3 F-22 Raptors, 4 F-35A Lightning IIs, 2 KC-135 tankers, 2 F/A-18 Hornets, and 1 KC-130 tanker</strong>. Japan deployed <strong>4 F-15Js and an RC-2 electronic intelligence aircraft</strong>. Australia contributed a <strong>P-8A Poseidon maritime patrol aircraft and KC-30A tanker</strong>. The exercise demonstrated high-end interoperability among the three allies at a time of heightened Chinese naval activity near the islands.
+          The <strong>JGSDF Ground Component Command</strong> completed a <strong>first-of-its-kind exercise</strong> (May 17&ndash;22) deploying troops and supplies to remote southwestern islands near Taiwan: <strong>Ishigaki, Yonaguni, and Miyakojima</strong>. Approximately <strong>300 Japanese soldiers</strong> participated, with <strong>20 Marines from the 12th Marine Littoral Regiment</strong> joining command post training on Miyakojima &mdash; establishing the <strong>first-ever U.S.-Japan coordination center</strong> on the island, only <strong>220 miles from Taiwan</strong>.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Simultaneously, the <strong>JGSDF Ground Component Command</strong> completed a <strong>first-of-its-kind exercise</strong> (May 17&ndash;22) focused on deploying troops and supplies to remote southwestern islands near Taiwan, including <strong>Ishigaki, Yonaguni, and Miyakojima</strong>. Approximately <strong>300 Japanese soldiers</strong> participated, with <strong>20 Marines from the 12th Marine Littoral Regiment</strong> joining command post training on Miyakojima &mdash; establishing the <strong>first-ever U.S.-Japan coordination center</strong> on the island. Additionally, a <strong>GSDF V-22 Osprey</strong> is planned to land at <strong>MCAS Futenma for the first time</strong> during the upcoming Resolute Dragon exercise (June 20&ndash;30).
+          Concurrently, the U.S., Japan, and Australia conducted a <strong>trilateral air exercise east of Okinawa</strong> featuring <strong>F-22 Raptors, F-35A Lightning IIs, F-15Js, F/A-18 Hornets, P-8A Poseidon</strong>, and multiple tankers. Looking ahead, <strong>Resolute Dragon 26</strong> (June 20&ndash;30) will feature the first-ever landing of a <strong>GSDF V-22 Osprey at MCAS Futenma</strong>, deepening logistics interoperability. Japan&rsquo;s new <strong>SDF Maritime Transport Group</strong> &mdash; tasked with rapid sealift to the Nansei chain &mdash; is scheduled for deployment by fiscal 2026. The JMSDF also completed its most sweeping reorganization since 1954, replacing the &ldquo;Fleet Escort Force&rdquo; with a new <strong>&ldquo;Fleet Surface Force&rdquo;</strong> and creating an <strong>Information Warfare/Operations Command</strong>.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Strategic Significance</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            The convergence of allied air exercises east of Okinawa and ground deployment drills on islands near Taiwan represents a clear signal of trilateral readiness for a Taiwan contingency. The 12th MLR&rsquo;s coordination center on Miyakojima &mdash; only 220 miles from Taiwan &mdash; establishes a new operational footprint. Japan&rsquo;s GSDF Osprey use of U.S. bases on Okinawa deepens logistics interoperability. Russian IL-20 ELINT aircraft were also detected near Honshu on May 21&ndash;22, likely monitoring the exercises.<br/><br/>
-            <strong>Watch:</strong> Resolute Dragon 26 exercise scope (June 20&ndash;30) &bull; Whether the 12th MLR coordination center becomes a permanent fixture &bull; Chinese response to JGSDF presence on Miyakojima &bull; Future GSDF Osprey operations from U.S. bases.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- ===================== EVENT 4: DRONE WARFARE TRAINING ===================== -->
-    <div style="margin-bottom: 24px;">
-      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
-        <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">4</span>
-          <span style="color: #666; font-size: 11px;">USMC / Drone Warfare / Force Modernization &mdash; May 20</span>
-        </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">III MEF Marines Pioneer Attack Drone Operator Training at Camp Schwab, Okinawa</h3>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          <strong>Eighteen Marines</strong> from III MEF completed the <strong>Basic Drone Operator Course</strong> at <strong>Camp Schwab</strong> in northern Okinawa &mdash; one of <strong>six new drone piloting courses</strong> announced by the Marine Corps in December. Students learned to <strong>build 7-inch first-person-view (FPV) drones from kits</strong>, practiced hovering and maneuvering through obstacles using simulators, and progressed to flying through 9-square-foot windows and around PVC obstacles in <strong>&ldquo;full acro mode&rdquo;</strong> &mdash; performing flips, rolls, and dives without flight stabilizers.
-        </p>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Graduates advance to the <strong>Attack Drone Operator Course</strong>, where they learn to deliver <strong>explosive payloads using Neros Archer drones</strong>. The training reflects lessons learned from the Ukraine-Russia conflict, where small FPV drones have become decisive battlefield weapons. III MEF&rsquo;s early adoption of this capability on Okinawa positions forward-deployed Marines to integrate drone warfare tactics into Pacific island defense scenarios &mdash; a critical capability for the distributed maritime operations concept that underpins the 12th Marine Littoral Regiment&rsquo;s mission.
-        </p>
-        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Force Modernization Impact</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            The drone operator pipeline on Okinawa is a direct response to the Ukraine conflict&rsquo;s demonstration that small, cheap FPV drones can neutralize armored vehicles and fortified positions. For island defense in the Nansei chain, attack drones provide Marines with organic anti-ship and anti-landing craft capability without relying on larger, more detectable weapons systems.<br/><br/>
-            <strong>Watch:</strong> Expansion of drone courses to other III MEF units &bull; Integration of attack drones into Resolute Dragon 26 &bull; <strong>AVAV</strong> (AeroVironment) and <strong>KTOS</strong> (Kratos Defense) &mdash; drone defense contractors positioned to benefit from USMC procurement &bull; How quickly the Attack Drone Operator Course scales across the Pacific.
+            Japan is rapidly building its &ldquo;southern shield&rdquo; as confidence in the U.S. security umbrella wavers due to Middle East commitments. The 12th MLR coordination center on Miyakojima, GSDF Osprey integration at U.S. bases, and the JMSDF&rsquo;s structural overhaul all signal Japan is preparing for independent and allied action in a Taiwan contingency. The convergence of these activities with China&rsquo;s 100+ warship deployment creates a dangerous escalation dynamic.<br/><br/>
+            <strong>Watch:</strong> Resolute Dragon 26 scope (June 20&ndash;30) &bull; Whether the 12th MLR Miyakojima center becomes permanent &bull; JGSDF deployment of upgraded Type-12 anti-ship missiles to Nansei Islands &bull; Chinese response to expanding allied presence near Taiwan.
           </p>
         </div>
       </div>
@@ -149,37 +149,47 @@ const html = `
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">5</span>
+          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">4</span>
           <span style="color: #666; font-size: 11px;">Government / Politics / Base Relations &mdash; Ongoing</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Okinawa Governor Tamaki&rsquo;s Re-Election Bid Faces Headwinds; Futenma Relocation Hits 30-Year Mark; PFAS Contamination Escalates</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Okinawa Governor Race Heats Up; Futenma Relocation Hits 30-Year Mark; Camp Foster Land Return Moves Forward</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          <strong>Gov. Denny Tamaki&rsquo;s</strong> support is <strong>wavering</strong> ahead of Okinawa&rsquo;s <strong>September 13 gubernatorial election</strong>. The 66-year-old anti-base relocation incumbent faces challenger <strong>Genta Koja</strong>, 42, a former Naha deputy mayor running as the de facto LDP candidate who <strong>supports the Futenma-to-Henoko relocation</strong>. Tamaki&rsquo;s &ldquo;All Okinawa&rdquo; coalition is strained after the Centrist Reform Alliance (CRA) &mdash; formed by Komeito and the CDP &mdash; remains undecided on the relocation issue, weakening his political base.
+          <strong>Gov. Denny Tamaki</strong> formally announced his bid for a <strong>third term</strong> ahead of Okinawa&rsquo;s <strong>September 13 gubernatorial election</strong>. The 66-year-old anti-base relocation incumbent faces challenger <strong>Genta Koja</strong>, 42, a former Naha deputy mayor running as the de facto LDP candidate who <strong>supports the Futenma-to-Henoko relocation</strong>. Tamaki&rsquo;s &ldquo;All Okinawa&rdquo; coalition faces strain as key coalition partners remain undecided on the relocation issue.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The <strong>MCAS Futenma relocation</strong> passed its <strong>30th anniversary</strong> in April with no resolution. The U.S. has stated it <strong>will not return the Futenma site unless Japan agrees to a longer runway at Henoko</strong> &mdash; the current V-shaped plan provides only 1,800m runways versus Futenma&rsquo;s 2,700m. Construction continues but is not expected to complete until <strong>at least 2033</strong>. Separately, Okinawa prefecture surveys found <strong>PFAS contamination up to 56 times Japan&rsquo;s legal limit</strong> in groundwater near Kadena Air Base and MCAS Futenma. The U.S. military has <strong>denied all four of Okinawa&rsquo;s requests</strong> for base access to conduct water sampling since 2016.
+          The <strong>MCAS Futenma relocation</strong> passed its <strong>30th anniversary</strong> in April with no resolution. The U.S. has stated it <strong>will not return the Futenma site unless Japan agrees to a longer runway at Henoko</strong> &mdash; the current V-shaped plan provides only 1,800m runways versus Futenma&rsquo;s 2,700m. Construction continues but completion is not expected until <strong>at least 2033</strong>. In a positive development, the Japan-U.S. Joint Committee finalized an agreement to return approximately <strong>12 acres of Kishaba Housing area on Camp Foster</strong> by fall &mdash; a tangible step in base burden reduction. PFAS contamination up to <strong>56 times Japan&rsquo;s legal limit</strong> near Kadena and Futenma remains unresolved, with the U.S. military having <strong>denied all four Okinawa requests</strong> for on-base water sampling since 2016.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Political &amp; Community Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            The September gubernatorial election will be a referendum on the U.S. military presence. A Koja victory would mark the first time in 8 years that Okinawa&rsquo;s governor supports the Henoko relocation plan, potentially accelerating construction but increasing community friction. The PFAS issue is a growing flashpoint in U.S.-Okinawa relations and could become a campaign issue. Japan&rsquo;s Economy Watchers Survey fell for a second straight month (40.80 in April), though the Finance Ministry previously upgraded Okinawa&rsquo;s personal consumption outlook.<br/><br/>
-            <strong>Watch:</strong> CRA&rsquo;s formal position on Futenma relocation &bull; September 13 gubernatorial election polling &bull; PFAS litigation or diplomatic escalation &bull; III MEF leadership transition (Lt. Gen. Watson replacing Turner) &bull; USS George Washington (CVN-73) operations in the Philippine Sea after departing Yokosuka May 24.
+            The September election will be a referendum on the U.S. military presence. A Koja victory would be the first pro-relocation governor in 8 years, potentially accelerating Henoko construction but increasing community friction. The Camp Foster land return shows progress on burden reduction, while the PFAS crisis and Futenma impasse continue to fuel local opposition. The upcoming U.S.-Japan base cost-sharing negotiations will shape force posture, troop quality of life, and Okinawa realignment for years.<br/><br/>
+            <strong>Watch:</strong> September 13 gubernatorial polling &bull; PFAS litigation or diplomatic escalation &bull; U.S.-Japan cost-sharing agreement deadline &bull; Kishaba Housing area return timeline &bull; III MEF leadership transition (Lt. Gen. Watson replacing Turner).
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 6: WEATHER & ENVIRONMENT ===================== -->
+    <!-- ===================== EVENT 6: DRONE WARFARE + FORCE MODERNIZATION ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #f59e0b; color: #000; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">WX</span>
-          <span style="color: #666; font-size: 11px;">Weather / Tropical Cyclone Advisory &mdash; May 26</span>
+          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">5</span>
+          <span style="color: #666; font-size: 11px;">USMC / Force Modernization / Kadena &mdash; Recent</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Tropical Cyclone Potentially Forming Near Nansei Islands; Rainy Season Active Across Okinawa</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">III MEF Pioneers Attack Drone Training at Camp Schwab; F-15EX Eagles Deploy to Kadena as Base Prepares for Fighter Transition</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          A cloud mass near the Nansei Islands has the <strong>possibility of developing into a tropical cyclone</strong>, with forecast models predicting potential typhoon classification by <strong>May 27 at 2100 local</strong>. The rainy season front remains stationary over the region, producing <strong>heavy rain and thunderstorms</strong> across Amami and the main island of Okinawa. Base operations and flight schedules may be affected. Military personnel should monitor TCCOR (Tropical Cyclone Condition of Readiness) updates from Kadena Air Base and MCAS Futenma.
+          <strong>Eighteen Marines</strong> from III MEF completed the <strong>Basic Drone Operator Course</strong> at <strong>Camp Schwab</strong>, learning to build and fly <strong>7-inch FPV attack drones</strong> from kits in &ldquo;full acro mode.&rdquo; Graduates advance to the <strong>Attack Drone Operator Course</strong> using <strong>Neros Archer drones</strong> capable of delivering explosive payloads &mdash; a direct application of Ukraine-Russia conflict lessons to Pacific island defense scenarios supporting the <strong>12th Marine Littoral Regiment&rsquo;s</strong> distributed maritime operations concept.
         </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          At <strong>Kadena Air Base</strong>, <strong>F-15EX Eagle II fighters</strong> have deployed for training missions as the base prepares for its long-anticipated fighter transition from legacy F-15C/Ds. The F-15EX brings significantly enhanced radar, weapons capacity, and electronic warfare capabilities. Combined with Kadena&rsquo;s ongoing support to Operation Epic Fury and its role as the primary ISR hub for the Western Pacific, the base remains the most operationally stressed U.S. air installation in the Indo-Pacific theater.
+        </p>
+        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
+          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Force Modernization Impact</p>
+          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
+            The drone operator pipeline and F-15EX transition represent complementary modernization tracks on Okinawa: low-cost, attritable platforms for distributed island defense and high-end air superiority for conventional deterrence. Both capabilities are critically needed given the 31st MEU&rsquo;s absence and China&rsquo;s naval surge.<br/><br/>
+            <strong>Watch:</strong> Integration of attack drones into Resolute Dragon 26 &bull; F-15EX permanent basing timeline at Kadena &bull; <strong>AVAV</strong> (AeroVironment) and <strong>KTOS</strong> (Kratos Defense) drone procurement contracts &bull; Expansion of drone courses across III MEF.
+          </p>
+        </div>
       </div>
     </div>
 
@@ -187,13 +197,13 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #7c3aed; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Key Takeaway &mdash; What to Watch</p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Okinawa is at the center of a widening strategic paradox.</strong> The 31st MEU&rsquo;s redeployment to the Middle East has created an acknowledged deterrence gap in the Indo-Pacific at the precise moment China is demonstrating new capabilities near the island chain. The first-ever detection of a Type 054B frigate transiting the Miyako Strait &mdash; integrated with the Liaoning carrier group &mdash; signals that the PLAN is exploiting this gap to normalize advanced platform operations beyond the first island chain.
+        <strong style="color: #fff;">Typhoon Jangmi has shut down Okinawa at a moment of maximum strategic tension.</strong> As the island hunkers down under TCCOR 1-Emergency, China has more than 100 warships operating across the First Island Chain &mdash; the largest simultaneous PLAN deployment on record &mdash; while the 31st MEU remains 6,000 miles away in the Persian Gulf and Kadena airmen are deployed &ldquo;in harm&rsquo;s way&rdquo; supporting Operation Epic Fury. The typhoon temporarily degrades allied ISR and maritime patrol coverage at the worst possible time.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Allied response is intensifying but stretched thin.</strong> The U.S.-Japan-Australia trilateral air exercise, the JGSDF&rsquo;s first Nansei Islands deployment drill, the new U.S.-Japan coordination center on Miyakojima, and the drone warfare training pipeline at Camp Schwab all demonstrate commitment to island defense. But these are preparation activities, not a substitute for the 31st MEU&rsquo;s rapid-response capability. The USS George Washington&rsquo;s departure from Yokosuka into the Philippine Sea partially compensates at the carrier level.
+        <strong style="color: #fff;">Japan is accelerating its own deterrence posture.</strong> The JGSDF&rsquo;s first Nansei Islands drill, the 12th MLR coordination center on Miyakojima, the JMSDF&rsquo;s historic reorganization into a &ldquo;Fleet Surface Force,&rdquo; and the upcoming GSDF Osprey operations from U.S. bases all reflect Japan building a &ldquo;southern shield&rdquo; as confidence in the U.S. security umbrella wavers. Resolute Dragon 26 (June 20&ndash;30) will be the next major test of allied interoperability.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        <strong style="color: #fff;">On the ground in Okinawa:</strong> The September gubernatorial election will shape the trajectory of U.S. base relations for years. The PFAS contamination crisis is deepening with no resolution in sight. A potential tropical cyclone may affect operations in the coming 48 hours. III MEF&rsquo;s leadership is in transition, with Turner nominated for MARFORPAC and Watson nominated to take command.
+        <strong style="color: #fff;">On the ground:</strong> The September 13 gubernatorial election (Tamaki vs. Koja) will determine the future of U.S. base relations. The Futenma relocation is at a 30-year impasse over runway length. The Camp Foster Kishaba land return offers a modest goodwill signal. PFAS contamination remains a flashpoint. And the human cost of Okinawa&rsquo;s strategic importance continues to mount &mdash; 13 U.S. service members killed and 365 wounded in Operation Epic Fury, many from Okinawa-based units.
       </p>
     </div>
 
@@ -201,7 +211,7 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Sources</p>
       <p style="color: #888; font-size: 11px; line-height: 1.8; margin: 0;">
-        Stars and Stripes &bull; USNI News &bull; The Japan Times &bull; Janes Defence &bull; The Diplomat &bull; Military Times &bull; Military.com &bull; Foreign Policy &bull; AEI &bull; CNN &bull; Naval News &bull; Defence Blog &bull; DVIDSHUB &bull; Japan Ministry of Defense &bull; USMC Okinawa &bull; PredictWind &bull; Ryukyu Shimpo
+        Stars and Stripes &bull; The Japan Times &bull; Nippon.com &bull; U.S. Embassy Japan &bull; USNI News &bull; Janes Defence &bull; The Diplomat &bull; Military Times &bull; Military.com &bull; Al Jazeera &bull; South China Morning Post &bull; The Epoch Times &bull; Naval News &bull; Asian Military Review &bull; Air &amp; Space Forces Magazine &bull; Japan Ministry of Defense &bull; Fox News &bull; CBS News &bull; Newsweek &bull; U.S. News
       </p>
     </div>
 
