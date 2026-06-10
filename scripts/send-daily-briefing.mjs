@@ -47,125 +47,126 @@ const html = `
       <p style="font-size: 12px; color: #888; margin: 8px 0 0;">Geopolitics &bull; Markets &bull; Equities &bull; Commodities &bull; Risk Assessment</p>
     </div>
 
-    <!-- ===================== EVENT 1: ISRAEL-LEBANON CEASEFIRE ===================== -->
+    <!-- ===================== EVENT 1: IRAN-ISRAEL CEASEFIRE & US STRIKES ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">1</span>
-          <span style="color: #666; font-size: 11px;">Middle East / Geopolitics / Energy &mdash; June 3</span>
+          <span style="color: #666; font-size: 11px;">Middle East / Gulf / Energy &mdash; June 9&ndash;10</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Israel-Lebanon Ceasefire Brokered But Immediately Tested; Iran Suspends Peace Talks as Regional War Escalates</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Iran-Israel Ceasefire Falters as Both Sides Trade Strikes; US Launches Fresh Bombing Runs on Iranian Targets</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The U.S. brokered a <strong>conditional renewal of the Israel-Lebanon ceasefire</strong> on June 3, tying implementation to Hezbollah&rsquo;s full cessation of attacks and the creation of pilot security zones in southern Lebanon. However, <strong>Hezbollah rejected the pact</strong>, and both Israeli forces and Hezbollah launched strikes just hours after the announcement. The ceasefire remains fragile at best.
+          The fragile April ceasefire between Iran and Israel <strong>collapsed over the weekend</strong> as both nations exchanged their worst missile strikes in months. Israel&rsquo;s PM Netanyahu announced a <strong>pause in attacks on June 9</strong> but stopped short of acknowledging a formal ceasefire. Iran also <strong>suspended operations</strong> but warned it would resume if Israeli strikes in southern Lebanon continue. A top Iranian official told CNN that Tehran has &ldquo;no problem&rdquo; with peace talks &mdash; provided the U.S. negotiates in good faith.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Separately, <strong>Iranian strikes on Kuwait</strong> injured dozens and killed one person, further destabilizing the Gulf. Iran has <strong>suspended indirect peace talks</strong> with the U.S., while Trump claimed a deal could still be reached by the weekend. The Strait of Hormuz closure &mdash; ongoing since late February &mdash; continues to disrupt <strong>~20% of global oil supply</strong>, keeping crude prices elevated near $96&ndash;97/barrel despite the ceasefire-driven dip.
+          The U.S. launched <strong>fresh &ldquo;self-defense&rdquo; strikes on Iranian air defenses and radar sites</strong> in Hormozgan province &mdash; including Sirik, Qeshm Island, and Minab &mdash; after a U.S. Apache helicopter was downed near the <strong>Strait of Hormuz</strong>. Iran&rsquo;s Revolutionary Guard retaliated by striking <strong>21 American military targets</strong> across the region. The Strait of Hormuz blockade, ongoing since late February, continues to choke <strong>~20% of global oil transit</strong>, keeping crude structurally elevated despite ceasefire-driven dips. The VIX jumped 10% today on the escalation.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Oil:</strong> Brent crude dipped ~1.6% to $96.25 on ceasefire headlines but remains structurally elevated. WTI fell ~1.3% to $94.73. <strong>Gold</strong> holds safe-haven bid. U.S. 10Y yield at 4.49%, 30Y at 5.05% &mdash; yields rose on oil-driven inflation fears. European indices rallied (CAC 40 +1.2%, DAX +0.6%); U.S. indices fell (S&amp;P 500 -0.74%, Dow -1.21%).<br/><br/>
-            <strong style="color: #22c55e;">&#9650; UP:</strong> USO (oil ETF, +89.5% YTD) &bull; XOP (oil &amp; gas E&amp;P, +29.9% YTD) &bull; XLE (energy sector, +28.3% YTD) &bull; COP, XOM, CVX (oil majors) &bull; ITA, PPA (defense ETFs)<br/>
-            <strong style="color: #ef4444;">&#9660; DOWN:</strong> UAL, DAL, AAL (airlines &mdash; fuel cost pressure) &bull; Consumer discretionary broadly (inflation headwinds)
+            <strong>Oil:</strong> Brent crude at ~$92.29 (+0.9%), WTI at ~$88.97 (+0.8%) &mdash; swinging wildly on ceasefire headlines. Oil fell 5% earlier on the Israel-Iran pause but rebounded on the renewed US strikes. <strong>Gold</strong> crashed to ~$4,200/oz (steepest daily drop this month) as the safe-haven trade unwound on ceasefire optimism, then partially reversed. Dow fell ~900 points (-0.78%).<br/><br/>
+            <strong style="color: #22c55e;">&#9650; UP:</strong> XLE (energy sector ETF) &bull; COP, XOM, CVX (oil majors) &bull; USO (oil ETF) &bull; XOP (oil &amp; gas E&amp;P) &bull; LMT, RTX, NOC (defense stocks &mdash; continued Gulf operations) &bull; ITA (defense ETF)<br/>
+            <strong style="color: #ef4444;">&#9660; DOWN:</strong> UAL, DAL, AAL (airlines &mdash; fuel cost pressure) &bull; GLD, IAU (gold ETFs &mdash; safe-haven unwind) &bull; Consumer discretionary broadly (inflation headwinds from $88+ oil)
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 2: SOUTH KOREA ELECTIONS ===================== -->
+    <!-- ===================== EVENT 2: PHILIPPINES EARTHQUAKE ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">2</span>
-          <span style="color: #666; font-size: 11px;">East Asia / Politics / Equities &mdash; June 3&ndash;4</span>
+          <span style="color: #666; font-size: 11px;">Southeast Asia / Natural Disaster / Infrastructure &mdash; June 8&ndash;10</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">South Korea Local Elections: Ruling Party Wins Landslide 12 of 16 Races; KOSPI Falls 1.84% on Reopening</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Magnitude 7.8 Earthquake Devastates Philippines&rsquo; Mindanao &mdash; 45 Dead, 490 Injured, 77,000 Displaced</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          South Korea&rsquo;s ruling <strong>Democratic Party won 12 of 16 metropolitan mayor/governor races</strong> in the June 3 local elections, reinforcing President <strong>Lee Jae-myung&rsquo;s</strong> reform mandate. The opposition <strong>People Power Party held the crucial Seoul mayorship</strong>, preventing a total sweep. Markets were closed on election day; the KOSPI had hit a record closing high of <strong>8,801.49</strong> on Tuesday &mdash; up roughly threefold in one year under President Lee.
+          A <strong>magnitude 7.8 earthquake</strong> struck off the coast of Sarangani province in Mindanao on June 8 &mdash; the <strong>strongest to hit the Philippines since the 1990 Luzon earthquake</strong> and one of the most destructive in five decades. The quake, caused by subduction along the <strong>Cotabato Trench</strong>, killed at least <strong>45 people</strong>, injured 490, and left 17 missing, with more than <strong>77,000 individuals displaced</strong> across the region.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          On Thursday&rsquo;s reopening, the <strong>KOSPI dropped 1.84%</strong> as global risk-off sentiment and the Broadcom-led semiconductor selloff overshadowed the election results. The ruling party&rsquo;s strong showing is <strong>medium-term bullish</strong> for Korean equities &mdash; Lee&rsquo;s corporate governance reforms and the &ldquo;Korea discount&rdquo; rerating thesis remain intact, with continued policy continuity now assured.
+          Tsunami warnings were issued across the <strong>southern Philippines, Indonesia, Malaysia, Palau, Japan, Taiwan, and Papua New Guinea</strong>. Over <strong>2,000 aftershocks</strong> (up to magnitude 6.4) have been recorded as of Wednesday morning. Critical infrastructure damage is widespread across Mindanao, disrupting <strong>agricultural exports</strong> (the region accounts for ~40% of Philippine banana and pineapple production) and local supply chains. International aid is being mobilized.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Indices:</strong> KOSPI -1.84% on June 4 (catch-up to global risk-off). Korean won under mild pressure but structurally supported by capital inflows. Korean government bonds stable; election mandate supports continued fiscal and reform spending.<br/><br/>
-            <strong style="color: #ef4444;">&#9660; SHORT-TERM DOWN:</strong> Samsung Electronics (005930.KS, -2.5%) &bull; SK Hynix (000660.KS, -2.63%) &bull; LG Electronics (066570.KS, -16.43%)<br/>
-            <strong style="color: #22c55e;">&#9650; MEDIUM-TERM UP:</strong> EWY (iShares Korea ETF &mdash; policy continuity) &bull; FLKR (Franklin Korea ETF &mdash; Korea rerating story intact)
+            <strong>Regional supply chain disruption.</strong> Philippine peso (PHP) under mild pressure. Philippine Stock Exchange Index (PSEi) selling on reconstruction cost fears. Agricultural commodity prices for bananas and tropical fruits may rise on Mindanao supply disruption. Global reinsurance names face claims exposure.<br/><br/>
+            <strong style="color: #ef4444;">&#9660; DOWN:</strong> EPHE (iShares Philippines ETF) &bull; Del Monte Pacific (DELM.PS) &bull; Dole plc (DOLE &mdash; Mindanao export exposure) &bull; Philippine banks (BDO, BPI &mdash; reconstruction loan provisions)<br/>
+            <strong style="color: #22c55e;">&#9650; UP:</strong> MunichRe (MUV2.DE), Swiss Re (SREN.SW) &mdash; reinsurance premium repricing &bull; Holcim Philippines (HLCM.PS), Cemex Holdings (CHP.PS) &mdash; reconstruction demand &bull; Infrastructure plays across ASEAN
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 3: EU-UKRAINE ACCESSION ===================== -->
+    <!-- ===================== EVENT 3: TAIWAN HIMARS DRILL ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">3</span>
-          <span style="color: #666; font-size: 11px;">Europe / Diplomacy / Integration &mdash; June 3</span>
+          <span style="color: #666; font-size: 11px;">East Asia / Geopolitics / Defense &mdash; June 10</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">EU Unanimously Approves Ukraine &amp; Moldova Accession Talks After Hungary Lifts Two-Year Veto</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Taiwan Fires U.S.-Supplied HIMARS Into the Taiwan Strait for the First Time, Escalating Cross-Strait Tensions</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          All <strong>27 EU member states</strong> agreed to open the <strong>first cluster of accession negotiations</strong> with Ukraine and Moldova after Hungary&rsquo;s Prime Minister <strong>Peter Magyar</strong> reached a deal with Kyiv on Hungarian minority rights, ending a <strong>two-year veto</strong>. The formal intergovernmental conference is expected on <strong>June 15 in Luxembourg</strong>.
+          Taiwan&rsquo;s military conducted a landmark drill on Wednesday, <strong>firing U.S.-supplied HIMARS rockets into the Taiwan Strait for the first time</strong> &mdash; a clear demonstration of how it would repel a Chinese amphibious assault. The exercise in <strong>Taichung City</strong> saw mobile &ldquo;shoot-and-scoot&rdquo; launchers maneuver into position and fire within three minutes, showcasing the system&rsquo;s rapid-deployment capabilities. The military said it used <strong>reduced-range practice rockets</strong> that fell into the water near the coast.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          This marks a historic step &mdash; the first negotiation cluster covers <strong>rule of law, human rights, and judiciary</strong>, beginning a process spanning 33 chapters across six clusters. While full membership remains years away, the political signal is significant: the EU is committing to an institutional path for Ukraine&rsquo;s integration, reducing long-term geopolitical uncertainty in Eastern Europe and signaling sustained reconstruction investment.
+          The timing is politically sensitive: the U.S. announced plans in December to sell <strong>82 additional HIMARS systems to Taiwan</strong>, but that deal appears to be <strong>on hold</strong> following Trump&rsquo;s meeting with Xi Jinping in Beijing last month. Beijing has not yet officially responded to the drill, but any escalatory rhetoric could rattle the <strong>global semiconductor supply chain</strong> &mdash; Taiwan produces over 90% of the world&rsquo;s most advanced chips through TSMC. The Nikkei 225 fell 1.99% on the session, partly reflecting regional risk-off sentiment.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Bonds:</strong> Ukrainian Eurobonds likely to tighten (lower yields/higher prices) on EU integration momentum. Euro mildly supportive. European natural gas futures could ease on reduced Eastern European uncertainty. Hungarian forint stabilizing on reduced diplomatic friction.<br/><br/>
-            <strong style="color: #22c55e;">&#9650; UP:</strong> IEUR (iShares Europe ETF) &bull; HEDJ (WisdomTree Europe Hedged Equity) &bull; Rheinmetall (RHM.DE), BAE Systems (BA.L), Leonardo (LDO.MI) &mdash; European defense &bull; Holcim (HOLN.SW), Vinci (DG.PA) &mdash; Ukraine reconstruction plays &bull; OTP Bank (OTP.BD) &mdash; reduced Hungarian diplomatic isolation
+            <strong>Cross-strait risk premium rising.</strong> Any Chinese military response would spike volatility in Asian tech. Taiwan dollar (TWD) and regional currencies under watch. Nikkei 225 fell 1.99% today; regional risk-off sentiment spreading.<br/><br/>
+            <strong style="color: #ef4444;">&#9660; AT RISK:</strong> TSM (Taiwan Semiconductor &mdash; geopolitical risk premium) &bull; AAPL, NVDA, AMD, QCOM (TSMC supply chain dependence) &bull; SOXX, SMH (semiconductor ETFs) &bull; EWT (iShares Taiwan ETF) &bull; Foxconn/Hon Hai (2317.TW)<br/>
+            <strong style="color: #22c55e;">&#9650; UP:</strong> LMT (Lockheed Martin &mdash; HIMARS manufacturer) &bull; RTX, NOC, GD (U.S. defense primes) &bull; Intel (INTC), Samsung (005930.KS) &mdash; alternative fab beneficiaries if Taiwan risk reprices &bull; GLD (gold &mdash; geopolitical hedge)
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 4: BROADCOM SELLOFF ===================== -->
+    <!-- ===================== EVENT 4: SOUTH AFRICA FITCH UPGRADE ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">4</span>
-          <span style="color: #666; font-size: 11px;">Global / Technology / Semiconductors &mdash; June 3&ndash;4</span>
+          <span style="color: #666; font-size: 11px;">Africa / Economics / Sovereign Credit &mdash; June 5&ndash;10</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Broadcom Plunges 12&ndash;14% Post-Earnings, Triggering Global Semiconductor Selloff Across U.S., Asia, and Europe</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">South Africa Receives First Fitch Credit Upgrade in 21 Years &mdash; All Three Agencies Now Signal Path to Investment Grade</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Broadcom shares <strong>plunged 12&ndash;14%</strong> after its Q2 FY2026 earnings report despite <strong>record revenue of $22.19 billion (+48% YoY)</strong> and AI semiconductor revenue of <strong>$10.8 billion (+143% YoY)</strong>. The selloff was triggered by Q3 AI chip revenue guidance of <strong>$16 billion &mdash; roughly $1.2 billion below analyst models</strong> &mdash; and CEO Hock Tan&rsquo;s decision to merely reiterate (not raise) the FY2027 AI semiconductor target of $100+ billion.
+          Fitch Ratings upgraded South Africa&rsquo;s long-term foreign- and local-currency issuer default ratings from <strong>BB- to BB</strong> on June 5 &mdash; the <strong>first upgrade from Fitch in approximately 21 years</strong>. The move was driven by sustained fiscal discipline, with the country posting <strong>primary fiscal surpluses averaging 1% of GDP</strong> over four consecutive years. South Africa&rsquo;s government debt benefits from long maturities and is predominantly rand-denominated, shielding it from dollar-surge crises.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Macquarie <strong>downgraded AVGO to Neutral</strong> with a target cut to $437 from $513. The ripple effect spread globally: the <strong>Nasdaq fell 0.89%</strong>, <strong>KOSPI dropped 1.84%</strong>, <strong>Nikkei 225 fell 1.36%</strong>, and semiconductor names were hit across every major market. The selloff raises questions about whether AI chip demand growth is decelerating or simply being re-baselined after a historic run.
+          All three major rating agencies now place South Africa <strong>two notches below investment grade</strong> &mdash; S&amp;P upgraded in November 2025 and Moody&rsquo;s assigned a positive outlook. This convergence suggests South Africa could <strong>regain investment-grade status within 2&ndash;3 years</strong>, which would unlock massive institutional capital flows from index-tracking funds. The upgrade is a landmark moment for Africa&rsquo;s most industrialized economy and a signal that fiscal discipline in emerging markets can be rewarded &mdash; offering a template for frontier economies globally.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Indices:</strong> S&amp;P 500 -0.74%, Nasdaq -0.89%, KOSPI -1.84%, Nikkei -1.36%. Risk-off tone modestly supportive of Treasuries. Mild pressure on high-beta currencies (KRW, TWD).<br/><br/>
-            <strong style="color: #ef4444;">&#9660; DOWN:</strong> AVGO (Broadcom, -12&ndash;14%) &bull; NVDA (NVIDIA, sympathy selling) &bull; AMD (AI chip peer) &bull; TSM (Taiwan Semi) &bull; SK Hynix (000660.KS, -2.63%) &bull; SOXX (semiconductor ETF) &bull; SMH (VanEck Semi ETF) &bull; MRVL (Marvell, AI networking peer) &bull; CRWD (CrowdStrike, separate post-earnings weakness)
+            <strong>Bonds &amp; Currency:</strong> South African rand (ZAR) strengthened to ~R16.22/USD initially. SA government bond yields should compress, reducing borrowing costs. Positive spillover into JPMorgan EMBI (SA is a major benchmark constituent). JSE All Share Index sees positive tailwind as foreign capital flows improve.<br/><br/>
+            <strong style="color: #22c55e;">&#9650; UP:</strong> EZA (iShares South Africa ETF) &bull; Standard Bank (SBK.JO), FirstRand (FSR.JO), Nedbank (NED.JO), Absa (ABG.JO) &mdash; lower sovereign risk reduces funding costs &bull; Anglo American (AAL.L), Gold Fields (GFI), Sibanye Stillwater (SBSW) &mdash; improved country risk &bull; VWO, EEM (broad EM ETFs &mdash; positive flows)<br/>
+            <strong style="color: #22c55e;">&#9650; BROADER EM:</strong> The upgrade sets a positive tone for frontier and emerging market credit globally &mdash; bullish for EMB (iShares EM Bond ETF) and VWOB (Vanguard EM Gov Bond ETF)
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 5: NEW DELHI HOTEL FIRE ===================== -->
+    <!-- ===================== EVENT 5: XI-KIM PYONGYANG SUMMIT ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">5</span>
-          <span style="color: #666; font-size: 11px;">South Asia / Safety / Hospitality &mdash; June 3</span>
+          <span style="color: #666; font-size: 11px;">East Asia / Geopolitics / Defense &mdash; June 8&ndash;9</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Deadly New Delhi Hotel Fire Kills 21 &mdash; Mostly Foreign Nationals &mdash; Exposing India&rsquo;s Building Safety Crisis</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Xi Jinping Visits Pyongyang for First Time in Seven Years; China and North Korea Pledge &ldquo;New Historical Starting Point&rdquo;</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          A fire at the <strong>Flourish Inn Stay hotel</strong> in southern Delhi&rsquo;s Malviya Nagar neighborhood killed at least <strong>21 people</strong>, including <strong>18 foreign nationals from Bangladesh, Nigeria, Mozambique, and Liberia</strong>. The fire started around 8:50 a.m. on June 3 in the ground-floor restaurant and spread rapidly through the five-story building.
+          Chinese President <strong>Xi Jinping made a state visit to North Korea on June 8&ndash;9</strong> &mdash; his first in seven years &mdash; meeting Kim Jong Un and calling for deepened <strong>&ldquo;strategic coordination and cooperation.&rdquo;</strong> The two leaders agreed to expand collaboration in <strong>economics, trade, agriculture, health, construction, and science/technology</strong>, with China committing to inject &ldquo;powerful momentum&rdquo; into bilateral ties and strengthen political and military exchanges.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          A preliminary investigation found the hotel had <strong>no valid fire safety certificate</strong>, only one exit, and lacked proper ventilation. More than <strong>40 people were rescued</strong>, with some jumping from upper floors. The tragedy is expected to trigger tightened fire safety and building code enforcement across India&rsquo;s hospitality sector, increasing compliance costs for budget hotels and potentially dampening foreign tourist confidence in the near term.
+          The summit is a <strong>direct response to the deepening Russia-North Korea partnership</strong> &mdash; Xi is reasserting China&rsquo;s position as Pyongyang&rsquo;s most critical economic lifeline and diplomatic patron, countering Moscow&rsquo;s growing influence. Coming on the <strong>same weekend as Taiwan&rsquo;s HIMARS test</strong>, the visit signals a <strong>tightening China-North Korea-Russia axis</strong> against the U.S.-led alliance system. It complicates any future denuclearization diplomacy and is expected to accelerate <strong>defense spending in South Korea and Japan</strong> &mdash; both of which face a more hostile regional security environment.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Sector-specific, not macro.</strong> Indian hospitality and tourism sentiment negative. INR mildly pressured if foreign tourist confidence drops. Likely tightening of fire safety/building codes &mdash; compliance costs for the sector.<br/><br/>
-            <strong style="color: #ef4444;">&#9660; DOWN:</strong> Indian Hotels Company (INDHOTEL.NS &mdash; Tata Group, regulatory scrutiny) &bull; Lemon Tree Hotels (LEMONTREE.NS &mdash; budget segment faces safety scrutiny) &bull; EIH Ltd (EIH.NS &mdash; Oberoi Hotels, broader sentiment)<br/>
-            <strong style="color: #22c55e;">&#9650; UP:</strong> Indian fire safety equipment makers and building compliance firms could benefit from expected regulatory tightening<br/>
-            <strong>Neutral:</strong> INDA (iShares India ETF &mdash; tragedy is sector-specific)
+            <strong>Geopolitical risk premium for Northeast Asia rising.</strong> Korean won (KRW) could weaken on elevated peninsula risk. Safe-haven flows may benefit JPY and gold. KOSPI faces geopolitical discount, though structural tech/semiconductor strength persists. North Korean rare earth access for China could affect global rare earth pricing.<br/><br/>
+            <strong style="color: #22c55e;">&#9650; UP:</strong> Hanwha Aerospace (012450.KS), Korea Aerospace Industries (047810.KS) &mdash; Korean defense spending acceleration &bull; Mitsubishi Heavy (7011.T), IHI Corp (7013.T) &mdash; Japanese defense buildup &bull; MP Materials (MP), Lynas Rare Earths (LYC.AX) &mdash; non-China rare earth alternatives<br/>
+            <strong style="color: #ef4444;">&#9660; AT RISK:</strong> Samsung (005930.KS), SK Hynix (000660.KS) &mdash; geopolitical risk discount &bull; EWY (iShares Korea ETF) &mdash; peninsula risk premium &bull; Chinese tourism/consumer stocks &mdash; diplomatic distraction from domestic economic priorities
           </p>
         </div>
       </div>
@@ -175,59 +176,63 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #7c3aed; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Key Takeaway &mdash; Portfolio Positioning</p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Energy remains the dominant macro driver.</strong> The Strait of Hormuz closure continues to structurally support crude above $95. The Israel-Lebanon ceasefire is fragile &mdash; any collapse will send oil higher. Energy longs (XLE, COP, XOM) remain well-supported while airlines and consumer discretionary face persistent headwinds. Gold&rsquo;s safe-haven bid is intact.
+        <strong style="color: #fff;">The Gulf conflict remains the market&rsquo;s center of gravity.</strong> Every major asset class &mdash; oil, gold, bonds, equities, currencies &mdash; is reacting to the Strait of Hormuz blockade and escalation cycle. Energy longs (XLE, COP, XOM) remain structurally supported while crude stays above $85. Gold&rsquo;s crash to $4,200 on ceasefire optimism may be a trap &mdash; any re-escalation sends it right back. Airlines and consumer discretionary remain under persistent fuel-cost pressure. CPI hitting 4.2% today (energy-driven) confirms the inflation pass-through is real.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">The AI chip narrative is being stress-tested.</strong> Broadcom&rsquo;s selloff despite 143% AI revenue growth signals that markets are now pricing perfection. The global semiconductor contagion (Korea, Japan, Taiwan, Europe) shows how interconnected chip supply chains are. Watch for dip-buying in NVDA and TSM if the selloff is contained.
+        <strong style="color: #fff;">Northeast Asia is heating up on two fronts simultaneously.</strong> Taiwan&rsquo;s HIMARS drill and Xi&rsquo;s Pyongyang summit are reshaping Indo-Pacific risk calculus. Any Chinese military response to the Taiwan Strait firing could reprice the entire semiconductor supply chain. The tightening China-North Korea-Russia axis accelerates defense spending in Seoul and Tokyo &mdash; Korean and Japanese defense stocks are multi-catalyst longs. Rare earth miners outside China (MP, Lynas) benefit from supply-chain diversification urgency.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        <strong style="color: #fff;">Europe and Korea offer medium-term opportunities.</strong> EU-Ukraine accession reduces Eastern European political risk and supports European defense and infrastructure names. South Korea&rsquo;s election mandate reinforces the &ldquo;Korea discount&rdquo; rerating &mdash; EWY is attractive on pullbacks. India&rsquo;s hospitality sector faces near-term regulatory headwinds but the macro story is unaffected.
+        <strong style="color: #fff;">South Africa&rsquo;s upgrade is a rare bright spot for EM credit.</strong> All three agencies now signal a path to investment grade within 2&ndash;3 years, which would trigger massive institutional inflows. SA banks (Standard Bank, FirstRand) and the rand are the direct beneficiaries, but the broader signal is bullish for EM bonds (EMB, VWOB). Meanwhile, the Philippines earthquake creates near-term ASEAN supply disruption but medium-term reconstruction demand &mdash; cement and infrastructure plays are attractive on pullbacks.
       </p>
     </div>
 
     <!-- ===================== MARKET SNAPSHOT ===================== -->
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
-      <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Market Snapshot &mdash; June 4, 2026</p>
+      <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Market Snapshot &mdash; June 10, 2026</p>
       <table cellpadding="0" cellspacing="0" border="0" style="width: 100%; font-size: 12px;">
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">S&amp;P 500</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-0.74%</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-0.37%</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">Nasdaq</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-0.89%</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-0.42%</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">Dow Jones</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-1.21%</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-0.78% (~900 pts)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">KOSPI</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-1.84%</td>
+          <td style="color: #22c55e; text-align: right; padding: 6px 0;">+8.18%</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">Nikkei 225</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-1.36%</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">CAC 40</td>
-          <td style="color: #22c55e; text-align: right; padding: 6px 0;">+1.2%</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-1.99%</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">DAX</td>
-          <td style="color: #22c55e; text-align: right; padding: 6px 0;">+0.6%</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-0.74%</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">Brent Crude</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">$96.25 (-1.6%)</td>
+          <td style="color: #22c55e; text-align: right; padding: 6px 0;">$92.29 (+0.9%)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">WTI Crude</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">$94.73 (-1.3%)</td>
+          <td style="color: #22c55e; text-align: right; padding: 6px 0;">$88.97 (+0.8%)</td>
+        </tr>
+        <tr style="border-bottom: 1px solid #222;">
+          <td style="color: #888; padding: 6px 0;">Gold</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">~$4,200/oz (steep drop)</td>
+        </tr>
+        <tr style="border-bottom: 1px solid #222;">
+          <td style="color: #888; padding: 6px 0;">U.S. 10Y Yield</td>
+          <td style="color: #ccc; text-align: right; padding: 6px 0;">4.56%</td>
         </tr>
         <tr>
-          <td style="color: #888; padding: 6px 0;">U.S. 10Y Yield</td>
-          <td style="color: #ccc; text-align: right; padding: 6px 0;">4.49%</td>
+          <td style="color: #888; padding: 6px 0;">VIX</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">+10% (elevated)</td>
         </tr>
       </table>
     </div>
@@ -236,7 +241,7 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Sources</p>
       <p style="color: #888; font-size: 11px; line-height: 1.8; margin: 0;">
-        Euronews &bull; CNBC &bull; Al Jazeera &bull; The Irish Times &bull; FDD Overnight Brief &bull; Jerusalem Post &bull; Korea Times &bull; Yahoo Finance &bull; TradingKey &bull; UNITED24 Media &bull; CBS News &bull; Morgan Stanley &bull; Schwab Market Update &bull; Barchart &bull; GuruFocus &bull; ETF Trends &bull; Rio Times
+        Al Jazeera &bull; CNN &bull; NPR &bull; PBS News &bull; Anadolu Agency &bull; ABC News &bull; Philippine Inquirer &bull; GMA News &bull; Britannica &bull; TheStreet &bull; Fortune &bull; Trading Economics &bull; IOL South Africa &bull; Business Day SA &bull; NBC News &bull; Christian Science Monitor &bull; AM Best &bull; Investtech &bull; Fitch Ratings
       </p>
     </div>
 
