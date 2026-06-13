@@ -47,125 +47,126 @@ const html = `
       <p style="font-size: 12px; color: #888; margin: 8px 0 0;">Geopolitics &bull; Markets &bull; Equities &bull; Commodities &bull; Risk Assessment</p>
     </div>
 
-    <!-- ===================== EVENT 1: ISRAEL-LEBANON CEASEFIRE ===================== -->
+    <!-- ===================== EVENT 1: US-IRAN PEACE DEAL ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">1</span>
-          <span style="color: #666; font-size: 11px;">Middle East / Geopolitics / Energy &mdash; June 3</span>
+          <span style="color: #666; font-size: 11px;">Middle East / Geopolitics / Energy &mdash; June 12&ndash;13</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Israel-Lebanon Ceasefire Brokered But Immediately Tested; Iran Suspends Peace Talks as Regional War Escalates</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">US-Iran Peace Deal on Verge of Signing; Strait of Hormuz Reopening Expected &mdash; Oil Plunges 4%</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The U.S. brokered a <strong>conditional renewal of the Israel-Lebanon ceasefire</strong> on June 3, tying implementation to Hezbollah&rsquo;s full cessation of attacks and the creation of pilot security zones in southern Lebanon. However, <strong>Hezbollah rejected the pact</strong>, and both Israeli forces and Hezbollah launched strikes just hours after the announcement. The ceasefire remains fragile at best.
+          Pakistan&rsquo;s Prime Minister <strong>Shehbaz Sharif announced on June 12</strong> that the US and Iran have reached a <strong>final, agreed-upon text</strong> of a peace deal, with finalization &ldquo;likely expected in the next 24 hours.&rdquo; President <strong>Trump declared the deal will be signed on Sunday</strong>, stating the Strait of Hormuz will be &ldquo;open to all&rdquo; immediately after signing. The 14-point draft agreement includes the <strong>lifting of oil sanctions</strong> and a commitment from Tehran to reopen the Strait within 30 days.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Separately, <strong>Iranian strikes on Kuwait</strong> injured dozens and killed one person, further destabilizing the Gulf. Iran has <strong>suspended indirect peace talks</strong> with the U.S., while Trump claimed a deal could still be reached by the weekend. The Strait of Hormuz closure &mdash; ongoing since late February &mdash; continues to disrupt <strong>~20% of global oil supply</strong>, keeping crude prices elevated near $96&ndash;97/barrel despite the ceasefire-driven dip.
+          The Strait of Hormuz has been effectively closed since <strong>February 28</strong>, disrupting ~20% of global oil supply and keeping crude elevated above $100 for months. Remaining hurdles include <strong>verification mechanisms, factional approvals in Tehran, and full implementation timelines</strong>. If signed, this would be the most consequential Middle East diplomatic breakthrough in decades &mdash; with immediate and massive implications for global energy markets, inflation, and central bank policy worldwide.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Oil:</strong> Brent crude dipped ~1.6% to $96.25 on ceasefire headlines but remains structurally elevated. WTI fell ~1.3% to $94.73. <strong>Gold</strong> holds safe-haven bid. U.S. 10Y yield at 4.49%, 30Y at 5.05% &mdash; yields rose on oil-driven inflation fears. European indices rallied (CAC 40 +1.2%, DAX +0.6%); U.S. indices fell (S&amp;P 500 -0.74%, Dow -1.21%).<br/><br/>
-            <strong style="color: #22c55e;">&#9650; UP:</strong> USO (oil ETF, +89.5% YTD) &bull; XOP (oil &amp; gas E&amp;P, +29.9% YTD) &bull; XLE (energy sector, +28.3% YTD) &bull; COP, XOM, CVX (oil majors) &bull; ITA, PPA (defense ETFs)<br/>
-            <strong style="color: #ef4444;">&#9660; DOWN:</strong> UAL, DAL, AAL (airlines &mdash; fuel cost pressure) &bull; Consumer discretionary broadly (inflation headwinds)
+            <strong>Oil:</strong> Brent crude plunged over 4% to ~$86.50, down from $105+ earlier in June. WTI tracking lower. If signed, oil could fall toward $70&ndash;75 as Hormuz supply returns. <strong>Gold</strong> at $4,219 &mdash; safe-haven bid easing. Equities rallied broadly on peace hopes: S&amp;P 500 +0.50%, Dow +0.70%.<br/><br/>
+            <strong style="color: #ef4444;">&#9660; DOWN:</strong> XLE (energy sector ETF) &bull; XOP (oil &amp; gas E&amp;P) &bull; COP, XOM, CVX (oil majors face revenue compression) &bull; USO (oil ETF) &bull; HAL, SLB (oilfield services)<br/>
+            <strong style="color: #22c55e;">&#9650; UP:</strong> UAL, DAL, AAL (airlines &mdash; fuel cost relief) &bull; Consumer discretionary broadly &bull; Emerging market equities (inflation relief) &bull; JETS (airline ETF) &bull; European industrials (lower input costs)
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 2: SOUTH KOREA ELECTIONS ===================== -->
+    <!-- ===================== EVENT 2: ECB RATE HIKE ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">2</span>
-          <span style="color: #666; font-size: 11px;">East Asia / Politics / Equities &mdash; June 3&ndash;4</span>
+          <span style="color: #666; font-size: 11px;">Europe / Monetary Policy / Bonds &mdash; June 11</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">South Korea Local Elections: Ruling Party Wins Landslide 12 of 16 Races; KOSPI Falls 1.84% on Reopening</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">ECB Hikes Interest Rates for First Time Since 2023 &mdash; Iran War Energy Costs Force Reversal of Easing Cycle</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          South Korea&rsquo;s ruling <strong>Democratic Party won 12 of 16 metropolitan mayor/governor races</strong> in the June 3 local elections, reinforcing President <strong>Lee Jae-myung&rsquo;s</strong> reform mandate. The opposition <strong>People Power Party held the crucial Seoul mayorship</strong>, preventing a total sweep. Markets were closed on election day; the KOSPI had hit a record closing high of <strong>8,801.49</strong> on Tuesday &mdash; up roughly threefold in one year under President Lee.
+          The European Central Bank raised its <strong>three key interest rates by 25 basis points</strong> on June 11, bringing the deposit facility rate to <strong>2.25%</strong>, main refinancing to <strong>2.40%</strong>, and marginal lending to <strong>2.65%</strong> (effective June 17). This was the <strong>first rate hike in three years</strong>, reversing the easing cycle that had been underway since mid-2024.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          On Thursday&rsquo;s reopening, the <strong>KOSPI dropped 1.84%</strong> as global risk-off sentiment and the Broadcom-led semiconductor selloff overshadowed the election results. The ruling party&rsquo;s strong showing is <strong>medium-term bullish</strong> for Korean equities &mdash; Lee&rsquo;s corporate governance reforms and the &ldquo;Korea discount&rdquo; rerating thesis remain intact, with continued policy continuity now assured.
+          The decision was driven by <strong>eurozone inflation accelerating to 3.2% in May</strong> &mdash; well above the 2% target &mdash; fueled by the Strait of Hormuz closure and soaring energy costs. ECB staff projections now see <strong>headline inflation averaging 3.0% in 2026, 2.3% in 2027, and 2.0% in 2028</strong>. Markets are pricing roughly <strong>50% probability of a further hike in September</strong>. However, if the Iran peace deal materializes, energy-driven inflation could ease rapidly, potentially making this the only hike in the cycle.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Indices:</strong> KOSPI -1.84% on June 4 (catch-up to global risk-off). Korean won under mild pressure but structurally supported by capital inflows. Korean government bonds stable; election mandate supports continued fiscal and reform spending.<br/><br/>
-            <strong style="color: #ef4444;">&#9660; SHORT-TERM DOWN:</strong> Samsung Electronics (005930.KS, -2.5%) &bull; SK Hynix (000660.KS, -2.63%) &bull; LG Electronics (066570.KS, -16.43%)<br/>
-            <strong style="color: #22c55e;">&#9650; MEDIUM-TERM UP:</strong> EWY (iShares Korea ETF &mdash; policy continuity) &bull; FLKR (Franklin Korea ETF &mdash; Korea rerating story intact)
+            <strong>Bonds:</strong> European government bond yields rose. German 10Y Bund yields up. Euro strengthened modestly vs. USD on rate differential. European bank stocks generally supported by wider net interest margins.<br/><br/>
+            <strong style="color: #22c55e;">&#9650; UP:</strong> European banks &mdash; BNP Paribas (BNP.PA), Deutsche Bank (DBK.DE), ING Group (INGA.AS) &bull; EUR/USD pair &bull; EUFN (iShares MSCI Europe Financials ETF)<br/>
+            <strong style="color: #ef4444;">&#9660; DOWN:</strong> European REITs &amp; real estate &mdash; Vonovia (VNA.DE), Unibail-Rodamco (URW.AS) &bull; European utilities (higher borrowing costs) &bull; Growth/tech stocks on European exchanges &bull; EZU (iShares MSCI Eurozone ETF &mdash; tighter monetary conditions)
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 3: EU-UKRAINE ACCESSION ===================== -->
+    <!-- ===================== EVENT 3: SPACEX IPO ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">3</span>
-          <span style="color: #666; font-size: 11px;">Europe / Diplomacy / Integration &mdash; June 3</span>
+          <span style="color: #666; font-size: 11px;">Global / Capital Markets / Aerospace &mdash; June 12</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">EU Unanimously Approves Ukraine &amp; Moldova Accession Talks After Hungary Lifts Two-Year Veto</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">SpaceX Completes Largest IPO in Wall Street History &mdash; SPCX Surges 19% to $161, Valuation Hits $1.77 Trillion</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          All <strong>27 EU member states</strong> agreed to open the <strong>first cluster of accession negotiations</strong> with Ukraine and Moldova after Hungary&rsquo;s Prime Minister <strong>Peter Magyar</strong> reached a deal with Kyiv on Hungarian minority rights, ending a <strong>two-year veto</strong>. The formal intergovernmental conference is expected on <strong>June 15 in Luxembourg</strong>.
+          SpaceX began trading on the <strong>Nasdaq under ticker SPCX</strong> on June 12, offering 555.56 million Class A shares at <strong>$135 per share</strong>. The stock opened at <strong>$150</strong> (11% above IPO price), surged over 30% intraday &mdash; briefly giving SpaceX a market value exceeding <strong>$2.25 trillion</strong> &mdash; before closing at <strong>$160.95, up 19%</strong>. The company raised a historic <strong>$75 billion</strong>, making it the largest IPO ever.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          This marks a historic step &mdash; the first negotiation cluster covers <strong>rule of law, human rights, and judiciary</strong>, beginning a process spanning 33 chapters across six clusters. While full membership remains years away, the political signal is significant: the EU is committing to an institutional path for Ukraine&rsquo;s integration, reducing long-term geopolitical uncertainty in Eastern Europe and signaling sustained reconstruction investment.
+          The debut made <strong>Elon Musk the world&rsquo;s first trillionaire</strong>. SpaceX&rsquo;s implied valuation of <strong>$1.77 trillion</strong> places it among the top 10 most valuable public companies globally on day one. The successful listing is a bellwether for private-to-public market sentiment and validates the commercial space economy thesis. It also boosted broader market sentiment on June 12, with the S&amp;P 500 gaining 0.50% and the Nasdaq rising 0.31%.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Bonds:</strong> Ukrainian Eurobonds likely to tighten (lower yields/higher prices) on EU integration momentum. Euro mildly supportive. European natural gas futures could ease on reduced Eastern European uncertainty. Hungarian forint stabilizing on reduced diplomatic friction.<br/><br/>
-            <strong style="color: #22c55e;">&#9650; UP:</strong> IEUR (iShares Europe ETF) &bull; HEDJ (WisdomTree Europe Hedged Equity) &bull; Rheinmetall (RHM.DE), BAE Systems (BA.L), Leonardo (LDO.MI) &mdash; European defense &bull; Holcim (HOLN.SW), Vinci (DG.PA) &mdash; Ukraine reconstruction plays &bull; OTP Bank (OTP.BD) &mdash; reduced Hungarian diplomatic isolation
+            <strong>IPO market:</strong> Validates mega-cap private company listings. Liquidity drawn toward SPCX may pressure other high-growth names near-term. Nasdaq outperformance supported. Massive positive signal for IPO pipeline (Stripe, Databricks, others watching).<br/><br/>
+            <strong style="color: #22c55e;">&#9650; UP:</strong> SPCX (SpaceX, +19% day 1) &bull; ARKX (ARK Space Exploration ETF) &bull; LMT (Lockheed Martin &mdash; space/defense peer) &bull; RTX (Raytheon &mdash; defense/aerospace) &bull; RKLB (Rocket Lab &mdash; commercial space peer, sentiment lift) &bull; TSLA (Tesla &mdash; Musk halo effect)<br/>
+            <strong style="color: #ef4444;">&#9660; DOWN:</strong> Other mega-cap IPO candidates may see valuation pressure &bull; Some liquidity rotation out of existing tech names into SPCX
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 4: BROADCOM SELLOFF ===================== -->
+    <!-- ===================== EVENT 4: FIFA WORLD CUP 2026 ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">4</span>
-          <span style="color: #666; font-size: 11px;">Global / Technology / Semiconductors &mdash; June 3&ndash;4</span>
+          <span style="color: #666; font-size: 11px;">Global / Sports / Consumer Economy &mdash; June 11&ndash;13</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Broadcom Plunges 12&ndash;14% Post-Earnings, Triggering Global Semiconductor Selloff Across U.S., Asia, and Europe</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">FIFA World Cup 2026 Kicks Off Across North America &mdash; Largest Tournament in History With 48 Nations</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Broadcom shares <strong>plunged 12&ndash;14%</strong> after its Q2 FY2026 earnings report despite <strong>record revenue of $22.19 billion (+48% YoY)</strong> and AI semiconductor revenue of <strong>$10.8 billion (+143% YoY)</strong>. The selloff was triggered by Q3 AI chip revenue guidance of <strong>$16 billion &mdash; roughly $1.2 billion below analyst models</strong> &mdash; and CEO Hock Tan&rsquo;s decision to merely reiterate (not raise) the FY2027 AI semiconductor target of $100+ billion.
+          The <strong>2026 FIFA World Cup</strong> &mdash; the first with <strong>48 teams</strong> and co-hosted by the <strong>United States, Canada, and Mexico</strong> &mdash; kicked off on June 11 and is now in full swing. June 13 matches include <strong>Switzerland vs. Qatar (Group B), Brazil vs. Morocco, Haiti vs. Scotland (Group C), and Australia vs. T&uuml;rkiye (Group D)</strong>. The opening day saw the US defeat Paraguay 4&ndash;1 and Canada draw 1&ndash;1 with Bosnia and Herzegovina.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Macquarie <strong>downgraded AVGO to Neutral</strong> with a target cut to $437 from $513. The ripple effect spread globally: the <strong>Nasdaq fell 0.89%</strong>, <strong>KOSPI dropped 1.84%</strong>, <strong>Nikkei 225 fell 1.36%</strong>, and semiconductor names were hit across every major market. The selloff raises questions about whether AI chip demand growth is decelerating or simply being re-baselined after a historic run.
+          The tournament is the <strong>largest single sporting event in history</strong>, spanning 104 matches across 16 venues in three countries over five weeks. FIFA projects <strong>$11+ billion in total economic impact</strong> across host cities, with record TV viewership expected to exceed 5 billion cumulative viewers. The event is a massive catalyst for advertising, hospitality, travel, and media sectors globally &mdash; particularly in the Americas.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Indices:</strong> S&amp;P 500 -0.74%, Nasdaq -0.89%, KOSPI -1.84%, Nikkei -1.36%. Risk-off tone modestly supportive of Treasuries. Mild pressure on high-beta currencies (KRW, TWD).<br/><br/>
-            <strong style="color: #ef4444;">&#9660; DOWN:</strong> AVGO (Broadcom, -12&ndash;14%) &bull; NVDA (NVIDIA, sympathy selling) &bull; AMD (AI chip peer) &bull; TSM (Taiwan Semi) &bull; SK Hynix (000660.KS, -2.63%) &bull; SOXX (semiconductor ETF) &bull; SMH (VanEck Semi ETF) &bull; MRVL (Marvell, AI networking peer) &bull; CRWD (CrowdStrike, separate post-earnings weakness)
+            <strong>Consumer/Media:</strong> Record ad spending benefits broadcasters and streaming platforms. Hospitality and travel sectors in host cities seeing demand surge. Sports betting volumes hitting all-time highs globally.<br/><br/>
+            <strong style="color: #22c55e;">&#9650; UP:</strong> DIS (Disney/ESPN &mdash; broadcasting rights) &bull; CMCSA (Comcast/Telemundo) &bull; GOOGL (YouTube streaming) &bull; MAR, HLT (Marriott, Hilton &mdash; host city hotels) &bull; DKNG, FLUT (DraftKings, Flutter &mdash; sports betting) &bull; NKE, ADDYY (Nike, Adidas &mdash; official sponsors/kit makers) &bull; SBUX, MCD (consumer foot traffic)<br/>
+            <strong style="color: #ef4444;">&#9660; DOWN:</strong> Productivity losses estimated at $8&ndash;12B globally &bull; Some worker absenteeism headwinds for employers in participating nations
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 5: NEW DELHI HOTEL FIRE ===================== -->
+    <!-- ===================== EVENT 5: PENTAGON CHINA BLACKLIST ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">5</span>
-          <span style="color: #666; font-size: 11px;">South Asia / Safety / Hospitality &mdash; June 3</span>
+          <span style="color: #666; font-size: 11px;">US-China / Technology / Trade &mdash; June 8&ndash;13</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Deadly New Delhi Hotel Fire Kills 21 &mdash; Mostly Foreign Nationals &mdash; Exposing India&rsquo;s Building Safety Crisis</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Pentagon Blacklists Alibaba, BYD, Baidu &amp; Dozens of Chinese Tech Giants as &ldquo;Military Companies&rdquo;</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          A fire at the <strong>Flourish Inn Stay hotel</strong> in southern Delhi&rsquo;s Malviya Nagar neighborhood killed at least <strong>21 people</strong>, including <strong>18 foreign nationals from Bangladesh, Nigeria, Mozambique, and Liberia</strong>. The fire started around 8:50 a.m. on June 3 in the ground-floor restaurant and spread rapidly through the five-story building.
+          The US Department of Defense published an updated <strong>&ldquo;1260H list&rdquo;</strong> designating dozens of major Chinese companies as <strong>&ldquo;Chinese Military Companies,&rdquo;</strong> including <strong>Alibaba (BABA), BYD (BYDDY), Baidu (BIDU), NIO (NIO), and CALB</strong>. The designations prohibit the Pentagon from contracting with listed companies and bar procurement through third parties beginning June 2027.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          A preliminary investigation found the hotel had <strong>no valid fire safety certificate</strong>, only one exit, and lacked proper ventilation. More than <strong>40 people were rescued</strong>, with some jumping from upper floors. The tragedy is expected to trigger tightened fire safety and building code enforcement across India&rsquo;s hospitality sector, increasing compliance costs for budget hotels and potentially dampening foreign tourist confidence in the near term.
+          This represents a <strong>dramatic escalation in the US-China tech cold war</strong>, moving beyond semiconductor restrictions to target China&rsquo;s largest consumer technology, electric vehicle, and AI companies. BYD is the <strong>world&rsquo;s largest EV maker</strong>; Alibaba is a <strong>top-3 global cloud provider</strong>; Baidu leads in autonomous driving. Alibaba rejected the designation, stating it is &ldquo;not a Chinese military company.&rdquo; China condemned the move as economic coercion. The blacklist is forcing <strong>global institutional investors, pension funds, and index providers to reassess their China exposure</strong>.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Sector-specific, not macro.</strong> Indian hospitality and tourism sentiment negative. INR mildly pressured if foreign tourist confidence drops. Likely tightening of fire safety/building codes &mdash; compliance costs for the sector.<br/><br/>
-            <strong style="color: #ef4444;">&#9660; DOWN:</strong> Indian Hotels Company (INDHOTEL.NS &mdash; Tata Group, regulatory scrutiny) &bull; Lemon Tree Hotels (LEMONTREE.NS &mdash; budget segment faces safety scrutiny) &bull; EIH Ltd (EIH.NS &mdash; Oberoi Hotels, broader sentiment)<br/>
-            <strong style="color: #22c55e;">&#9650; UP:</strong> Indian fire safety equipment makers and building compliance firms could benefit from expected regulatory tightening<br/>
-            <strong>Neutral:</strong> INDA (iShares India ETF &mdash; tragedy is sector-specific)
+            <strong>Chinese tech:</strong> Institutional selling pressure accelerating as compliance teams review portfolios. Alibaba fell to $119.84, Baidu dropped 2.3%, BYD declined 0.5%. Hang Seng Tech Index under pressure. KWEB and MCHI ETFs face outflow risk.<br/><br/>
+            <strong style="color: #ef4444;">&#9660; DOWN:</strong> BABA (Alibaba) &bull; BIDU (Baidu) &bull; BYDDY (BYD) &bull; NIO (NIO) &bull; XPEV (XPeng) &bull; LI (Li Auto) &bull; KWEB (KraneShares China Internet ETF) &bull; MCHI (iShares MSCI China ETF)<br/>
+            <strong style="color: #22c55e;">&#9650; UP:</strong> TSLA (Tesla &mdash; reduced EV competition) &bull; RIVN, LCID (Western EV peers) &bull; AMZN, MSFT, GOOGL (cloud rotation from Alibaba) &bull; TSM, ASML, NVDA (supply chain decoupling beneficiaries)
           </p>
         </div>
       </div>
@@ -175,59 +176,63 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #7c3aed; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Key Takeaway &mdash; Portfolio Positioning</p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Energy remains the dominant macro driver.</strong> The Strait of Hormuz closure continues to structurally support crude above $95. The Israel-Lebanon ceasefire is fragile &mdash; any collapse will send oil higher. Energy longs (XLE, COP, XOM) remain well-supported while airlines and consumer discretionary face persistent headwinds. Gold&rsquo;s safe-haven bid is intact.
+        <strong style="color: #fff;">The Iran deal is the single biggest macro catalyst in months.</strong> If signed Sunday, expect oil to crater toward $70&ndash;75, airlines and consumer discretionary to surge, and energy longs to face sharp drawdowns. The ECB&rsquo;s rate hike may prove to be a one-and-done if energy-driven inflation reverses. Hedge energy positions now. The risk/reward has flipped &mdash; short oil via puts or reduced long exposure is prudent ahead of the weekend.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">The AI chip narrative is being stress-tested.</strong> Broadcom&rsquo;s selloff despite 143% AI revenue growth signals that markets are now pricing perfection. The global semiconductor contagion (Korea, Japan, Taiwan, Europe) shows how interconnected chip supply chains are. Watch for dip-buying in NVDA and TSM if the selloff is contained.
+        <strong style="color: #fff;">SpaceX&rsquo;s IPO validates risk appetite.</strong> The largest IPO in history closing up 19% signals robust institutional demand for growth assets. This is bullish for the broader IPO pipeline and supports the &ldquo;risk-on&rdquo; narrative alongside peace deal optimism. Watch for SPCX&rsquo;s first full trading week for price discovery.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        <strong style="color: #fff;">Europe and Korea offer medium-term opportunities.</strong> EU-Ukraine accession reduces Eastern European political risk and supports European defense and infrastructure names. South Korea&rsquo;s election mandate reinforces the &ldquo;Korea discount&rdquo; rerating &mdash; EWY is attractive on pullbacks. India&rsquo;s hospitality sector faces near-term regulatory headwinds but the macro story is unaffected.
+        <strong style="color: #fff;">US-China decoupling accelerates &mdash; rotate accordingly.</strong> The Pentagon blacklist of Alibaba, BYD, and Baidu is the broadest yet, forcing institutional China exposure reductions. Western alternatives (TSLA, AMZN, MSFT) are structural beneficiaries. Meanwhile, the <strong>G7 summit in &Eacute;vian (June 15&ndash;17)</strong> will set Monday&rsquo;s market tone &mdash; any joint communiqu&eacute; on Iran sanctions relief or Ukraine reconstruction will move markets. The World Cup provides a consumer spending tailwind regardless of geopolitics &mdash; media, hospitality, and betting names are structural beneficiaries through mid-July.
       </p>
     </div>
 
     <!-- ===================== MARKET SNAPSHOT ===================== -->
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
-      <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Market Snapshot &mdash; June 4, 2026</p>
+      <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Market Snapshot &mdash; June 12&ndash;13, 2026</p>
       <table cellpadding="0" cellspacing="0" border="0" style="width: 100%; font-size: 12px;">
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">S&amp;P 500</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-0.74%</td>
+          <td style="color: #22c55e; text-align: right; padding: 6px 0;">7,431.46 (+0.50%)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">Nasdaq</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-0.89%</td>
+          <td style="color: #22c55e; text-align: right; padding: 6px 0;">25,888.84 (+0.31%)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">Dow Jones</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-1.21%</td>
+          <td style="color: #22c55e; text-align: right; padding: 6px 0;">51,202 (+0.70%)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">KOSPI</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-1.84%</td>
+          <td style="color: #22c55e; text-align: right; padding: 6px 0;">8,123.62 (+4.63%)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">Nikkei 225</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-1.36%</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">CAC 40</td>
-          <td style="color: #22c55e; text-align: right; padding: 6px 0;">+1.2%</td>
+          <td style="color: #22c55e; text-align: right; padding: 6px 0;">66,020 (+2.81%)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">DAX</td>
-          <td style="color: #22c55e; text-align: right; padding: 6px 0;">+0.6%</td>
+          <td style="color: #22c55e; text-align: right; padding: 6px 0;">24,635 (+1.76%)</td>
+        </tr>
+        <tr style="border-bottom: 1px solid #222;">
+          <td style="color: #888; padding: 6px 0;">FTSE 100</td>
+          <td style="color: #22c55e; text-align: right; padding: 6px 0;">10,472 (+1.63%)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">Brent Crude</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">$96.25 (-1.6%)</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">$86.80 (-4.2%)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">WTI Crude</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">$94.73 (-1.3%)</td>
+          <td style="color: #888; padding: 6px 0;">Gold</td>
+          <td style="color: #22c55e; text-align: right; padding: 6px 0;">$4,219 (+0.22%)</td>
+        </tr>
+        <tr style="border-bottom: 1px solid #222;">
+          <td style="color: #888; padding: 6px 0;">SpaceX (SPCX)</td>
+          <td style="color: #22c55e; text-align: right; padding: 6px 0;">$160.95 (+19.2% IPO day)</td>
         </tr>
         <tr>
-          <td style="color: #888; padding: 6px 0;">U.S. 10Y Yield</td>
-          <td style="color: #ccc; text-align: right; padding: 6px 0;">4.49%</td>
+          <td style="color: #888; padding: 6px 0;">ECB Deposit Rate</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">2.25% (+25bp hike)</td>
         </tr>
       </table>
     </div>
@@ -236,7 +241,7 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Sources</p>
       <p style="color: #888; font-size: 11px; line-height: 1.8; margin: 0;">
-        Euronews &bull; CNBC &bull; Al Jazeera &bull; The Irish Times &bull; FDD Overnight Brief &bull; Jerusalem Post &bull; Korea Times &bull; Yahoo Finance &bull; TradingKey &bull; UNITED24 Media &bull; CBS News &bull; Morgan Stanley &bull; Schwab Market Update &bull; Barchart &bull; GuruFocus &bull; ETF Trends &bull; Rio Times
+        NBC News &bull; Al Jazeera &bull; NPR &bull; CNBC &bull; Euronews &bull; Reuters &bull; Trading Economics &bull; Yahoo Finance &bull; TradingKey &bull; Nasdaq.com &bull; U.S. EIA &bull; European Central Bank &bull; FIFA.com &bull; ESPN &bull; EU Council &bull; Schwab Market Update &bull; Capital Economics &bull; Polymarket
       </p>
     </div>
 
