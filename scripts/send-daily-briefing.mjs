@@ -47,125 +47,126 @@ const html = `
       <p style="font-size: 12px; color: #888; margin: 8px 0 0;">Geopolitics &bull; Markets &bull; Equities &bull; Commodities &bull; Risk Assessment</p>
     </div>
 
-    <!-- ===================== EVENT 1: ISRAEL-LEBANON CEASEFIRE ===================== -->
+    <!-- ===================== EVENT 1: US-IRAN PEACE DEAL / HORMUZ REOPENS ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">1</span>
-          <span style="color: #666; font-size: 11px;">Middle East / Geopolitics / Energy &mdash; June 3</span>
+          <span style="color: #666; font-size: 11px;">Middle East / Geopolitics / Energy &mdash; June 14&ndash;15</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Israel-Lebanon Ceasefire Brokered But Immediately Tested; Iran Suspends Peace Talks as Regional War Escalates</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">US-Iran Peace Deal Reached: Strait of Hormuz Reopens After 107-Day Blockade; Oil Crashes 5%, Global Equities Surge</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The U.S. brokered a <strong>conditional renewal of the Israel-Lebanon ceasefire</strong> on June 3, tying implementation to Hezbollah&rsquo;s full cessation of attacks and the creation of pilot security zones in southern Lebanon. However, <strong>Hezbollah rejected the pact</strong>, and both Israeli forces and Hezbollah launched strikes just hours after the announcement. The ceasefire remains fragile at best.
+          President Trump announced the US-Iran peace deal is &ldquo;now complete,&rdquo; authorizing the <strong>toll-free reopening of the Strait of Hormuz</strong> and the <strong>immediate removal of the US naval blockade</strong> of Iranian ports. Iran&rsquo;s Supreme National Security Council confirmed the sides finalized a memorandum of understanding, mediated in part by Pakistani PM Shehbaz Sharif. A <strong>formal signing is expected June 19 in Geneva</strong>.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Separately, <strong>Iranian strikes on Kuwait</strong> injured dozens and killed one person, further destabilizing the Gulf. Iran has <strong>suspended indirect peace talks</strong> with the U.S., while Trump claimed a deal could still be reached by the weekend. The Strait of Hormuz closure &mdash; ongoing since late February &mdash; continues to disrupt <strong>~20% of global oil supply</strong>, keeping crude prices elevated near $96&ndash;97/barrel despite the ceasefire-driven dip.
+          The deal includes a <strong>60-day extension of the Lebanon ceasefire</strong>, creating a window for negotiations on Iran&rsquo;s nuclear program and the lifting of US sanctions. However, the Pentagon estimates full minesweeping operations could take <strong>up to six months</strong> even with three dedicated vessels in the region. Analysts expect most oil and gas shipments to resume by end of Q3 2026. The Strait had been effectively closed since early March, disrupting <strong>~20% of global oil supply</strong> and sending Brent crude above $100 for months.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Oil:</strong> Brent crude dipped ~1.6% to $96.25 on ceasefire headlines but remains structurally elevated. WTI fell ~1.3% to $94.73. <strong>Gold</strong> holds safe-haven bid. U.S. 10Y yield at 4.49%, 30Y at 5.05% &mdash; yields rose on oil-driven inflation fears. European indices rallied (CAC 40 +1.2%, DAX +0.6%); U.S. indices fell (S&amp;P 500 -0.74%, Dow -1.21%).<br/><br/>
-            <strong style="color: #22c55e;">&#9650; UP:</strong> USO (oil ETF, +89.5% YTD) &bull; XOP (oil &amp; gas E&amp;P, +29.9% YTD) &bull; XLE (energy sector, +28.3% YTD) &bull; COP, XOM, CVX (oil majors) &bull; ITA, PPA (defense ETFs)<br/>
-            <strong style="color: #ef4444;">&#9660; DOWN:</strong> UAL, DAL, AAL (airlines &mdash; fuel cost pressure) &bull; Consumer discretionary broadly (inflation headwinds)
+            <strong>Oil:</strong> Brent crude crashed 5.19% to $82.80. WTI fell 5.51% to $80.20. Heating oil tumbled 17%. Gasoline futures dropped 10%. <strong>Equities:</strong> Massive global risk-on rally &mdash; Nikkei 225 soared +5.5% (breaking 69,000 for the first time), KOSPI jumped +5.7%, S&amp;P 500 +1.65% to 7,554, Nasdaq +3.07% to 26,684, Dow +0.92% to record 51,671.<br/><br/>
+            <strong style="color: #22c55e;">&#9650; UP:</strong> DAL (Delta, +6% on lower jet fuel), UAL, AAL (airlines broadly rallying) &bull; Consumer discretionary &bull; Industrials &bull; Tech (Nasdaq-100 +3.15%) &bull; Western Digital (+13.8%), DoorDash (+11.87%), Micron (+9.24%)<br/>
+            <strong style="color: #ef4444;">&#9660; DOWN:</strong> XOM, CVX, COP (oil majors sliding on crude collapse) &bull; XLE (energy sector) &bull; HAL, SLB (oil services) &bull; LMT, RTX, NOC (defense stocks losing geopolitical premium)
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 2: SOUTH KOREA ELECTIONS ===================== -->
+    <!-- ===================== EVENT 2: RUSSIA STRIKES KYIV / PECHERSK LAVRA BURNS ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">2</span>
-          <span style="color: #666; font-size: 11px;">East Asia / Politics / Equities &mdash; June 3&ndash;4</span>
+          <span style="color: #666; font-size: 11px;">Eastern Europe / Conflict / Culture &mdash; June 14&ndash;15</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">South Korea Local Elections: Ruling Party Wins Landslide 12 of 16 Races; KOSPI Falls 1.84% on Reopening</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Russia Launches 611 Drones and 70 Missiles at Kyiv; UNESCO World Heritage Pechersk Lavra Cathedral Set Ablaze</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          South Korea&rsquo;s ruling <strong>Democratic Party won 12 of 16 metropolitan mayor/governor races</strong> in the June 3 local elections, reinforcing President <strong>Lee Jae-myung&rsquo;s</strong> reform mandate. The opposition <strong>People Power Party held the crucial Seoul mayorship</strong>, preventing a total sweep. Markets were closed on election day; the KOSPI had hit a record closing high of <strong>8,801.49</strong> on Tuesday &mdash; up roughly threefold in one year under President Lee.
+          In one of the largest aerial assaults of the entire war, Russia launched <strong>70 missiles and 611 drones</strong> overnight June 14&ndash;15, primarily targeting Kyiv. A Shahed-type drone struck the roof of the <strong>Dormition Cathedral at the Kyiv-Pechersk Lavra</strong> &mdash; an 11th-century UNESCO World Heritage monastery complex considered one of the holiest sites in the Orthodox world. The cathedral roof caught fire. At least <strong>10 people were killed</strong> nationwide, including rescue workers in Kharkiv.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          On Thursday&rsquo;s reopening, the <strong>KOSPI dropped 1.84%</strong> as global risk-off sentiment and the Broadcom-led semiconductor selloff overshadowed the election results. The ruling party&rsquo;s strong showing is <strong>medium-term bullish</strong> for Korean equities &mdash; Lee&rsquo;s corporate governance reforms and the &ldquo;Korea discount&rdquo; rerating thesis remain intact, with continued policy continuity now assured.
+          Over <strong>42,000 Kyiv residents, including 3,400 children</strong>, sheltered in the metro system. Russia notably used Iskander-K missiles instead of the usual Kalibr cruise missiles. The deliberate targeting of a <strong>950-year-old UNESCO site</strong> is expected to intensify calls from European capitals for additional sanctions and military aid. The unprecedented scale of 611 drones in a single night demonstrates Russia&rsquo;s rapidly expanding drone production capacity.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Indices:</strong> KOSPI -1.84% on June 4 (catch-up to global risk-off). Korean won under mild pressure but structurally supported by capital inflows. Korean government bonds stable; election mandate supports continued fiscal and reform spending.<br/><br/>
-            <strong style="color: #ef4444;">&#9660; SHORT-TERM DOWN:</strong> Samsung Electronics (005930.KS, -2.5%) &bull; SK Hynix (000660.KS, -2.63%) &bull; LG Electronics (066570.KS, -16.43%)<br/>
-            <strong style="color: #22c55e;">&#9650; MEDIUM-TERM UP:</strong> EWY (iShares Korea ETF &mdash; policy continuity) &bull; FLKR (Franklin Korea ETF &mdash; Korea rerating story intact)
+            <strong>Defense:</strong> European rearmament narrative reinforced despite the Iran-deal peace dividend. EUR faces continued geopolitical risk discount vs. USD. Wheat futures may see volatility on continued Black Sea shipping route threats. Ukrainian sovereign bonds remain deeply distressed.<br/><br/>
+            <strong style="color: #22c55e;">&#9650; UP:</strong> Rheinmetall (RHM.DE), BAE Systems (BA.L), Thales (HO.PA), Leonardo (LDO.MI) &mdash; European defense rearmament &bull; LMT, RTX, NOC &mdash; munitions and air defense demand &bull; Wheat and grain futures sensitive to Black Sea disruption<br/>
+            <strong style="color: #ef4444;">&#9660; DOWN:</strong> European airlines with Eastern European routes &bull; Ukrainian sovereign debt &bull; Euro under mild pressure
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 3: EU-UKRAINE ACCESSION ===================== -->
+    <!-- ===================== EVENT 3: PENTAGON BLACKLISTS ALIBABA, BYD, BAIDU ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">3</span>
-          <span style="color: #666; font-size: 11px;">Europe / Diplomacy / Integration &mdash; June 3</span>
+          <span style="color: #666; font-size: 11px;">US-China / Trade / Technology &mdash; June 9&ndash;15</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">EU Unanimously Approves Ukraine &amp; Moldova Accession Talks After Hungary Lifts Two-Year Veto</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Pentagon Blacklists 188 Chinese Firms Including Alibaba, BYD, and Baidu as &ldquo;Chinese Military Companies&rdquo;</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          All <strong>27 EU member states</strong> agreed to open the <strong>first cluster of accession negotiations</strong> with Ukraine and Moldova after Hungary&rsquo;s Prime Minister <strong>Peter Magyar</strong> reached a deal with Kyiv on Hungarian minority rights, ending a <strong>two-year veto</strong>. The formal intergovernmental conference is expected on <strong>June 15 in Luxembourg</strong>.
+          The US Department of Defense designated <strong>188 Chinese companies</strong> as &ldquo;Chinese Military Companies&rdquo; under Section 1260H of the NDAA, up from 134 the prior year. The most significant additions include <strong>Alibaba</strong> (China&rsquo;s largest e-commerce company), <strong>BYD</strong> (the world&rsquo;s largest EV maker), <strong>Baidu</strong> (China&rsquo;s leading search/AI company), <strong>NIO</strong> (EV maker), and <strong>WuXi AppTec</strong> (pharmaceutical services).
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          This marks a historic step &mdash; the first negotiation cluster covers <strong>rule of law, human rights, and judiciary</strong>, beginning a process spanning 33 chapters across six clusters. While full membership remains years away, the political signal is significant: the EU is committing to an institutional path for Ukraine&rsquo;s integration, reducing long-term geopolitical uncertainty in Eastern Europe and signaling sustained reconstruction investment.
+          Starting <strong>June 30, 2026</strong>, the DoD is prohibited from direct contracts with these companies, with indirect procurement bans via third parties beginning June 2027. Alibaba denied military ties and threatened legal action; BYD called the designation unjustified. This represents a <strong>dramatic escalation of US-China economic decoupling</strong>, moving beyond chip restrictions to target mainstream consumer-facing companies. The timing &mdash; days before an expected Trump-Xi meeting &mdash; suggests it may also function as a negotiating lever.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Bonds:</strong> Ukrainian Eurobonds likely to tighten (lower yields/higher prices) on EU integration momentum. Euro mildly supportive. European natural gas futures could ease on reduced Eastern European uncertainty. Hungarian forint stabilizing on reduced diplomatic friction.<br/><br/>
-            <strong style="color: #22c55e;">&#9650; UP:</strong> IEUR (iShares Europe ETF) &bull; HEDJ (WisdomTree Europe Hedged Equity) &bull; Rheinmetall (RHM.DE), BAE Systems (BA.L), Leonardo (LDO.MI) &mdash; European defense &bull; Holcim (HOLN.SW), Vinci (DG.PA) &mdash; Ukraine reconstruction plays &bull; OTP Bank (OTP.BD) &mdash; reduced Hungarian diplomatic isolation
+            <strong>China equities:</strong> Hang Seng Tech Index under pressure. Chinese ADRs in US markets fell: BIDU -2.1%, BABA -0.8%, BYDDY -0.8%. USD/CNY may face upward pressure (weaker yuan). Partially offset in broader markets by the Iran deal rally.<br/><br/>
+            <strong style="color: #ef4444;">&#9660; DOWN:</strong> BABA/9988.HK (Alibaba) &bull; BIDU/9888.HK (Baidu) &bull; 1211.HK/BYDDY (BYD, down 37% over 12 months) &bull; NIO/9866.HK &bull; WuXi AppTec (2359.HK) &bull; KWEB (China internet ETF)<br/>
+            <strong style="color: #22c55e;">&#9650; UP:</strong> TSLA, RIVN (rival Western EV makers benefit from supply chain diversion) &bull; AMZN, MSFT (cloud computing alternatives to Alibaba) &bull; Western pharma services firms
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 4: BROADCOM SELLOFF ===================== -->
+    <!-- ===================== EVENT 4: SWITZERLAND REJECTS POPULATION CAP ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">4</span>
-          <span style="color: #666; font-size: 11px;">Global / Technology / Semiconductors &mdash; June 3&ndash;4</span>
+          <span style="color: #666; font-size: 11px;">Europe / Politics / Immigration &mdash; June 14&ndash;15</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Broadcom Plunges 12&ndash;14% Post-Earnings, Triggering Global Semiconductor Selloff Across U.S., Asia, and Europe</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Switzerland Rejects Right-Wing Population Cap 55&ndash;45%: EU Free Movement Preserved, Business Groups Relieved</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Broadcom shares <strong>plunged 12&ndash;14%</strong> after its Q2 FY2026 earnings report despite <strong>record revenue of $22.19 billion (+48% YoY)</strong> and AI semiconductor revenue of <strong>$10.8 billion (+143% YoY)</strong>. The selloff was triggered by Q3 AI chip revenue guidance of <strong>$16 billion &mdash; roughly $1.2 billion below analyst models</strong> &mdash; and CEO Hock Tan&rsquo;s decision to merely reiterate (not raise) the FY2027 AI semiconductor target of $100+ billion.
+          Swiss voters rejected the <strong>&ldquo;No to Ten Million Switzerland&rdquo; initiative</strong> by 55% to 45% in a closely watched referendum. The initiative, championed by the <strong>Swiss People&rsquo;s Party (SVP)</strong>, would have capped permanent residents at 10 million by 2050. Had the population reached 9.5 million before then, the government would have been forced to restrict asylum, family reunification, and residency permits &mdash; and potentially <strong>scrap Switzerland&rsquo;s bilateral agreement with the EU on free movement</strong>.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Macquarie <strong>downgraded AVGO to Neutral</strong> with a target cut to $437 from $513. The ripple effect spread globally: the <strong>Nasdaq fell 0.89%</strong>, <strong>KOSPI dropped 1.84%</strong>, <strong>Nikkei 225 fell 1.36%</strong>, and semiconductor names were hit across every major market. The selloff raises questions about whether AI chip demand growth is decelerating or simply being re-baselined after a historic run.
+          The Swiss business community had been vocal in opposition, warning of severe <strong>labor shortages and economic damage</strong>. A &ldquo;yes&rdquo; vote would have threatened the entire Switzerland-EU bilateral framework and cut off Switzerland&rsquo;s largest trading partner. The vote is a bellwether for the broader European immigration debate &mdash; the 45% &ldquo;yes&rdquo; vote shows anti-immigration sentiment remains potent even as economic arguments prevail. SVP president Marcel Dettling noted the initiative was popular in rural areas but defeated by urban voters.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Indices:</strong> S&amp;P 500 -0.74%, Nasdaq -0.89%, KOSPI -1.84%, Nikkei -1.36%. Risk-off tone modestly supportive of Treasuries. Mild pressure on high-beta currencies (KRW, TWD).<br/><br/>
-            <strong style="color: #ef4444;">&#9660; DOWN:</strong> AVGO (Broadcom, -12&ndash;14%) &bull; NVDA (NVIDIA, sympathy selling) &bull; AMD (AI chip peer) &bull; TSM (Taiwan Semi) &bull; SK Hynix (000660.KS, -2.63%) &bull; SOXX (semiconductor ETF) &bull; SMH (VanEck Semi ETF) &bull; MRVL (Marvell, AI networking peer) &bull; CRWD (CrowdStrike, separate post-earnings weakness)
+            <strong>Swiss franc:</strong> CHF stability preserved (EUR/CHF at 0.9187). A &ldquo;yes&rdquo; vote would have caused significant franc volatility and capital flight concerns. SMI index relieved. Swiss GDP outlook still constrained at 0.9% (down from 1.2%) due to US tariffs (39% rate) and franc strength, but the vote avoids an additional self-inflicted wound.<br/><br/>
+            <strong style="color: #22c55e;">&#9650; UP:</strong> Nestl&eacute; (NESN.SW), Novartis (NOVN.SW), Roche (ROG.SW), UBS (UBSG.SW), ABB (ABBN.SW) &mdash; all depend on EU labor mobility &bull; Swiss hospitality/tourism sector avoids seasonal labor disruption<br/>
+            <strong>Neutral:</strong> Broader European markets unaffected; status quo preserved
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 5: NEW DELHI HOTEL FIRE ===================== -->
+    <!-- ===================== EVENT 5: ISRAEL-HEZBOLLAH ESCALATION ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">5</span>
-          <span style="color: #666; font-size: 11px;">South Asia / Safety / Hospitality &mdash; June 3</span>
+          <span style="color: #666; font-size: 11px;">Middle East / Security / Diplomacy &mdash; June 14&ndash;15</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Deadly New Delhi Hotel Fire Kills 21 &mdash; Mostly Foreign Nationals &mdash; Exposing India&rsquo;s Building Safety Crisis</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Israel Strikes Beirut, Hezbollah Launches Drones at Northern Israel Hours Before Iran Deal &mdash; Ceasefire Fragility Exposed</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          A fire at the <strong>Flourish Inn Stay hotel</strong> in southern Delhi&rsquo;s Malviya Nagar neighborhood killed at least <strong>21 people</strong>, including <strong>18 foreign nationals from Bangladesh, Nigeria, Mozambique, and Liberia</strong>. The fire started around 8:50 a.m. on June 3 in the ground-floor restaurant and spread rapidly through the five-story building.
+          In a dangerous escalation that nearly derailed the US-Iran peace framework, <strong>Hezbollah launched multiple attack drones into northern Israel</strong> on June 14 (four since Friday, with one shot down). Hours later, <strong>Israel struck a Hezbollah command center in Beirut&rsquo;s Dahiyeh district</strong>, confirmed by PM Netanyahu and Defense Minister Katz. Iran vowed the Israeli strike &ldquo;would not go unanswered.&rdquo;
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          A preliminary investigation found the hotel had <strong>no valid fire safety certificate</strong>, only one exit, and lacked proper ventilation. More than <strong>40 people were rescued</strong>, with some jumping from upper floors. The tragedy is expected to trigger tightened fire safety and building code enforcement across India&rsquo;s hospitality sector, increasing compliance costs for budget hotels and potentially dampening foreign tourist confidence in the near term.
+          The exchange occurred just hours before the US-Iran MOU was announced, raising critical questions about whether the ceasefire framework can hold. <strong>Israel has stated it will not withdraw from Lebanon</strong> despite the agreement, and Israeli forces currently occupy roughly <strong>one-fifth of Lebanese territory</strong>. Defense Minister Katz declared Israel plans to stay &ldquo;indefinitely&rdquo; in lands it holds in Lebanon, Syria, and Gaza. This is the critical fault line in the broader Iran deal &mdash; if Israel-Hezbollah hostilities cannot be contained within the 60-day ceasefire window, the Strait of Hormuz reopening and its positive economic effects could be reversed.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Sector-specific, not macro.</strong> Indian hospitality and tourism sentiment negative. INR mildly pressured if foreign tourist confidence drops. Likely tightening of fire safety/building codes &mdash; compliance costs for the sector.<br/><br/>
-            <strong style="color: #ef4444;">&#9660; DOWN:</strong> Indian Hotels Company (INDHOTEL.NS &mdash; Tata Group, regulatory scrutiny) &bull; Lemon Tree Hotels (LEMONTREE.NS &mdash; budget segment faces safety scrutiny) &bull; EIH Ltd (EIH.NS &mdash; Oberoi Hotels, broader sentiment)<br/>
-            <strong style="color: #22c55e;">&#9650; UP:</strong> Indian fire safety equipment makers and building compliance firms could benefit from expected regulatory tightening<br/>
-            <strong>Neutral:</strong> INDA (iShares India ETF &mdash; tragedy is sector-specific)
+            <strong>Risk premium:</strong> Oil futures through Feb 2027 remain ~$80, suggesting markets are not fully pricing in durable peace. Israeli shekel (ILS) under pressure from continued security spending. TA-35 mixed &mdash; relief from Iran deal offset by Lebanon front risk. Lebanese pound remains in deep crisis.<br/><br/>
+            <strong style="color: #22c55e;">&#9650; UP:</strong> ESLT (Elbit Systems &mdash; Iron Dome, anti-drone demand) &bull; RTX (Raytheon &mdash; Iron Dome component supplier) &bull; Insurance/reinsurance firms benefiting from elevated war risk premiums in Eastern Mediterranean<br/>
+            <strong style="color: #ef4444;">&#9660; DOWN:</strong> Regional airlines/shipping with Lebanese/Israeli airspace exposure &bull; Israeli consumer stocks facing security-spending crowding out
           </p>
         </div>
       </div>
@@ -175,59 +176,63 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #7c3aed; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Key Takeaway &mdash; Portfolio Positioning</p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Energy remains the dominant macro driver.</strong> The Strait of Hormuz closure continues to structurally support crude above $95. The Israel-Lebanon ceasefire is fragile &mdash; any collapse will send oil higher. Energy longs (XLE, COP, XOM) remain well-supported while airlines and consumer discretionary face persistent headwinds. Gold&rsquo;s safe-haven bid is intact.
+        <strong style="color: #fff;">The Iran deal is the dominant macro catalyst &mdash; but execution risk is enormous.</strong> Oil crashing 5% in a single session has flipped the energy trade &mdash; airlines and consumer discretionary are surging while oil majors and defense stocks give back geopolitical premium. However, the 60-day ceasefire window is fragile: Israel-Hezbollah hostilities are ongoing, mines remain in the Strait, and full oil flow normalization is months away. Oil futures beyond Q3 staying near $80 show the market is hedging against deal collapse.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">The AI chip narrative is being stress-tested.</strong> Broadcom&rsquo;s selloff despite 143% AI revenue growth signals that markets are now pricing perfection. The global semiconductor contagion (Korea, Japan, Taiwan, Europe) shows how interconnected chip supply chains are. Watch for dip-buying in NVDA and TSM if the selloff is contained.
+        <strong style="color: #fff;">US-China decoupling just widened dramatically.</strong> The Pentagon blacklisting Alibaba, BYD, and Baidu moves beyond semiconductors into mainstream consumer companies. This creates opportunities for Western competitors (Tesla, Amazon, Microsoft) but introduces supply chain uncertainty for companies dependent on Chinese partners. The 188-company list forces European and Asian allies to choose sides.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        <strong style="color: #fff;">Europe and Korea offer medium-term opportunities.</strong> EU-Ukraine accession reduces Eastern European political risk and supports European defense and infrastructure names. South Korea&rsquo;s election mandate reinforces the &ldquo;Korea discount&rdquo; rerating &mdash; EWY is attractive on pullbacks. India&rsquo;s hospitality sector faces near-term regulatory headwinds but the macro story is unaffected.
+        <strong style="color: #fff;">Central bank week ahead is pivotal.</strong> The Bank of Japan is expected to hike to 1% (highest since 1995) on June 15&ndash;16 despite Governor Ueda&rsquo;s absence due to hospitalization. The US Fed decision follows mid-week. Lower oil prices from the Iran deal provide central banks breathing room on inflation, but the yen&rsquo;s weakness and persistent core inflation complicate the picture. Watch USD/JPY closely as the BOJ moves.
       </p>
     </div>
 
     <!-- ===================== MARKET SNAPSHOT ===================== -->
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
-      <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Market Snapshot &mdash; June 4, 2026</p>
+      <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Market Snapshot &mdash; June 15, 2026</p>
       <table cellpadding="0" cellspacing="0" border="0" style="width: 100%; font-size: 12px;">
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">S&amp;P 500</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-0.74%</td>
+          <td style="color: #22c55e; text-align: right; padding: 6px 0;">7,554.29 (+1.65%)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">Nasdaq</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-0.89%</td>
+          <td style="color: #888; padding: 6px 0;">Nasdaq Composite</td>
+          <td style="color: #22c55e; text-align: right; padding: 6px 0;">26,683.94 (+3.07%)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">Dow Jones</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-1.21%</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">KOSPI</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-1.84%</td>
+          <td style="color: #22c55e; text-align: right; padding: 6px 0;">51,671.03 (+0.92%)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">Nikkei 225</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-1.36%</td>
+          <td style="color: #22c55e; text-align: right; padding: 6px 0;">69,317.50 (+5.5%)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">CAC 40</td>
-          <td style="color: #22c55e; text-align: right; padding: 6px 0;">+1.2%</td>
+          <td style="color: #888; padding: 6px 0;">KOSPI</td>
+          <td style="color: #22c55e; text-align: right; padding: 6px 0;">+5.7%</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">DAX</td>
-          <td style="color: #22c55e; text-align: right; padding: 6px 0;">+0.6%</td>
+          <td style="color: #888; padding: 6px 0;">TAIEX (Taiwan)</td>
+          <td style="color: #22c55e; text-align: right; padding: 6px 0;">+2.7%</td>
+        </tr>
+        <tr style="border-bottom: 1px solid #222;">
+          <td style="color: #888; padding: 6px 0;">ASX 200</td>
+          <td style="color: #22c55e; text-align: right; padding: 6px 0;">+1.5%</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">Brent Crude</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">$96.25 (-1.6%)</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">$82.80 (-5.19%)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">WTI Crude</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">$94.73 (-1.3%)</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">$80.20 (-5.51%)</td>
+        </tr>
+        <tr style="border-bottom: 1px solid #222;">
+          <td style="color: #888; padding: 6px 0;">Heating Oil</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-17%</td>
         </tr>
         <tr>
-          <td style="color: #888; padding: 6px 0;">U.S. 10Y Yield</td>
-          <td style="color: #ccc; text-align: right; padding: 6px 0;">4.49%</td>
+          <td style="color: #888; padding: 6px 0;">EUR/CHF</td>
+          <td style="color: #ccc; text-align: right; padding: 6px 0;">0.9187</td>
         </tr>
       </table>
     </div>
@@ -236,7 +241,7 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Sources</p>
       <p style="color: #888; font-size: 11px; line-height: 1.8; margin: 0;">
-        Euronews &bull; CNBC &bull; Al Jazeera &bull; The Irish Times &bull; FDD Overnight Brief &bull; Jerusalem Post &bull; Korea Times &bull; Yahoo Finance &bull; TradingKey &bull; UNITED24 Media &bull; CBS News &bull; Morgan Stanley &bull; Schwab Market Update &bull; Barchart &bull; GuruFocus &bull; ETF Trends &bull; Rio Times
+        Al Jazeera &bull; CNBC &bull; TheStreet &bull; CBC News &bull; TechTimes &bull; Trading Economics &bull; PBS News &bull; Bloomberg &bull; NPR &bull; Kyiv Independent &bull; CNN &bull; US News &bull; The Japan Times &bull; Newsweek &bull; Havana Times &bull; Schwab Market Update &bull; South China Morning Post &bull; Epoch Times &bull; Euronews
       </p>
     </div>
 
@@ -253,8 +258,6 @@ const html = `
   </div>
 </div>`;
 
-import { execSync } from 'node:child_process';
-
 const useTestingMode = RESEND_KEY && !process.env.RESEND_DOMAIN_VERIFIED;
 const recipients = useTestingMode ? TESTING_RECIPIENTS : RECIPIENTS;
 
@@ -266,19 +269,18 @@ const payload = JSON.stringify({
 });
 
 try {
-  const result = execSync(
-    `curl -s -w "\\n%{http_code}" --connect-timeout 30 -X POST https://api.resend.com/emails ` +
-    `-H "Content-Type: application/json" ` +
-    `-H "Authorization: Bearer ${RESEND_KEY}" ` +
-    `-d @-`,
-    { input: payload, encoding: 'utf8', timeout: 60000 },
-  );
-  const lines = result.trim().split('\n');
-  const httpCode = lines.pop();
-  const body = lines.join('\n');
+  const res = await fetch('https://api.resend.com/emails', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${RESEND_KEY}`,
+    },
+    body: payload,
+  });
+  const body = await res.text();
 
-  if (!httpCode.startsWith('2')) {
-    console.error(`Resend API error ${httpCode}: ${body}`);
+  if (!res.ok) {
+    console.error(`Resend API error ${res.status}: ${body}`);
     process.exit(1);
   }
 
