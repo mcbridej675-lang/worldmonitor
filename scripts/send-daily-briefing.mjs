@@ -47,125 +47,126 @@ const html = `
       <p style="font-size: 12px; color: #888; margin: 8px 0 0;">Geopolitics &bull; Markets &bull; Equities &bull; Commodities &bull; Risk Assessment</p>
     </div>
 
-    <!-- ===================== EVENT 1: ISRAEL-LEBANON CEASEFIRE ===================== -->
+    <!-- ===================== EVENT 1: US-IRAN ROADMAP DEAL ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">1</span>
-          <span style="color: #666; font-size: 11px;">Middle East / Geopolitics / Energy &mdash; June 3</span>
+          <span style="color: #666; font-size: 11px;">Middle East / Geopolitics / Energy &mdash; June 22</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Israel-Lebanon Ceasefire Brokered But Immediately Tested; Iran Suspends Peace Talks as Regional War Escalates</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">US-Iran &ldquo;Roadmap&rdquo; Deal Agreed at Burgenstock &mdash; Oil Prices Plunge as Strait of Hormuz Reopening Priced In</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The U.S. brokered a <strong>conditional renewal of the Israel-Lebanon ceasefire</strong> on June 3, tying implementation to Hezbollah&rsquo;s full cessation of attacks and the creation of pilot security zones in southern Lebanon. However, <strong>Hezbollah rejected the pact</strong>, and both Israeli forces and Hezbollah launched strikes just hours after the announcement. The ceasefire remains fragile at best.
+          After talks at Switzerland&rsquo;s Burgenstock resort mediated by <strong>Qatar and Pakistan</strong>, US and Iranian officials agreed on a <strong>60-day &ldquo;roadmap&rdquo; toward a final peace deal</strong>. The US Treasury issued a temporary 60-day general license authorizing the production, delivery, and sale of Iranian oil. This follows the US-Iran conflict that began in late February 2026 and sent oil prices soaring by over 50%.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Separately, <strong>Iranian strikes on Kuwait</strong> injured dozens and killed one person, further destabilizing the Gulf. Iran has <strong>suspended indirect peace talks</strong> with the U.S., while Trump claimed a deal could still be reached by the weekend. The Strait of Hormuz closure &mdash; ongoing since late February &mdash; continues to disrupt <strong>~20% of global oil supply</strong>, keeping crude prices elevated near $96&ndash;97/barrel despite the ceasefire-driven dip.
+          The announcement came despite President Trump threatening to &ldquo;hit Iran very hard again&rdquo; during negotiations, which briefly rattled markets before the positive outcome was confirmed. The prospective <strong>reopening of the Strait of Hormuz</strong> &mdash; which carries ~20% of global oil supply &mdash; is being priced in aggressively. Analysts warn markets may be &ldquo;front-running&rdquo; the best-case scenario; any breakdown in the 60-day window would cause a violent snap-back in crude prices.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Oil:</strong> Brent crude dipped ~1.6% to $96.25 on ceasefire headlines but remains structurally elevated. WTI fell ~1.3% to $94.73. <strong>Gold</strong> holds safe-haven bid. U.S. 10Y yield at 4.49%, 30Y at 5.05% &mdash; yields rose on oil-driven inflation fears. European indices rallied (CAC 40 +1.2%, DAX +0.6%); U.S. indices fell (S&amp;P 500 -0.74%, Dow -1.21%).<br/><br/>
-            <strong style="color: #22c55e;">&#9650; UP:</strong> USO (oil ETF, +89.5% YTD) &bull; XOP (oil &amp; gas E&amp;P, +29.9% YTD) &bull; XLE (energy sector, +28.3% YTD) &bull; COP, XOM, CVX (oil majors) &bull; ITA, PPA (defense ETFs)<br/>
-            <strong style="color: #ef4444;">&#9660; DOWN:</strong> UAL, DAL, AAL (airlines &mdash; fuel cost pressure) &bull; Consumer discretionary broadly (inflation headwinds)
+            <strong>Oil:</strong> Brent crude fell 3.31% to $77.90/barrel; WTI fell 2.32% to $74.82 &mdash; approaching pre-conflict levels. Oil is now only ~7% above pre-February 28 levels. Massive relief rally in energy-consuming sectors.<br/><br/>
+            <strong style="color: #ef4444;">&#9660; DOWN:</strong> XOM (ExxonMobil) &bull; CVX (Chevron) &bull; SHEL (Shell) &bull; BP &bull; TTE (TotalEnergies) &bull; USO (oil ETF) &bull; XLE (energy sector) &bull; FRO (Frontline, tankers) &bull; EURN (Euronav)<br/>
+            <strong style="color: #22c55e;">&#9650; UP:</strong> DAL, UAL, AAL (airlines &mdash; fuel cost relief) &bull; FDX (FedEx) &bull; Consumer discretionary broadly &bull; Airline &amp; transport ETFs (JETS)
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 2: SOUTH KOREA ELECTIONS ===================== -->
+    <!-- ===================== EVENT 2: UK PM STARMER RESIGNS ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">2</span>
-          <span style="color: #666; font-size: 11px;">East Asia / Politics / Equities &mdash; June 3&ndash;4</span>
+          <span style="color: #666; font-size: 11px;">Europe / Politics / Currencies &mdash; June 22</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">South Korea Local Elections: Ruling Party Wins Landslide 12 of 16 Races; KOSPI Falls 1.84% on Reopening</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">UK Prime Minister Keir Starmer Resigns &mdash; Britain&rsquo;s 7th Leader in a Decade; Sterling Nears 2026 Low</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          South Korea&rsquo;s ruling <strong>Democratic Party won 12 of 16 metropolitan mayor/governor races</strong> in the June 3 local elections, reinforcing President <strong>Lee Jae-myung&rsquo;s</strong> reform mandate. The opposition <strong>People Power Party held the crucial Seoul mayorship</strong>, preventing a total sweep. Markets were closed on election day; the KOSPI had hit a record closing high of <strong>8,801.49</strong> on Tuesday &mdash; up roughly threefold in one year under President Lee.
+          British Prime Minister <strong>Keir Starmer announced his resignation</strong> on June 22, less than two years after winning a landslide election. The resignation followed months of internal Labour Party pressure after the party <strong>lost over 1,000 seats in May local council elections</strong> amid the rapid rise of the far-right <strong>Reform UK</strong> party. <strong>Andy Burnham</strong>, the popular ex-mayor of Greater Manchester who recently returned to Parliament, is the frontrunner to replace him.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          On Thursday&rsquo;s reopening, the <strong>KOSPI dropped 1.84%</strong> as global risk-off sentiment and the Broadcom-led semiconductor selloff overshadowed the election results. The ruling party&rsquo;s strong showing is <strong>medium-term bullish</strong> for Korean equities &mdash; Lee&rsquo;s corporate governance reforms and the &ldquo;Korea discount&rdquo; rerating thesis remain intact, with continued policy continuity now assured.
+          Nominations open July 9, close July 16, with a new leader expected by September 1. Former Health Secretary <strong>Wes Streeting backed Burnham</strong> rather than challenging him. The pound sterling slipped to <strong>$1.3181</strong> against the US dollar, approaching its 2026 low of $1.3159. The political instability raises questions about UK fiscal policy continuity and investor confidence in British assets.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Indices:</strong> KOSPI -1.84% on June 4 (catch-up to global risk-off). Korean won under mild pressure but structurally supported by capital inflows. Korean government bonds stable; election mandate supports continued fiscal and reform spending.<br/><br/>
-            <strong style="color: #ef4444;">&#9660; SHORT-TERM DOWN:</strong> Samsung Electronics (005930.KS, -2.5%) &bull; SK Hynix (000660.KS, -2.63%) &bull; LG Electronics (066570.KS, -16.43%)<br/>
-            <strong style="color: #22c55e;">&#9650; MEDIUM-TERM UP:</strong> EWY (iShares Korea ETF &mdash; policy continuity) &bull; FLKR (Franklin Korea ETF &mdash; Korea rerating story intact)
+            <strong>Currency:</strong> GBP/USD slipped to $1.3181, nearing 2026 low ($1.3159). 10-year gilt yield edged higher to 4.85%, reflecting fiscal uncertainty. FTSE 100 +0.4% (weak pound benefits international earners); FTSE 250 -0.3% (domestic exposure).<br/><br/>
+            <strong style="color: #ef4444;">&#9660; DOWN:</strong> BDEV.L (Barratt, homebuilder) &bull; PSN.L (Persimmon) &bull; LLOY.L (Lloyds) &bull; NWG.L (NatWest) &bull; EWU (iShares UK ETF) &bull; FLGB (Franklin UK ETF) &bull; GBP/USD, GBP/EUR pairs<br/>
+            <strong style="color: #22c55e;">&#9650; UP:</strong> ULVR.L (Unilever &mdash; weak pound tailwind) &bull; AZN (AstraZeneca) &bull; SHEL (Shell &mdash; USD earner) &bull; FTSE 100 multinationals broadly
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 3: EU-UKRAINE ACCESSION ===================== -->
+    <!-- ===================== EVENT 3: EUROPE HEAT DOME ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">3</span>
-          <span style="color: #666; font-size: 11px;">Europe / Diplomacy / Integration &mdash; June 3</span>
+          <span style="color: #666; font-size: 11px;">Europe / Climate / Energy &mdash; June 21&ndash;22</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">EU Unanimously Approves Ukraine &amp; Moldova Accession Talks After Hungary Lifts Two-Year Veto</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Record-Breaking Heat Dome Engulfs Europe &mdash; 26 Countries on Alert, French Power Prices Surge 8.1%</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          All <strong>27 EU member states</strong> agreed to open the <strong>first cluster of accession negotiations</strong> with Ukraine and Moldova after Hungary&rsquo;s Prime Minister <strong>Peter Magyar</strong> reached a deal with Kyiv on Hungarian minority rights, ending a <strong>two-year veto</strong>. The formal intergovernmental conference is expected on <strong>June 15 in Luxembourg</strong>.
+          Europe is experiencing its <strong>second heat dome in two months</strong>, with <strong>26 countries issuing heat alerts</strong> from Ireland to Greece. Temperatures are exceeding <strong>40&deg;C (104&deg;F)</strong> across France, Spain, and the Iberian Peninsula. France has issued a <strong>red alert</strong>, banned public alcohol consumption at festivals, and closed over <strong>800 schools</strong>. The UK is forecast to reach 39&deg;C on Wednesday, potentially smashing the all-time June record of 35.6&deg;C set in 1976.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          This marks a historic step &mdash; the first negotiation cluster covers <strong>rule of law, human rights, and judiciary</strong>, beginning a process spanning 33 chapters across six clusters. While full membership remains years away, the political signal is significant: the EU is committing to an institutional path for Ukraine&rsquo;s integration, reducing long-term geopolitical uncertainty in Eastern Europe and signaling sustained reconstruction investment.
+          <strong>M&eacute;t&eacute;o France</strong> warned this heatwave could surpass the deadly August 2003 event that killed nearly 15,000 people. The heat dome is supported by a developing <strong>El Ni&ntilde;o</strong>. French month-ahead power prices surged <strong>8.1% to &euro;68.95/MWh</strong>, the highest for this time of year since 2023. Soaring river temperatures threaten to curtail nuclear power generation &mdash; France depends heavily on nuclear &mdash; while increased cooling demand strains grids across the continent.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Bonds:</strong> Ukrainian Eurobonds likely to tighten (lower yields/higher prices) on EU integration momentum. Euro mildly supportive. European natural gas futures could ease on reduced Eastern European uncertainty. Hungarian forint stabilizing on reduced diplomatic friction.<br/><br/>
-            <strong style="color: #22c55e;">&#9650; UP:</strong> IEUR (iShares Europe ETF) &bull; HEDJ (WisdomTree Europe Hedged Equity) &bull; Rheinmetall (RHM.DE), BAE Systems (BA.L), Leonardo (LDO.MI) &mdash; European defense &bull; Holcim (HOLN.SW), Vinci (DG.PA) &mdash; Ukraine reconstruction plays &bull; OTP Bank (OTP.BD) &mdash; reduced Hungarian diplomatic isolation
+            <strong>Power:</strong> French month-ahead power prices +8.1% to &euro;68.95/MWh. Agricultural commodity futures under upward pressure. Insurance claims for heat-related damage expected to rise. Nuclear curtailment risk in France could further tighten European energy supply.<br/><br/>
+            <strong style="color: #22c55e;">&#9650; UP:</strong> CARR (Carrier Global &mdash; cooling demand) &bull; JCI (Johnson Controls) &bull; 6367.T (Daikin &mdash; HVAC) &bull; VIE.PA (Veolia &mdash; water) &bull; SVT.L (Severn Trent) &bull; DBA (agriculture ETF &mdash; food price inflation)<br/>
+            <strong style="color: #ef4444;">&#9660; DOWN:</strong> EDF.PA (EDF &mdash; nuclear curtailment risk) &bull; ALV.DE (Allianz &mdash; insurance claims) &bull; CS.PA (AXA) &bull; MUV2.DE (Munich Re) &bull; European agriculture-exposed equities
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 4: BROADCOM SELLOFF ===================== -->
+    <!-- ===================== EVENT 4: CHINA SANCTIONS US FIRMS ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">4</span>
-          <span style="color: #666; font-size: 11px;">Global / Technology / Semiconductors &mdash; June 3&ndash;4</span>
+          <span style="color: #666; font-size: 11px;">Asia-Pacific / Trade / Defense &mdash; June 22</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Broadcom Plunges 12&ndash;14% Post-Earnings, Triggering Global Semiconductor Selloff Across U.S., Asia, and Europe</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">China Imposes Sweeping Sanctions on US Defense &amp; Rare Earth Firms &mdash; Retaliating for Alibaba/Baidu Blacklisting</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Broadcom shares <strong>plunged 12&ndash;14%</strong> after its Q2 FY2026 earnings report despite <strong>record revenue of $22.19 billion (+48% YoY)</strong> and AI semiconductor revenue of <strong>$10.8 billion (+143% YoY)</strong>. The selloff was triggered by Q3 AI chip revenue guidance of <strong>$16 billion &mdash; roughly $1.2 billion below analyst models</strong> &mdash; and CEO Hock Tan&rsquo;s decision to merely reiterate (not raise) the FY2027 AI semiconductor target of $100+ billion.
+          Beijing escalated US-China tensions by imposing <strong>export restrictions on 10 US military-linked firms</strong> and barring government purchases from <strong>46 American companies</strong>. The sanctioned firms include drone makers, aerospace firms, and critically, rare earth producers <strong>MP Materials and USA Rare Earth</strong>. MP Materials operates the <strong>only active rare earth mine in the United States</strong>.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Macquarie <strong>downgraded AVGO to Neutral</strong> with a target cut to $437 from $513. The ripple effect spread globally: the <strong>Nasdaq fell 0.89%</strong>, <strong>KOSPI dropped 1.84%</strong>, <strong>Nikkei 225 fell 1.36%</strong>, and semiconductor names were hit across every major market. The selloff raises questions about whether AI chip demand growth is decelerating or simply being re-baselined after a historic run.
+          Subsidiaries of <strong>Lockheed Martin, Raytheon (RTX), and General Dynamics</strong> were barred from Chinese government procurement. This was in direct retaliation for Washington adding Chinese tech giants <strong>Alibaba and Baidu</strong> to its list of military-linked firms. While analysts view the measures as &ldquo;largely symbolic&rdquo; since most targeted US firms have limited China exposure, the <strong>rare earth restrictions are the most consequential element</strong> &mdash; China dominates global rare earth supply, essential for defense, semiconductors, EVs, and wind turbines.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Indices:</strong> S&amp;P 500 -0.74%, Nasdaq -0.89%, KOSPI -1.84%, Nikkei -1.36%. Risk-off tone modestly supportive of Treasuries. Mild pressure on high-beta currencies (KRW, TWD).<br/><br/>
-            <strong style="color: #ef4444;">&#9660; DOWN:</strong> AVGO (Broadcom, -12&ndash;14%) &bull; NVDA (NVIDIA, sympathy selling) &bull; AMD (AI chip peer) &bull; TSM (Taiwan Semi) &bull; SK Hynix (000660.KS, -2.63%) &bull; SOXX (semiconductor ETF) &bull; SMH (VanEck Semi ETF) &bull; MRVL (Marvell, AI networking peer) &bull; CRWD (CrowdStrike, separate post-earnings weakness)
+            <strong>Sectors:</strong> Rare earth supply chain uncertainty elevated. Defense primes face symbolic but headline-moving sanctions. Tit-for-tat escalation adds broad risk premium to US-China exposed names.<br/><br/>
+            <strong style="color: #ef4444;">&#9660; DOWN:</strong> MP (MP Materials &mdash; directly sanctioned) &bull; RCAT (Red Cat Holdings) &bull; BABA (Alibaba &mdash; US blacklist) &bull; BIDU (Baidu) &bull; LMT (Lockheed Martin) &bull; RTX (Raytheon) &bull; GD (General Dynamics) &bull; LHX (L3Harris) &bull; OSK (Oshkosh)<br/>
+            <strong style="color: #22c55e;">&#9650; UP:</strong> LYC.AX (Lynas Rare Earths &mdash; alternative supplier) &bull; REMX (VanEck Rare Earth ETF &mdash; supply scarcity premium) &bull; ITA (US Aerospace &amp; Defense ETF &mdash; domestic spending narrative intact)
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 5: NEW DELHI HOTEL FIRE ===================== -->
+    <!-- ===================== EVENT 5: COLOMBIA ELECTION ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">5</span>
-          <span style="color: #666; font-size: 11px;">South Asia / Safety / Hospitality &mdash; June 3</span>
+          <span style="color: #666; font-size: 11px;">Latin America / Politics / Energy &mdash; June 21</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Deadly New Delhi Hotel Fire Kills 21 &mdash; Mostly Foreign Nationals &mdash; Exposing India&rsquo;s Building Safety Crisis</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Colombia Elects Far-Right President Abelardo de la Espriella &mdash; Latin America&rsquo;s Rightward Shift Deepens; Peso Surges</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          A fire at the <strong>Flourish Inn Stay hotel</strong> in southern Delhi&rsquo;s Malviya Nagar neighborhood killed at least <strong>21 people</strong>, including <strong>18 foreign nationals from Bangladesh, Nigeria, Mozambique, and Liberia</strong>. The fire started around 8:50 a.m. on June 3 in the ground-floor restaurant and spread rapidly through the five-story building.
+          Far-right lawyer and businessman <strong>Abelardo de la Espriella</strong>, nicknamed &ldquo;El Tigre,&rdquo; narrowly won Colombia&rsquo;s presidential runoff on June 21 with <strong>49.7% versus leftist Ivan Cepeda&rsquo;s 48.7%</strong>. Endorsed by President Trump, the political newcomer has pledged to launch military offensives against guerrilla groups on his first day in office, restart oil exploration, allow fracking to nearly <strong>double production to 1.3 million barrels/day</strong>, and reverse outgoing President Petro&rsquo;s moratorium on new hydrocarbon and mining contracts.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          A preliminary investigation found the hotel had <strong>no valid fire safety certificate</strong>, only one exit, and lacked proper ventilation. More than <strong>40 people were rescued</strong>, with some jumping from upper floors. The tragedy is expected to trigger tightened fire safety and building code enforcement across India&rsquo;s hospitality sector, increasing compliance costs for budget hotels and potentially dampening foreign tourist confidence in the near term.
+          The razor-thin margin means the <strong>official manual count is still underway</strong> and no final result has been certified. The Colombian peso has been the <strong>strongest-performing Latin American currency in 2026</strong> on expectations of a pro-business outcome. Colombia&rsquo;s main stock index jumped the most in over six years after de la Espriella&rsquo;s first-round win in late May. His pro-fracking, pro-mining platform is bullish for energy and extractive sectors, but the narrow margin creates short-term uncertainty.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Sector-specific, not macro.</strong> Indian hospitality and tourism sentiment negative. INR mildly pressured if foreign tourist confidence drops. Likely tightening of fire safety/building codes &mdash; compliance costs for the sector.<br/><br/>
-            <strong style="color: #ef4444;">&#9660; DOWN:</strong> Indian Hotels Company (INDHOTEL.NS &mdash; Tata Group, regulatory scrutiny) &bull; Lemon Tree Hotels (LEMONTREE.NS &mdash; budget segment faces safety scrutiny) &bull; EIH Ltd (EIH.NS &mdash; Oberoi Hotels, broader sentiment)<br/>
-            <strong style="color: #22c55e;">&#9650; UP:</strong> Indian fire safety equipment makers and building compliance firms could benefit from expected regulatory tightening<br/>
-            <strong>Neutral:</strong> INDA (iShares India ETF &mdash; tragedy is sector-specific)
+            <strong>Currency:</strong> Colombian peso (COP) strongest-performing LatAm currency in 2026. Stock index at multi-year highs. Pro-business, pro-energy mandate supports foreign investment thesis. Narrow margin and uncertified result create short-term volatility risk.<br/><br/>
+            <strong style="color: #22c55e;">&#9650; UP:</strong> EC (Ecopetrol &mdash; fracking reversal, state oil co.) &bull; GXG (Global X Colombia ETF) &bull; ILF (iShares LatAm 40 ETF) &bull; HAL (Halliburton &mdash; fracking services) &bull; SLB (Schlumberger) &bull; BKR (Baker Hughes) &bull; Colombian peso (COP)<br/>
+            <strong style="color: #ef4444;">&#9660; RISK:</strong> Short-term volatility if manual recount is contested &bull; Security sector spending increase could pressure Colombian fiscal balance
           </p>
         </div>
       </div>
@@ -175,68 +176,82 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #7c3aed; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Key Takeaway &mdash; Portfolio Positioning</p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Energy remains the dominant macro driver.</strong> The Strait of Hormuz closure continues to structurally support crude above $95. The Israel-Lebanon ceasefire is fragile &mdash; any collapse will send oil higher. Energy longs (XLE, COP, XOM) remain well-supported while airlines and consumer discretionary face persistent headwinds. Gold&rsquo;s safe-haven bid is intact.
+        <strong style="color: #fff;">The oil trade is unwinding &mdash; fast.</strong> The US-Iran 60-day roadmap is the most consequential macro event today. Brent crude crashing to $77.90 reverses months of conflict-premium pricing. Energy longs (XLE, XOM, CVX) are under severe pressure, while airlines (DAL, UAL) and consumer discretionary finally catch a bid. However, the 60-day timeline leaves room for a snap-back &mdash; position sizing matters.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">The AI chip narrative is being stress-tested.</strong> Broadcom&rsquo;s selloff despite 143% AI revenue growth signals that markets are now pricing perfection. The global semiconductor contagion (Korea, Japan, Taiwan, Europe) shows how interconnected chip supply chains are. Watch for dip-buying in NVDA and TSM if the selloff is contained.
+        <strong style="color: #fff;">Political instability is the theme across developed markets.</strong> Starmer&rsquo;s resignation makes Britain the poster child for political volatility &mdash; 7 PMs in a decade. Sterling weakness benefits FTSE 100 multinationals but domestic UK names (homebuilders, banks) face headwinds. Watch the gilt market for signs of broader fiscal concern.
+      </p>
+      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
+        <strong style="color: #fff;">Climate and geopolitical supply chains are the slow-burn risks.</strong> Europe&rsquo;s heat dome is pushing power prices higher and threatening nuclear generation &mdash; cooling stocks (CARR, JCI) are the play. China&rsquo;s rare earth sanctions on MP Materials highlight the fragility of critical mineral supply chains &mdash; Lynas (LYC.AX) is the beneficiary as the non-China alternative.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        <strong style="color: #fff;">Europe and Korea offer medium-term opportunities.</strong> EU-Ukraine accession reduces Eastern European political risk and supports European defense and infrastructure names. South Korea&rsquo;s election mandate reinforces the &ldquo;Korea discount&rdquo; rerating &mdash; EWY is attractive on pullbacks. India&rsquo;s hospitality sector faces near-term regulatory headwinds but the macro story is unaffected.
+        <strong style="color: #fff;">Latin America&rsquo;s rightward shift continues.</strong> Colombia&rsquo;s election cements a regionwide pro-business political trend. Ecopetrol (EC) and oil services names (HAL, SLB) are the direct plays on Colombia&rsquo;s fracking restart. The peso&rsquo;s rally may have further to run if the result is certified cleanly.
       </p>
     </div>
 
     <!-- ===================== MARKET SNAPSHOT ===================== -->
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
-      <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Market Snapshot &mdash; June 4, 2026</p>
+      <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Market Snapshot &mdash; ${today}</p>
       <table cellpadding="0" cellspacing="0" border="0" style="width: 100%; font-size: 12px;">
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">S&amp;P 500</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-0.74%</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">7,472.79 (-0.37%)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">Nasdaq</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-0.89%</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-1.32%</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">Dow Jones</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-1.21%</td>
+          <td style="color: #888; padding: 6px 0;">FTSE 100</td>
+          <td style="color: #22c55e; text-align: right; padding: 6px 0;">+0.4%</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">KOSPI</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-1.84%</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">Nikkei 225</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-1.36%</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">CAC 40</td>
-          <td style="color: #22c55e; text-align: right; padding: 6px 0;">+1.2%</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">DAX</td>
-          <td style="color: #22c55e; text-align: right; padding: 6px 0;">+0.6%</td>
+          <td style="color: #888; padding: 6px 0;">FTSE 250</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-0.3%</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">Brent Crude</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">$96.25 (-1.6%)</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">$77.90 (-3.31%)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">WTI Crude</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">$94.73 (-1.3%)</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">$74.82 (-2.32%)</td>
+        </tr>
+        <tr style="border-bottom: 1px solid #222;">
+          <td style="color: #888; padding: 6px 0;">GBP/USD</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">$1.3181</td>
+        </tr>
+        <tr style="border-bottom: 1px solid #222;">
+          <td style="color: #888; padding: 6px 0;">UK 10Y Gilt</td>
+          <td style="color: #ccc; text-align: right; padding: 6px 0;">4.85%</td>
+        </tr>
+        <tr style="border-bottom: 1px solid #222;">
+          <td style="color: #888; padding: 6px 0;">EU Power (FR month-ahead)</td>
+          <td style="color: #22c55e; text-align: right; padding: 6px 0;">&euro;68.95/MWh (+8.1%)</td>
         </tr>
         <tr>
-          <td style="color: #888; padding: 6px 0;">U.S. 10Y Yield</td>
-          <td style="color: #ccc; text-align: right; padding: 6px 0;">4.49%</td>
+          <td style="color: #888; padding: 6px 0;">Colombian Peso (COP)</td>
+          <td style="color: #22c55e; text-align: right; padding: 6px 0;">Strongest LatAm FX 2026</td>
         </tr>
       </table>
+    </div>
+
+    <!-- ===================== NOTABLE MENTIONS ===================== -->
+    <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
+      <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Also on the Radar</p>
+      <p style="color: #bbb; font-size: 12px; line-height: 1.8; margin: 0;">
+        &bull; <strong>Alan Greenspan</strong>, former Federal Reserve Chair, died at age 100<br/>
+        &bull; <strong>Ethiopia:</strong> PM Abiy Ahmed re-elected after Prosperity Party won 438/501 parliamentary seats; voting disrupted in Amhara, Oromia, absent in Tigray<br/>
+        &bull; <strong>SpaceX</strong> fell 16% for a third straight daily decline<br/>
+        &bull; <strong>Alphabet (GOOGL)</strong> dropped 5% on AI talent departure concerns
+      </p>
     </div>
 
     <!-- Sources -->
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Sources</p>
       <p style="color: #888; font-size: 11px; line-height: 1.8; margin: 0;">
-        Euronews &bull; CNBC &bull; Al Jazeera &bull; The Irish Times &bull; FDD Overnight Brief &bull; Jerusalem Post &bull; Korea Times &bull; Yahoo Finance &bull; TradingKey &bull; UNITED24 Media &bull; CBS News &bull; Morgan Stanley &bull; Schwab Market Update &bull; Barchart &bull; GuruFocus &bull; ETF Trends &bull; Rio Times
+        Al Jazeera &bull; BBC News &bull; Bloomberg &bull; CNBC &bull; CNN &bull; Euronews &bull; IBTimes UK &bull; Investing.com &bull; NBC News &bull; NPR &bull; Reuters &bull; Rio Times &bull; TheStreet
       </p>
     </div>
 
