@@ -30,6 +30,9 @@ const today = new Date().toLocaleDateString('en-US', {
   weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
 });
 
+const sectionStyle = `background: #111; border: 1px solid #1a1a1a; padding: 20px;`;
+const impactBoxStyle = `background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;`;
+
 const html = `
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 720px; margin: 0 auto; background: #0a0a0a; color: #e0e0e0; padding: 0;">
   <div style="background: linear-gradient(90deg, #1e40af, #7c3aed, #dc2626); height: 4px;"></div>
@@ -50,236 +53,312 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #7c3aed; padding: 16px 20px; margin-bottom: 24px;">
       <p style="font-size: 11px; color: #666; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 4px;">${today}</p>
       <p style="font-size: 20px; font-weight: 700; color: #fff; margin: 0;">Okinawa, Japan &mdash; 24-Hour Intelligence Summary</p>
-      <p style="font-size: 12px; color: #888; margin: 8px 0 0;">Military &bull; Geopolitics &bull; Regional Security &bull; Base Operations &bull; Weather</p>
+      <p style="font-size: 12px; color: #888; margin: 8px 0 0;">Military &bull; Geopolitics &bull; Regional Security &bull; Government &bull; Weather</p>
     </div>
 
-    <!-- ===================== ITEM 1: MADIS/NMESIS DELIVERY ===================== -->
+    <!-- ========== FLASH: TCCOR 2 ========== -->
     <div style="margin-bottom: 24px;">
-      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+      <div style="background: #1a0505; border: 2px solid #dc2626; padding: 20px;">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">FLASH</span>
+          <span style="color: #ef4444; font-size: 11px; font-weight: 700;">WEATHER / FORCE PROTECTION &mdash; June 25, 0700L</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">TCCOR 2 Set Across All Okinawa Installations &mdash; Tropical Storm Mekkhala Approaching</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          All U.S. military bases on Okinawa entered <strong style="color: #ef4444;">Tropical Cyclone Condition of Readiness (TCCOR) 2</strong> at 0700 Thursday, June 25, anticipating destructive winds of 58+ mph within 24 hours. <strong>Tropical Storm Mekkhala</strong> (downgraded from typhoon; previously reached Category 4 on June 22) is projected to pass <strong>42 miles west-northwest of Kadena Air Base around 0500 Friday</strong> with sustained winds of 60 mph and gusts reaching 75 mph. Central pressure: 975 hPa.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          <strong>Seas:</strong> Waves forecast at 5 meters (Wed), <strong>7 meters (23 ft) Thursday&ndash;Friday</strong> with swells. <strong>Rainfall:</strong> Up to 60mm in 24h ending June 26; additional 150mm the following 24h. <strong>Aviation:</strong> ANA canceled 22 flights; JAL canceled 11; JAL Group Okinawa carriers canceled 43 flights. MCAS Futenma Osprey flights canceled Thursday. Camp Foster is sandbagging warehouse entrances. This is the <strong>second tropical storm this month</strong> (Typhoon Jangmi struck June 1, grounding 400+ flights).
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          <strong style="color: #f59e0b;">Second Storm Tracking:</strong> Tropical Storm Higos (No. 8) is tracking toward eastern Japan later this week. Forecasters are monitoring the possibility that <strong>Mekkhala and Higos could merge south of Honshu</strong>, potentially producing additional heavy rain and rough seas through the weekend.
+        </p>
+      </div>
+    </div>
+
+    <!-- ========== SECTION: MILITARY / DEFENSE ========== -->
+    <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #dc2626; padding: 12px 20px; margin-bottom: 4px;">
+      <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 2px; margin: 0; font-weight: 800;">Section I &mdash; Military &amp; Defense</p>
+    </div>
+
+    <!-- 1: NMESIS/MADIS -->
+    <div style="margin-bottom: 2px;">
+      <div style="${sectionStyle}">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">1</span>
-          <span style="color: #666; font-size: 11px;">Military / Force Posture / Indo-Pacific &mdash; June 23</span>
+          <span style="color: #666; font-size: 11px;">Force Posture / Indo-Pacific &mdash; June 23</span>
         </div>
         <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">12th Marine Littoral Regiment Receives First NMESIS &amp; MADIS Platforms on Okinawa</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The <strong>12th Marine Littoral Regiment, 3rd Marine Division</strong> formally received Okinawa&rsquo;s first <strong>Navy-Marine Expeditionary Ship Interdiction System (NMESIS)</strong> and <strong>Marine Air Defense Integrated System (MADIS)</strong> on June 23. NMESIS is a ground-based anti-ship platform featuring a <strong>Naval Strike Missile mounted on a Joint Light Tactical Vehicle (JLTV)</strong>, enabling semi-autonomous and fully autonomous launches for coastal sea-denial operations.
+          The <strong>12th Marine Littoral Regiment, 3rd Marine Division</strong> formally received Okinawa&rsquo;s first <strong>NMESIS</strong> (Navy-Marine Expeditionary Ship Interdiction System) and <strong>MADIS</strong> (Marine Air Defense Integrated System) on June 23. NMESIS mounts a <strong>Naval Strike Missile (115+ mi range) on a JLTV</strong> for semi-autonomous and fully autonomous anti-ship strikes. MADIS is a dual-JLTV system with <strong>360&deg; radar, EW suite, multi-Stinger missiles, and 30mm cannon</strong> for counter-UAS and low-altitude air defense.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          MADIS is a highly mobile dual-vehicle system on JLTVs: one vehicle provides <strong>360-degree radar and electronic warfare</strong> for counter-UAS detection; the second carries <strong>multi-Stinger missiles, a 30mm cannon, and EW systems</strong> to engage helicopters, fixed-wing aircraft, and small drones. In May 2026, the 3rd MLR deployed NMESIS across multiple Philippine islands during <strong>Balikatan 26</strong>, conducting dry-fire missions in the Batanes Islands while demonstrating MADIS against quadcopters and fixed-wing drones in Zambales.
+          The 3rd MLR (Hawaii) previously deployed both systems during <strong>Balikatan 26</strong> in May, conducting dry-fire missions in the Philippine Batanes Islands and engaging drones in Zambales. The 12th MLR is the <strong>second unit service-wide</strong> to receive these platforms, marking a <strong>major Force Design 2030 milestone</strong> &mdash; Okinawa-based Marines now have organic stand-off anti-ship and layered air defense capability purpose-built for First Island Chain warfare.
         </p>
-        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Significance</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            This delivery represents a <strong>major milestone in the Marine Corps&rsquo; Force Design 2030 transformation</strong>, giving Okinawa-based forces stand-off anti-ship and layered air defense capability for the first time. These systems are purpose-built for contested island-chain warfare in the First Island Chain. The 12th MLR is the second unit service-wide (after Hawaii&rsquo;s 3rd MLR) to receive these platforms, underscoring the Indo-Pacific&rsquo;s priority status.
-          </p>
-        </div>
       </div>
     </div>
 
-    <!-- ===================== ITEM 2: CHINA CARRIER TAIWAN STRAIT ===================== -->
-    <div style="margin-bottom: 24px;">
-      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+    <!-- 2: RESOLUTE DRAGON -->
+    <div style="margin-bottom: 2px;">
+      <div style="${sectionStyle}">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">2</span>
-          <span style="color: #666; font-size: 11px;">Geopolitics / Regional Security / Taiwan Strait &mdash; June 23</span>
+          <span style="color: #666; font-size: 11px;">Exercises / U.S.-Japan Alliance &mdash; June 20&ndash;30</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Exercise Resolute Dragon 26 Underway &mdash; III MEF &amp; JGSDF Across Kyushu and Nansei Islands</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          <strong>Resolute Dragon 26</strong> (June 20&ndash;30) is underway between III MEF and Japan Ground Self-Defense Force. U.S. participants include <strong>3rd Marine Division, 3rd MEB, 1st MAW, 12th MLR, U.S. Army 3rd Multi-Domain Task Force, 7th Fleet elements, and 18th Wing (Kadena)</strong>. Training spans JGSDF bases in <strong>Oita, Saga, Kumamoto, and Kagoshima prefectures</strong> on Kyushu, plus <strong>Tokuno and Amami Oshima islands</strong>.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          A JGSDF V-22 Osprey was planned to airlift a mock patient from Miyako Island to MCAS Futenma, but <strong>Osprey flights were canceled Thursday due to Typhoon Mekkhala</strong>; Friday&ndash;Monday operations are under review. The storm may disrupt the exercise&rsquo;s final phase. Concurrently, <strong>Exercise Valiant Shield 26</strong> (June 22 &ndash; July 1) is running in the Marianas/Guam with U.S., Japan, Canada, New Zealand, and Australia &mdash; notably featuring the <strong>Boeing MQ-28 Ghost Bat</strong> collaborative combat aircraft integrating with allied forces for the first time.
+        </p>
+      </div>
+    </div>
+
+    <!-- 3: FREEDOM BANNER -->
+    <div style="margin-bottom: 2px;">
+      <div style="${sectionStyle}">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">3</span>
+          <span style="color: #666; font-size: 11px;">HA/DR / Logistics &mdash; June 24</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Exercise Freedom Banner: III MEF Demonstrates HA/DR Readiness at Kin Blue Beach Between Storms</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          III MEF and <strong>Maritime Pre-Positioning Ship Squadron 3</strong> conducted Exercise Freedom Banner at Kin Blue Beach on June 24. <strong>USNS 1st Lt. Jack Lummus</strong> (arrived June 13) provided equipment including tactical fuel distribution systems (<strong>two 50,000-gallon JP-8 bladders</strong>), lightweight reverse-osmosis water purifiers, medical capabilities, and food service. <strong>MWSS-172</strong> participated. This was the <strong>first Japan-based iteration</strong> of the exercise, strategically timed between Typhoon Jangmi (June 1) and approaching Mekkhala.
+        </p>
+      </div>
+    </div>
+
+    <!-- 4: 31ST MEU GAP -->
+    <div style="margin-bottom: 2px;">
+      <div style="${sectionStyle}">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">4</span>
+          <span style="color: #666; font-size: 11px;">Force Readiness / Indo-Pacific Gap &mdash; Ongoing</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">31st MEU Remains Deployed to Middle East &mdash; Commandant Acknowledges Indo-Pacific Gap &ldquo;Unfilled&rdquo;</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          The <strong>31st MEU (~2,500 Marines) and USS Tripoli ARG</strong> departed Okinawa on March 13 for the Middle East amid the Strait of Hormuz crisis. The unit arrived in CENTCOM AOR on March 27 and has been enforcing an Iranian port blockade since April 13. Marine Commandant <strong>Gen. Eric Smith testified before HASC</strong> that the resulting Indo-Pacific gap is <strong>&ldquo;unfilled.&rdquo;</strong> Kadena-based airmen are also deployed &ldquo;in harm&rsquo;s way&rdquo; for Iran operations, per Brig. Gen. Gallemore.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          <strong>Mitigation:</strong> USS Boxer ARG / 11th MEU from Camp Pendleton deployed ahead of schedule to 7th Fleet AOR. III MEF spokesman Maj. Jordan Fox stated Okinawa-based forces remain &ldquo;postured, lethal, and ready to fight tonight.&rdquo; <strong>No return date announced.</strong>
+        </p>
+      </div>
+    </div>
+
+    <!-- 5: CAMP HANSEN BARRACKS -->
+    <div style="margin-bottom: 2px;">
+      <div style="${sectionStyle}">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #1e40af; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">5</span>
+          <span style="color: #666; font-size: 11px;">Infrastructure / QoL &mdash; June 5</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">$320M &ldquo;Barracks of the Future&rdquo; Complex Opens at Camp Hansen &mdash; 1,096 Marines Get Private Rooms</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          Ribbon-cutting June 5 for Camp Hansen&rsquo;s new <strong>$320M bachelor enlisted quarters</strong>, Japan-funded under DPRI. Three buildings house <strong>1,096 Marines</strong> (through E-5). Each resident gets a <strong>private 155-sq-ft bedroom</strong> with personal sink; roommates share 710-sq-ft units with kitchen, bath, and laundry. Built by 15 local Okinawan companies. <strong>MajGen Brian Wolford</strong> (MCIPAC), <strong>Col. Joshua Mayoral</strong> (Camp Hansen CO), and <strong>Okinawa Defense Bureau Dir. Masaru Murai</strong> attended. Replaces six older barracks; <strong>11 additional buildings planned</strong> at Hansen and Camp Kinser.
+        </p>
+      </div>
+    </div>
+
+    <!-- 6: KADENA DEATH / F-15EX -->
+    <div style="margin-bottom: 24px;">
+      <div style="${sectionStyle}">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #1e40af; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">6</span>
+          <span style="color: #666; font-size: 11px;">Force Protection / Kadena AB &mdash; June 24</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Kadena Civilian Employee Dies in Snorkeling Incident; F-22 Raptors Remain on Station</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          A <strong>male civilian employee (40s)</strong> deployed to Kadena died after being swept away while snorkeling at <strong>Odo Coast, Itoman</strong> on June 24 in 8-foot waves. Recovered by helicopter after 1.5 hours. Pronounced dead at 6:58 p.m. Three companions escaped independently. Japan Coast Guard investigating. <strong>Brig. Gen. Gallemore:</strong> &ldquo;The 18th Wing is deeply saddened by this loss.&rdquo; <em>With Mekkhala approaching, heightened water safety awareness is critical.</em>
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          <strong>Kadena Air Posture:</strong> F-22 Raptors from the <strong>90th FS (JBER, Alaska) and 27th FS (Langley)</strong> deployed in early May (~12 aircraft). Kadena&rsquo;s permanent <strong>36 F-15EX Eagle IIs delayed to 2027</strong> due to 2025 Boeing strike. Continued rotational fighter deployments expected until delivery. <strong>18th AMXS activated May 15</strong> to strengthen maintenance capacity.
+        </p>
+      </div>
+    </div>
+
+    <!-- ========== SECTION: GEOPOLITICAL / SECURITY ========== -->
+    <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #f59e0b; padding: 12px 20px; margin-bottom: 4px;">
+      <p style="color: #f59e0b; font-size: 11px; text-transform: uppercase; letter-spacing: 2px; margin: 0; font-weight: 800;">Section II &mdash; Geopolitical &amp; Regional Security</p>
+    </div>
+
+    <!-- 7: CHINA CARRIER -->
+    <div style="margin-bottom: 2px;">
+      <div style="${sectionStyle}">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #f59e0b; color: #000; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">7</span>
+          <span style="color: #666; font-size: 11px;">Taiwan Strait / PLA Navy &mdash; June 23</span>
         </div>
         <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">China&rsquo;s Newest Aircraft Carrier Transits Taiwan Strait During Taiwan Military Exercises</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          China&rsquo;s newest and most powerful aircraft carrier <strong>sailed through the Taiwan Strait on June 23</strong>, the Taiwanese defense ministry confirmed. The transit came <strong>one day after Taiwan began a five-day military exercise</strong> simulating response to a Chinese attack &mdash; a provocative show of force that escalates already heightened cross-strait tensions.
+          China&rsquo;s newest and most powerful aircraft carrier <strong>sailed through the Taiwan Strait on June 23</strong>, one day after Taiwan began a five-day exercise simulating response to a Chinese attack. <strong>217 PLA incursions into Taiwan&rsquo;s ADIZ in May</strong> (down from 300+ monthly averages but still elevated). On June 7, Taiwan coast guard <strong>expelled four Chinese government ships</strong> from restricted waters off the island&rsquo;s southern tip.
         </p>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          This follows a pattern of intensifying PRC maritime operations around Taiwan. In early June (June 5&ndash;6), <strong>a China Coast Guard ship and PRC research vessel coordinated patrols</strong> near Taiwan&rsquo;s Pratas Island for the first time, with the CCG vessel circling Pratas twice during a 24-hour patrol. On June 11, two PRC government ships intruded into the waters of Taiwan&rsquo;s Itu Aba island in the South China Sea. Taiwan condemned both incidents as sovereignty violations.
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          <strong>Pratas Island:</strong> CCG vessel entered waters near Taiwan-controlled Pratas in late May, triggering a 30-hour standoff (May 23). CCG has made <strong>39 total incursions around Pratas since Feb 2025</strong>. <strong>Kinmen:</strong> Four CCG intrusions into Taiwan-administered waters in May (7th, 21st, 26th, 27th). <strong>Dutch Frigate Incident:</strong> PLA responded to HNLMS De Ruyter&rsquo;s FONOP near Paracels (May 28) with surface vessels, fighter aircraft, verbal warnings, and &mdash; for the first time publicly &mdash; <strong>electronic warfare jamming</strong>.
         </p>
-        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Okinawa Relevance</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Any escalation in the Taiwan Strait directly impacts Okinawa-based forces. MCAS Futenma, Kadena AB, and Camp Schwab would be critical staging points in a contingency. The carrier transit reinforces the urgency of the 12th MLR&rsquo;s NMESIS/MADIS fielding and Japan&rsquo;s own missile deployments on the southwestern islands. Okinawa is approximately <strong>400 miles from Taiwan</strong>.
-          </p>
-        </div>
       </div>
     </div>
 
-    <!-- ===================== ITEM 3: PRC BLOCKADE REHEARSAL ===================== -->
-    <div style="margin-bottom: 24px;">
-      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+    <!-- 8: BLOCKADE REHEARSAL -->
+    <div style="margin-bottom: 2px;">
+      <div style="${sectionStyle}">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">3</span>
-          <span style="color: #666; font-size: 11px;">Intelligence / Maritime / A2AD &mdash; June 6&ndash;10</span>
+          <span style="background: #f59e0b; color: #000; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">8</span>
+          <span style="color: #666; font-size: 11px;">Intelligence / A2AD / Maritime &mdash; June 6&ndash;10</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">PRC Conducts &ldquo;Special Maritime Law Enforcement Operation&rdquo; East of Taiwan &mdash; Assessed as Blockade Rehearsal</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">PRC &ldquo;Special Maritime Law Enforcement Operation&rdquo; East of Taiwan &mdash; Assessed as Blockade Rehearsal</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The PRC Ministry of Transport conducted a <strong>&ldquo;special maritime law enforcement operation east of Taiwan&rdquo;</strong> from June 6&ndash;10, involving at least <strong>three Maritime Safety Administration (MSA) vessels and one search-and-rescue ship</strong>, escorted by two China Coast Guard ships that had been patrolling since June 1. Ship tracking data showed PRC vessels asserting an EEZ extending <strong>200 nautical miles from Taiwan</strong>.
+          The PRC Ministry of Transport conducted a <strong>&ldquo;special maritime law enforcement operation east of Taiwan&rdquo;</strong> (June 6&ndash;10) with <strong>3 MSA vessels + 1 SAR ship, escorted by 2 CCG ships</strong> (on station since June 1). An MSA vessel <strong>hailed three passing commercial ships by radio</strong> to request voyage/crew info &mdash; consistent with quarantine enforcement practice. Ship tracking showed PRC asserting a <strong>200-nautical-mile EEZ from Taiwan</strong>.
         </p>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          An MSA vessel <strong>hailed three passing commercial ships by radio</strong> during the operation to request voyage and crew information &mdash; behavior consistent with quarantine enforcement practice. Two PRC research ships (<em>Jia Geng</em> and <em>Da Yang Hao</em>) simultaneously conducted <strong>surveys of the Gagua Ridge east of Taiwan</strong>, continuing dual-use undersea mapping that supports PLA submarine operations and navigation.
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          Two PRC research ships (<em>Jia Geng</em>, <em>Da Yang Hao</em>) conducted <strong>surveys of the Gagua Ridge</strong> east of Taiwan during the operation &mdash; dual-use undersea mapping supporting PLA submarine ops. AEI analysts assess this as <strong>practice for potential blockade enforcement using civilian agencies for legal cover</strong>. This directly threatens sea lines of communication critical to Japan and Okinawa&rsquo;s logistical sustainment.
         </p>
-        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Assessment</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            AEI analysts assess this operation as <strong>practice for potential blockade enforcement</strong>, with civilian MSA ships being used alongside armed CCG and PLA Navy vessels. The PRC is rehearsing a quarantine model using civilian agencies for legal cover. This directly threatens sea lines of communication critical to Japan and Okinawa&rsquo;s logistical sustainment.
-          </p>
-        </div>
       </div>
     </div>
 
-    <!-- ===================== ITEM 4: TYPHOON MEKKHALA ===================== -->
-    <div style="margin-bottom: 24px;">
-      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+    <!-- 9: SENKAKU / ECS -->
+    <div style="margin-bottom: 2px;">
+      <div style="${sectionStyle}">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #f59e0b; color: #000; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">4</span>
-          <span style="color: #666; font-size: 11px;">Weather / Force Protection / Operations &mdash; June 24&ndash;28</span>
+          <span style="background: #f59e0b; color: #000; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">9</span>
+          <span style="color: #666; font-size: 11px;">East China Sea / Senkakus &mdash; Ongoing</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Typhoon Mekkhala (No. 7) Bearing Down on Okinawa &mdash; 126 kph Winds, 7-Meter Seas Expected</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">China Coast Guard Maintains Near-Daily Senkaku Presence &mdash; All Vessels Now Armed with 76mm Guns</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          <strong>Typhoon Mekkhala (No. 7)</strong> is located south of Okinawa and moving slowly northward toward the Nansei Islands. The storm carries a central pressure of <strong>975 hPa</strong>, maximum sustained winds of <strong>126 kph (78 mph)</strong>, and gusts up to <strong>180 kph (112 mph)</strong>. It is expected to remain strong as it approaches Okinawa from Thursday through Saturday. Seas around Okinawa are forecast to reach <strong>7 meters (23 feet)</strong> by Thursday and Friday with accompanying swells.
+          CCG maintained presence near Senkaku Islands <strong>357 of 365 days in 2025</strong> (record). All four CCG vessels now equipped with <strong>deck-mounted 76mm autocannons</strong> since June 2024. China constructed <strong>three new oil/gas platforms</strong> in the ECS over the past year, drawing formal protests from Japan. <strong>Chinese maritime militia:</strong> 2,000+ fishing vessels assembled in organized formations in the ECS (Dec 25, 2025; 1,400 on Jan 14; largest in March during Iran crisis), positioned ~300 km from Taiwan.
         </p>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          This is the <strong>second typhoon to strike Okinawa in June</strong>. Typhoon No. 6 battered the island on June 1, grounding <strong>400+ flights</strong>, shutting down the Okinawa Urban Monorail, and suspending all ferry services between Okinawa Island, Miyakojima, and surrounding islands. Japan&rsquo;s 2026 typhoon season is forecast to produce <strong>~28 storms (above average)</strong>, with roughly 14 expected to approach the country. The U.S. Consulate in Naha issued a weather alert on May 31.
-        </p>
-        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Force Impact</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Expect <strong>TCCOR conditions</strong> to be set across Okinawa installations. Outdoor training, flight operations, and port calls may be suspended. Personnel should monitor base weather channels and secure outdoor equipment. This is the beginning of what forecasters predict will be an <strong>exceptionally active typhoon season</strong>.
-          </p>
-        </div>
       </div>
     </div>
 
-    <!-- ===================== ITEM 5: CAMP HANSEN BARRACKS ===================== -->
-    <div style="margin-bottom: 24px;">
-      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+    <!-- 10: DPRK -->
+    <div style="margin-bottom: 2px;">
+      <div style="${sectionStyle}">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #1e40af; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">5</span>
-          <span style="color: #666; font-size: 11px;">Base Operations / Infrastructure / QoL &mdash; June 5</span>
+          <span style="background: #f59e0b; color: #000; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">10</span>
+          <span style="color: #666; font-size: 11px;">DPRK / WMD &mdash; June 2&ndash;4</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">$320M &ldquo;Barracks of the Future&rdquo; Complex Opens at Camp Hansen &mdash; 1,096 Marines to Get Private Rooms</h3>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          A ribbon-cutting ceremony was held on June 5 for Camp Hansen&rsquo;s new <strong>$320 million bachelor enlisted quarters complex</strong>, funded by the Japanese government under the Defense Policy Review Initiative (DPRI). The three barracks buildings will house <strong>1,096 unaccompanied enlisted Marines through the rank of sergeant</strong>. Each resident receives a <strong>private 155-square-foot bedroom</strong> with personal sink; roommates share a 710-sq-ft unit with kitchen, restroom, shower, and washer/dryer.
-        </p>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          <strong>Maj. Gen. Brian Wolford</strong> (MCIPAC Commander), <strong>Col. Joshua Mayoral</strong> (Camp Hansen CO), and <strong>Okinawa Defense Bureau Director Masaru Murai</strong> attended with approximately 80 guests. Construction began March 2022 and involved 15 local Okinawan construction companies. This replaces six older barracks, with <strong>11 additional buildings planned</strong> at Hansen and Camp Kinser. Marines are expected to begin moving in next month.
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">North Korea Unveils Nuclear Fuel Plant; Kim Pledges &ldquo;Exponential&rdquo; Nuclear Expansion</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          Kim Jong Un visited a <strong>newly constructed nuclear weapon fuel production facility</strong> on June 3, with state media announcing plans to bolster nuclear forces <strong>&ldquo;at an exponential rate.&rdquo;</strong> This follows a <strong>modular missile live-fire test on June 2</strong> and multiple launches earlier in 2026 (January, April). Reuters documented expansion of nuclear missile facilities in Xinjiang with <strong>80+ launch pads</strong>; DoD assesses PRC on track for 1,000 warheads by 2030. Okinawa falls within range of DPRK medium- and intermediate-range ballistic missiles.
         </p>
       </div>
     </div>
 
-    <!-- ===================== ITEM 6: KADENA SNORKELING DEATH ===================== -->
+    <!-- 11: JAPAN DEFENSE -->
     <div style="margin-bottom: 24px;">
-      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+      <div style="${sectionStyle}">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #1e40af; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">6</span>
-          <span style="color: #666; font-size: 11px;">Force Protection / Safety / Kadena AB &mdash; June 24</span>
+          <span style="background: #f59e0b; color: #000; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">11</span>
+          <span style="color: #666; font-size: 11px;">Japan SDF / Defense Posture &mdash; Ongoing</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Kadena Air Base Civilian Employee Dies in Snorkeling Incident at Odo Coast, Itoman</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Japan Accelerating Southwest Island Defenses &mdash; Record $58B Budget, Yonaguni SAMs, Type 12 Deployed</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          A <strong>male civilian employee in his 40s</strong> deployed to Kadena Air Base died following a snorkeling incident at <strong>Odo Coast in Itoman city</strong>, southern Okinawa, on Tuesday, June 24. The individual was swept away while snorkeling with three companions in conditions including 8-foot waves. He was recovered by helicopter after 1.5 hours. The incident was reported at <strong>4:36 p.m.</strong>; he was pronounced dead at a local medical facility at <strong>6:58 p.m.</strong>
+          <strong>FY2026 defense budget: $58B (9.04T yen)</strong> &mdash; 12th consecutive record, up 3.8%. Includes 509B yen for integrated air/missile defense (SM-3 Block IIA, SM-6). <strong>Type 03 Chu-SAM</strong> missiles to deploy on Yonaguni Island (110 km from Taiwan) by FY2030. <strong>Upgraded Type 12 SSM</strong> (range: ~1,000 km, up from 100 km) deployed to Camp Kengun, Kyushu on March 31 &mdash; can reach China&rsquo;s coastline and North Korea.
         </p>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          <strong>Brig. Gen. John Gallemore</strong>, 18th Wing Commander, stated: &ldquo;The 18th Wing is deeply saddened by this loss and our thoughts remain with the family and loved ones.&rdquo; Name withheld pending family notification. Japan Coast Guard is investigating. <strong>Note:</strong> With Typhoon Mekkhala approaching and increasingly rough seas, heightened water safety awareness is critical.
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          <strong>15th Brigade (Naha HQ) upgrading to 15th Division</strong> to reinforce Nansei Islands rapid response. New <strong>$96M fighter aircraft shelter</strong> planned for Naha Air Base (counter-satellite surveillance). China condemned deployments as <strong>&ldquo;extremely dangerous&rdquo;</strong>; PM Takaichi previously stated Tokyo could use military force if China attacks Taiwan.
         </p>
       </div>
     </div>
 
-    <!-- ===================== ITEM 7: JAPAN MISSILE DEPLOYMENTS ===================== -->
+    <!-- ========== SECTION: GOVERNMENT / POLITICAL ========== -->
+    <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #7c3aed; padding: 12px 20px; margin-bottom: 4px;">
+      <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 2px; margin: 0; font-weight: 800;">Section III &mdash; Government &amp; Political</p>
+    </div>
+
+    <!-- 12: IREI NO HI -->
+    <div style="margin-bottom: 2px;">
+      <div style="${sectionStyle}">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #7c3aed; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">12</span>
+          <span style="color: #666; font-size: 11px;">Government / Community Relations &mdash; June 23</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Irei no Hi Memorial: 3,200 Gather; Governor Criticizes Base Burden; PM Heckled on Constitution</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          Approximately <strong>3,200 people</strong> gathered at Peace Memorial Park, Itoman for the <strong>81st anniversary of the Battle of Okinawa</strong>. <strong>Gov. Denny Tamaki</strong> criticized the &ldquo;heavy burden&rdquo; of U.S. bases and opposed Camp Schwab/Henoko construction. <strong>PM Sanae Takaichi</strong> pledged to &ldquo;consolidate, reduce and streamline U.S. military facilities&rdquo; but was <strong>disrupted by ~12 protesters</strong> shouting &ldquo;No war!&rdquo; and &ldquo;Don&rsquo;t change the constitution!&rdquo; &mdash; about five were removed. BGen Gallemore led ~50 service members in a separate U.S. ceremony.
+        </p>
+      </div>
+    </div>
+
+    <!-- 13: HENOKO -->
+    <div style="margin-bottom: 2px;">
+      <div style="${sectionStyle}">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #7c3aed; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">13</span>
+          <span style="color: #666; font-size: 11px;">Base Relocation / Infrastructure &mdash; June 17</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Henoko Land Reclamation Expanded; Pentagon Won&rsquo;t Return Futenma Without Long Runway</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          Japan&rsquo;s Defense Ministry <strong>began pouring earth in a new area east of Cape Henoko</strong> on June 17 for the Futenma Replacement Facility. Southern-side reclamation is nearly complete. Eastern-side work in Oura Bay delayed by soft undersea ground, requiring <strong>~71,000 sand piles</strong> driven into the seabed. FY2026 budget allocates <strong>$3.67B for USFJ projects</strong> including Henoko and Mageshima airfield. Okinawa Prefecture continues formal opposition.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          The Pentagon maintains it <strong>will not return MCAS Futenma</strong> unless a long runway is secured. Futenma&rsquo;s runway: ~2,700m; Henoko&rsquo;s two V-shaped runways: ~1,800m each. Construction projected through at least <strong>2033</strong>.
+        </p>
+      </div>
+    </div>
+
+    <!-- 14: SEXUAL ASSAULT -->
     <div style="margin-bottom: 24px;">
-      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+      <div style="${sectionStyle}">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #1e40af; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">7</span>
-          <span style="color: #666; font-size: 11px;">Defense / Japan SDF / Southwest Islands &mdash; Ongoing</span>
+          <span style="background: #7c3aed; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">14</span>
+          <span style="color: #666; font-size: 11px;">Community Relations / Legal &mdash; June 11</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Japan Accelerating Missile Deployments on Southwestern Islands &mdash; Yonaguni SAMs by 2030, Type 12 on Kyushu</h3>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Defense Minister <strong>Shinjiro Koizumi</strong> confirmed Japan will deploy <strong>Type 03 Chu-SAM medium-range surface-to-air missiles</strong> to Yonaguni Island &mdash; just <strong>110 km east of Taiwan</strong> &mdash; by fiscal 2030. Additionally, the upgraded <strong>Type 12 surface-to-ship missile</strong> (range extended from ~100 km to ~1,000 km) deployed to <strong>Camp Kengun on Kyushu on March 31</strong>. From Kyushu, the weapon can reach parts of China&rsquo;s coastline and North Korea.
-        </p>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          China condemned the deployments as <strong>&ldquo;extremely dangerous&rdquo;</strong> and &ldquo;a deliberate move that creates regional tensions.&rdquo; PM Sanae Takaichi previously stated Tokyo could use military force in the event of a Chinese attack on Taiwan. These deployments complement U.S. Marine NMESIS/MADIS capabilities, creating a <strong>layered allied anti-access network across the Nansei Islands chain</strong>.
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Sexual Assault Charges Against U.S. Soldier Dropped; USFJ Liberty Restrictions Remain</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          Naha prosecutors <strong>declined to charge a U.S. Army soldier</strong> (Echo Battery, 1-1 ADA, 38th ADA Brigade, Kadena) for alleged sexual assault (April incident). Dismissed June 11 without explanation; soldier fined ~$125 for traffic violation. At least two other sexual assault cases dropped in the past two years. USFJ liberty restrictions (off-base drinking ban 0100&ndash;0500) remain in effect since October 2024. A seven-year sentence was finalized in March for a Marine in a separate case.
         </p>
       </div>
     </div>
 
-    <!-- ===================== ITEM 8: NORTH KOREA ===================== -->
-    <div style="margin-bottom: 24px;">
-      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
-        <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #1e40af; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">8</span>
-          <span style="color: #666; font-size: 11px;">Regional Threat / DPRK / WMD &mdash; June 4</span>
-        </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">North Korea Unveils New Nuclear Fuel Production Plant; Kim Pledges &ldquo;Exponential&rdquo; Nuclear Expansion</h3>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Kim Jong Un visited a <strong>newly constructed facility to produce nuclear weapon fuel</strong> on June 3, with state media announcing plans to bolster the DPRK&rsquo;s nuclear forces <strong>&ldquo;at an exponential rate.&rdquo;</strong> This follows a live-fire test of a <strong>modular missile system on June 2</strong> and multiple missile launches earlier in 2026 (January and April), including ballistic missiles fired toward the Sea of Japan.
-        </p>
-        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Okinawa Relevance</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            Okinawa falls within range of DPRK medium- and intermediate-range ballistic missiles. Kadena AB and USMC installations would be key response nodes in a Korean Peninsula contingency. The nuclear fuel plant expansion increases the urgency of theater missile defense posture across the Nansei Islands.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- ===================== ITEM 9: FUTENMA/HENOKO ===================== -->
-    <div style="margin-bottom: 24px;">
-      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
-        <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #1e40af; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">9</span>
-          <span style="color: #666; font-size: 11px;">Base Operations / Government / Infrastructure &mdash; Ongoing</span>
-        </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Futenma Relocation Stalled: Pentagon Won&rsquo;t Return Base Without Long Runway at Henoko</h3>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The U.S. Department of Defense maintains it <strong>will not return MCAS Futenma&rsquo;s site</strong> unless a long runway is secured at the replacement facility. Futenma&rsquo;s runway is <strong>~2,700 meters</strong>; the two planned V-shaped Henoko runways will be only <strong>~1,800 meters each</strong>. Japan and the U.S. agreed the Marines would use a private-sector airport when a longer runway is needed, but the gap remains a key friction point. Construction continues with completion projected no earlier than <strong>2033</strong>.
-        </p>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Additionally, <strong>~2,200 Okinawa-based Marines were deployed to the Middle East</strong> in March 2026 amid ongoing Iran operations. Kadena-based airmen are also deployed &ldquo;in harm&rsquo;s way&rdquo; as part of operations against Iran, per 18th Wing Commander Brig. Gen. Gallemore. These deployments draw down Okinawa&rsquo;s operational readiness for Indo-Pacific contingencies.
-        </p>
-      </div>
-    </div>
-
-    <!-- ===================== ITEM 10: F-15EX UPDATE ===================== -->
-    <div style="margin-bottom: 24px;">
-      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
-        <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #1e40af; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">10</span>
-          <span style="color: #666; font-size: 11px;">Air Force / Kadena / Modernization &mdash; Ongoing</span>
-        </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">F-15EX Eagle II Delivery to Kadena Confirmed for 2027; Full Fleet by 2028&ndash;2029</h3>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The Air Force Secretary confirmed the <strong>first operational F-15EX Eagle II fighters will arrive at Kadena Air Base in 2027</strong>, with the full complement expected by 2028&ndash;2029. The Eagles will replace the aging F-15C/D fleet that has been drawn down, leaving Kadena without a permanently assigned fighter wing &mdash; a gap filled by rotational deployments. The F-15EX will restore Kadena&rsquo;s <strong>permanent air superiority capability</strong> in the Western Pacific.
-        </p>
-      </div>
-    </div>
-
-    <!-- ===================== KEY TAKEAWAY ===================== -->
-    <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #7c3aed; padding: 20px; margin-bottom: 24px;">
-      <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Key Takeaway &mdash; Operational Assessment</p>
-      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Okinawa&rsquo;s deterrence posture is being substantially upgraded.</strong> The NMESIS/MADIS delivery to the 12th MLR gives Okinawa-based Marines organic anti-ship and air defense capability for the first time, directly addressing the PLAN&rsquo;s growing maritime assertiveness. Combined with Japan&rsquo;s Type 12 deployments on Kyushu and planned Yonaguni SAMs, a layered allied denial network is taking shape across the Nansei Island chain.
+    <!-- ===================== KEY ASSESSMENTS ===================== -->
+    <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #22c55e; padding: 20px; margin-bottom: 24px;">
+      <p style="color: #22c55e; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 16px; font-weight: 700;">Key Assessments</p>
+      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+        <strong style="color: #fff;">1. Force Posture Gap vs. Capability Upgrade:</strong> The 31st MEU&rsquo;s continued Middle East deployment creates the most significant readiness concern for Okinawa-based forces. However, NMESIS/MADIS delivery to the 12th MLR and three concurrent exercises (Resolute Dragon, Valiant Shield, Freedom Banner) demonstrate sustained alliance commitment despite the gap.
       </p>
-      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">China is intensifying gray-zone operations around Taiwan.</strong> The carrier transit, Pratas patrols, and the &ldquo;maritime law enforcement operation&rdquo; east of Taiwan &mdash; assessed as a blockade rehearsal &mdash; represent a coordinated escalation using military, coast guard, and civilian maritime agencies. This multi-domain approach complicates attribution and response.
+      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+        <strong style="color: #fff;">2. China Escalation Pattern:</strong> The carrier transit, blockade rehearsal, Pratas patrols, armed CCG at Senkakus, maritime militia formations, and EW jamming of a Dutch frigate represent a <strong>coordinated multi-domain gray-zone escalation</strong> using military, coast guard, and civilian agencies. This complicates attribution and response thresholds.
+      </p>
+      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+        <strong style="color: #fff;">3. Allied Denial Network Taking Shape:</strong> NMESIS/MADIS on Okinawa + Type 12 on Kyushu + planned Yonaguni SAMs + Naha fighter shelter + 15th Division upgrade = a layered allied anti-access architecture across the Nansei Island chain. This is the most significant force posture change in the region in a decade.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        <strong style="color: #fff;">Near-term readiness concerns persist.</strong> The Middle East deployments of ~2,200 Marines and Kadena aircrews create a readiness gap for Indo-Pacific contingencies. Typhoon Mekkhala will further constrain operations this week. The Futenma relocation impasse and Kadena&rsquo;s fighter gap (until F-15EX arrives in 2027) remain unresolved structural vulnerabilities.
+        <strong style="color: #fff;">4. Near-Term Operational Risk:</strong> Typhoon Mekkhala (TCCOR 2) will constrain operations through the weekend. Combined with Resolute Dragon disruptions and the approaching second storm (Higos), expect reduced training tempo and possible TCCOR 1 escalation by Friday morning.
       </p>
     </div>
 
     <!-- ===================== WEATHER OUTLOOK ===================== -->
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
-      <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Okinawa Weather Outlook</p>
+      <p style="color: #ef4444; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Weather &amp; Seismic Outlook</p>
       <table cellpadding="0" cellspacing="0" border="0" style="width: 100%; font-size: 12px;">
         <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">Typhoon Mekkhala (No. 7)</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">Approaching &mdash; 126 kph sustained</td>
+          <td style="color: #888; padding: 6px 0;">TCCOR Status</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0; font-weight: 700;">TCCOR 2 &mdash; All Installations</td>
+        </tr>
+        <tr style="border-bottom: 1px solid #222;">
+          <td style="color: #888; padding: 6px 0;">TS Mekkhala (No. 7)</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">60 mph sustained / 75 mph gusts</td>
+        </tr>
+        <tr style="border-bottom: 1px solid #222;">
+          <td style="color: #888; padding: 6px 0;">Closest Approach</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">42 mi W-NW of Kadena ~0500 Fri</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">Wave Height (Thu&ndash;Fri)</td>
           <td style="color: #ef4444; text-align: right; padding: 6px 0;">7 meters (23 ft)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">Wind Gusts</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">Up to 180 kph (112 mph)</td>
+          <td style="color: #888; padding: 6px 0;">TS Higos (No. 8)</td>
+          <td style="color: #f59e0b; text-align: right; padding: 6px 0;">Tracking E. Japan &mdash; Possible Merge</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">Temperature Range</td>
+          <td style="color: #888; padding: 6px 0;">Temperature</td>
           <td style="color: #ccc; text-align: right; padding: 6px 0;">25&ndash;30&deg;C (77&ndash;86&deg;F)</td>
+        </tr>
+        <tr style="border-bottom: 1px solid #222;">
+          <td style="color: #888; padding: 6px 0;">Seismic (June)</td>
+          <td style="color: #ccc; text-align: right; padding: 6px 0;">M4.6 Miyakojima (22nd), M4.5 Yonaguni (13th)</td>
         </tr>
         <tr>
           <td style="color: #888; padding: 6px 0;">2026 Season Forecast</td>
@@ -292,13 +371,13 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Sources</p>
       <p style="color: #888; font-size: 11px; line-height: 1.8; margin: 0;">
-        Military Times &bull; Stars and Stripes &bull; Washington Times &bull; AEI China-Taiwan Update &bull; Japan Times &bull; Defense News &bull; NPR &bull; U.S. Embassy Japan &bull; News on Japan &bull; USNI News &bull; Newsweek &bull; The Diplomat &bull; Responsible Statecraft &bull; Tokyo Weekender &bull; PACOM Media
+        Stars and Stripes &bull; Military Times &bull; USNI News &bull; Defense News &bull; AEI China-Taiwan Update &bull; Japan Times &bull; Washington Times &bull; NPR &bull; DVIDSHUB &bull; Kadena AB Public Affairs &bull; PACOM Media &bull; U.S. Embassy Japan &bull; The Diplomat &bull; Newsweek &bull; Air &amp; Space Forces Magazine &bull; Naval News &bull; Reuters &bull; Weathernews &bull; Tokyo Weekender
       </p>
     </div>
 
     <div style="border-top: 1px solid #1a1a1a; padding-top: 20px; text-align: center;">
       <p style="font-size: 10px; color: #444; margin: 0 0 8px; line-height: 1.6;">
-        This briefing is for informational purposes only. Sources verified across multiple outlets where possible.<br/>
+        This briefing is compiled from open sources for informational purposes only. Sources verified across multiple outlets where possible.<br/>
         UNCLASSIFIED // FOR OFFICIAL USE ONLY
       </p>
       <p style="font-size: 10px; color: #555; margin: 0;">
@@ -338,6 +417,10 @@ try {
   const data = JSON.parse(body);
   console.log(`Email sent successfully to ${RECIPIENTS.join(', ')}`);
   console.log('Resend ID:', data.id);
+  if (useTestingMode) {
+    console.log(`\\nNote: Sent in testing mode to verified email only.`);
+    console.log(`Target recipients (requires verified domain): ${ALL_RECIPIENTS.join(', ')}`);
+  }
 } catch (err) {
   console.error('Failed to send email:', err.message);
   process.exit(1);
