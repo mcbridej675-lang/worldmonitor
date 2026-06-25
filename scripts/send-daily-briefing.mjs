@@ -1,18 +1,24 @@
 #!/usr/bin/env node
 /**
- * World Monitor — Global Daily Briefing Email Sender
+ * World Monitor — Okinawa Daily Intelligence Briefing Email Sender
  *
  * Usage:
  *   RESEND_API_KEY=re_xxxx node scripts/send-daily-briefing.mjs
  */
 
-const RECIPIENTS = [
+const VERIFIED_RECIPIENTS = [
   'johnmcbride2928@gmail.com',
 ];
 
-const TESTING_RECIPIENTS = [
-  'johnmcbride2928@gmail.com',
+const ALL_RECIPIENTS = [
+  'mcbridej675@gmail.com',
+  'john.mcbride.mil@usmc.mil',
+  'paul.foersch@usmc.mil',
 ];
+
+const useTestingMode = !process.env.RESEND_DOMAIN_VERIFIED;
+const RECIPIENTS = useTestingMode ? VERIFIED_RECIPIENTS : ALL_RECIPIENTS;
+
 const RESEND_KEY = process.env.RESEND_API_KEY;
 
 if (!RESEND_KEY) {
@@ -23,6 +29,9 @@ if (!RESEND_KEY) {
 const today = new Date().toLocaleDateString('en-US', {
   weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
 });
+
+const sectionStyle = `background: #111; border: 1px solid #1a1a1a; padding: 20px;`;
+const impactBoxStyle = `background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;`;
 
 const html = `
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 720px; margin: 0 auto; background: #0a0a0a; color: #e0e0e0; padding: 0;">
@@ -36,198 +45,324 @@ const html = `
         </td>
         <td style="padding-left: 10px;">
           <div style="font-size: 15px; font-weight: 800; color: #fff; letter-spacing: -0.5px;">WORLD MONITOR</div>
-          <div style="font-size: 9px; color: #666; text-transform: uppercase; letter-spacing: 2px;">Global Daily Intelligence Briefing</div>
+          <div style="font-size: 9px; color: #666; text-transform: uppercase; letter-spacing: 2px;">Okinawa Intelligence Briefing</div>
         </td>
       </tr>
     </table>
 
     <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #7c3aed; padding: 16px 20px; margin-bottom: 24px;">
       <p style="font-size: 11px; color: #666; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 4px;">${today}</p>
-      <p style="font-size: 20px; font-weight: 700; color: #fff; margin: 0;">Global Events &mdash; 24-Hour Market Intelligence</p>
-      <p style="font-size: 12px; color: #888; margin: 8px 0 0;">Geopolitics &bull; Markets &bull; Equities &bull; Commodities &bull; Risk Assessment</p>
+      <p style="font-size: 20px; font-weight: 700; color: #fff; margin: 0;">Okinawa, Japan &mdash; 24-Hour Intelligence Summary</p>
+      <p style="font-size: 12px; color: #888; margin: 8px 0 0;">Military &bull; Geopolitics &bull; Regional Security &bull; Government &bull; Weather</p>
     </div>
 
-    <!-- ===================== EVENT 1: ISRAEL-LEBANON CEASEFIRE ===================== -->
+    <!-- ========== FLASH: TCCOR 2 ========== -->
     <div style="margin-bottom: 24px;">
-      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+      <div style="background: #1a0505; border: 2px solid #dc2626; padding: 20px;">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">FLASH</span>
+          <span style="color: #ef4444; font-size: 11px; font-weight: 700;">WEATHER / FORCE PROTECTION &mdash; June 25, 0700L</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">TCCOR 2 Set Across All Okinawa Installations &mdash; Tropical Storm Mekkhala Approaching</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          All U.S. military bases on Okinawa entered <strong style="color: #ef4444;">Tropical Cyclone Condition of Readiness (TCCOR) 2</strong> at 0700 Thursday, June 25, anticipating destructive winds of 58+ mph within 24 hours. <strong>Tropical Storm Mekkhala</strong> (downgraded from typhoon; previously reached Category 4 on June 22) is projected to pass <strong>42 miles west-northwest of Kadena Air Base around 0500 Friday</strong> with sustained winds of 60 mph and gusts reaching 75 mph. Central pressure: 975 hPa.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          <strong>Seas:</strong> Waves forecast at 5 meters (Wed), <strong>7 meters (23 ft) Thursday&ndash;Friday</strong> with swells. <strong>Rainfall:</strong> Up to 60mm in 24h ending June 26; additional 150mm the following 24h. <strong>Aviation:</strong> ANA canceled 22 flights; JAL canceled 11; JAL Group Okinawa carriers canceled 43 flights. MCAS Futenma Osprey flights canceled Thursday. Camp Foster is sandbagging warehouse entrances. This is the <strong>second tropical storm this month</strong> (Typhoon Jangmi struck June 1, grounding 400+ flights).
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          <strong style="color: #f59e0b;">Second Storm Tracking:</strong> Tropical Storm Higos (No. 8) is tracking toward eastern Japan later this week. Forecasters are monitoring the possibility that <strong>Mekkhala and Higos could merge south of Honshu</strong>, potentially producing additional heavy rain and rough seas through the weekend.
+        </p>
+      </div>
+    </div>
+
+    <!-- ========== SECTION: MILITARY / DEFENSE ========== -->
+    <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #dc2626; padding: 12px 20px; margin-bottom: 4px;">
+      <p style="color: #dc2626; font-size: 11px; text-transform: uppercase; letter-spacing: 2px; margin: 0; font-weight: 800;">Section I &mdash; Military &amp; Defense</p>
+    </div>
+
+    <!-- 1: NMESIS/MADIS -->
+    <div style="margin-bottom: 2px;">
+      <div style="${sectionStyle}">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">1</span>
-          <span style="color: #666; font-size: 11px;">Middle East / Geopolitics / Energy &mdash; June 3</span>
+          <span style="color: #666; font-size: 11px;">Force Posture / Indo-Pacific &mdash; June 23</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Israel-Lebanon Ceasefire Brokered But Immediately Tested; Iran Suspends Peace Talks as Regional War Escalates</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">12th Marine Littoral Regiment Receives First NMESIS &amp; MADIS Platforms on Okinawa</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The U.S. brokered a <strong>conditional renewal of the Israel-Lebanon ceasefire</strong> on June 3, tying implementation to Hezbollah&rsquo;s full cessation of attacks and the creation of pilot security zones in southern Lebanon. However, <strong>Hezbollah rejected the pact</strong>, and both Israeli forces and Hezbollah launched strikes just hours after the announcement. The ceasefire remains fragile at best.
+          The <strong>12th Marine Littoral Regiment, 3rd Marine Division</strong> formally received Okinawa&rsquo;s first <strong>NMESIS</strong> (Navy-Marine Expeditionary Ship Interdiction System) and <strong>MADIS</strong> (Marine Air Defense Integrated System) on June 23. NMESIS mounts a <strong>Naval Strike Missile (115+ mi range) on a JLTV</strong> for semi-autonomous and fully autonomous anti-ship strikes. MADIS is a dual-JLTV system with <strong>360&deg; radar, EW suite, multi-Stinger missiles, and 30mm cannon</strong> for counter-UAS and low-altitude air defense.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Separately, <strong>Iranian strikes on Kuwait</strong> injured dozens and killed one person, further destabilizing the Gulf. Iran has <strong>suspended indirect peace talks</strong> with the U.S., while Trump claimed a deal could still be reached by the weekend. The Strait of Hormuz closure &mdash; ongoing since late February &mdash; continues to disrupt <strong>~20% of global oil supply</strong>, keeping crude prices elevated near $96&ndash;97/barrel despite the ceasefire-driven dip.
+          The 3rd MLR (Hawaii) previously deployed both systems during <strong>Balikatan 26</strong> in May, conducting dry-fire missions in the Philippine Batanes Islands and engaging drones in Zambales. The 12th MLR is the <strong>second unit service-wide</strong> to receive these platforms, marking a <strong>major Force Design 2030 milestone</strong> &mdash; Okinawa-based Marines now have organic stand-off anti-ship and layered air defense capability purpose-built for First Island Chain warfare.
         </p>
-        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Oil:</strong> Brent crude dipped ~1.6% to $96.25 on ceasefire headlines but remains structurally elevated. WTI fell ~1.3% to $94.73. <strong>Gold</strong> holds safe-haven bid. U.S. 10Y yield at 4.49%, 30Y at 5.05% &mdash; yields rose on oil-driven inflation fears. European indices rallied (CAC 40 +1.2%, DAX +0.6%); U.S. indices fell (S&amp;P 500 -0.74%, Dow -1.21%).<br/><br/>
-            <strong style="color: #22c55e;">&#9650; UP:</strong> USO (oil ETF, +89.5% YTD) &bull; XOP (oil &amp; gas E&amp;P, +29.9% YTD) &bull; XLE (energy sector, +28.3% YTD) &bull; COP, XOM, CVX (oil majors) &bull; ITA, PPA (defense ETFs)<br/>
-            <strong style="color: #ef4444;">&#9660; DOWN:</strong> UAL, DAL, AAL (airlines &mdash; fuel cost pressure) &bull; Consumer discretionary broadly (inflation headwinds)
-          </p>
-        </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 2: SOUTH KOREA ELECTIONS ===================== -->
-    <div style="margin-bottom: 24px;">
-      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+    <!-- 2: RESOLUTE DRAGON -->
+    <div style="margin-bottom: 2px;">
+      <div style="${sectionStyle}">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">2</span>
-          <span style="color: #666; font-size: 11px;">East Asia / Politics / Equities &mdash; June 3&ndash;4</span>
+          <span style="color: #666; font-size: 11px;">Exercises / U.S.-Japan Alliance &mdash; June 20&ndash;30</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">South Korea Local Elections: Ruling Party Wins Landslide 12 of 16 Races; KOSPI Falls 1.84% on Reopening</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Exercise Resolute Dragon 26 Underway &mdash; III MEF &amp; JGSDF Across Kyushu and Nansei Islands</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          South Korea&rsquo;s ruling <strong>Democratic Party won 12 of 16 metropolitan mayor/governor races</strong> in the June 3 local elections, reinforcing President <strong>Lee Jae-myung&rsquo;s</strong> reform mandate. The opposition <strong>People Power Party held the crucial Seoul mayorship</strong>, preventing a total sweep. Markets were closed on election day; the KOSPI had hit a record closing high of <strong>8,801.49</strong> on Tuesday &mdash; up roughly threefold in one year under President Lee.
+          <strong>Resolute Dragon 26</strong> (June 20&ndash;30) is underway between III MEF and Japan Ground Self-Defense Force. U.S. participants include <strong>3rd Marine Division, 3rd MEB, 1st MAW, 12th MLR, U.S. Army 3rd Multi-Domain Task Force, 7th Fleet elements, and 18th Wing (Kadena)</strong>. Training spans JGSDF bases in <strong>Oita, Saga, Kumamoto, and Kagoshima prefectures</strong> on Kyushu, plus <strong>Tokuno and Amami Oshima islands</strong>.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          On Thursday&rsquo;s reopening, the <strong>KOSPI dropped 1.84%</strong> as global risk-off sentiment and the Broadcom-led semiconductor selloff overshadowed the election results. The ruling party&rsquo;s strong showing is <strong>medium-term bullish</strong> for Korean equities &mdash; Lee&rsquo;s corporate governance reforms and the &ldquo;Korea discount&rdquo; rerating thesis remain intact, with continued policy continuity now assured.
+          A JGSDF V-22 Osprey was planned to airlift a mock patient from Miyako Island to MCAS Futenma, but <strong>Osprey flights were canceled Thursday due to Typhoon Mekkhala</strong>; Friday&ndash;Monday operations are under review. The storm may disrupt the exercise&rsquo;s final phase. Concurrently, <strong>Exercise Valiant Shield 26</strong> (June 22 &ndash; July 1) is running in the Marianas/Guam with U.S., Japan, Canada, New Zealand, and Australia &mdash; notably featuring the <strong>Boeing MQ-28 Ghost Bat</strong> collaborative combat aircraft integrating with allied forces for the first time.
         </p>
-        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Indices:</strong> KOSPI -1.84% on June 4 (catch-up to global risk-off). Korean won under mild pressure but structurally supported by capital inflows. Korean government bonds stable; election mandate supports continued fiscal and reform spending.<br/><br/>
-            <strong style="color: #ef4444;">&#9660; SHORT-TERM DOWN:</strong> Samsung Electronics (005930.KS, -2.5%) &bull; SK Hynix (000660.KS, -2.63%) &bull; LG Electronics (066570.KS, -16.43%)<br/>
-            <strong style="color: #22c55e;">&#9650; MEDIUM-TERM UP:</strong> EWY (iShares Korea ETF &mdash; policy continuity) &bull; FLKR (Franklin Korea ETF &mdash; Korea rerating story intact)
-          </p>
-        </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 3: EU-UKRAINE ACCESSION ===================== -->
-    <div style="margin-bottom: 24px;">
-      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+    <!-- 3: FREEDOM BANNER -->
+    <div style="margin-bottom: 2px;">
+      <div style="${sectionStyle}">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">3</span>
-          <span style="color: #666; font-size: 11px;">Europe / Diplomacy / Integration &mdash; June 3</span>
+          <span style="color: #666; font-size: 11px;">HA/DR / Logistics &mdash; June 24</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">EU Unanimously Approves Ukraine &amp; Moldova Accession Talks After Hungary Lifts Two-Year Veto</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Exercise Freedom Banner: III MEF Demonstrates HA/DR Readiness at Kin Blue Beach Between Storms</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          All <strong>27 EU member states</strong> agreed to open the <strong>first cluster of accession negotiations</strong> with Ukraine and Moldova after Hungary&rsquo;s Prime Minister <strong>Peter Magyar</strong> reached a deal with Kyiv on Hungarian minority rights, ending a <strong>two-year veto</strong>. The formal intergovernmental conference is expected on <strong>June 15 in Luxembourg</strong>.
+          III MEF and <strong>Maritime Pre-Positioning Ship Squadron 3</strong> conducted Exercise Freedom Banner at Kin Blue Beach on June 24. <strong>USNS 1st Lt. Jack Lummus</strong> (arrived June 13) provided equipment including tactical fuel distribution systems (<strong>two 50,000-gallon JP-8 bladders</strong>), lightweight reverse-osmosis water purifiers, medical capabilities, and food service. <strong>MWSS-172</strong> participated. This was the <strong>first Japan-based iteration</strong> of the exercise, strategically timed between Typhoon Jangmi (June 1) and approaching Mekkhala.
         </p>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          This marks a historic step &mdash; the first negotiation cluster covers <strong>rule of law, human rights, and judiciary</strong>, beginning a process spanning 33 chapters across six clusters. While full membership remains years away, the political signal is significant: the EU is committing to an institutional path for Ukraine&rsquo;s integration, reducing long-term geopolitical uncertainty in Eastern Europe and signaling sustained reconstruction investment.
-        </p>
-        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Bonds:</strong> Ukrainian Eurobonds likely to tighten (lower yields/higher prices) on EU integration momentum. Euro mildly supportive. European natural gas futures could ease on reduced Eastern European uncertainty. Hungarian forint stabilizing on reduced diplomatic friction.<br/><br/>
-            <strong style="color: #22c55e;">&#9650; UP:</strong> IEUR (iShares Europe ETF) &bull; HEDJ (WisdomTree Europe Hedged Equity) &bull; Rheinmetall (RHM.DE), BAE Systems (BA.L), Leonardo (LDO.MI) &mdash; European defense &bull; Holcim (HOLN.SW), Vinci (DG.PA) &mdash; Ukraine reconstruction plays &bull; OTP Bank (OTP.BD) &mdash; reduced Hungarian diplomatic isolation
-          </p>
-        </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 4: BROADCOM SELLOFF ===================== -->
-    <div style="margin-bottom: 24px;">
-      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+    <!-- 4: 31ST MEU GAP -->
+    <div style="margin-bottom: 2px;">
+      <div style="${sectionStyle}">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">4</span>
-          <span style="color: #666; font-size: 11px;">Global / Technology / Semiconductors &mdash; June 3&ndash;4</span>
+          <span style="color: #666; font-size: 11px;">Force Readiness / Indo-Pacific Gap &mdash; Ongoing</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Broadcom Plunges 12&ndash;14% Post-Earnings, Triggering Global Semiconductor Selloff Across U.S., Asia, and Europe</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">31st MEU Remains Deployed to Middle East &mdash; Commandant Acknowledges Indo-Pacific Gap &ldquo;Unfilled&rdquo;</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Broadcom shares <strong>plunged 12&ndash;14%</strong> after its Q2 FY2026 earnings report despite <strong>record revenue of $22.19 billion (+48% YoY)</strong> and AI semiconductor revenue of <strong>$10.8 billion (+143% YoY)</strong>. The selloff was triggered by Q3 AI chip revenue guidance of <strong>$16 billion &mdash; roughly $1.2 billion below analyst models</strong> &mdash; and CEO Hock Tan&rsquo;s decision to merely reiterate (not raise) the FY2027 AI semiconductor target of $100+ billion.
+          The <strong>31st MEU (~2,500 Marines) and USS Tripoli ARG</strong> departed Okinawa on March 13 for the Middle East amid the Strait of Hormuz crisis. The unit arrived in CENTCOM AOR on March 27 and has been enforcing an Iranian port blockade since April 13. Marine Commandant <strong>Gen. Eric Smith testified before HASC</strong> that the resulting Indo-Pacific gap is <strong>&ldquo;unfilled.&rdquo;</strong> Kadena-based airmen are also deployed &ldquo;in harm&rsquo;s way&rdquo; for Iran operations, per Brig. Gen. Gallemore.
         </p>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Macquarie <strong>downgraded AVGO to Neutral</strong> with a target cut to $437 from $513. The ripple effect spread globally: the <strong>Nasdaq fell 0.89%</strong>, <strong>KOSPI dropped 1.84%</strong>, <strong>Nikkei 225 fell 1.36%</strong>, and semiconductor names were hit across every major market. The selloff raises questions about whether AI chip demand growth is decelerating or simply being re-baselined after a historic run.
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          <strong>Mitigation:</strong> USS Boxer ARG / 11th MEU from Camp Pendleton deployed ahead of schedule to 7th Fleet AOR. III MEF spokesman Maj. Jordan Fox stated Okinawa-based forces remain &ldquo;postured, lethal, and ready to fight tonight.&rdquo; <strong>No return date announced.</strong>
         </p>
-        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Indices:</strong> S&amp;P 500 -0.74%, Nasdaq -0.89%, KOSPI -1.84%, Nikkei -1.36%. Risk-off tone modestly supportive of Treasuries. Mild pressure on high-beta currencies (KRW, TWD).<br/><br/>
-            <strong style="color: #ef4444;">&#9660; DOWN:</strong> AVGO (Broadcom, -12&ndash;14%) &bull; NVDA (NVIDIA, sympathy selling) &bull; AMD (AI chip peer) &bull; TSM (Taiwan Semi) &bull; SK Hynix (000660.KS, -2.63%) &bull; SOXX (semiconductor ETF) &bull; SMH (VanEck Semi ETF) &bull; MRVL (Marvell, AI networking peer) &bull; CRWD (CrowdStrike, separate post-earnings weakness)
-          </p>
-        </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 5: NEW DELHI HOTEL FIRE ===================== -->
-    <div style="margin-bottom: 24px;">
-      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+    <!-- 5: CAMP HANSEN BARRACKS -->
+    <div style="margin-bottom: 2px;">
+      <div style="${sectionStyle}">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">5</span>
-          <span style="color: #666; font-size: 11px;">South Asia / Safety / Hospitality &mdash; June 3</span>
+          <span style="background: #1e40af; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">5</span>
+          <span style="color: #666; font-size: 11px;">Infrastructure / QoL &mdash; June 5</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Deadly New Delhi Hotel Fire Kills 21 &mdash; Mostly Foreign Nationals &mdash; Exposing India&rsquo;s Building Safety Crisis</h3>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          A fire at the <strong>Flourish Inn Stay hotel</strong> in southern Delhi&rsquo;s Malviya Nagar neighborhood killed at least <strong>21 people</strong>, including <strong>18 foreign nationals from Bangladesh, Nigeria, Mozambique, and Liberia</strong>. The fire started around 8:50 a.m. on June 3 in the ground-floor restaurant and spread rapidly through the five-story building.
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">$320M &ldquo;Barracks of the Future&rdquo; Complex Opens at Camp Hansen &mdash; 1,096 Marines Get Private Rooms</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          Ribbon-cutting June 5 for Camp Hansen&rsquo;s new <strong>$320M bachelor enlisted quarters</strong>, Japan-funded under DPRI. Three buildings house <strong>1,096 Marines</strong> (through E-5). Each resident gets a <strong>private 155-sq-ft bedroom</strong> with personal sink; roommates share 710-sq-ft units with kitchen, bath, and laundry. Built by 15 local Okinawan companies. <strong>MajGen Brian Wolford</strong> (MCIPAC), <strong>Col. Joshua Mayoral</strong> (Camp Hansen CO), and <strong>Okinawa Defense Bureau Dir. Masaru Murai</strong> attended. Replaces six older barracks; <strong>11 additional buildings planned</strong> at Hansen and Camp Kinser.
         </p>
-        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          A preliminary investigation found the hotel had <strong>no valid fire safety certificate</strong>, only one exit, and lacked proper ventilation. More than <strong>40 people were rescued</strong>, with some jumping from upper floors. The tragedy is expected to trigger tightened fire safety and building code enforcement across India&rsquo;s hospitality sector, increasing compliance costs for budget hotels and potentially dampening foreign tourist confidence in the near term.
-        </p>
-        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
-          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Sector-specific, not macro.</strong> Indian hospitality and tourism sentiment negative. INR mildly pressured if foreign tourist confidence drops. Likely tightening of fire safety/building codes &mdash; compliance costs for the sector.<br/><br/>
-            <strong style="color: #ef4444;">&#9660; DOWN:</strong> Indian Hotels Company (INDHOTEL.NS &mdash; Tata Group, regulatory scrutiny) &bull; Lemon Tree Hotels (LEMONTREE.NS &mdash; budget segment faces safety scrutiny) &bull; EIH Ltd (EIH.NS &mdash; Oberoi Hotels, broader sentiment)<br/>
-            <strong style="color: #22c55e;">&#9650; UP:</strong> Indian fire safety equipment makers and building compliance firms could benefit from expected regulatory tightening<br/>
-            <strong>Neutral:</strong> INDA (iShares India ETF &mdash; tragedy is sector-specific)
-          </p>
-        </div>
       </div>
     </div>
 
-    <!-- ===================== KEY TAKEAWAY ===================== -->
-    <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #7c3aed; padding: 20px; margin-bottom: 24px;">
-      <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Key Takeaway &mdash; Portfolio Positioning</p>
-      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Energy remains the dominant macro driver.</strong> The Strait of Hormuz closure continues to structurally support crude above $95. The Israel-Lebanon ceasefire is fragile &mdash; any collapse will send oil higher. Energy longs (XLE, COP, XOM) remain well-supported while airlines and consumer discretionary face persistent headwinds. Gold&rsquo;s safe-haven bid is intact.
+    <!-- 6: KADENA DEATH / F-15EX -->
+    <div style="margin-bottom: 24px;">
+      <div style="${sectionStyle}">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #1e40af; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">6</span>
+          <span style="color: #666; font-size: 11px;">Force Protection / Kadena AB &mdash; June 24</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Kadena Civilian Employee Dies in Snorkeling Incident; F-22 Raptors Remain on Station</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          A <strong>male civilian employee (40s)</strong> deployed to Kadena died after being swept away while snorkeling at <strong>Odo Coast, Itoman</strong> on June 24 in 8-foot waves. Recovered by helicopter after 1.5 hours. Pronounced dead at 6:58 p.m. Three companions escaped independently. Japan Coast Guard investigating. <strong>Brig. Gen. Gallemore:</strong> &ldquo;The 18th Wing is deeply saddened by this loss.&rdquo; <em>With Mekkhala approaching, heightened water safety awareness is critical.</em>
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          <strong>Kadena Air Posture:</strong> F-22 Raptors from the <strong>90th FS (JBER, Alaska) and 27th FS (Langley)</strong> deployed in early May (~12 aircraft). Kadena&rsquo;s permanent <strong>36 F-15EX Eagle IIs delayed to 2027</strong> due to 2025 Boeing strike. Continued rotational fighter deployments expected until delivery. <strong>18th AMXS activated May 15</strong> to strengthen maintenance capacity.
+        </p>
+      </div>
+    </div>
+
+    <!-- ========== SECTION: GEOPOLITICAL / SECURITY ========== -->
+    <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #f59e0b; padding: 12px 20px; margin-bottom: 4px;">
+      <p style="color: #f59e0b; font-size: 11px; text-transform: uppercase; letter-spacing: 2px; margin: 0; font-weight: 800;">Section II &mdash; Geopolitical &amp; Regional Security</p>
+    </div>
+
+    <!-- 7: CHINA CARRIER -->
+    <div style="margin-bottom: 2px;">
+      <div style="${sectionStyle}">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #f59e0b; color: #000; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">7</span>
+          <span style="color: #666; font-size: 11px;">Taiwan Strait / PLA Navy &mdash; June 23</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">China&rsquo;s Newest Aircraft Carrier Transits Taiwan Strait During Taiwan Military Exercises</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          China&rsquo;s newest and most powerful aircraft carrier <strong>sailed through the Taiwan Strait on June 23</strong>, one day after Taiwan began a five-day exercise simulating response to a Chinese attack. <strong>217 PLA incursions into Taiwan&rsquo;s ADIZ in May</strong> (down from 300+ monthly averages but still elevated). On June 7, Taiwan coast guard <strong>expelled four Chinese government ships</strong> from restricted waters off the island&rsquo;s southern tip.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          <strong>Pratas Island:</strong> CCG vessel entered waters near Taiwan-controlled Pratas in late May, triggering a 30-hour standoff (May 23). CCG has made <strong>39 total incursions around Pratas since Feb 2025</strong>. <strong>Kinmen:</strong> Four CCG intrusions into Taiwan-administered waters in May (7th, 21st, 26th, 27th). <strong>Dutch Frigate Incident:</strong> PLA responded to HNLMS De Ruyter&rsquo;s FONOP near Paracels (May 28) with surface vessels, fighter aircraft, verbal warnings, and &mdash; for the first time publicly &mdash; <strong>electronic warfare jamming</strong>.
+        </p>
+      </div>
+    </div>
+
+    <!-- 8: BLOCKADE REHEARSAL -->
+    <div style="margin-bottom: 2px;">
+      <div style="${sectionStyle}">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #f59e0b; color: #000; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">8</span>
+          <span style="color: #666; font-size: 11px;">Intelligence / A2AD / Maritime &mdash; June 6&ndash;10</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">PRC &ldquo;Special Maritime Law Enforcement Operation&rdquo; East of Taiwan &mdash; Assessed as Blockade Rehearsal</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          The PRC Ministry of Transport conducted a <strong>&ldquo;special maritime law enforcement operation east of Taiwan&rdquo;</strong> (June 6&ndash;10) with <strong>3 MSA vessels + 1 SAR ship, escorted by 2 CCG ships</strong> (on station since June 1). An MSA vessel <strong>hailed three passing commercial ships by radio</strong> to request voyage/crew info &mdash; consistent with quarantine enforcement practice. Ship tracking showed PRC asserting a <strong>200-nautical-mile EEZ from Taiwan</strong>.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          Two PRC research ships (<em>Jia Geng</em>, <em>Da Yang Hao</em>) conducted <strong>surveys of the Gagua Ridge</strong> east of Taiwan during the operation &mdash; dual-use undersea mapping supporting PLA submarine ops. AEI analysts assess this as <strong>practice for potential blockade enforcement using civilian agencies for legal cover</strong>. This directly threatens sea lines of communication critical to Japan and Okinawa&rsquo;s logistical sustainment.
+        </p>
+      </div>
+    </div>
+
+    <!-- 9: SENKAKU / ECS -->
+    <div style="margin-bottom: 2px;">
+      <div style="${sectionStyle}">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #f59e0b; color: #000; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">9</span>
+          <span style="color: #666; font-size: 11px;">East China Sea / Senkakus &mdash; Ongoing</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">China Coast Guard Maintains Near-Daily Senkaku Presence &mdash; All Vessels Now Armed with 76mm Guns</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          CCG maintained presence near Senkaku Islands <strong>357 of 365 days in 2025</strong> (record). All four CCG vessels now equipped with <strong>deck-mounted 76mm autocannons</strong> since June 2024. China constructed <strong>three new oil/gas platforms</strong> in the ECS over the past year, drawing formal protests from Japan. <strong>Chinese maritime militia:</strong> 2,000+ fishing vessels assembled in organized formations in the ECS (Dec 25, 2025; 1,400 on Jan 14; largest in March during Iran crisis), positioned ~300 km from Taiwan.
+        </p>
+      </div>
+    </div>
+
+    <!-- 10: DPRK -->
+    <div style="margin-bottom: 2px;">
+      <div style="${sectionStyle}">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #f59e0b; color: #000; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">10</span>
+          <span style="color: #666; font-size: 11px;">DPRK / WMD &mdash; June 2&ndash;4</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">North Korea Unveils Nuclear Fuel Plant; Kim Pledges &ldquo;Exponential&rdquo; Nuclear Expansion</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          Kim Jong Un visited a <strong>newly constructed nuclear weapon fuel production facility</strong> on June 3, with state media announcing plans to bolster nuclear forces <strong>&ldquo;at an exponential rate.&rdquo;</strong> This follows a <strong>modular missile live-fire test on June 2</strong> and multiple launches earlier in 2026 (January, April). Reuters documented expansion of nuclear missile facilities in Xinjiang with <strong>80+ launch pads</strong>; DoD assesses PRC on track for 1,000 warheads by 2030. Okinawa falls within range of DPRK medium- and intermediate-range ballistic missiles.
+        </p>
+      </div>
+    </div>
+
+    <!-- 11: JAPAN DEFENSE -->
+    <div style="margin-bottom: 24px;">
+      <div style="${sectionStyle}">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #f59e0b; color: #000; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">11</span>
+          <span style="color: #666; font-size: 11px;">Japan SDF / Defense Posture &mdash; Ongoing</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Japan Accelerating Southwest Island Defenses &mdash; Record $58B Budget, Yonaguni SAMs, Type 12 Deployed</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          <strong>FY2026 defense budget: $58B (9.04T yen)</strong> &mdash; 12th consecutive record, up 3.8%. Includes 509B yen for integrated air/missile defense (SM-3 Block IIA, SM-6). <strong>Type 03 Chu-SAM</strong> missiles to deploy on Yonaguni Island (110 km from Taiwan) by FY2030. <strong>Upgraded Type 12 SSM</strong> (range: ~1,000 km, up from 100 km) deployed to Camp Kengun, Kyushu on March 31 &mdash; can reach China&rsquo;s coastline and North Korea.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          <strong>15th Brigade (Naha HQ) upgrading to 15th Division</strong> to reinforce Nansei Islands rapid response. New <strong>$96M fighter aircraft shelter</strong> planned for Naha Air Base (counter-satellite surveillance). China condemned deployments as <strong>&ldquo;extremely dangerous&rdquo;</strong>; PM Takaichi previously stated Tokyo could use military force if China attacks Taiwan.
+        </p>
+      </div>
+    </div>
+
+    <!-- ========== SECTION: GOVERNMENT / POLITICAL ========== -->
+    <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #7c3aed; padding: 12px 20px; margin-bottom: 4px;">
+      <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 2px; margin: 0; font-weight: 800;">Section III &mdash; Government &amp; Political</p>
+    </div>
+
+    <!-- 12: IREI NO HI -->
+    <div style="margin-bottom: 2px;">
+      <div style="${sectionStyle}">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #7c3aed; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">12</span>
+          <span style="color: #666; font-size: 11px;">Government / Community Relations &mdash; June 23</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Irei no Hi Memorial: 3,200 Gather; Governor Criticizes Base Burden; PM Heckled on Constitution</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          Approximately <strong>3,200 people</strong> gathered at Peace Memorial Park, Itoman for the <strong>81st anniversary of the Battle of Okinawa</strong>. <strong>Gov. Denny Tamaki</strong> criticized the &ldquo;heavy burden&rdquo; of U.S. bases and opposed Camp Schwab/Henoko construction. <strong>PM Sanae Takaichi</strong> pledged to &ldquo;consolidate, reduce and streamline U.S. military facilities&rdquo; but was <strong>disrupted by ~12 protesters</strong> shouting &ldquo;No war!&rdquo; and &ldquo;Don&rsquo;t change the constitution!&rdquo; &mdash; about five were removed. BGen Gallemore led ~50 service members in a separate U.S. ceremony.
+        </p>
+      </div>
+    </div>
+
+    <!-- 13: HENOKO -->
+    <div style="margin-bottom: 2px;">
+      <div style="${sectionStyle}">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #7c3aed; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">13</span>
+          <span style="color: #666; font-size: 11px;">Base Relocation / Infrastructure &mdash; June 17</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Henoko Land Reclamation Expanded; Pentagon Won&rsquo;t Return Futenma Without Long Runway</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          Japan&rsquo;s Defense Ministry <strong>began pouring earth in a new area east of Cape Henoko</strong> on June 17 for the Futenma Replacement Facility. Southern-side reclamation is nearly complete. Eastern-side work in Oura Bay delayed by soft undersea ground, requiring <strong>~71,000 sand piles</strong> driven into the seabed. FY2026 budget allocates <strong>$3.67B for USFJ projects</strong> including Henoko and Mageshima airfield. Okinawa Prefecture continues formal opposition.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          The Pentagon maintains it <strong>will not return MCAS Futenma</strong> unless a long runway is secured. Futenma&rsquo;s runway: ~2,700m; Henoko&rsquo;s two V-shaped runways: ~1,800m each. Construction projected through at least <strong>2033</strong>.
+        </p>
+      </div>
+    </div>
+
+    <!-- 14: SEXUAL ASSAULT -->
+    <div style="margin-bottom: 24px;">
+      <div style="${sectionStyle}">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #7c3aed; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">14</span>
+          <span style="color: #666; font-size: 11px;">Community Relations / Legal &mdash; June 11</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Sexual Assault Charges Against U.S. Soldier Dropped; USFJ Liberty Restrictions Remain</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          Naha prosecutors <strong>declined to charge a U.S. Army soldier</strong> (Echo Battery, 1-1 ADA, 38th ADA Brigade, Kadena) for alleged sexual assault (April incident). Dismissed June 11 without explanation; soldier fined ~$125 for traffic violation. At least two other sexual assault cases dropped in the past two years. USFJ liberty restrictions (off-base drinking ban 0100&ndash;0500) remain in effect since October 2024. A seven-year sentence was finalized in March for a Marine in a separate case.
+        </p>
+      </div>
+    </div>
+
+    <!-- ===================== KEY ASSESSMENTS ===================== -->
+    <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #22c55e; padding: 20px; margin-bottom: 24px;">
+      <p style="color: #22c55e; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 16px; font-weight: 700;">Key Assessments</p>
+      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+        <strong style="color: #fff;">1. Force Posture Gap vs. Capability Upgrade:</strong> The 31st MEU&rsquo;s continued Middle East deployment creates the most significant readiness concern for Okinawa-based forces. However, NMESIS/MADIS delivery to the 12th MLR and three concurrent exercises (Resolute Dragon, Valiant Shield, Freedom Banner) demonstrate sustained alliance commitment despite the gap.
       </p>
-      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">The AI chip narrative is being stress-tested.</strong> Broadcom&rsquo;s selloff despite 143% AI revenue growth signals that markets are now pricing perfection. The global semiconductor contagion (Korea, Japan, Taiwan, Europe) shows how interconnected chip supply chains are. Watch for dip-buying in NVDA and TSM if the selloff is contained.
+      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+        <strong style="color: #fff;">2. China Escalation Pattern:</strong> The carrier transit, blockade rehearsal, Pratas patrols, armed CCG at Senkakus, maritime militia formations, and EW jamming of a Dutch frigate represent a <strong>coordinated multi-domain gray-zone escalation</strong> using military, coast guard, and civilian agencies. This complicates attribution and response thresholds.
+      </p>
+      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+        <strong style="color: #fff;">3. Allied Denial Network Taking Shape:</strong> NMESIS/MADIS on Okinawa + Type 12 on Kyushu + planned Yonaguni SAMs + Naha fighter shelter + 15th Division upgrade = a layered allied anti-access architecture across the Nansei Island chain. This is the most significant force posture change in the region in a decade.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        <strong style="color: #fff;">Europe and Korea offer medium-term opportunities.</strong> EU-Ukraine accession reduces Eastern European political risk and supports European defense and infrastructure names. South Korea&rsquo;s election mandate reinforces the &ldquo;Korea discount&rdquo; rerating &mdash; EWY is attractive on pullbacks. India&rsquo;s hospitality sector faces near-term regulatory headwinds but the macro story is unaffected.
+        <strong style="color: #fff;">4. Near-Term Operational Risk:</strong> Typhoon Mekkhala (TCCOR 2) will constrain operations through the weekend. Combined with Resolute Dragon disruptions and the approaching second storm (Higos), expect reduced training tempo and possible TCCOR 1 escalation by Friday morning.
       </p>
     </div>
 
-    <!-- ===================== MARKET SNAPSHOT ===================== -->
+    <!-- ===================== WEATHER OUTLOOK ===================== -->
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
-      <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Market Snapshot &mdash; June 4, 2026</p>
+      <p style="color: #ef4444; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Weather &amp; Seismic Outlook</p>
       <table cellpadding="0" cellspacing="0" border="0" style="width: 100%; font-size: 12px;">
         <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">S&amp;P 500</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-0.74%</td>
+          <td style="color: #888; padding: 6px 0;">TCCOR Status</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0; font-weight: 700;">TCCOR 2 &mdash; All Installations</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">Nasdaq</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-0.89%</td>
+          <td style="color: #888; padding: 6px 0;">TS Mekkhala (No. 7)</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">60 mph sustained / 75 mph gusts</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">Dow Jones</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-1.21%</td>
+          <td style="color: #888; padding: 6px 0;">Closest Approach</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">42 mi W-NW of Kadena ~0500 Fri</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">KOSPI</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-1.84%</td>
+          <td style="color: #888; padding: 6px 0;">Wave Height (Thu&ndash;Fri)</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">7 meters (23 ft)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">Nikkei 225</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">-1.36%</td>
+          <td style="color: #888; padding: 6px 0;">TS Higos (No. 8)</td>
+          <td style="color: #f59e0b; text-align: right; padding: 6px 0;">Tracking E. Japan &mdash; Possible Merge</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">CAC 40</td>
-          <td style="color: #22c55e; text-align: right; padding: 6px 0;">+1.2%</td>
+          <td style="color: #888; padding: 6px 0;">Temperature</td>
+          <td style="color: #ccc; text-align: right; padding: 6px 0;">25&ndash;30&deg;C (77&ndash;86&deg;F)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">DAX</td>
-          <td style="color: #22c55e; text-align: right; padding: 6px 0;">+0.6%</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">Brent Crude</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">$96.25 (-1.6%)</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">WTI Crude</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">$94.73 (-1.3%)</td>
+          <td style="color: #888; padding: 6px 0;">Seismic (June)</td>
+          <td style="color: #ccc; text-align: right; padding: 6px 0;">M4.6 Miyakojima (22nd), M4.5 Yonaguni (13th)</td>
         </tr>
         <tr>
-          <td style="color: #888; padding: 6px 0;">U.S. 10Y Yield</td>
-          <td style="color: #ccc; text-align: right; padding: 6px 0;">4.49%</td>
+          <td style="color: #888; padding: 6px 0;">2026 Season Forecast</td>
+          <td style="color: #f59e0b; text-align: right; padding: 6px 0;">~28 storms (above average)</td>
         </tr>
       </table>
     </div>
@@ -236,14 +371,14 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Sources</p>
       <p style="color: #888; font-size: 11px; line-height: 1.8; margin: 0;">
-        Euronews &bull; CNBC &bull; Al Jazeera &bull; The Irish Times &bull; FDD Overnight Brief &bull; Jerusalem Post &bull; Korea Times &bull; Yahoo Finance &bull; TradingKey &bull; UNITED24 Media &bull; CBS News &bull; Morgan Stanley &bull; Schwab Market Update &bull; Barchart &bull; GuruFocus &bull; ETF Trends &bull; Rio Times
+        Stars and Stripes &bull; Military Times &bull; USNI News &bull; Defense News &bull; AEI China-Taiwan Update &bull; Japan Times &bull; Washington Times &bull; NPR &bull; DVIDSHUB &bull; Kadena AB Public Affairs &bull; PACOM Media &bull; U.S. Embassy Japan &bull; The Diplomat &bull; Newsweek &bull; Air &amp; Space Forces Magazine &bull; Naval News &bull; Reuters &bull; Weathernews &bull; Tokyo Weekender
       </p>
     </div>
 
     <div style="border-top: 1px solid #1a1a1a; padding-top: 20px; text-align: center;">
       <p style="font-size: 10px; color: #444; margin: 0 0 8px; line-height: 1.6;">
-        This briefing is for informational purposes only and does not constitute financial advice. Sources verified across multiple outlets where possible.<br/>
-        UNCLASSIFIED // FOR GENERAL DISTRIBUTION
+        This briefing is compiled from open sources for informational purposes only. Sources verified across multiple outlets where possible.<br/>
+        UNCLASSIFIED // FOR OFFICIAL USE ONLY
       </p>
       <p style="font-size: 10px; color: #555; margin: 0;">
         Powered by <a href="https://worldmonitor.app" style="color: #7c3aed; text-decoration: none;">World Monitor</a> &mdash; Real-time intelligence for a connected world.
@@ -255,13 +390,10 @@ const html = `
 
 import { execSync } from 'node:child_process';
 
-const useTestingMode = RESEND_KEY && !process.env.RESEND_DOMAIN_VERIFIED;
-const recipients = useTestingMode ? TESTING_RECIPIENTS : RECIPIENTS;
-
 const payload = JSON.stringify({
   from: 'World Monitor <onboarding@resend.dev>',
-  to: recipients,
-  subject: `[World Monitor] Global Daily Intelligence Briefing — ${today}`,
+  to: RECIPIENTS,
+  subject: `[World Monitor] Okinawa Intelligence Briefing — ${today}`,
   html,
 });
 
@@ -283,11 +415,11 @@ try {
   }
 
   const data = JSON.parse(body);
-  console.log(`Email sent successfully to ${recipients.join(', ')}`);
+  console.log(`Email sent successfully to ${RECIPIENTS.join(', ')}`);
   console.log('Resend ID:', data.id);
   if (useTestingMode) {
-    console.log('\nNote: Sent in testing mode to verified email only.');
-    console.log(`Target recipients (requires verified domain): ${RECIPIENTS.join(', ')}`);
+    console.log(`\\nNote: Sent in testing mode to verified email only.`);
+    console.log(`Target recipients (requires verified domain): ${ALL_RECIPIENTS.join(', ')}`);
   }
 } catch (err) {
   console.error('Failed to send email:', err.message);
