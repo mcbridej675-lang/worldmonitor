@@ -7,7 +7,9 @@
  */
 
 const RECIPIENTS = [
-  'johnmcbride2928@gmail.com',
+  'mcbridej675@gmail.com',
+  'john.mcbride.mil@usmc.mil',
+  'paul.foersch@usmc.mil',
 ];
 
 const TESTING_RECIPIENTS = [
@@ -36,214 +38,203 @@ const html = `
         </td>
         <td style="padding-left: 10px;">
           <div style="font-size: 15px; font-weight: 800; color: #fff; letter-spacing: -0.5px;">WORLD MONITOR</div>
-          <div style="font-size: 9px; color: #666; text-transform: uppercase; letter-spacing: 2px;">Global Daily Intelligence Briefing</div>
+          <div style="font-size: 9px; color: #666; text-transform: uppercase; letter-spacing: 2px;">Okinawa Regional Intelligence Briefing</div>
         </td>
       </tr>
     </table>
 
     <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #7c3aed; padding: 16px 20px; margin-bottom: 24px;">
       <p style="font-size: 11px; color: #666; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 4px;">${today}</p>
-      <p style="font-size: 20px; font-weight: 700; color: #fff; margin: 0;">Global Events &mdash; 24-Hour Market Intelligence</p>
-      <p style="font-size: 12px; color: #888; margin: 8px 0 0;">Geopolitics &bull; Markets &bull; Equities &bull; Commodities &bull; Risk Assessment</p>
+      <p style="font-size: 20px; font-weight: 700; color: #fff; margin: 0;">Okinawa, Japan &mdash; 24-Hour Intelligence Summary</p>
+      <p style="font-size: 12px; color: #888; margin: 8px 0 0;">Military &bull; Security &bull; Government &bull; Regional Threats &bull; Weather &bull; Economy</p>
     </div>
 
-    <!-- ===================== EVENT 1: IRAN STRIKES VESSEL IN STRAIT OF HORMUZ ===================== -->
+    <!-- ===================== EVENT 1: RESOLUTE DRAGON 26 LIVE FIRE ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">1</span>
-          <span style="color: #666; font-size: 11px;">Persian Gulf / Geopolitics / Energy &mdash; June 26</span>
+          <span style="color: #666; font-size: 11px;">Military / Exercise / USMC &mdash; June 28 (Active)</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Iran&rsquo;s IRGC Strikes Cargo Vessel Near Oman, Threatening Fragile Ceasefire Just 9 Days After MoU Signing</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Resolute Dragon 26: Marines and JGSDF Conduct Live-Fire Island Warfare Drills Across Nansei Chain</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Iran&rsquo;s Islamic Revolutionary Guard Corps struck a <strong>cargo ship near the Omani coast</strong> in the Strait of Hormuz on Thursday, damaging the vessel&rsquo;s bridge but causing no reported casualties. The <strong>International Maritime Organization immediately paused its planned evacuation</strong> of ships stranded in the critical waterway since the conflict began. This comes just <strong>nine days after the U.S. and Iran signed a memorandum of understanding</strong> on June 17, intended to formally end the 2026 Iran war within 60 days.
+          Exercise Resolute Dragon 26 &mdash; the annual bilateral U.S.-Japan island defense exercise &mdash; is currently <strong>active through June 30</strong>, operating across JGSDF bases and training areas on Kyushu and several Nansei Islands including <strong>Okinawa, Miyako Island, Ishigaki Island, and Yonaguni Island</strong>. Led by <strong>III Marine Expeditionary Force</strong> and the <strong>JGSDF Western Army</strong>, this is the exercise&rsquo;s sixth year.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Approximately <strong>one-fifth of the world&rsquo;s oil and LNG supplies</strong> transit the Strait of Hormuz in peacetime. Traffic through the strait remains far below pre-war levels, though Middle Eastern producers have been ramping up output and oil flows through Hormuz recently reached their <strong>fastest pace since the war began</strong>. Any re-escalation could trigger another energy crisis &mdash; Brent crude peaked at ~$118/bbl in April during the height of hostilities. Markets initially spiked 4% on the strike before settling lower as traders judged the incident as isolated.
+          On <strong>June 28</strong>, 90 Marines from the <strong>12th Littoral Combat Team (12th MLR)</strong> and 300 soldiers from the JGSDF 8th Division executed a combined-arms live-fire exercise at Hijyudai Maneuver Area, Oita Prefecture. Japanese <strong>Type 19 155mm self-propelled howitzers</strong> and <strong>Type-16 Maneuver Combat Vehicles</strong> engaged targets alongside Marine infantry firing from armored personnel carriers. Marines deployed <strong>Neros Archer FPV drones</strong> (payload-capable) and a <strong>Stalker VXE30 ISR drone</strong> with infrared payload for night surveillance. Military observers from the <strong>UK, Philippines, France, and Australia</strong> attended. The exercise emphasizes <strong>Expeditionary Advanced Base Operations (EABO)</strong> &mdash; small, dispersed mobile groups operating within enemy missile range to seize islands and deny vessel access.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          <strong>Participating U.S. forces:</strong> 3rd Marine Division, 3rd Marine Expeditionary Brigade, 1st Marine Air Wing, 12th Marine Littoral Regiment, U.S. Army 3rd Multi-Domain Task Force, U.S. Navy 7th Fleet, U.S. Air Force 18th Wing.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
+          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Operational Significance</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Oil:</strong> Brent crude spiked 4% on the strike headlines before settling down 4.34% at $71.99/bbl as markets assessed the incident as isolated. WTI fell 3.74% to $69.23/bbl &mdash; on track for a third straight weekly drop as Hormuz flows improve. <strong>Gold</strong> held near $4,000/oz on safe-haven demand. Defense stocks saw renewed interest. Tanker stocks whipsawed on shipping route uncertainty.<br/><br/>
-            <strong style="color: #22c55e;">&#9650; UP:</strong> LMT (Lockheed Martin) &bull; RTX (Raytheon) &bull; NOC (Northrop Grumman) &mdash; defense contractors benefit from re-escalation risk &bull; XOM, CVX, SHEL (oil majors on volatility)<br/>
-            <strong style="color: #ef4444;">&#9660; DOWN:</strong> FRO (Frontline), EURN (Euronav) &mdash; tanker stocks on shipping uncertainty &bull; UAL, DAL, AAL (airlines, fuel cost risk) &bull; TASI, ADX (Gulf indices on regional instability)
+            First time the JGSDF Ground Component Command focused exercises specifically on the Nansei Islands. Bilateral Communication Center established on Miyakojima &mdash; a first for the island. Demonstrates growing U.S.-Japan interoperability for First Island Chain defense in a Taiwan contingency scenario. Multi-national observer presence signals broadening coalition interest.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 2: EUROPEAN HEAT WAVE ===================== -->
+    <!-- ===================== EVENT 2: NMESIS / MADIS DELIVERY ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">2</span>
-          <span style="color: #666; font-size: 11px;">Pan-European / Climate / Economy &mdash; June 20&ndash;26</span>
+          <span style="color: #666; font-size: 11px;">Military / Weapons Systems / Force Design &mdash; June 23</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Record-Shattering Heat Wave Engulfs Europe: France Breaks All-Time Record Twice, UK Hits Hottest June Day Ever</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">12th Marine Littoral Regiment Receives NMESIS Anti-Ship Missiles and MADIS Air Defense at Camp Courtney</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Europe is experiencing what researchers are calling its <strong>worst-ever recorded heat wave</strong>. France registered its <strong>hottest day in history for the second consecutive day</strong>, with highs of 40&ndash;44&deg;C (104&ndash;111&deg;F) putting 49 of 96 mainland departments under the top red heat warning. The UK recorded its <strong>highest-ever June temperature at ~38&deg;C</strong> in Somerset, obliterating the 1976 record of 35.6&deg;C. Switzerland broke its June record at 38&deg;C in Basel. Over <strong>101 million people</strong> face temperatures exceeding 35&deg;C.
+          The <strong>12th Marine Littoral Regiment, 3rd Marine Division</strong> formally received its first <strong>Navy-Marine Expeditionary Ship Interdiction System (NMESIS)</strong> and <strong>Marine Air Defense Integrated System (MADIS)</strong> platforms at <strong>Camp Courtney, Okinawa</strong> on June 23. The 12th MLR is now the <strong>second active Marine Littoral Regiment</strong> to field both systems, following the 3rd MLR in Hawaii.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          France has reported at least <strong>50 heat-related deaths</strong>, mostly drownings as people sought relief in rivers and lakes. Thousands of schools have closed across France and the UK. The <strong>Eiffel Tower and the Louvre</strong> enforced early closures. Blackouts hit Turin as power grids strained. Allianz estimates each heat episode cuts European GDP by <strong>~0.5 percentage points</strong>, with cumulative losses of 5&ndash;7% of GDP projected by 2030 for the most exposed countries. Agricultural output, labor productivity, and energy grids are all under severe strain.
+          <strong>NMESIS</strong> is a remotely operated, ground-based anti-ship missile system mounted on a Joint Light Tactical Vehicle (JLTV), firing <strong>Naval Strike Missiles with a 115-mile range</strong>. It supports both semi-autonomous and fully autonomous launch modes for sea denial and littoral protection. <strong>MADIS</strong> is a short-range surface-to-air system enabling Low Altitude Air Defense Battalions to deter and neutralize <strong>UAS, fixed-wing, and rotary-wing threats</strong>.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
+          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Operational Significance</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Macro:</strong> European equities under pressure from productivity drag. Agricultural commodity futures (wheat, corn) rising on crop damage fears. European utilities trading volumes surging. Insurance sector exposed to rising claims. DAX fell 1.21% to 24,697.<br/><br/>
-            <strong style="color: #22c55e;">&#9650; UP:</strong> CARR (Carrier Global &mdash; HVAC demand surge) &bull; Daikin Industries (6367.T &mdash; air conditioning) &bull; SU (Schneider Electric &mdash; energy management) &bull; VIE (Veolia &mdash; water management demand) &bull; Wheat &amp; corn futures<br/>
-            <strong style="color: #ef4444;">&#9660; DOWN:</strong> MUV2 (Munich Re), SREN (Swiss Re) &mdash; reinsurers face climate claims &bull; EDF (French nuclear &mdash; cooling water limits) &bull; European agriculture ETFs &bull; Tourism &amp; hospitality sector broadly
+            Cornerstone of the Marine Corps&rsquo; <strong>Force Design 2030</strong> initiative. The 12th MLR is now fully equipped to operate as a distributed, low-signature force focused on sea denial within the First Island Chain. NMESIS gives Okinawa-based Marines organic anti-ship capability to threaten adversary naval vessels transiting the East China Sea, Miyako Strait, or Taiwan Strait approaches without relying on naval or air platforms.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 3: VENEZUELA EARTHQUAKES ===================== -->
+    <!-- ===================== EVENT 3: CHINESE INCURSION SENKAKU ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">3</span>
-          <span style="color: #666; font-size: 11px;">Latin America / Natural Disaster / Humanitarian &mdash; June 24&ndash;26</span>
+          <span style="color: #666; font-size: 11px;">Security / China / Senkaku Islands &mdash; June 24</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Venezuela Earthquake Death Toll Surges Past 920 &mdash; Strongest Quake in a Century Triggers International Rescue Mobilization</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Four Armed Chinese Coast Guard Vessels Enter Japanese Territorial Waters Near Senkaku Islands</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The death toll from twin earthquakes &mdash; magnitudes <strong>7.5 and 7.2</strong> &mdash; that struck Venezuela&rsquo;s northern Caribbean coast on June 24&ndash;25 has surged to at least <strong>920 dead with over 3,360 injured</strong> and hundreds believed still trapped under rubble. The 7.5-magnitude quake was the <strong>strongest to hit Venezuela in over a century</strong>. USGS PAGER modeling indicates a significant probability of a final death toll in the thousands.
+          Four <strong>Haijing-class Chinese coast guard ships</strong> entered Japanese territorial waters near the <strong>Senkaku Islands (Minamikojima)</strong> in Okinawa Prefecture on <strong>June 24</strong>. The vessels entered between 10:15&ndash;10:30 a.m. and departed around noon. The Japan Coast Guard documented and tracked the intrusion.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          International rescue teams from <strong>Brazil, Mexico, Colombia, Cuba, the U.S., and the United Nations</strong> are conducting round-the-clock search operations across at least five states. The U.S. has pledged <strong>$150 million in aid</strong> and plans to deploy warships and transport aircraft. The <strong>IMF is mobilizing $200 million</strong> in emergency funds. Initial forecasts suggest damage could reach <strong>7% of Venezuela&rsquo;s GDP</strong>. The disaster could further disrupt Venezuela&rsquo;s already fragile oil infrastructure and is testing U.S.-Venezuela diplomatic relations.
+          This latest incursion follows an escalating pattern of Chinese maritime provocations. In April, the PLA Eastern Theater Command launched <strong>combat readiness patrols in the East China Sea</strong> and sent warships near Okinawa after a JMSDF destroyer transited the Taiwan Strait. China&rsquo;s two aircraft carriers &mdash; <strong>Liaoning and Shandong</strong> &mdash; were observed operating simultaneously in the western Pacific for the first time. PM Takaichi&rsquo;s statements that a Taiwan conflict could constitute a <strong>&ldquo;survival-threatening situation&rdquo;</strong> (legally enabling Japanese military intervention) have sharply escalated Beijing-Tokyo tensions. China&rsquo;s Foreign Ministry demanded she retract the comments.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
+          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Threat Assessment</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Regional:</strong> Venezuelan sovereign bonds and PDVSA debt under stress. Modest crude oil impact given Venezuela&rsquo;s already-reduced output. Regional Latin American markets (Bovespa, Merval) show ripple effects from aid mobilization. Construction and rebuilding materials demand expected to rise.<br/><br/>
-            <strong style="color: #22c55e;">&#9650; UP:</strong> CAT (Caterpillar &mdash; heavy equipment for reconstruction) &bull; DE (Deere) &bull; FLR (Fluor Corporation &mdash; engineering &amp; construction) &bull; VMC (Vulcan Materials), MLM (Martin Marietta) &mdash; building materials<br/>
-            <strong style="color: #ef4444;">&#9660; DOWN:</strong> PDVSA bonds (Venezuelan state oil debt) &bull; Venezuelan sovereign debt broadly &bull; Regional airline routes &bull; Insurance exposure in Caribbean basin
+            <strong>Elevated.</strong> Chinese gray-zone activity around Okinawa Prefecture continues to intensify. The simultaneous dual-carrier operations in the western Pacific represent a new capability threshold. J-15 fighter intercepts have closed to within <strong>45 meters</strong> of Japanese patrol aircraft. The Diaoyu/Senkaku waters, Taiwan Strait, and Miyako Strait remain high-risk zones for potential escalation.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 4: DRC EBOLA OUTBREAK ===================== -->
+    <!-- ===================== EVENT 4: FUTENMA / HENOKO UPDATE ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">4</span>
-          <span style="color: #666; font-size: 11px;">Central Africa / Health / Pandemic Risk &mdash; Ongoing</span>
+          <span style="color: #666; font-size: 11px;">Government / Base Relocation / Ongoing</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">DRC Ebola Outbreak Becomes Second-Largest on Record: 1,155 Cases, 304 Dead, First Case Confirmed in France</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Futenma Relocation Stalls Over Runway Dispute &mdash; Pentagon Refuses Handover Without Long Runway at Henoko</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The Ebola outbreak caused by the <strong>Bundibugyo virus</strong> in the Democratic Republic of the Congo has surpassed <strong>1,155 confirmed cases with 304 deaths</strong>, making it the <strong>second-largest Ebola outbreak on record</strong>. The WHO declared it a <strong>Public Health Emergency of International Concern (PHEIC)</strong> on May 17. On June 24, <strong>France confirmed its first imported case</strong> &mdash; a doctor who had been working in the DRC on a humanitarian mission.
+          The relocation of MCAS Futenma from Ginowan to Henoko remains mired in a <strong>runway-length dispute</strong>. The Pentagon has stated it <strong>will not return the Futenma site</strong> unless a runway comparable to Futenma&rsquo;s ~2,700-meter strip is secured. The current Henoko plan features two V-shaped runways of only <strong>~1,800 meters each</strong>. Japan and the U.S. have tentatively agreed that Marines could use a private-sector airport for long-runway needs, but details remain unresolved.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Critically, there is <strong>no approved vaccine or treatment</strong> for the Bundibugyo strain. The WHO recommended against using the existing rVSV-ZEBOV vaccine (designed for Zaire ebolavirus) due to low cross-protection evidence. CEPI is fast-tracking <strong>three vaccine candidates</strong> with funding to IAVI ($3.2M), <strong>Moderna ($50M)</strong>, and Oxford ($8.6M). The outbreak is concentrated in eastern DRC&rsquo;s conflict zones (Ituri, North Kivu, South Kivu) with spillover into Uganda, making containment extremely difficult.
+          Construction at Henoko is not expected to be completed until <strong>at least 2033</strong> &mdash; roughly double the original timeline and cost estimates. The Japan government has acknowledged the delay, with officials stating they take the situation <strong>&ldquo;seriously.&rdquo;</strong> Local Okinawan opposition to the Henoko site remains strong, with the prefectural government continuing to push for the base to be relocated entirely off-island.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
+          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Impact on Operations</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Biotech rally, mining risk.</strong> Vaccine and therapeutics stocks surging on outbreak urgency. Travel stocks for Africa routes face headwinds. Mining companies with DRC operations face disruption risk. If outbreak spreads beyond Africa, broader risk-off potential.<br/><br/>
-            <strong style="color: #22c55e;">&#9650; UP:</strong> MRNA (Moderna &mdash; $50M CEPI contract for Bundibugyo vaccine) &bull; REGN (Regeneron &mdash; maftivimab prioritized by WHO) &bull; CODX (Co-Diagnostics &mdash; Bundibugyo PCR test) &bull; SNGX (Soligenix &mdash; thermostable vaccine candidate)<br/>
-            <strong style="color: #ef4444;">&#9660; DOWN:</strong> GLEN (Glencore &mdash; DRC cobalt/copper operations at risk) &bull; GOLD (Barrick Gold &mdash; DRC mining exposure) &bull; Africa-route airlines &bull; EWZ-style emerging market ETFs with DRC mining exposure
+            MCAS Futenma will remain <strong>operationally active through at least 2033</strong>. The runway dispute could extend the timeline further. Marines should expect continued operations from the current facility for the foreseeable future. Community relations remain a concern given ongoing protests and the base&rsquo;s location in a densely populated area surrounded by homes and schools.
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 5: JAPANESE YEN CRISIS ===================== -->
+    <!-- ===================== EVENT 5: JAPAN AIR DEFENSE BUILDUP ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">5</span>
-          <span style="color: #666; font-size: 11px;">Japan / Currency / Global Capital Flows &mdash; June 26</span>
+          <span style="color: #666; font-size: 11px;">Defense / Japan / Nansei Chain Buildup</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Japanese Yen Slides Past 161 Per Dollar, Nearing 40-Year Low Despite $70B+ in Government Interventions</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Japan Accelerates Military Buildup Across Nansei Island Chain &mdash; Upgraded SAMs Planned for Yonaguni by 2031</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The Japanese yen has weakened sharply past the <strong>161 level against the U.S. dollar</strong>, touching 161.84 &mdash; its weakest since July 2024 and approaching levels not seen since 1986. This decline persists despite the Japanese government spending <strong>over $70 billion in currency interventions</strong> in May and the Bank of Japan hiking rates to their highest since 1995. Finance Minister Satsuki Katayama warned at the G7 that Japan is <strong>&ldquo;prepared to take decisive action on speculative moves.&rdquo;</strong>
+          Japan plans to deploy <strong>upgraded Type-03 medium-range surface-to-air guided missiles</strong> to its westernmost island, <strong>Yonaguni</strong> (110 km from Taiwan), at Camp Yonaguni during fiscal 2030. This is part of a broader <strong>Nansei Island chain military buildup</strong> that includes reinforcing garrisons on Miyakojima, Ishigaki, and Amami Oshima with anti-ship and anti-aircraft missile batteries.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Japan is the world&rsquo;s <strong>fourth-largest economy</strong> and a critical node in global supply chains. The yen&rsquo;s persistent weakness despite massive intervention signals a <strong>potential loss of policy credibility</strong> and raises the risk of competitive devaluations across Asia &mdash; Malaysia&rsquo;s ringgit has also fallen 4%+ in June. The Bank of Japan faces an impossible dilemma between <strong>defending the currency and supporting growth</strong>. The Nikkei 225 fell 2.8% on Friday as global risk-off sentiment and yen volatility rattled investors. If Japan is forced to sell U.S. Treasuries to fund further intervention, it could ripple into global bond markets.
+          In May, the JGSDF Ground Component Command conducted its <strong>first-ever exercise focused specifically on the Nansei Islands</strong>, deploying 300 soldiers across Ishigaki, Yonaguni, and Miyakojima with 20 Marines from the 12th MLR establishing a <strong>first-of-its-kind bilateral communication center on Miyakojima</strong>. Japan&rsquo;s 2026 defense posture reflects PM Takaichi&rsquo;s stance that a Taiwan conflict could trigger Japan&rsquo;s <strong>collective self-defense</strong> provisions.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
-          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
+          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Strategic Context</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>FX &amp; Bonds:</strong> USD/JPY at 161.60. Nikkei 225 -2.8%. Asian currencies broadly under pressure (KRW, MYR, THB). U.S. Treasury markets sensitive to Japan&rsquo;s position as a major holder of U.S. debt. Carry trade dynamics intensifying, increasing global FX volatility.<br/><br/>
-            <strong style="color: #22c55e;">&#9650; UP:</strong> TM (Toyota &mdash; export competitiveness from weak yen) &bull; SONY (Sony &mdash; Japanese exporter gains) &bull; Japanese exporter equities broadly &bull; FXY puts (currency hedging)<br/>
-            <strong style="color: #ef4444;">&#9660; DOWN:</strong> EWJ (iShares Japan ETF &mdash; currency drag for USD investors) &bull; TLT (20+ Year Treasury Bond ETF &mdash; risk from Japanese Treasury sales) &bull; 8306.T (Mitsubishi UFJ), 8316.T (Sumitomo Mitsui) &mdash; BOJ policy uncertainty &bull; Asian emerging market currencies
+            Japan is transforming the Nansei chain from a lightly defended archipelago into a <strong>layered anti-access/area-denial (A2/AD) barrier</strong> capable of constraining PLA Navy and Air Force operations between the East China Sea and the Pacific. Combined with the 12th MLR&rsquo;s NMESIS anti-ship capability and growing bilateral interoperability, the First Island Chain is becoming a serious contested zone for any Chinese military action toward Taiwan.
           </p>
         </div>
+      </div>
+    </div>
+
+    <!-- ===================== EVENT 6: YEN CRISIS & OKINAWA ECONOMY ===================== -->
+    <div style="margin-bottom: 24px;">
+      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">6</span>
+          <span style="color: #666; font-size: 11px;">Financial / Economy / Okinawa</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Yen at 40-Year Low Boosts Okinawa Tourism as Prefecture Introduces 2% Accommodation Tax</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          The Japanese yen&rsquo;s slide past <strong>161 per dollar</strong> &mdash; its weakest since 1986 &mdash; is amplifying Okinawa&rsquo;s tourism boom. Okinawa was named <strong>Expedia&rsquo;s #2 Destination of the Year 2026</strong> after a 71% YoY surge in flight and accommodation searches. Tourist arrivals for FY2025 are expected to <strong>exceed 10 million for the first time</strong>, and the prefecture&rsquo;s economic assessment has been upgraded to <strong>&ldquo;recovering.&rdquo;</strong> The weak yen makes Okinawa exceptionally attractive for international visitors, particularly as a budget alternative to Hawaii.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          Okinawa introduced Japan&rsquo;s first <strong>prefectural-level 2% accommodation tax</strong> in April 2026, expected to generate <strong>~7.8 billion yen annually</strong> for tourism infrastructure and sustainability initiatives. Major investment continues: <strong>Marubeni Corporation</strong> acquired a stake in Okinawa Tourist Service Inc., and the Junglia Okinawa theme park (opened July 2025) is driving both domestic and international visitors to the region.
+        </p>
+        <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
+          <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Local Impact</p>
+          <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
+            <strong>USD/JPY at 161.60</strong> means dollar-denominated salaries stretch further on-island. However, import costs for consumer goods and fuel are rising &mdash; Japan&rsquo;s government has spent <strong>$70B+ on currency interventions</strong> without halting the decline. BOJ policy uncertainty adds further volatility risk. Nikkei 225 fell 2.8% on Friday.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== WEATHER ===================== -->
+    <div style="margin-bottom: 24px;">
+      <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
+        <div style="display: flex; align-items: center; margin-bottom: 12px;">
+          <span style="background: #1e40af; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">WX</span>
+          <span style="color: #666; font-size: 11px;">Weather / Okinawa &mdash; June 28&ndash;29</span>
+        </div>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Typhoon Mekkhala Clears Okinawa; JMA Declares Rainy Season Over; Heat Advisory for July 1</h3>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          <strong>Typhoon Mekkhala (No. 7)</strong> passed near the main island of Okinawa on <strong>June 26</strong>, bringing <strong>sustained winds of 126 km/h</strong> with gusts to <strong>180 km/h</strong>, a central pressure of 975 hPa, and 7-meter waves. Flights were grounded and local transit severely disrupted June 25&ndash;27. U.S. military bases went to <strong>TCCOR 3</strong>. Direct impacts cleared by <strong>June 28 morning</strong>. The storm continued northeast toward the Amami Islands.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
+          <strong>Rainy season declared over</strong> by JMA at approximately 2:00 PM on <strong>June 29</strong> &mdash; 22 days later than last year. Temperatures in Naha forecast to reach 32&deg;C on June 30. The JMA has issued early weather information for <strong>significantly higher temperatures</strong> in the Okinawa/Amami region from around <strong>July 1</strong>. Japan&rsquo;s 2026 typhoon season forecast calls for <strong>28 tropical cyclones</strong> (above average), with peak intensity expected September onward.
+        </p>
+        <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
+          <strong>Seismic:</strong> Multiple moderate earthquakes near Okinawa in June &mdash; M4.5 near Yonaguni (Jun 13), M4.9 near Yaese (Jun 19), M4.6 near Miyakojima (Jun 22). No significant damage. The M7.8 Philippine earthquake on June 8 triggered tsunami advisories across Okinawa, with 195,000+ residents evacuated from coastal areas.
+        </p>
       </div>
     </div>
 
     <!-- ===================== KEY TAKEAWAY ===================== -->
     <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #7c3aed; padding: 20px; margin-bottom: 24px;">
-      <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Key Takeaway &mdash; Portfolio Positioning</p>
+      <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Key Takeaway &mdash; Okinawa Situation Assessment</p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Geopolitical risk remains elevated but oil is falling on improving Hormuz flows.</strong> The IRGC strike on a cargo vessel threatens the fragile U.S.-Iran MoU, but markets are pricing it as isolated. Brent crude at $72 reflects growing optimism about shipping normalization. Energy longs carry event risk &mdash; any MoU collapse sends oil back above $90. Defense names (LMT, RTX) remain well-positioned as hedges against re-escalation.
+        <strong style="color: #fff;">Force posture is rapidly modernizing.</strong> The 12th MLR&rsquo;s receipt of NMESIS and MADIS, combined with the ongoing Resolute Dragon 26 live-fire exercise, marks a significant capability upgrade for Okinawa-based forces. Marines now have organic anti-ship and counter-UAS capability purpose-built for distributed littoral warfare in the First Island Chain. This is Force Design 2030 becoming operational reality.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Climate is becoming a macro variable, not just a sector story.</strong> Europe&rsquo;s record heat wave is shaving GDP, straining power grids, and threatening crop yields. This is structural &mdash; HVAC, water management, and grid infrastructure names (CARR, Schneider, Veolia) have durable tailwinds. Reinsurers (Munich Re, Swiss Re) face escalating claims exposure. Agricultural commodities are bid.
+        <strong style="color: #fff;">Chinese gray-zone pressure continues to intensify.</strong> The June 24 Senkaku incursion, dual-carrier western Pacific operations, and aggressive PLA Eastern Theater Command patrols represent a sustained effort to normalize Chinese military presence around Okinawa Prefecture. Japan&rsquo;s political rhetoric on Taiwan defense (PM Takaichi&rsquo;s &ldquo;survival-threatening situation&rdquo; framing) has sharply elevated Beijing-Tokyo tensions and increased the risk of miscalculation.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        <strong style="color: #fff;">Currency stress in Japan signals broader Asian fragility.</strong> The yen past 161 despite $70B+ in intervention is a warning shot. If the BOJ loses credibility, competitive devaluations could ripple across Asia. Watch for forced Treasury selling by Japan &mdash; TLT is the canary. Biotech offers asymmetric upside via Ebola vaccine plays (MRNA, REGN) as the DRC outbreak reaches France and no approved Bundibugyo vaccine exists.
+        <strong style="color: #fff;">Okinawa remains the fulcrum of Indo-Pacific deterrence.</strong> The convergence of U.S. Marine modernization, Japan&rsquo;s Nansei chain military buildup, growing bilateral interoperability, and Chinese counter-moves makes the prefecture the most strategically consequential piece of real estate in the western Pacific. The Futenma relocation stalemate (now pushed to 2033+) means current basing arrangements will persist for the foreseeable future.
       </p>
-    </div>
-
-    <!-- ===================== MARKET SNAPSHOT ===================== -->
-    <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
-      <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Market Snapshot &mdash; June 26, 2026</p>
-      <table cellpadding="0" cellspacing="0" border="0" style="width: 100%; font-size: 12px;">
-        <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">S&amp;P 500</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">7,354 (-0.05%)</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">Nasdaq</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">25,298 (-0.24%)</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">Dow Jones</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">51,876 (-0.09%)</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">Nikkei 225</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">~70,400 (-2.8%)</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">DAX</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">24,698 (-1.21%)</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">Brent Crude</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">$71.99 (-4.34%)</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">WTI Crude</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">$69.23 (-3.74%)</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">Gold</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">~$4,000/oz (-5% wk)</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">USD/JPY</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">161.60 (yen at 40yr low)</td>
-        </tr>
-        <tr>
-          <td style="color: #888; padding: 6px 0;">U.S. 10Y Yield</td>
-          <td style="color: #ccc; text-align: right; padding: 6px 0;">4.40%</td>
-        </tr>
-      </table>
     </div>
 
     <!-- Sources -->
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Sources</p>
       <p style="color: #888; font-size: 11px; line-height: 1.8; margin: 0;">
-        Al Jazeera &bull; CBS News &bull; CNBC &bull; CNN &bull; NPR &bull; Bloomberg &bull; Time &bull; NBC News &bull; The Weather Channel &bull; Euronews &bull; WHO &bull; CDC &bull; Reuters &bull; Yahoo Finance &bull; TheStreet &bull; TradingEconomics &bull; Schwab Market Update &bull; Fortune &bull; WMO &bull; ABC News &bull; Britannica &bull; Benzinga &bull; TradingKey &bull; CaixaBank Research
+        Stars and Stripes &bull; Defense News &bull; USNI News &bull; Task and Purpose &bull; DVIDS &bull; Marines.mil &bull; The Japan Times &bull; Militarnyi &bull; The Diplomat &bull; Foreign Policy &bull; Army Recognition &bull; Japan Meteorological Agency &bull; Earthquake Track &bull; Expedia &bull; Breaking Travel News &bull; Nippon.com &bull; PBS News &bull; CFR
       </p>
     </div>
 
     <div style="border-top: 1px solid #1a1a1a; padding-top: 20px; text-align: center;">
       <p style="font-size: 10px; color: #444; margin: 0 0 8px; line-height: 1.6;">
-        This briefing is for informational purposes only and does not constitute financial advice. Sources verified across multiple outlets where possible.<br/>
+        This briefing is for informational purposes only. Sources verified across multiple outlets where possible.<br/>
         UNCLASSIFIED // FOR GENERAL DISTRIBUTION
       </p>
       <p style="font-size: 10px; color: #555; margin: 0;">
@@ -262,7 +253,7 @@ const recipients = useTestingMode ? TESTING_RECIPIENTS : RECIPIENTS;
 const payload = JSON.stringify({
   from: 'World Monitor <onboarding@resend.dev>',
   to: recipients,
-  subject: `[World Monitor] Global Daily Intelligence Briefing — ${today}`,
+  subject: `[World Monitor] Okinawa Regional Intelligence Briefing — ${today}`,
   html,
 });
 
