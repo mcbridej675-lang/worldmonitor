@@ -47,126 +47,126 @@ const html = `
       <p style="font-size: 12px; color: #888; margin: 8px 0 0;">Geopolitics &bull; Markets &bull; Equities &bull; Commodities &bull; Risk Assessment</p>
     </div>
 
-    <!-- ===================== EVENT 1: IRAN STRIKES VESSEL IN STRAIT OF HORMUZ ===================== -->
+    <!-- ===================== EVENT 1: IRAN-U.S. CEASEFIRE FRACTURES ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">1</span>
-          <span style="color: #666; font-size: 11px;">Persian Gulf / Geopolitics / Energy &mdash; June 26</span>
+          <span style="color: #666; font-size: 11px;">Persian Gulf / Geopolitics / Energy &mdash; June 29&ndash;30</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Iran&rsquo;s IRGC Strikes Cargo Vessel Near Oman, Threatening Fragile Ceasefire Just 9 Days After MoU Signing</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Iran-U.S. Ceasefire Fractures After Weekend Tit-for-Tat Strikes; Tehran Refuses to Return to Doha Talks</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Iran&rsquo;s Islamic Revolutionary Guard Corps struck a <strong>cargo ship near the Omani coast</strong> in the Strait of Hormuz on Thursday, damaging the vessel&rsquo;s bridge but causing no reported casualties. The <strong>International Maritime Organization immediately paused its planned evacuation</strong> of ships stranded in the critical waterway since the conflict began. This comes just <strong>nine days after the U.S. and Iran signed a memorandum of understanding</strong> on June 17, intended to formally end the 2026 Iran war within 60 days.
+          The fragile ceasefire in the Iran-U.S. war suffered a major setback over the weekend of June 28&ndash;29. Both the U.S. and Iran conducted <strong>tit-for-tat military strikes</strong>, violating the June 17 memorandum of understanding (MoU) signed by Trump and Iranian President Pezeshkian that was intended to end the war within 60 days. On June 30, Iran&rsquo;s Foreign Ministry declared it <strong>will not meet for negotiations until the U.S. fulfills MoU clauses</strong>, specifically regarding the conflict in Lebanon &mdash; directly contradicting Trump&rsquo;s claim that talks would resume in Doha.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Approximately <strong>one-fifth of the world&rsquo;s oil and LNG supplies</strong> transit the Strait of Hormuz in peacetime. Traffic through the strait remains far below pre-war levels, though Middle Eastern producers have been ramping up output and oil flows through Hormuz recently reached their <strong>fastest pace since the war began</strong>. Any re-escalation could trigger another energy crisis &mdash; Brent crude peaked at ~$118/bbl in April during the height of hostilities. Markets initially spiked 4% on the strike before settling lower as traders judged the incident as isolated.
+          The Strait of Hormuz &mdash; through which <strong>20% of global petroleum liquids</strong> transit &mdash; remains partially disrupted. South Korea&rsquo;s president confirmed all but two Korean vessels have now transited the strait, but normal shipping has not resumed. Brent crude peaked at <strong>~$120/bbl in late April</strong> during the height of the blockade, crashed to ~$73 after the June 17 MoU, and rose 0.9% on June 29 on renewed strike fears before pulling back to <strong>$73.47</strong> on June 30 as partial talk of resumed negotiations emerged. Any full ceasefire collapse sends oil back toward $100+.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Oil:</strong> Brent crude spiked 4% on the strike headlines before settling down 4.34% at $71.99/bbl as markets assessed the incident as isolated. WTI fell 3.74% to $69.23/bbl &mdash; on track for a third straight weekly drop as Hormuz flows improve. <strong>Gold</strong> held near $4,000/oz on safe-haven demand. Defense stocks saw renewed interest. Tanker stocks whipsawed on shipping route uncertainty.<br/><br/>
-            <strong style="color: #22c55e;">&#9650; UP:</strong> LMT (Lockheed Martin) &bull; RTX (Raytheon) &bull; NOC (Northrop Grumman) &mdash; defense contractors benefit from re-escalation risk &bull; XOM, CVX, SHEL (oil majors on volatility)<br/>
-            <strong style="color: #ef4444;">&#9660; DOWN:</strong> FRO (Frontline), EURN (Euronav) &mdash; tanker stocks on shipping uncertainty &bull; UAL, DAL, AAL (airlines, fuel cost risk) &bull; TASI, ADX (Gulf indices on regional instability)
+            <strong>Oil:</strong> Brent at $73.47/bbl, volatile with extreme upside risk if MoU collapses. WTI at ~$70/bbl. TTF natural gas fell to EUR 40.6/MWh (lowest since April) as Hormuz shipping partially normalizes. Tanker freight rates remain extremely elevated. Dollar benefits from safe-haven flows.<br/><br/>
+            <strong style="color: #22c55e;">&#9650; UP:</strong> BWET (Breakwave Tanker Shipping ETF &mdash; +600% YTD) &bull; USO (U.S. Oil Fund &mdash; +90% YTD) &bull; XLE (Energy Select SPDR) &bull; XOM (ExxonMobil) &bull; CVX (Chevron) &bull; SLB (Schlumberger)<br/>
+            <strong style="color: #ef4444;">&#9660; DOWN:</strong> DAL, UAL, AAL (airlines &mdash; elevated fuel costs) &bull; JETS (U.S. Global Jets ETF) &bull; Energy-importing EM currencies (INR, THB, PHP)
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 2: EUROPEAN HEAT WAVE ===================== -->
+    <!-- ===================== EVENT 2: RUSSIA FUEL CRISIS ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">2</span>
-          <span style="color: #666; font-size: 11px;">Pan-European / Climate / Economy &mdash; June 20&ndash;26</span>
+          <span style="color: #666; font-size: 11px;">Russia-Ukraine / Energy / Economy &mdash; June 29</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Record-Shattering Heat Wave Engulfs Europe: France Breaks All-Time Record Twice, UK Hits Hottest June Day Ever</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Putin Admits Nationwide Fuel Shortages as Ukrainian Drone Campaign Knocks Out 20%+ of Russia&rsquo;s Refining Capacity</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Europe is experiencing what researchers are calling its <strong>worst-ever recorded heat wave</strong>. France registered its <strong>hottest day in history for the second consecutive day</strong>, with highs of 40&ndash;44&deg;C (104&ndash;111&deg;F) putting 49 of 96 mainland departments under the top red heat warning. The UK recorded its <strong>highest-ever June temperature at ~38&deg;C</strong> in Somerset, obliterating the 1976 record of 35.6&deg;C. Switzerland broke its June record at 38&deg;C in Basel. Over <strong>101 million people</strong> face temperatures exceeding 35&deg;C.
+          Russian President Vladimir Putin publicly admitted on June 29 that Russia faces <strong>fuel shortages following an unprecedented Ukrainian drone campaign</strong> targeting oil refineries. <strong>8 of Russia&rsquo;s 10 largest refineries</strong> have been struck since March 2026, with over <strong>20% of total refining capacity</strong> knocked offline and more than 30% of gasoline output affected. The Kapotnya refinery near Moscow &mdash; the capital region&rsquo;s largest fuel supplier &mdash; was hit on June 12 and 18 and will be offline until at least end of 2026.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          France has reported at least <strong>50 heat-related deaths</strong>, mostly drownings as people sought relief in rivers and lakes. Thousands of schools have closed across France and the UK. The <strong>Eiffel Tower and the Louvre</strong> enforced early closures. Blackouts hit Turin as power grids strained. Allianz estimates each heat episode cuts European GDP by <strong>~0.5 percentage points</strong>, with cumulative losses of 5&ndash;7% of GDP projected by 2030 for the most exposed countries. Agricultural output, labor productivity, and energy grids are all under severe strain.
+          <strong>55 of Russia&rsquo;s 83 federal regions</strong> are reporting fuel rationing (20&ndash;40 liter limits per customer, bans on filling canisters, multi-hour queues). Videos show physical fights at gas stations across Russia. Deputy PM Novak is considering a <strong>total ban on diesel exports</strong> (petrol and jet fuel exports already halted). Russia has petitioned <strong>Kazakhstan for 50,000 metric tons of gasoline</strong>. The Central Bank has cut its GDP growth forecast to just <strong>0.5&ndash;1.5% for 2026</strong>, down sharply from pre-war projections.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Macro:</strong> European equities under pressure from productivity drag. Agricultural commodity futures (wheat, corn) rising on crop damage fears. European utilities trading volumes surging. Insurance sector exposed to rising claims. DAX fell 1.21% to 24,697.<br/><br/>
-            <strong style="color: #22c55e;">&#9650; UP:</strong> CARR (Carrier Global &mdash; HVAC demand surge) &bull; Daikin Industries (6367.T &mdash; air conditioning) &bull; SU (Schneider Electric &mdash; energy management) &bull; VIE (Veolia &mdash; water management demand) &bull; Wheat &amp; corn futures<br/>
-            <strong style="color: #ef4444;">&#9660; DOWN:</strong> MUV2 (Munich Re), SREN (Swiss Re) &mdash; reinsurers face climate claims &bull; EDF (French nuclear &mdash; cooling water limits) &bull; European agriculture ETFs &bull; Tourism &amp; hospitality sector broadly
+            <strong>Energy:</strong> Russia&rsquo;s reduced export capacity tightens global diesel/gasoil supply. European diesel futures bullish as a major supplier exits the market. Ruble under pressure from inflation and declining export revenue. Ukraine&rsquo;s successful drone campaign validates increased NATO defense spending.<br/><br/>
+            <strong style="color: #22c55e;">&#9650; UP:</strong> LMT (Lockheed Martin) &bull; RTX (Raytheon) &bull; AVAV (AeroVironment &mdash; Switchblade drone supplier enabling the strikes) &bull; ITA (iShares U.S. Aerospace &amp; Defense ETF) &bull; DFEN (3x Defense Bull) &bull; WEAT (Teucrium Wheat &mdash; Russian harvest at risk)<br/>
+            <strong style="color: #ef4444;">&#9660; DOWN:</strong> ERUS (iShares MSCI Russia ETF &mdash; severely limited trading) &bull; Ruble (RUB) &bull; Russian sovereign bonds &bull; European energy-intensive industrials facing diesel cost spikes
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 3: VENEZUELA EARTHQUAKES ===================== -->
+    <!-- ===================== EVENT 3: VENEZUELA EARTHQUAKES UPDATE ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">3</span>
-          <span style="color: #666; font-size: 11px;">Latin America / Natural Disaster / Humanitarian &mdash; June 24&ndash;26</span>
+          <span style="color: #666; font-size: 11px;">Latin America / Natural Disaster / Humanitarian &mdash; June 24&ndash;30</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Venezuela Earthquake Death Toll Surges Past 920 &mdash; Strongest Quake in a Century Triggers International Rescue Mobilization</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Venezuela Earthquake Death Toll Surges Past 1,700 with 46,600 Missing &mdash; Damage Estimated at $4.7&ndash;8.7 Billion</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The death toll from twin earthquakes &mdash; magnitudes <strong>7.5 and 7.2</strong> &mdash; that struck Venezuela&rsquo;s northern Caribbean coast on June 24&ndash;25 has surged to at least <strong>920 dead with over 3,360 injured</strong> and hundreds believed still trapped under rubble. The 7.5-magnitude quake was the <strong>strongest to hit Venezuela in over a century</strong>. USGS PAGER modeling indicates a significant probability of a final death toll in the thousands.
+          The death toll from twin earthquakes &mdash; magnitudes <strong>7.2 and 7.5</strong> &mdash; that struck Venezuela&rsquo;s north-central coast on June 24 has surged past <strong>1,700 confirmed dead</strong>, with authorities warning this is a &ldquo;substantial undercount.&rdquo; Over <strong>46,600 people are reported missing</strong> and more than 3,150 injured. The UNDP estimates <strong>$4.7&ndash;8.7 billion in damage</strong>, equivalent to approximately 6&ndash;7% of Venezuela&rsquo;s $111 billion GDP.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          International rescue teams from <strong>Brazil, Mexico, Colombia, Cuba, the U.S., and the United Nations</strong> are conducting round-the-clock search operations across at least five states. The U.S. has pledged <strong>$150 million in aid</strong> and plans to deploy warships and transport aircraft. The <strong>IMF is mobilizing $200 million</strong> in emergency funds. Initial forecasts suggest damage could reach <strong>7% of Venezuela&rsquo;s GDP</strong>. The disaster could further disrupt Venezuela&rsquo;s already fragile oil infrastructure and is testing U.S.-Venezuela diplomatic relations.
+          The <strong>El Palito refinery</strong> (146,000 bbl/day) suffered a complete power loss and shut down after transmission lines were damaged. However, Venezuela&rsquo;s main oil production regions (Orinoco Belt, Maracaibo Basin) are operating normally. The U.S. Treasury issued <strong>General License 60</strong> authorizing transactions for earthquake relief. The <strong>IMF committed $200 million</strong> in reconstruction funds. The disaster is especially devastating given Venezuela&rsquo;s pre-existing economic collapse, weakened institutions, and degraded healthcare system.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Regional:</strong> Venezuelan sovereign bonds and PDVSA debt under stress. Modest crude oil impact given Venezuela&rsquo;s already-reduced output. Regional Latin American markets (Bovespa, Merval) show ripple effects from aid mobilization. Construction and rebuilding materials demand expected to rise.<br/><br/>
-            <strong style="color: #22c55e;">&#9650; UP:</strong> CAT (Caterpillar &mdash; heavy equipment for reconstruction) &bull; DE (Deere) &bull; FLR (Fluor Corporation &mdash; engineering &amp; construction) &bull; VMC (Vulcan Materials), MLM (Martin Marietta) &mdash; building materials<br/>
-            <strong style="color: #ef4444;">&#9660; DOWN:</strong> PDVSA bonds (Venezuelan state oil debt) &bull; Venezuelan sovereign debt broadly &bull; Regional airline routes &bull; Insurance exposure in Caribbean basin
+            <strong>Regional:</strong> Venezuelan sovereign bonds and PDVSA debt under severe stress. El Palito refinery offline but main production unaffected. Reconstruction demand rising for heavy equipment and building materials. Potential migration wave to Colombia and Brazil creates regional pressure.<br/><br/>
+            <strong style="color: #22c55e;">&#9650; UP:</strong> CAT (Caterpillar &mdash; heavy equipment for reconstruction) &bull; DE (Deere) &bull; VMC (Vulcan Materials), MLM (Martin Marietta) &mdash; building materials &bull; GLD (SPDR Gold &mdash; safe-haven demand)<br/>
+            <strong style="color: #ef4444;">&#9660; DOWN:</strong> PDVSA bonds (state oil debt) &bull; Venezuelan sovereign debt &bull; ILF (iShares Latin America 40 ETF &mdash; regional instability) &bull; EC (Ecopetrol, Colombia &mdash; refugee influx pressure)
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 4: DRC EBOLA OUTBREAK ===================== -->
+    <!-- ===================== EVENT 4: EUROPEAN HEAT WAVE ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">4</span>
-          <span style="color: #666; font-size: 11px;">Central Africa / Health / Pandemic Risk &mdash; Ongoing</span>
+          <span style="color: #666; font-size: 11px;">Pan-European / Climate / Energy &mdash; June 20&ndash;30</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">DRC Ebola Outbreak Becomes Second-Largest on Record: 1,155 Cases, 304 Dead, First Case Confirmed in France</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Europe&rsquo;s Worst June Heat Wave on Record Sends Electricity Prices Surging &mdash; Germany Hits EUR 207/MWh, France Curtails Nuclear Output</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The Ebola outbreak caused by the <strong>Bundibugyo virus</strong> in the Democratic Republic of the Congo has surpassed <strong>1,155 confirmed cases with 304 deaths</strong>, making it the <strong>second-largest Ebola outbreak on record</strong>. The WHO declared it a <strong>Public Health Emergency of International Concern (PHEIC)</strong> on May 17. On June 24, <strong>France confirmed its first imported case</strong> &mdash; a doctor who had been working in the DRC on a humanitarian mission.
+          Western Europe remains in the grip of its <strong>most severe June heat wave on record</strong>, with temperatures exceeding 40&deg;C across the UK, France, Germany, Switzerland, and Italy. France registered its <strong>hottest day in history for the second consecutive day</strong>. The UK recorded its <strong>highest-ever June temperature</strong>. European electricity prices have surged sharply: German market hit <strong>EUR 207.84/MWh</strong> (highest since November 2025), British market reached EUR 184.65/MWh, and France hit EUR 157.87/MWh.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Critically, there is <strong>no approved vaccine or treatment</strong> for the Bundibugyo strain. The WHO recommended against using the existing rVSV-ZEBOV vaccine (designed for Zaire ebolavirus) due to low cross-protection evidence. CEPI is fast-tracking <strong>three vaccine candidates</strong> with funding to IAVI ($3.2M), <strong>Moderna ($50M)</strong>, and Oxford ($8.6M). The outbreak is concentrated in eastern DRC&rsquo;s conflict zones (Ituri, North Kivu, South Kivu) with spillover into Uganda, making containment extremely difficult.
+          <strong>Wind power production hit its lowest of 2026</strong> during week 26, compounding the supply squeeze. Nuclear plants in France and Germany must <strong>curtail output</strong> because cooling water is too warm. Only ~20% of European homes have air conditioning versus ~90% in the U.S., creating deadly conditions. Fortune estimates heat waves could cost Europe&rsquo;s largest economies <strong>$638 billion by 2030</strong>. Last year alone, heat, drought, and floods caused EUR 43 billion in losses.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Biotech rally, mining risk.</strong> Vaccine and therapeutics stocks surging on outbreak urgency. Travel stocks for Africa routes face headwinds. Mining companies with DRC operations face disruption risk. If outbreak spreads beyond Africa, broader risk-off potential.<br/><br/>
-            <strong style="color: #22c55e;">&#9650; UP:</strong> MRNA (Moderna &mdash; $50M CEPI contract for Bundibugyo vaccine) &bull; REGN (Regeneron &mdash; maftivimab prioritized by WHO) &bull; CODX (Co-Diagnostics &mdash; Bundibugyo PCR test) &bull; SNGX (Soligenix &mdash; thermostable vaccine candidate)<br/>
-            <strong style="color: #ef4444;">&#9660; DOWN:</strong> GLEN (Glencore &mdash; DRC cobalt/copper operations at risk) &bull; GOLD (Barrick Gold &mdash; DRC mining exposure) &bull; Africa-route airlines &bull; EWZ-style emerging market ETFs with DRC mining exposure
+            <strong>Electricity &amp; FX:</strong> European spot power above EUR 115/MWh across most markets. Euro under mild pressure from productivity losses and energy costs. STOXX 600 flat; DAX, CAC 40, FTSE 100 each down ~0.2%. Agricultural commodities bid on drought risk. Climate adaptation becoming an investable macro theme.<br/><br/>
+            <strong style="color: #22c55e;">&#9650; UP:</strong> CARR (Carrier Global &mdash; world&rsquo;s largest HVAC maker) &bull; TT (Trane Technologies) &bull; ETN (Eaton &mdash; grid infrastructure) &bull; PWR (Quanta Services &mdash; power grid) &bull; IBE.MC (Iberdrola &mdash; higher power prices) &bull; Wheat &amp; corn futures<br/>
+            <strong style="color: #ef4444;">&#9660; DOWN:</strong> EWG (iShares Germany ETF &mdash; EUR 207/MWh electricity) &bull; EWQ (iShares France ETF &mdash; nuclear curtailments) &bull; ENLAY (Enel ADR &mdash; nuclear headwinds) &bull; European reinsurers (MUV2, SREN) &bull; Agriculture ETFs
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 5: JAPANESE YEN CRISIS ===================== -->
+    <!-- ===================== EVENT 5: SOUTH KOREA FIRST FEMALE PM ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">5</span>
-          <span style="color: #666; font-size: 11px;">Japan / Currency / Global Capital Flows &mdash; June 26</span>
+          <span style="color: #666; font-size: 11px;">East Asia / Politics / Technology &mdash; June 30</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Japanese Yen Slides Past 161 Per Dollar, Nearing 40-Year Low Despite $70B+ in Government Interventions</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">South Korea Confirms First Female PM in 20 Years &mdash; Former Naver CEO Han Seongsook Signals AI-Driven Economic Transformation</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The Japanese yen has weakened sharply past the <strong>161 level against the U.S. dollar</strong>, touching 161.84 &mdash; its weakest since July 2024 and approaching levels not seen since 1986. This decline persists despite the Japanese government spending <strong>over $70 billion in currency interventions</strong> in May and the Bank of Japan hiking rates to their highest since 1995. Finance Minister Satsuki Katayama warned at the G7 that Japan is <strong>&ldquo;prepared to take decisive action on speculative moves.&rdquo;</strong>
+          On June 30, the South Korean National Assembly voted <strong>166&ndash;0</strong> to confirm <strong>Han Seongsook</strong> as the country&rsquo;s 50th Prime Minister &mdash; the first female PM in over 20 years. Han previously served as CEO of <strong>Naver</strong>, South Korea&rsquo;s internet giant, and most recently as Minister for Small and Midsize Businesses. Her appointment signals President Lee Jae Myung&rsquo;s commitment to an <strong>AI-driven economic transformation</strong>, aimed at converting Korea&rsquo;s semiconductor boom into inclusive growth.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Japan is the world&rsquo;s <strong>fourth-largest economy</strong> and a critical node in global supply chains. The yen&rsquo;s persistent weakness despite massive intervention signals a <strong>potential loss of policy credibility</strong> and raises the risk of competitive devaluations across Asia &mdash; Malaysia&rsquo;s ringgit has also fallen 4%+ in June. The Bank of Japan faces an impossible dilemma between <strong>defending the currency and supporting growth</strong>. The Nikkei 225 fell 2.8% on Friday as global risk-off sentiment and yen volatility rattled investors. If Japan is forced to sell U.S. Treasuries to fund further intervention, it could ripple into global bond markets.
+          This comes against the backdrop of an extraordinary run for Korean tech stocks. <strong>KOSPI has set record highs</strong> in late June, powered by Samsung, SK Hynix, and the high-bandwidth memory (HBM) chip complex. South Korea and Taiwan&rsquo;s technology stocks have been the <strong>single biggest driver of emerging market equity outperformance</strong> in 2026, with the MSCI EM Index returning 9.7% in May alone largely on Korean and Taiwanese tech. A tech-forward PM appointment further reinforces the government-backed AI and semiconductor agenda.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>FX &amp; Bonds:</strong> USD/JPY at 161.60. Nikkei 225 -2.8%. Asian currencies broadly under pressure (KRW, MYR, THB). U.S. Treasury markets sensitive to Japan&rsquo;s position as a major holder of U.S. debt. Carry trade dynamics intensifying, increasing global FX volatility.<br/><br/>
-            <strong style="color: #22c55e;">&#9650; UP:</strong> TM (Toyota &mdash; export competitiveness from weak yen) &bull; SONY (Sony &mdash; Japanese exporter gains) &bull; Japanese exporter equities broadly &bull; FXY puts (currency hedging)<br/>
-            <strong style="color: #ef4444;">&#9660; DOWN:</strong> EWJ (iShares Japan ETF &mdash; currency drag for USD investors) &bull; TLT (20+ Year Treasury Bond ETF &mdash; risk from Japanese Treasury sales) &bull; 8306.T (Mitsubishi UFJ), 8316.T (Sumitomo Mitsui) &mdash; BOJ policy uncertainty &bull; Asian emerging market currencies
+            <strong>Tech &amp; EM:</strong> Korean Won mildly bullish on political stability and strong export momentum. KOSPI at record highs with continued AI/semiconductor tailwinds. Government-backed AI transformation agenda to boost global chip demand ecosystem. Unanimous parliamentary confirmation signals rare political consensus.<br/><br/>
+            <strong style="color: #22c55e;">&#9650; UP:</strong> EWY (iShares South Korea ETF) &bull; 005930.KS (Samsung Electronics &mdash; HBM chip leader) &bull; 000660.KS (SK Hynix &mdash; world HBM leader) &bull; NVDA (NVIDIA &mdash; Korean AI push boosts GPU demand) &bull; SOXX, SMH (Semiconductor ETFs) &bull; 035420.KS (Naver &mdash; new PM is former CEO)<br/>
+            <strong style="color: #ef4444;">&#9660; DOWN:</strong> Competing Asian tech indices may see relative underperformance vs. KOSPI &bull; Short-KRW positions face squeeze risk
           </p>
         </div>
       </div>
@@ -176,59 +176,66 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #7c3aed; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Key Takeaway &mdash; Portfolio Positioning</p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Geopolitical risk remains elevated but oil is falling on improving Hormuz flows.</strong> The IRGC strike on a cargo vessel threatens the fragile U.S.-Iran MoU, but markets are pricing it as isolated. Brent crude at $72 reflects growing optimism about shipping normalization. Energy longs carry event risk &mdash; any MoU collapse sends oil back above $90. Defense names (LMT, RTX) remain well-positioned as hedges against re-escalation.
+        <strong style="color: #fff;">Oil is the macro wildcard with three converging catalysts.</strong> The Iran-U.S. ceasefire fracture, Russia&rsquo;s refinery crisis removing diesel exports, and Venezuela&rsquo;s El Palito refinery shutdown all tighten global supply. Brent at $73 reflects cautious optimism, but any MoU collapse sends crude back toward $100+. Energy longs (XLE, XOM) carry asymmetric upside; tanker play BWET is up 600% YTD and still running.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Climate is becoming a macro variable, not just a sector story.</strong> Europe&rsquo;s record heat wave is shaving GDP, straining power grids, and threatening crop yields. This is structural &mdash; HVAC, water management, and grid infrastructure names (CARR, Schneider, Veolia) have durable tailwinds. Reinsurers (Munich Re, Swiss Re) face escalating claims exposure. Agricultural commodities are bid.
+        <strong style="color: #fff;">Defense spending is a secular trend, not a trade.</strong> Ukraine&rsquo;s drone campaign crippling Russia&rsquo;s refinery network validates the asymmetric warfare thesis. AVAV (AeroVironment) is a direct play on this paradigm shift. Traditional defense primes (LMT, RTX) remain positioned as hedges against both Iran and Russia re-escalation.
+      </p>
+      <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
+        <strong style="color: #fff;">Climate adaptation is becoming macro-material.</strong> Europe&rsquo;s heat wave driving German electricity to EUR 207/MWh is a structural story &mdash; HVAC (CARR, TT), grid infrastructure (ETN, PWR), and renewables have durable tailwinds. Reinsurers face escalating claims exposure.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        <strong style="color: #fff;">Currency stress in Japan signals broader Asian fragility.</strong> The yen past 161 despite $70B+ in intervention is a warning shot. If the BOJ loses credibility, competitive devaluations could ripple across Asia. Watch for forced Treasury selling by Japan &mdash; TLT is the canary. Biotech offers asymmetric upside via Ebola vaccine plays (MRNA, REGN) as the DRC outbreak reaches France and no approved Bundibugyo vaccine exists.
+        <strong style="color: #fff;">Asian tech leadership is accelerating.</strong> South Korea&rsquo;s appointment of a tech-industry PM reinforces the government-backed AI/semiconductor cycle powering KOSPI to records. Samsung, SK Hynix, and the broader HBM complex remain the strongest secular growth story in emerging markets.
       </p>
     </div>
 
     <!-- ===================== MARKET SNAPSHOT ===================== -->
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
-      <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Market Snapshot &mdash; June 26, 2026</p>
+      <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Market Snapshot &mdash; June 30, 2026</p>
       <table cellpadding="0" cellspacing="0" border="0" style="width: 100%; font-size: 12px;">
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">S&amp;P 500</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">7,354 (-0.05%)</td>
+          <td style="color: #22c55e; text-align: right; padding: 6px 0;">~7,440 (+1.2%)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">Nasdaq</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">25,298 (-0.24%)</td>
+          <td style="color: #888; padding: 6px 0;">Nasdaq 100</td>
+          <td style="color: #22c55e; text-align: right; padding: 6px 0;">~25,880 (+2.3%)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">Dow Jones</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">51,876 (-0.09%)</td>
+          <td style="color: #22c55e; text-align: right; padding: 6px 0;">~52,180 (+307 pts, new record)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">Nikkei 225</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">~70,400 (-2.8%)</td>
+          <td style="color: #888; padding: 6px 0;">STOXX 600</td>
+          <td style="color: #22c55e; text-align: right; padding: 6px 0;">Flat (+0.1%)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">DAX</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">24,698 (-1.21%)</td>
+          <td style="color: #888; padding: 6px 0;">DAX / CAC 40 / FTSE</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">Each ~-0.2%</td>
+        </tr>
+        <tr style="border-bottom: 1px solid #222;">
+          <td style="color: #888; padding: 6px 0;">KOSPI</td>
+          <td style="color: #22c55e; text-align: right; padding: 6px 0;">Record highs (Samsung/SK Hynix led)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">Brent Crude</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">$71.99 (-4.34%)</td>
+          <td style="color: #ccc; text-align: right; padding: 6px 0;">$73.47/bbl (volatile)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">WTI Crude</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">$69.23 (-3.74%)</td>
+          <td style="color: #ccc; text-align: right; padding: 6px 0;">~$70.00/bbl</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">Gold</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">~$4,000/oz (-5% wk)</td>
+          <td style="color: #888; padding: 6px 0;">TTF Natural Gas (EU)</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">EUR 40.6/MWh (lowest since Apr)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">USD/JPY</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">161.60 (yen at 40yr low)</td>
+          <td style="color: #888; padding: 6px 0;">EU Electricity (DE)</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">EUR 207.84/MWh (heat wave)</td>
         </tr>
         <tr>
-          <td style="color: #888; padding: 6px 0;">U.S. 10Y Yield</td>
-          <td style="color: #ccc; text-align: right; padding: 6px 0;">4.40%</td>
+          <td style="color: #888; padding: 6px 0;">Gold</td>
+          <td style="color: #ccc; text-align: right; padding: 6px 0;">~$4,000/oz</td>
         </tr>
       </table>
     </div>
@@ -237,7 +244,7 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Sources</p>
       <p style="color: #888; font-size: 11px; line-height: 1.8; margin: 0;">
-        Al Jazeera &bull; CBS News &bull; CNBC &bull; CNN &bull; NPR &bull; Bloomberg &bull; Time &bull; NBC News &bull; The Weather Channel &bull; Euronews &bull; WHO &bull; CDC &bull; Reuters &bull; Yahoo Finance &bull; TheStreet &bull; TradingEconomics &bull; Schwab Market Update &bull; Fortune &bull; WMO &bull; ABC News &bull; Britannica &bull; Benzinga &bull; TradingKey &bull; CaixaBank Research
+        Al Jazeera &bull; CNBC &bull; Bloomberg &bull; Reuters &bull; NPR &bull; Fortune &bull; RFE/RL &bull; OilPrice.com &bull; S&amp;P Global &bull; TheStreet &bull; Benzinga &bull; AleaSoft &bull; Nikkei Asia &bull; Japan Times &bull; FDD &bull; United24 Media &bull; Euronews &bull; ETF Trends &bull; CaixaBank Research &bull; Wikipedia Current Events
       </p>
     </div>
 
