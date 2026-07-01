@@ -47,76 +47,76 @@ const html = `
       <p style="font-size: 12px; color: #888; margin: 8px 0 0;">Geopolitics &bull; Markets &bull; Equities &bull; Commodities &bull; Risk Assessment</p>
     </div>
 
-    <!-- ===================== EVENT 1: IRAN-U.S. CEASEFIRE FRACTURES ===================== -->
+    <!-- ===================== EVENT 1: IRAN-US DOHA TALKS ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">1</span>
-          <span style="color: #666; font-size: 11px;">Persian Gulf / Geopolitics / Energy &mdash; June 29&ndash;30</span>
+          <span style="color: #666; font-size: 11px;">Persian Gulf / Geopolitics / Energy &mdash; July 1</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Iran-U.S. Ceasefire Fractures After Weekend Tit-for-Tat Strikes; Tehran Refuses to Return to Doha Talks</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Iran Rejects Face-to-Face Talks with U.S. as Indirect Negotiations Resume in Doha; Hormuz Remains Flashpoint</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The fragile ceasefire in the Iran-U.S. war suffered a major setback over the weekend of June 28&ndash;29. Both the U.S. and Iran conducted <strong>tit-for-tat military strikes</strong>, violating the June 17 memorandum of understanding (MoU) signed by Trump and Iranian President Pezeshkian that was intended to end the war within 60 days. On June 30, Iran&rsquo;s Foreign Ministry declared it <strong>will not meet for negotiations until the U.S. fulfills MoU clauses</strong>, specifically regarding the conflict in Lebanon &mdash; directly contradicting Trump&rsquo;s claim that talks would resume in Doha.
+          Indirect technical talks between Washington and Tehran have resumed in Doha today, mediated by <strong>Qatar and Pakistan</strong>, but Iran has firmly rejected direct face-to-face negotiations with the United States. Tehran insists the U.S. must first fulfill key clauses of the <strong>June 17 Memorandum of Understanding</strong> &mdash; particularly regarding the conflict in Lebanon &mdash; before any direct talks proceed. The MoU gives both sides a <strong>60-day window</strong> to reach a comprehensive deal, with a temporary de-escalation agreement set to expire after July 4.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The Strait of Hormuz &mdash; through which <strong>20% of global petroleum liquids</strong> transit &mdash; remains partially disrupted. South Korea&rsquo;s president confirmed all but two Korean vessels have now transited the strait, but normal shipping has not resumed. Brent crude peaked at <strong>~$120/bbl in late April</strong> during the height of the blockade, crashed to ~$73 after the June 17 MoU, and rose 0.9% on June 29 on renewed strike fears before pulling back to <strong>$73.47</strong> on June 30 as partial talk of resumed negotiations emerged. Any full ceasefire collapse sends oil back toward $100+.
+          The <strong>International Maritime Organization has logged 49 confirmed incidents</strong> in the Strait of Hormuz as of June 30. Iran has exported over <strong>40 million barrels of crude</strong> since the U.S. lifted its naval blockade and is selling oil at roughly <strong>20% above pre-war prices</strong>. Meanwhile, Saudi Arabia has reportedly <strong>refused to allow the U.S. to use its bases and airspace</strong>, prompting White House threats to withhold interception systems. Brent crude rose 0.3% to <strong>$73.20/bbl</strong> on the news before reversing to close near <strong>$72.25</strong> as cautious optimism about indirect talks offset the hawkish rhetoric.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Oil:</strong> Brent at $73.47/bbl, volatile with extreme upside risk if MoU collapses. WTI at ~$70/bbl. TTF natural gas fell to EUR 40.6/MWh (lowest since April) as Hormuz shipping partially normalizes. Tanker freight rates remain extremely elevated. Dollar benefits from safe-haven flows.<br/><br/>
-            <strong style="color: #22c55e;">&#9650; UP:</strong> BWET (Breakwave Tanker Shipping ETF &mdash; +600% YTD) &bull; USO (U.S. Oil Fund &mdash; +90% YTD) &bull; XLE (Energy Select SPDR) &bull; XOM (ExxonMobil) &bull; CVX (Chevron) &bull; SLB (Schlumberger)<br/>
-            <strong style="color: #ef4444;">&#9660; DOWN:</strong> DAL, UAL, AAL (airlines &mdash; elevated fuel costs) &bull; JETS (U.S. Global Jets ETF) &bull; Energy-importing EM currencies (INR, THB, PHP)
+            <strong>Oil:</strong> Brent at ~$72.25/bbl, WTI at ~$68.06. Oil fell ~1% on the day as the resumption of indirect talks eased worst-case fears. However, post-July 4 expiry of the de-escalation window could re-inject a $5&ndash;10 geopolitical premium. Tanker freight rates remain elevated; war-risk insurance premiums doubling mariner pay on Hormuz routes.<br/><br/>
+            <strong style="color: #22c55e;">&#9650; UP:</strong> FRO (Frontline &mdash; tanker rates elevated) &bull; INSW (International Seaways) &bull; DAL, UAL, RYAAY (airlines benefit from falling crude) &bull; LMT, RTX, NOC (defense &mdash; sustained Gulf tension) &bull; Saudi Aramco (2222.SR &mdash; selling at premium)<br/>
+            <strong style="color: #ef4444;">&#9660; DOWN:</strong> XOM, CVX, SHEL, BP, TTE (oil majors &mdash; Brent falling from $120+ highs) &bull; Energy-importing EM currencies (INR, THB, PHP) &bull; USO (U.S. Oil Fund &mdash; crude retreating)
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 2: RUSSIA FUEL CRISIS ===================== -->
+    <!-- ===================== EVENT 2: EU CUSTOMS DUTY ON E-COMMERCE ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">2</span>
-          <span style="color: #666; font-size: 11px;">Russia-Ukraine / Energy / Economy &mdash; June 29</span>
+          <span style="color: #666; font-size: 11px;">European Union / Trade Policy / E-Commerce &mdash; July 1</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Putin Admits Nationwide Fuel Shortages as Ukrainian Drone Campaign Knocks Out 20%+ of Russia&rsquo;s Refining Capacity</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">EU Enforces New Customs Duty on Low-Value Imports Effective Today &mdash; Directly Targeting Shein, Temu, and AliExpress</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Russian President Vladimir Putin publicly admitted on June 29 that Russia faces <strong>fuel shortages following an unprecedented Ukrainian drone campaign</strong> targeting oil refineries. <strong>8 of Russia&rsquo;s 10 largest refineries</strong> have been struck since March 2026, with over <strong>20% of total refining capacity</strong> knocked offline and more than 30% of gasoline output affected. The Kapotnya refinery near Moscow &mdash; the capital region&rsquo;s largest fuel supplier &mdash; was hit on June 12 and 18 and will be offline until at least end of 2026.
+          Effective today, July 1, 2026, the European Union has <strong>ended the de minimis exemption</strong> that previously allowed goods under EUR 150 to enter duty-free. A flat <strong>EUR 3 customs duty per product category per parcel</strong> now applies to all low-value imports. A package containing a textile item, footwear, and a tech product would face a EUR 9 charge. The measure will remain in force until <strong>June 30, 2028</strong> and was ratified by the EU Council in December 2025.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          <strong>55 of Russia&rsquo;s 83 federal regions</strong> are reporting fuel rationing (20&ndash;40 liter limits per customer, bans on filling canisters, multi-hour queues). Videos show physical fights at gas stations across Russia. Deputy PM Novak is considering a <strong>total ban on diesel exports</strong> (petrol and jet fuel exports already halted). Russia has petitioned <strong>Kazakhstan for 50,000 metric tons of gasoline</strong>. The Central Bank has cut its GDP growth forecast to just <strong>0.5&ndash;1.5% for 2026</strong>, down sharply from pre-war projections.
+          The policy directly targets the <strong>billions of ultra-cheap parcels</strong> shipped annually from China to European consumers via platforms like Shein, Temu, and AliExpress, which had undercut European retailers by exploiting the duty-free threshold. Both <strong>Shein and Temu have pre-emptively shifted to EU-based warehousing</strong> and semi-managed seller models to mitigate costs. The EU expects significant new customs revenue while leveling the playing field for domestic retailers like <strong>Inditex (Zara), H&amp;M, and Zalando</strong>.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Energy:</strong> Russia&rsquo;s reduced export capacity tightens global diesel/gasoil supply. European diesel futures bullish as a major supplier exits the market. Ruble under pressure from inflation and declining export revenue. Ukraine&rsquo;s successful drone campaign validates increased NATO defense spending.<br/><br/>
-            <strong style="color: #22c55e;">&#9650; UP:</strong> LMT (Lockheed Martin) &bull; RTX (Raytheon) &bull; AVAV (AeroVironment &mdash; Switchblade drone supplier enabling the strikes) &bull; ITA (iShares U.S. Aerospace &amp; Defense ETF) &bull; DFEN (3x Defense Bull) &bull; WEAT (Teucrium Wheat &mdash; Russian harvest at risk)<br/>
-            <strong style="color: #ef4444;">&#9660; DOWN:</strong> ERUS (iShares MSCI Russia ETF &mdash; severely limited trading) &bull; Ruble (RUB) &bull; Russian sovereign bonds &bull; European energy-intensive industrials facing diesel cost spikes
+            <strong>Trade:</strong> A structural shift in EU cross-border e-commerce. Chinese direct-to-consumer exports to Europe face higher friction. European consumer prices on budget goods will rise, potentially redirecting demand to local retailers. EU-based 3PL and logistics providers benefit from warehousing demand shift.<br/><br/>
+            <strong style="color: #22c55e;">&#9650; UP:</strong> ITX.MC (Inditex/Zara &mdash; less Chinese competition) &bull; HM-B.ST (H&amp;M) &bull; ZAL.DE (Zalando) &bull; ABF.L (Primark/ABF) &bull; AMZN (Amazon &mdash; already operates EU warehouses, insulated) &bull; DHL.DE (DHL &mdash; local fulfillment demand)<br/>
+            <strong style="color: #ef4444;">&#9660; DOWN:</strong> PDD (PDD Holdings/Temu &mdash; higher EU operating costs) &bull; BABA, 9988.HK (Alibaba/AliExpress &mdash; cross-border headwinds) &bull; SHEIN (private &mdash; core model disrupted) &bull; Chinese export-oriented small caps
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 3: VENEZUELA EARTHQUAKES UPDATE ===================== -->
+    <!-- ===================== EVENT 3: EBOLA OUTBREAK ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">3</span>
-          <span style="color: #666; font-size: 11px;">Latin America / Natural Disaster / Humanitarian &mdash; June 24&ndash;30</span>
+          <span style="color: #666; font-size: 11px;">Central/East Africa / Public Health / Biotech &mdash; July 1</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Venezuela Earthquake Death Toll Surges Past 1,700 with 46,600 Missing &mdash; Damage Estimated at $4.7&ndash;8.7 Billion</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Ebola Outbreak Becomes Third-Largest on Record &mdash; 1,155 Cases, 360+ Dead, No Vaccine Exists for Bundibugyo Strain</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The death toll from twin earthquakes &mdash; magnitudes <strong>7.2 and 7.5</strong> &mdash; that struck Venezuela&rsquo;s north-central coast on June 24 has surged past <strong>1,700 confirmed dead</strong>, with authorities warning this is a &ldquo;substantial undercount.&rdquo; Over <strong>46,600 people are reported missing</strong> and more than 3,150 injured. The UNDP estimates <strong>$4.7&ndash;8.7 billion in damage</strong>, equivalent to approximately 6&ndash;7% of Venezuela&rsquo;s $111 billion GDP.
+          The WHO published its <strong>Situation Report #9</strong> today confirming the Ebola outbreak in the Democratic Republic of the Congo and Uganda has surpassed <strong>1,155 confirmed cases with 360+ deaths</strong>. The outbreak, caused by the <strong>Bundibugyo virus strain</strong> (32% fatality rate, comparable to smallpox), was declared a <strong>Public Health Emergency of International Concern (PHEIC)</strong> in mid-May. Critically, <strong>no approved vaccine or specific treatment exists</strong> for this strain.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          The <strong>El Palito refinery</strong> (146,000 bbl/day) suffered a complete power loss and shut down after transmission lines were damaged. However, Venezuela&rsquo;s main oil production regions (Orinoco Belt, Maracaibo Basin) are operating normally. The U.S. Treasury issued <strong>General License 60</strong> authorizing transactions for earthquake relief. The <strong>IMF committed $200 million</strong> in reconstruction funds. The disaster is especially devastating given Venezuela&rsquo;s pre-existing economic collapse, weakened institutions, and degraded healthcare system.
+          The outbreak has spread from northeastern DRC&rsquo;s Ituri Province to <strong>North Kivu, South Kivu, and Uganda&rsquo;s capital Kampala</strong>, raising fears of wider regional transmission. <strong>CEPI is fast-tracking three investigational vaccine candidates</strong> from IAVI, Moderna, and the University of Oxford. Eli Lilly has made a <strong>$4 billion push</strong> into vaccine development. The DRC is the world&rsquo;s largest cobalt producer and a major copper source, making supply chain disruption a material risk for the global battery and electronics industries.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Regional:</strong> Venezuelan sovereign bonds and PDVSA debt under severe stress. El Palito refinery offline but main production unaffected. Reconstruction demand rising for heavy equipment and building materials. Potential migration wave to Colombia and Brazil creates regional pressure.<br/><br/>
-            <strong style="color: #22c55e;">&#9650; UP:</strong> CAT (Caterpillar &mdash; heavy equipment for reconstruction) &bull; DE (Deere) &bull; VMC (Vulcan Materials), MLM (Martin Marietta) &mdash; building materials &bull; GLD (SPDR Gold &mdash; safe-haven demand)<br/>
-            <strong style="color: #ef4444;">&#9660; DOWN:</strong> PDVSA bonds (state oil debt) &bull; Venezuelan sovereign debt &bull; ILF (iShares Latin America 40 ETF &mdash; regional instability) &bull; EC (Ecopetrol, Colombia &mdash; refugee influx pressure)
+            <strong>Biotech &amp; Commodities:</strong> Pharma/biotech sector surging on vaccine race. DRC cobalt/copper supply disruption risk is material for EV battery supply chains. EM risk sentiment for Central/East Africa deteriorating. Travel and tourism to the region under pressure.<br/><br/>
+            <strong style="color: #22c55e;">&#9650; UP:</strong> SNGX (Soligenix &mdash; +110% on thermostable vaccine platform) &bull; MRNA (Moderna &mdash; CEPI-backed candidate) &bull; LLY (Eli Lilly &mdash; $4B vaccine push) &bull; CODX (Co-Diagnostics &mdash; Bundibugyo PCR test) &bull; EBS (Emergent BioSolutions &mdash; Ebola countermeasures)<br/>
+            <strong style="color: #ef4444;">&#9660; DOWN:</strong> GLEN.L (Glencore &mdash; DRC cobalt exposure) &bull; 3993.HK (CMOC Group &mdash; DRC mining) &bull; FCX (Freeport-McMoRan) &bull; African airline stocks &bull; Regional tourism ETFs
           </p>
         </div>
       </div>
@@ -127,46 +127,46 @@ const html = `
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">4</span>
-          <span style="color: #666; font-size: 11px;">Pan-European / Climate / Energy &mdash; June 20&ndash;30</span>
+          <span style="color: #666; font-size: 11px;">Pan-European / Climate / Energy &mdash; June 30&ndash;July 1</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Europe&rsquo;s Worst June Heat Wave on Record Sends Electricity Prices Surging &mdash; Germany Hits EUR 207/MWh, France Curtails Nuclear Output</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Record Heatwave Grips 130 Million Europeans &mdash; Power Grids Strained, Italy Facing Blackouts, Nuclear Plants Curtailed</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          Western Europe remains in the grip of its <strong>most severe June heat wave on record</strong>, with temperatures exceeding 40&deg;C across the UK, France, Germany, Switzerland, and Italy. France registered its <strong>hottest day in history for the second consecutive day</strong>. The UK recorded its <strong>highest-ever June temperature</strong>. European electricity prices have surged sharply: German market hit <strong>EUR 207.84/MWh</strong> (highest since November 2025), British market reached EUR 184.65/MWh, and France hit EUR 157.87/MWh.
+          A historic heat dome continues to bake Europe with temperatures <strong>10&ndash;15&deg;C above normal</strong> across more than a dozen countries. Over <strong>130 million people in Central and Eastern Europe</strong> are enduring temperatures above 35&deg;C, with records broken in Belgium, France, Germany, Hungary, Romania, Italy, the Netherlands, Poland, Czechia, Denmark, Spain, and the UK. France has recorded its <strong>hottest day in history for the second consecutive day</strong>. The UK logged its <strong>highest-ever June temperature</strong>.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          <strong>Wind power production hit its lowest of 2026</strong> during week 26, compounding the supply squeeze. Nuclear plants in France and Germany must <strong>curtail output</strong> because cooling water is too warm. Only ~20% of European homes have air conditioning versus ~90% in the U.S., creating deadly conditions. Fortune estimates heat waves could cost Europe&rsquo;s largest economies <strong>$638 billion by 2030</strong>. Last year alone, heat, drought, and floods caused EUR 43 billion in losses.
+          <strong>Italy is already experiencing power outages</strong> from surging air-conditioning demand. France &mdash; a cornerstone of Europe&rsquo;s electricity network &mdash; must <strong>curtail nuclear output</strong> because cooling water temperatures exceed regulatory limits. German spot electricity hit <strong>EUR 207.84/MWh</strong> (highest since November 2025). Emergency medical calls are up <strong>20%</strong> across the continent. Only ~20% of European homes have air conditioning versus ~90% in the U.S., creating deadly conditions. Agricultural commodities face drought risk across southern and central Europe.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Electricity &amp; FX:</strong> European spot power above EUR 115/MWh across most markets. Euro under mild pressure from productivity losses and energy costs. STOXX 600 flat; DAX, CAC 40, FTSE 100 each down ~0.2%. Agricultural commodities bid on drought risk. Climate adaptation becoming an investable macro theme.<br/><br/>
-            <strong style="color: #22c55e;">&#9650; UP:</strong> CARR (Carrier Global &mdash; world&rsquo;s largest HVAC maker) &bull; TT (Trane Technologies) &bull; ETN (Eaton &mdash; grid infrastructure) &bull; PWR (Quanta Services &mdash; power grid) &bull; IBE.MC (Iberdrola &mdash; higher power prices) &bull; Wheat &amp; corn futures<br/>
-            <strong style="color: #ef4444;">&#9660; DOWN:</strong> EWG (iShares Germany ETF &mdash; EUR 207/MWh electricity) &bull; EWQ (iShares France ETF &mdash; nuclear curtailments) &bull; ENLAY (Enel ADR &mdash; nuclear headwinds) &bull; European reinsurers (MUV2, SREN) &bull; Agriculture ETFs
+            <strong>Electricity &amp; Agriculture:</strong> European spot power above EUR 115/MWh across most markets. DAX, CAC 40, FTSE 100 each down ~0.2%. Agricultural commodities bid on drought risk. Climate adaptation becoming an investable macro theme. Reduced labor productivity dragging on GDP. Fortune estimates heat waves could cost Europe&rsquo;s largest economies $638 billion by 2030.<br/><br/>
+            <strong style="color: #22c55e;">&#9650; UP:</strong> CARR (Carrier Global &mdash; world&rsquo;s largest HVAC maker) &bull; 6367.T (Daikin &mdash; cooling equipment surge) &bull; JCI (Johnson Controls) &bull; ETN (Eaton &mdash; grid infrastructure) &bull; ENPH (Enphase &mdash; solar generation surging) &bull; ADM, BG (grain traders watching crop yields)<br/>
+            <strong style="color: #ef4444;">&#9660; DOWN:</strong> EWG (iShares Germany ETF &mdash; EUR 207/MWh electricity) &bull; EWQ (iShares France ETF &mdash; nuclear curtailments) &bull; ENEL.MI (Enel &mdash; outage risk) &bull; MUV2.DE (Munich Re) &bull; SREN.SW (Swiss Re) &bull; ALV.DE (Allianz &mdash; heat/wildfire claims)
           </p>
         </div>
       </div>
     </div>
 
-    <!-- ===================== EVENT 5: SOUTH KOREA FIRST FEMALE PM ===================== -->
+    <!-- ===================== EVENT 5: UKRAINE DRONE CAMPAIGN CRIPPLES RUSSIAN REFINERIES ===================== -->
     <div style="margin-bottom: 24px;">
       <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
           <span style="background: #dc2626; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 8px; text-transform: uppercase; letter-spacing: 1px; margin-right: 8px;">5</span>
-          <span style="color: #666; font-size: 11px;">East Asia / Politics / Technology &mdash; June 30</span>
+          <span style="color: #666; font-size: 11px;">Russia-Ukraine / Energy / Defense &mdash; June 28&ndash;July 1</span>
         </div>
-        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">South Korea Confirms First Female PM in 20 Years &mdash; Former Naver CEO Han Seongsook Signals AI-Driven Economic Transformation</h3>
+        <h3 style="color: #fff; font-size: 16px; margin: 0 0 10px; font-weight: 700;">Ukraine&rsquo;s Deep-Strike Drone Campaign Plunges Russia into Summer Fuel Crisis &mdash; Moscow Refinery Offline Until Year-End</h3>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          On June 30, the South Korean National Assembly voted <strong>166&ndash;0</strong> to confirm <strong>Han Seongsook</strong> as the country&rsquo;s 50th Prime Minister &mdash; the first female PM in over 20 years. Han previously served as CEO of <strong>Naver</strong>, South Korea&rsquo;s internet giant, and most recently as Minister for Small and Midsize Businesses. Her appointment signals President Lee Jae Myung&rsquo;s commitment to an <strong>AI-driven economic transformation</strong>, aimed at converting Korea&rsquo;s semiconductor boom into inclusive growth.
+          Ukraine&rsquo;s long-range drone campaign has escalated dramatically, striking targets <strong>up to 1,200 miles inside Russian territory</strong> and setting multiple oil refineries ablaze. Fresh strikes on June 28 hit <strong>two more Russian refineries</strong> as Kyiv intensifies pressure on Moscow&rsquo;s energy infrastructure. The <strong>Moscow Kapotnya refinery</strong> &mdash; which supplied 40% of the capital region&rsquo;s fuel &mdash; was hit on June 12 and 18 and will be <strong>offline until at least end of 2026</strong>. Over <strong>20% of Russia&rsquo;s total refining capacity</strong> is now knocked offline.
         </p>
         <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 12px;">
-          This comes against the backdrop of an extraordinary run for Korean tech stocks. <strong>KOSPI has set record highs</strong> in late June, powered by Samsung, SK Hynix, and the high-bandwidth memory (HBM) chip complex. South Korea and Taiwan&rsquo;s technology stocks have been the <strong>single biggest driver of emerging market equity outperformance</strong> in 2026, with the MSCI EM Index returning 9.7% in May alone largely on Korean and Taiwanese tech. A tech-forward PM appointment further reinforces the government-backed AI and semiconductor agenda.
+          Fuel rationing has spread across Russia with <strong>hours-long queues</strong> at gas stations, social media videos showing drivers fighting at pumps, and <strong>Crimea halting all civilian fuel sales</strong>. Russia&rsquo;s Deputy PM Novak is considering a <strong>total ban on diesel exports</strong> (petrol and jet fuel exports already halted). President Zelensky warned that <strong>&ldquo;Moscow will burn&rdquo;</strong> if Putin continues the war. The campaign validates the asymmetric warfare thesis &mdash; relatively low-cost drones are crippling a nuclear power&rsquo;s domestic fuel supply, a paradigm shift watched closely by NATO defense planners.
         </p>
         <div style="background: #0a0a0a; border: 1px solid #222; padding: 12px 16px; margin-top: 12px;">
           <p style="color: #eab308; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; margin: 0 0 8px; font-weight: 700;">&#9733; Market Impact</p>
           <p style="color: #ccc; font-size: 12px; line-height: 1.6; margin: 0;">
-            <strong>Tech &amp; EM:</strong> Korean Won mildly bullish on political stability and strong export momentum. KOSPI at record highs with continued AI/semiconductor tailwinds. Government-backed AI transformation agenda to boost global chip demand ecosystem. Unanimous parliamentary confirmation signals rare political consensus.<br/><br/>
-            <strong style="color: #22c55e;">&#9650; UP:</strong> EWY (iShares South Korea ETF) &bull; 005930.KS (Samsung Electronics &mdash; HBM chip leader) &bull; 000660.KS (SK Hynix &mdash; world HBM leader) &bull; NVDA (NVIDIA &mdash; Korean AI push boosts GPU demand) &bull; SOXX, SMH (Semiconductor ETFs) &bull; 035420.KS (Naver &mdash; new PM is former CEO)<br/>
-            <strong style="color: #ef4444;">&#9660; DOWN:</strong> Competing Asian tech indices may see relative underperformance vs. KOSPI &bull; Short-KRW positions face squeeze risk
+            <strong>Energy &amp; Defense:</strong> Russia&rsquo;s exit from global diesel/gasoil exports tightens European supply. Ruble under extreme pressure from inflation and collapsing export revenue. The drone campaign validates increased NATO defense spending and reshapes the defense-industrial thesis &mdash; cheap autonomous systems defeating conventional infrastructure.<br/><br/>
+            <strong style="color: #22c55e;">&#9650; UP:</strong> AVAV (AeroVironment &mdash; leading drone/loitering munition maker) &bull; LMT (Lockheed Martin) &bull; RTX (Raytheon) &bull; ITA (iShares U.S. Aerospace &amp; Defense ETF) &bull; DFEN (3x Defense Bull) &bull; WEAT (Teucrium Wheat &mdash; Russian harvest at risk from fuel shortages)<br/>
+            <strong style="color: #ef4444;">&#9660; DOWN:</strong> Ruble (RUB &mdash; collapsing) &bull; Russian sovereign bonds &bull; ERUS (iShares MSCI Russia ETF) &bull; European energy-intensive industrials (diesel cost spikes) &bull; BASF (BAS.DE), ThyssenKrupp (TKA.DE)
           </p>
         </div>
       </div>
@@ -176,66 +176,62 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; border-left: 3px solid #7c3aed; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Key Takeaway &mdash; Portfolio Positioning</p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Oil is the macro wildcard with three converging catalysts.</strong> The Iran-U.S. ceasefire fracture, Russia&rsquo;s refinery crisis removing diesel exports, and Venezuela&rsquo;s El Palito refinery shutdown all tighten global supply. Brent at $73 reflects cautious optimism, but any MoU collapse sends crude back toward $100+. Energy longs (XLE, XOM) carry asymmetric upside; tanker play BWET is up 600% YTD and still running.
+        <strong style="color: #fff;">Oil&rsquo;s risk premium is compressing &mdash; but the July 4 deadline looms.</strong> Brent at $72 reflects cautious optimism on Iran-U.S. indirect talks resuming, but the de-escalation window expires after July 4. Any breakdown sends crude back toward $80&ndash;100+. Meanwhile, Russia&rsquo;s refinery crisis is tightening global diesel supply independently of the Hormuz situation. The asymmetry favors energy hedges (XLE, tanker plays) over outright shorts.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Defense spending is a secular trend, not a trade.</strong> Ukraine&rsquo;s drone campaign crippling Russia&rsquo;s refinery network validates the asymmetric warfare thesis. AVAV (AeroVironment) is a direct play on this paradigm shift. Traditional defense primes (LMT, RTX) remain positioned as hedges against both Iran and Russia re-escalation.
+        <strong style="color: #fff;">The EU is reshaping global e-commerce.</strong> Today&rsquo;s customs duty enforcement is a structural shift &mdash; not a one-off tariff. PDD Holdings (Temu) and Alibaba face real margin pressure in Europe while Inditex, H&amp;M, and Zalando get competitive relief. Amazon&rsquo;s EU warehouse network makes it a relative winner. This is the kind of quiet policy change that moves sector positioning over quarters, not days.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0 0 10px;">
-        <strong style="color: #fff;">Climate adaptation is becoming macro-material.</strong> Europe&rsquo;s heat wave driving German electricity to EUR 207/MWh is a structural story &mdash; HVAC (CARR, TT), grid infrastructure (ETN, PWR), and renewables have durable tailwinds. Reinsurers face escalating claims exposure.
+        <strong style="color: #fff;">Ebola without a vaccine is the tail risk nobody is pricing.</strong> The Bundibugyo strain outbreak is now the third-largest on record with no approved vaccine. If it reaches West Africa or spreads beyond East/Central Africa, the DRC&rsquo;s cobalt and copper exports face disruption &mdash; a direct hit to EV battery supply chains. Biotech names with Ebola exposure (MRNA, LLY, SNGX) have asymmetric upside.
       </p>
       <p style="color: #bbb; font-size: 13px; line-height: 1.6; margin: 0;">
-        <strong style="color: #fff;">Asian tech leadership is accelerating.</strong> South Korea&rsquo;s appointment of a tech-industry PM reinforces the government-backed AI/semiconductor cycle powering KOSPI to records. Samsung, SK Hynix, and the broader HBM complex remain the strongest secular growth story in emerging markets.
+        <strong style="color: #fff;">Defense spending is being validated in real time.</strong> Ukraine&rsquo;s drones are crippling Russia&rsquo;s fuel supply with technology costing a fraction of traditional weapons. AVAV (AeroVironment) is the purest play on this paradigm shift. Europe&rsquo;s simultaneous heat wave &mdash; with EUR 207/MWh German power &mdash; reinforces the parallel secular theme of climate adaptation spending (CARR, ETN, reinsurance exposure).
       </p>
     </div>
 
     <!-- ===================== MARKET SNAPSHOT ===================== -->
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
-      <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Market Snapshot &mdash; June 30, 2026</p>
+      <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Market Snapshot &mdash; July 1, 2026</p>
       <table cellpadding="0" cellspacing="0" border="0" style="width: 100%; font-size: 12px;">
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">S&amp;P 500</td>
-          <td style="color: #22c55e; text-align: right; padding: 6px 0;">~7,440 (+1.2%)</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">7,483.23 (-0.22%)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">Nasdaq 100</td>
-          <td style="color: #22c55e; text-align: right; padding: 6px 0;">~25,880 (+2.3%)</td>
+          <td style="color: #888; padding: 6px 0;">Nasdaq Composite</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">26,040.03 (-0.66%)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">Dow Jones</td>
-          <td style="color: #22c55e; text-align: right; padding: 6px 0;">~52,180 (+307 pts, new record)</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">STOXX 600</td>
-          <td style="color: #22c55e; text-align: right; padding: 6px 0;">Flat (+0.1%)</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">52,305.24 (-0.03%)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">DAX / CAC 40 / FTSE</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">Each ~-0.2%</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">KOSPI</td>
-          <td style="color: #22c55e; text-align: right; padding: 6px 0;">Record highs (Samsung/SK Hynix led)</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">Each ~-0.2% (heat wave drag)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">Brent Crude</td>
-          <td style="color: #ccc; text-align: right; padding: 6px 0;">$73.47/bbl (volatile)</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">$72.25/bbl (-0.96%)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">WTI Crude</td>
-          <td style="color: #ccc; text-align: right; padding: 6px 0;">~$70.00/bbl</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #222;">
-          <td style="color: #888; padding: 6px 0;">TTF Natural Gas (EU)</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">EUR 40.6/MWh (lowest since Apr)</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">$68.06/bbl (-2.07%)</td>
         </tr>
         <tr style="border-bottom: 1px solid #222;">
           <td style="color: #888; padding: 6px 0;">EU Electricity (DE)</td>
-          <td style="color: #ef4444; text-align: right; padding: 6px 0;">EUR 207.84/MWh (heat wave)</td>
+          <td style="color: #ef4444; text-align: right; padding: 6px 0;">EUR 207.84/MWh (heat wave peak)</td>
+        </tr>
+        <tr style="border-bottom: 1px solid #222;">
+          <td style="color: #888; padding: 6px 0;">Gold</td>
+          <td style="color: #22c55e; text-align: right; padding: 6px 0;">~$4,000/oz (safe-haven bid)</td>
+        </tr>
+        <tr style="border-bottom: 1px solid #222;">
+          <td style="color: #888; padding: 6px 0;">H1 2026 Performance</td>
+          <td style="color: #22c55e; text-align: right; padding: 6px 0;">S&amp;P +14.9% / Nasdaq +21.4% (best since Q2 2020)</td>
         </tr>
         <tr>
-          <td style="color: #888; padding: 6px 0;">Gold</td>
-          <td style="color: #ccc; text-align: right; padding: 6px 0;">~$4,000/oz</td>
+          <td style="color: #888; padding: 6px 0;">Fed Chair Warsh</td>
+          <td style="color: #ccc; text-align: right; padding: 6px 0;">No rate signal at ECB Forum</td>
         </tr>
       </table>
     </div>
@@ -244,7 +240,7 @@ const html = `
     <div style="background: #111; border: 1px solid #1a1a1a; padding: 20px; margin-bottom: 24px;">
       <p style="color: #7c3aed; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; font-weight: 700;">Sources</p>
       <p style="color: #888; font-size: 11px; line-height: 1.8; margin: 0;">
-        Al Jazeera &bull; CNBC &bull; Bloomberg &bull; Reuters &bull; NPR &bull; Fortune &bull; RFE/RL &bull; OilPrice.com &bull; S&amp;P Global &bull; TheStreet &bull; Benzinga &bull; AleaSoft &bull; Nikkei Asia &bull; Japan Times &bull; FDD &bull; United24 Media &bull; Euronews &bull; ETF Trends &bull; CaixaBank Research &bull; Wikipedia Current Events
+        Al Jazeera &bull; Axios &bull; Bloomberg &bull; CBS News &bull; CDC &bull; CNN &bull; CNBC &bull; EU Council (Consilium) &bull; Euronews &bull; Fortune &bull; HDFC Sky &bull; Motley Fool &bull; NBC News &bull; NPR &bull; RFE/RL &bull; ReliefWeb &bull; Reuters &bull; U.S. News &bull; WHO &bull; Yahoo Finance &bull; Wikipedia Current Events
       </p>
     </div>
 
